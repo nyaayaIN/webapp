@@ -1,0 +1,110 @@
+{
+  "static_pages": {
+    "header": {
+      "logo_text": "Nyaaya - India's laws explained",
+      "about_title": "About Us",
+      "contact_title": "Contact Us",
+      "blog_title": "Blog"
+    }
+  },
+  "categories": [
+    {
+      "name": "Crime",
+      "url": "/category/crime",
+      "topics": [
+        {
+          "name": "Sexual Harassment of Women",
+          "url": "/category/crime/topic/sexual-harassment-of-women"
+        },
+        {
+          "name": "Rape",
+          "url": "/category/crime/topic/rape"
+        },
+        {
+          "name": "Drugs",
+          "url": "/category/crime/topic/drugs"
+        }
+      ]
+    },
+    {
+      "name": "Education",
+      "url": "/category/education",
+      "topics": [{
+        "name": "Free and Compulsory Education",
+        "url": "/category/education/topic/free-and-compulsory-education"
+      }]
+    },
+    {
+      "name": "Employment",
+      "url": "/category/employment",
+      "topics": [{
+        "name": "Sexual Harassment at the Workplace",
+        "url": "/category/employment/topic/sexual-harassment-at-the-workplace"
+      }]
+    },
+    {
+      "name": "Family",
+      "url": "/category/family",
+      "topics": [
+        {
+          "name": "Domestic Violence",
+          "url": "/category/family/topic/domestic-violence"
+        },
+        {
+          "name": "Dowry",
+          "url": "/category/family/topic/dowry"
+        },
+        {
+          "name": "Will",
+          "url": "/category/family/topic/will"
+        }
+      ]
+    },
+    {
+      "name": "Finance",
+      "url": "/category/finance",
+      "topics": [{
+        "name": "Online Bank Fraud",
+        "url": "/category/finance/topic/online-bank-fraud"
+      },{
+        "name": "Check Bouncing",
+        "url": "/category/finance/topic/check-bouncing"
+      }]
+    },
+    {
+      "name": "Government",
+      "url": "/category/government",
+      "topics": [{
+        "name": "Right to Information",
+        "url": "/category/government/topic/right-to-information"
+      },{
+        "name": "Anti-Corruption",
+        "url": "/category/government/topic/anti-corruption"
+      }]
+    },
+    {
+      "name": "Health",
+      "url": "/category/health",
+      "topics": [{
+        "name": "Smoking",
+        "url": "/category/health/topic/smoking"
+      }]
+    },
+    {
+      "name": "Social Welfare",
+      "url": "/category/social-welfare",
+      "topics": [{
+        "name": "Online Abuse",
+        "url": "/category/social-welfare/topic/online-abuse"
+      }]
+    },
+    {
+      "name": "Traffic",
+      "url": "/category/traffic",
+      "topics": [{
+        "name": "Fines",
+        "url": "/category/traffic/topic/fines"
+      }]
+    }
+  ]
+}
