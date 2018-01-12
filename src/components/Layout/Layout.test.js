@@ -12,6 +12,8 @@
 
 import React from 'react';
 import renderer from 'react-test-renderer';
+import { shallow, mount, render} from 'enzyme';
+
 import App from '../App';
 import Layout from './Layout';
 
@@ -30,3 +32,4 @@ describe('Layout', () => {
     expect(wrapper).toMatchSnapshot();
   });
 });
+
