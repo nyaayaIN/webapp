@@ -57,3 +57,8 @@
 .topicLink {
   text-decoration: none;
 }
+
+.errorText {
+  color: red;
+  text-align: center;
+}

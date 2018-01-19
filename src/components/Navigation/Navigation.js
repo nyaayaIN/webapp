@@ -19,6 +19,7 @@ class Navigation extends React.Component {
     contact: PropTypes.string.isRequired,
     blog: PropTypes.string.isRequired,
   };
+
   render() {
     const { about, contact, blog } = this.props;
     return (

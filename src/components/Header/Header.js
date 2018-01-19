@@ -22,25 +22,34 @@ class Header extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      i18n: {},
+      about: 'About Us',
+      contact: 'Contact Us',
+      blog: 'Blog',
+      logo: 'Nyaaya',
     };
   }
 
   componentDidMount() {
     fetch(API)
       .then(response => response.json())
-      .then(data => this.setState({ i18n: data.header }));
+      .then(data => {
+        this.setState({
+          about: data.header.about_title,
+          contact: data.header.contact_title,
+          blog: data.header.blog_title,
+          logo: data.header.logo_text,
+        });
+      });
   }
 
   render() {
-    const { i18n } = this.state;
     return (
       <div className={s.root}>
         <div className={s.container}>
           <Navigation
-            about={i18n.about_title}
-            contact={i18n.contact_title}
-            blog={i18n.blog_title}
+            about={this.state.about}
+            contact={this.state.contact}
+            blog={this.state.blog}
           />
           <Link className={s.brand} to="/">
             <img
@@ -48,7 +57,7 @@ class Header extends React.Component {
               srcSet={`${logoUrl2x} 2x`}
               width="95"
               height="75"
-              alt={i18n.logo_text}
+              alt={this.state.logo}
             />
           </Link>
         </div>
