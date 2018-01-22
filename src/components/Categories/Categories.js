@@ -10,22 +10,42 @@ class Categories extends React.Component {
     super(props);
     this.state = {
       categories: [],
+      error: false,
     };
   }
 
   componentDidMount() {
     fetch(API)
+      .then(response => {
+        if (!response || !response.ok) {
+          throw new Error(response.statusText || 'No Response');
+        }
+        return response;
+      })
       .then(response => response.json())
-      .then(data => this.setState({ categories: data }));
+      .then(data => this.setState({ categories: data }))
+      .catch(error => {
+        this.setState({ error: error.message });
+      });
   }
 
   render() {
-    const { categories } = this.state;
+    if (this.state.error) {
+      return (
+        <div className={s.root}>
+          <div className={s.container}>
+            <div className={s.errorText}>
+              Whoops! Something went wrong getting categories
+            </div>
+          </div>
+        </div>
+      );
+    }
     return (
       <div className={s.root}>
         <div className={s.container}>
           <ul className={s.categories}>
-            {categories.map(category => (
+            {this.state.categories.map(category => (
               <li className={s.category} key={category.id}>
                 <Link className={s.categoryLink} to={category.url}>
                   {category.name} &#9662;
