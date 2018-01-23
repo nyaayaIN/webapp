@@ -1,0 +1,58 @@
+@import '../variables.css';
+
+.root {
+  background: rgb(237, 237, 237);
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  text-rendering: optimizeLegibility;
+}
+
+.pushBottom {
+  padding-bottom: 5em !important;
+}
+
+.pushTop {
+  padding-top: 2.5em !important;
+}
+
+.floatingBox {
+  display: inline-block;
+  width: 20%;
+  height: 60%;
+  margin: 1em;
+  padding: 1em;
+  float: left;
+  word-wrap: normal;
+}
+
+.small {
+  font-size: 0.75em;
+}
+
+.light {
+  background-color: white !important;
+}
+
+.colContainer {
+  display: table;
+  width: 100%;
+}
+
+.col {
+  display: table-cell;
+}
+
+.errorText {
+  color: red;
+  text-align: center;
+}
+
+.container {
+  padding: 1em;
+  display: block;
+  overflow: auto;
+}
