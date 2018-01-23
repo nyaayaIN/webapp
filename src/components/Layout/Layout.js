@@ -7,6 +7,7 @@ import normalizeCss from 'normalize.css';
 import s from './Layout.css';
 import Header from '../Header';
 import Footer from '../Footer';
+import FeaturedTopics from '../FeaturedTopics';
 
 class Layout extends React.Component {
   static propTypes = {
@@ -18,6 +19,7 @@ class Layout extends React.Component {
       <div>
         <Header />
         {this.props.children}
+        <FeaturedTopics />
         <Footer />
       </div>
     );
