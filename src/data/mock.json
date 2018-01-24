@@ -5,6 +5,10 @@
       "about_title": "About Us",
       "contact_title": "Contact Us",
       "blog_title": "Blog"
+    },
+    "featuredTopics": {
+      "heading": "Featured Articles",
+      "linker": "Read More >"
     }
   },
   "categories": [

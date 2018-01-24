@@ -1,7 +1,8 @@
 @import '../variables.css';
 
 .root {
-  --lightBg: rgb(256, 256, 256);
+  --white: rgb(256, 256, 256);
+  --black: rgb(0, 0, 0);
 
   background: rgb(237, 237, 237);
 }
@@ -26,20 +27,31 @@
   flex-direction: row;
   padding: 1em;
   overflow: auto;
+  flex-wrap: wrap;
 }
 
 .floatingBox {
+  padding-top: 0.5em;
+  padding-right: 2em;
+  padding-left: 1.5em;
   width: 20%;
   height: 60%;
-  margin: 1em;
-  padding: 1em;
+  margin: 0.25em;
+  text-decoration: none;
 }
 
 .small {
+  padding-top: 1em;
+  padding-bottom: none;
   font-size: 0.75em;
+  color: var(--black);
 }
 
 .light {
-  background-color: var(--lightBg);
+  background-color: var(--white);
 }
 
+.textCenter {
+  text-align: center;
+  text-rendering: optimizeLegibility;
+}
