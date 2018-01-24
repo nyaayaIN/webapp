@@ -32,31 +32,22 @@ class FeaturedTopics extends React.Component {
 
   render() {
     if (this.state.error) {
-      return (
-        <div className={s.root}>
-          <div className={s.container}>
-            <div className={s.errorText}>
-              Whoops! Something went wrong in getting Featured Listing
-            </div>
-          </div>
-        </div>
-      );
+      return null;
     }
     return (
       <div className={s.root}>
-        <div className={[s.container, s.pushTop, s.pushBottom].join(' ')}>
+        <div className={[s.pushTop, s.pushBottom].join(' ')}>
           <h1 className={s.center}>Featured Articles </h1>
           <h3 className={s.center}>Read More &gt;</h3>
-          <div className={s.colContainer}>
+          <div className={s.container}>
             {this.state.featuredTopics.map(featuredTopics => (
               <div
-                className={[s.col, s.floatingBox, s.light].join(' ')}
+                className={[s.floatingBox, s.light].join(' ')}
                 key={featuredTopics.id}
               >
                 <Link to={featuredTopics.url}>{featuredTopics.name}</Link>
                 <p className={[s.small, s.light].join(' ')}>
-                  {' '}
-                  {featuredTopics['summary.EN']}
+                  {featuredTopics.summary.EN}
                 </p>
               </div>
             ))}

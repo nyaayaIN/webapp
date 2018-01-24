@@ -1,6 +1,8 @@
 @import '../variables.css';
 
 .root {
+  --lightBg: rgb(256, 256, 256);
+
   background: rgb(237, 237, 237);
 }
 
@@ -12,20 +14,25 @@
 }
 
 .pushBottom {
-  padding-bottom: 5em !important;
+  padding-bottom: 5em;
 }
 
 .pushTop {
-  padding-top: 2.5em !important;
+  padding-top: 2.5em;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  padding: 1em;
+  overflow: auto;
 }
 
 .floatingBox {
-  display: inline-block;
   width: 20%;
   height: 60%;
   margin: 1em;
   padding: 1em;
-  float: left;
   word-wrap: normal;
 }
 
@@ -34,25 +41,5 @@
 }
 
 .light {
-  background-color: white !important;
-}
-
-.colContainer {
-  display: table;
-  width: 100%;
-}
-
-.col {
-  display: table-cell;
-}
-
-.errorText {
-  color: red;
-  text-align: center;
-}
-
-.container {
-  padding: 1em;
-  display: block;
-  overflow: auto;
+  background-color: var(--lightBg);
 }

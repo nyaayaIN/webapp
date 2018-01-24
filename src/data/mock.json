@@ -142,30 +142,38 @@
       "id": "1231",
       "name": "Sexual Harassment of Women",
       "url": "/category/crime/topic/sexual-harassment-of-women",
-      "summary.EN":
-        "Lorem Ipsum is simply the dummy text of the printing and typesetting industry."
+      "summary": {
+        "EN":
+          "Lorem Ipsum is simply the dummy text of the printing and typesetting industry."
+      }
     },
     {
       "id": "1232",
       "name": "Rape",
       "url": "/category/crime/topic/rape",
-      "summary.EN":
-        "Lorem Ipsum is simply the dummy text of the printing and typesetting industry."
+      "summary": {
+        "EN":
+          "Lorem Ipsum is simply the dummy text of the printing and typesetting industry."
+      }
     },
     {
       "id": "1233",
       "name": "Drugs",
       "url": "/category/crime/topic/drugs",
-      "summary.EN":
-        "Lorem Ipsum is simply the dummy text of the printing and typesetting industry."
+      "summary": {
+        "EN":
+          "Lorem Ipsum is simply the dummy text of the printing and typesetting industry."
+      }
     },
 
     {
       "id": "1234",
       "name": "Free and Compulsory Education",
       "url": "/category/education/topic/free-and-compulsory-education",
-      "summary.EN":
-        "Lorem Ipsum is simply the dummy text of the printing and typesetting industry."
+      "summary": {
+        "EN":
+          "Lorem Ipsum is simply the dummy text of the printing and typesetting industry."
+      }
     }
   ]
 }
