@@ -7,6 +7,28 @@
       "blog_title": "Blog"
     }
   },
+  "featured": [
+    {
+      "id": "0028",
+      "name": "Sexual Harassment at the Workplace",
+      "url": "/category/work/topic/sexual-harassment-at-the-workplace"
+    },
+    {
+      "id": "0014",
+      "name": "Domestic Violence",
+      "url": "/category/family/topic/domestic-violence"
+    },
+    {
+      "id": "0012",
+      "name": "Marriage",
+      "url": "/category/family/topic/marriage"
+    },
+    {
+      "id": "0010",
+      "name": "Drugs and Narcotics",
+      "url": "/category/health/topic/drugs-and-narcotics"
+    }
+  ],
   "categories": [
     {
       "name": "Children",
