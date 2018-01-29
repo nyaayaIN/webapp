@@ -1,25 +1,21 @@
 import React from 'react';
-import Layout from '../../components/Layout';
 import Category from './Category';
+import Layout from '../../components/Layout';
 
-function properCase(string) {
-  return string.replace(
-    /\w\S*/g,
-    txt => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase(),
-  );
-}
-
-function action(params) {
-  const slug = params.pathname.substring(10, params.pathname.length);
-  const categoryName = properCase(slug.replace(/-/g, ' '));
+async function action({ fetch, params }) {
+  const resp = await fetch(`/data/category/${params[0]}`, {});
+  const data = await resp.json();
+  if (!data) throw new Error('Failed to load category information');
   return {
-    title: categoryName,
+    title: data.name,
     chunks: ['category'],
-    categoryName,
-    slug,
     component: (
       <Layout>
-        <Category categoryName={categoryName} slug={slug} />
+        <Category
+          name={data.name}
+          description={data.description}
+          topics={data.topics}
+        />
       </Layout>
     ),
   };

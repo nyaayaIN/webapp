@@ -5,17 +5,14 @@ import s from './Topic.css';
 
 class Topic extends React.Component {
   static propTypes = {
-    topicName: PropTypes.string.isRequired,
-    slug: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
   };
 
   render() {
     return (
       <div className={s.root}>
         <div className={s.container}>
-          <h1 className={s.topicName}>
-            {this.props.topicName} - {this.props.slug}
-          </h1>
+          <h1 className={s.topicName}>{this.props.name}</h1>
         </div>
       </div>
     );

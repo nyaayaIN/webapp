@@ -28,7 +28,7 @@
   "categories": [
     {
       "name": "Children",
-      "url": "/category/children-and-education",
+      "url": "/category/children",
       "topics": [
         {
           "name": "Children accused of Crime",
@@ -40,13 +40,13 @@
         },
         {
           "name": "Free and Compulsory Education",
-          "url": "/topic/free-and-compulsor-education"
+          "url": "/topic/free-and-compulsory-education"
         }
       ]
     },
     {
       "name": "Citizen's Rights",
-      "url": "/category/citzens-rights",
+      "url": "/category/citizens-rights",
       "topics": [
         {
           "name": "Anti-corruption",
@@ -198,5 +198,169 @@
         }
       ]
     }
-  ]
+  ],
+  "category": {
+    "children": {
+      "name": "Children",
+      "description":
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "topics": [
+        {
+          "name": "Children accused of Crime",
+          "url": "/topic/children-accused-of-crime"
+        },
+        {
+          "name": "Child Labour",
+          "url": "/topic/child-labour"
+        },
+        {
+          "name": "Free and Compulsory Education",
+          "url": "/topic/free-and-compulsory-education"
+        }
+      ]
+    },
+    "citizens-rights": {
+      "name": "Citizen's Rights",
+      "description":
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "topics": []
+    },
+    "family": {
+      "name": "Family",
+      "description":
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "topics": []
+    },
+    "health": {
+      "name": "Health",
+      "description":
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "topics": []
+    },
+    "human-rights": {
+      "name": "Human Rights",
+      "description":
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "topics": []
+    },
+    "legal-process": {
+      "name": "Legal Process",
+      "description":
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "topics": []
+    },
+    "media-and-tech": {
+      "name": "Media & Tech",
+      "description":
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "topics": []
+    },
+    "wealth": {
+      "name": "Wealth",
+      "description":
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "topics": []
+    },
+    "women": {
+      "name": "Women",
+      "description":
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "topics": []
+    },
+    "work": {
+      "name": "Work",
+      "description":
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "topics": []
+    }
+  },
+  "topic": {
+    "children-accused-of-crime": {
+      "name": "Children Accused of Crime"
+    },
+    "child-labour": {
+      "name": "Child Labour"
+    },
+    "free-and-compulsory-education": {
+      "name": "Free and Compulsory Education"
+    },
+    "anti-corruption": {
+      "name": "Anti-corruption"
+    },
+    "right-to-information": {
+      "name": "Right to Information"
+    },
+    "family": {
+      "name": "Family"
+    },
+    "dowry": {
+      "name": "Dowry"
+    },
+    "marriage": {
+      "name": "Marriage"
+    },
+    "divorce-and-separation": {
+      "name": "Divorce & Separation"
+    },
+    "domestic-violence": {
+      "name": "Domestic Violence"
+    },
+    "maintenance-of-family": {
+      "name": "Maintenance of Family"
+    },
+    "smoking": {
+      "name": "Smoking"
+    },
+    "drugs-and-narcotics": {
+      "name": "Drugs and Narcotics"
+    },
+    "manual-scavenging": {
+      "name": "Manual Scavenging"
+    },
+    "scheduled-caste-and-scheduled-tribes": {
+      "name": "Scheduled Caste & Scheduled Tribes"
+    },
+    "arrest": {
+      "name": "Arrest"
+    },
+    "bail": {
+      "name": "Bail"
+    },
+    "traffic-fines": {
+      "name": "Traffic Fines"
+    },
+    "first-information-report": {
+      "name": "First Information Report (FIR)"
+    },
+    "censorship": {
+      "name": "Censorship"
+    },
+    "online-abuse": {
+      "name": "Online Abuse"
+    },
+    "defamation": {
+      "name": "Defamation"
+    },
+    "check-bounce": {
+      "name": "Check Bounce"
+    },
+    "online-bank-fraud": {
+      "name": "Online Bank Fraud"
+    },
+    "will": {
+      "name": "Will"
+    },
+    "rape": {
+      "name": "Rape"
+    },
+    "sexual-harassment": {
+      "name": "Sexual Harassment"
+    },
+    "prostitution": {
+      "name": "Prostitution"
+    },
+    "sexual-harassment-at-the-workplace": {
+      "name": "Sexual Harassment"
+    }
+  }
 }
