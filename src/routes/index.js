@@ -18,6 +18,14 @@ const routes = {
       path: '/about',
       load: () => import(/* webpackChunkName: 'about' */ './about'),
     },
+    {
+      path: '/topic/(.*)',
+      load: () => import(/* webpackChunkName: 'topic' */ './topic'),
+    },
+    {
+      path: '/category/(.*)',
+      load: () => import(/* webpackChunkName: 'category' */ './category'),
+    },
     // Wildcard routes, e.g. { path: '(.*)', ... } (must go last)
     {
       path: '(.*)',
@@ -30,7 +38,7 @@ const routes = {
     const route = await next();
 
     // Provide default values for title, description etc.
-    route.title = `${route.title || 'Nyaaya'} - India's Laws Explained`;
+    route.title = `${route.title || "Nyaaya - India's Laws Explained"}`;
     route.description = route.description || '';
 
     return route;
