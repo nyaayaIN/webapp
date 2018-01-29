@@ -1,25 +1,21 @@
 import React from 'react';
-import Layout from '../../components/Layout';
 import Topic from './Topic';
+import Layout from '../../components/Layout';
 
-function properCase(string) {
-  return string.replace(
-    /\w\S*/g,
-    txt => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase(),
-  );
-}
-
-function action(params) {
-  const slug = params.pathname.substring(7, params.pathname.length);
-  const topicName = properCase(slug.replace(/-/g, ' '));
+async function action({ fetch, params }) {
+  const resp = await fetch(`/data/topic/${params[0]}`, {});
+  const data = await resp.json();
+  if (!data) throw new Error('Failed to load topic information');
   return {
-    title: topicName,
+    title: data.name,
     chunks: ['topic'],
-    topicName,
-    slug,
     component: (
       <Layout>
-        <Topic topicName={topicName} slug={slug} />
+        <Topic
+          name={data.name}
+          description={data.description}
+          topics={data.topics}
+        />
       </Layout>
     ),
   };

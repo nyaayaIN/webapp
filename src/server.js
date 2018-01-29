@@ -63,8 +63,16 @@ if (__DEV__) {
 // Register API middleware
 // -----------------------------------------------------------------------------
 
+app.get('/data/category/:slug', (req, res) => {
+  res.send(mockData.category[req.params.slug] || {});
+});
+
+app.get('/data/topic/:slug', (req, res) => {
+  res.send(mockData.topic[req.params.slug] || {});
+});
+
 app.get('/data/:api', (req, res) => {
-  res.send(mockData[req.params.api]);
+  res.send(mockData[req.params.api] || {});
 });
 
 //
