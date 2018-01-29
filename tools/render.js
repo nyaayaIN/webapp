@@ -23,12 +23,13 @@ async function render() {
   const server = await runServer();
 
   // add dynamic routes
-  const products = await fetch(`http://${server.host}/api/products`).then(res =>
-    res.json(),
+  const categories = await fetch(`http://${server.host}/data/categories`).then(
+    res => res.json(),
   );
-  products.forEach(product =>
-    routes.push(`/product/${product.uri}`, `/product/${product.uri}/specs`),
-  );
+  categories.each(category => {
+    routes.push(category.url);
+    category.topics.each(topic => routes.push(topic.url));
+  });
 
   await Promise.all(
     routes.map(async (route, index) => {
