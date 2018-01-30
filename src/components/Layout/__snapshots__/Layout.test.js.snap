@@ -14,7 +14,7 @@ exports[`Layout renders children correctly 1`] = `
       >
         <a
           className="link"
-          href="/about-us"
+          href="/about"
           onClick={[Function]}
         >
           About Us

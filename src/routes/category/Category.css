@@ -1,0 +1,29 @@
+@import '../../components/variables.css';
+
+.root {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: var(--max-content-width);
+}
+
+.categoryName {
+  font-weight: normal;
+}
+
+.categoryTopics {
+  margin: 0;
+  padding: 0;
+}
+
+.topic {
+  margin: 0;
+  padding: 0;
+}
+
+.topicLink {
+  text-decoration: none;
+}

@@ -9,16 +9,14 @@
 
 import React from 'react';
 import Layout from '../../components/Layout';
-import Page from '../../components/Page';
-import about from './about.md';
+import About from './About';
 
 function action() {
   return {
     chunks: ['about'],
-    title: about.title,
     component: (
       <Layout>
-        <Page {...about} />
+        <About />
       </Layout>
     ),
   };

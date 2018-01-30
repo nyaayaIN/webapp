@@ -20,7 +20,6 @@
 }
 
 .category {
-  width: 10%;
   height: 1em;
   list-style-type: none;
   color: rgb(74, 74, 74);
@@ -30,31 +29,40 @@
 }
 
 .categoryLink {
+  color: #666;
   display: block;
+  font-size: 1.1em;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: capitalize;
   width: 100%;
 }
 
 .topics {
   background: rgb(237, 237, 237);
-  opacity: 0;
+  display: none;
   position: absolute;
-  margin: 0;
+  margin: 0 0 0 -10px;
   padding: 10px;
 }
 
 .category:hover .topics {
-  opacity: 100;
+  display: block;
 }
 
 .topic {
   list-style-type: none;
-  line-height: 150%;
   margin: 0;
-  padding: 0;
+  max-width: 125px;
+  padding: 7px 0;
   text-align: left;
 }
 
 .topicLink {
+  color: #404040;
+  font-size: 1.1em;
+  font-weight: normal;
+  max-width: 100px;
   text-decoration: none;
 }
 
