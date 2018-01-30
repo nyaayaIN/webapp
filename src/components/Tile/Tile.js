@@ -11,18 +11,16 @@ class Tile extends React.Component {
     url: PropTypes.string.isRequired,
   };
 
-  /* static defaultProps = {
-    name: 'null',
-    url: '/error',
+   static defaultProps = {
+    name: null ,
+    url: null,
   };
-*/
+
   render() {
     return (
-      <div className={s.tile}>
-        <Link to={this.props.url}>
+      <Link className={s.tile} to={this.props.url}>
           <div>{this.props.name}</div>
-        </Link>
-      </div>
+      </Link>
     );
   }
 }

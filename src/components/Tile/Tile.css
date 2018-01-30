@@ -1,24 +1,16 @@
 @import '../variables.css';
 
 .tile {
-  background-color: var(--nyaaya_green);
+  padding: 0.5em;
+  background-color: var(--nyaaya_blue);
   height: 200px;
-  width: 22.5%;
-  margin: 0 1.25%;
+  width: 20%;
+  margin: 0.25em;
   text-align: center;
   text-decoration: none;
   text-rendering: optimizeLegibility;
 }
 
 .tile:hover {
-  background-color: var(--nyaaya_blue);
+  background-color: var(--nyaaya_green);
 }
-
-/* .floatingBox {
-  padding-top: 0.5em;
-  padding-right: 2em;
-  padding-left: 1.5em;
-  width: 20%;
-  height: 60%;
-  margin: 0.25em;
-} */

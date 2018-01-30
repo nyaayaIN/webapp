@@ -14,11 +14,22 @@
   font-weight: normal;
 }
 
-.categoryTopics {
-  margin: 0;
-  padding: 0;
+.featuredTopics {
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: wrap row;
+  flex-flow: wrap row;
+  margin: 0 auto;
+  max-width: var(--max-content-width);
+  padding: 0.5em;
 }
 
+/*
 .topic {
   margin: 0;
   padding: 0;
@@ -27,3 +38,4 @@
 .topicLink {
   text-decoration: none;
 }
+*/
