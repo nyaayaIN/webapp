@@ -203,18 +203,21 @@
     "children": {
       "name": "Children",
       "description":
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Children are dealt with in a special manner for crimes, work or family. Laws have been specifically made for children to ensure that they have a right to education. This section is relevant for you if you are looking for how the law deals with children in various aspects such as education, family, crimes and work.",
       "topics": [
         {
           "name": "Children accused of Crime",
+          "image": "",
           "url": "/topic/children-accused-of-crime"
         },
         {
           "name": "Child Labour",
+          "image": "",
           "url": "/topic/child-labour"
         },
         {
           "name": "Free and Compulsory Education",
+          "image": "",
           "url": "/topic/free-and-compulsory-education"
         }
       ]
@@ -222,61 +225,242 @@
     "citizens-rights": {
       "name": "Citizen's Rights",
       "description":
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "topics": []
+        "These topics relate to citizen's rights to hold their government accountable as well as the guarantees and the assurances that the government provides in how the country is run.",
+      "topics": [
+        {
+          "name": "Anti-corruption",
+          "image": "",
+          "url": "/topic/anti-corruption"
+        },
+        {
+          "name": "Right to Information",
+          "image": "",
+          "url": "/topic/right-to-information"
+        }
+      ]
     },
     "family": {
       "name": "Family",
       "description":
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "topics": []
+        "The law has a lot to say on various realms of family. The topics in these section cover family matters and how the law sees them.",
+      "topics": [
+        {
+          "name": "Dowry",
+          "image": "",
+          "url": "/topic/dowry"
+        },
+        {
+          "name": "Marriage",
+          "image": "",
+          "url": "/topic/marriage"
+        },
+        {
+          "name": "Divorce and Separation",
+          "image": "",
+          "url": "/topic/divorce-and-separation"
+        },
+        {
+          "name": "Domestic Violence",
+          "image": "",
+          "url": "/topic/domestic-violence"
+        },
+        {
+          "name": "Maintenance of Family",
+          "image": "",
+          "url": "/topic/maintenance-of-family"
+        }
+      ]
     },
     "health": {
       "name": "Health",
       "description":
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "topics": []
+        "This section is relevant for you if you are looking for where the law stands on various matters that affect your health.",
+      "topics": [
+        {
+          "name": "Smoking",
+          "image": "",
+          "url": "/topic/smoking"
+        },
+        {
+          "name": "Drugs and Narcotics",
+          "image": "",
+          "url": "/topic/drugs-and-narcotics"
+        }
+      ]
     },
     "human-rights": {
       "name": "Human Rights",
       "description":
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "topics": []
+        "Laws have been enacted in India to ensure that every person has basic fundamental rights of life, liberty and equality. The topics in this category pertain to these fundamental rights as well as human dignity.",
+      "topics": [
+        {
+          "name": "Manual Scavenging",
+          "image": "",
+          "url": "/topic/manual-scavenging"
+        },
+        {
+          "name": "Scheduled Caste and Scheduled Tribes",
+          "image": "",
+          "url": "/topic/scheduled-caste-and-scheduled-tribes"
+        }
+      ]
     },
     "legal-process": {
       "name": "Legal Process",
       "description":
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "topics": []
+        "Legal processes in India can be very daunting and convoluted. These topics will help you navigate the legal system better and understand how the justice system sees you.",
+      "topics": [
+        {
+          "name": "Arrest",
+          "image": "",
+          "url": "/topic/arrest"
+        },
+        {
+          "name": "Bail",
+          "image": "",
+          "url": "/topic/bail"
+        },
+        {
+          "name": "Traffic Fines",
+          "image": "",
+          "url": "/topic/traffic-fines"
+        },
+        {
+          "name": "First Information Report",
+          "image": "",
+          "url": "/topic/first-information-report"
+        }
+      ]
     },
     "media-and-tech": {
       "name": "Media & Tech",
       "description":
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "topics": []
+        "Here you will find information about how the law deals with matters related to media in all forms - print, television and broadcast - as well as behaviours and actions to do with technology in general.",
+      "topics": [
+        {
+          "name": "Censorship",
+          "image": "",
+          "url": "/topic/censorship"
+        },
+        {
+          "name": "Online Abuse",
+          "image": "",
+          "url": "/topic/online-abuse"
+        },
+        {
+          "name": "Defamation",
+          "image": "",
+          "url": "/topic/defamation"
+        }
+      ]
     },
     "wealth": {
       "name": "Wealth",
       "description":
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "topics": []
+        "This section is relevant to you if you are looking for where the law stands on matters related to money both cash and non-cash, banks and property and property rights such as selling, transferring, leasing and mortgaging.",
+      "topics": [
+        {
+          "name": "Check Bounce",
+          "image": "",
+          "url": "/topic/check-bounce"
+        },
+        {
+          "name": "Online Bank Fraud",
+          "image": "",
+          "url": "/topic/online-bank-fraud"
+        },
+        {
+          "name": "Will",
+          "image": "",
+          "url": "/topic/will"
+        }
+      ]
     },
     "women": {
       "name": "Women",
       "description":
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "topics": []
+        "The legal system in India has many special provisions for women to protect them from circumstances that leave them particularly vulnerable.",
+      "topics": [
+        {
+          "name": "Rape",
+          "image": "",
+          "url": "/topic/rape"
+        },
+        {
+          "name": "Sexual Harassment",
+          "image": "",
+          "url": "/topic/sexual-harassment"
+        }
+      ]
     },
     "work": {
       "name": "Work",
       "description":
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "topics": []
+        "The law recognizes that work is a significant portion of our life and has a lot to say about matters relating to the workplace conditions, employers duties, employees rights and more.",
+      "topics": [
+        {
+          "name": "Prostitution",
+          "image": "",
+          "url": "/topic/prostitution"
+        },
+        {
+          "name": "Sexual Harassment at the Workplace",
+          "image": "",
+          "url": "/topic/sexual-harassment-at-the-workplace"
+        }
+      ]
     }
   },
   "topic": {
     "children-accused-of-crime": {
-      "name": "Children Accused of Crime"
+      "name": "Children Accused of Crime",
+      "summary":
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "image": "",
+      "explanations": [
+        {
+          "title": "Lorem ipsum dolor sit amet",
+          "content": ""
+        },
+        {
+          "title": "Lorem ipsum dolor sit amet",
+          "content": ""
+        },
+        {
+          "title": "Lorem ipsum dolor sit amet",
+          "content": ""
+        }
+      ],
+      "qna": [
+        {
+          "question": "Lorem ipsum dolor sit amet",
+          "answer": ""
+        },
+        {
+          "question": "Lorem ipsum dolor sit amet",
+          "answer": ""
+        }
+      ],
+      "checklists": [
+        {
+          "title": "Lorem",
+          "content": ["stuff", "goes", "here"]
+        },
+        {
+          "title": "Lorem",
+          "content": ["stuff", "goes", "here"]
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Lorem",
+          "definition": ""
+        },
+        {
+          "term": "Lorem",
+          "definition": ""
+        }
+      ]
     },
     "child-labour": {
       "name": "Child Labour"
