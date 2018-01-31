@@ -1,50 +1,20 @@
-/* eslint-env jest */
-/* eslint-disable padded-blocks, no-unused-expressions */
+import React from 'react';
+import { mount } from 'enzyme';
 
-/* import React from 'react';
-import { mount, shallow } from 'enzyme';
-import FeaturedTopics from './FeaturedTopics';
-import App from '../App';
+import Tile from './Tile';
 
-global.fetch = require('jest-fetch-mock');
-
-const minState = {
-  heading: 'test heading',
-  linker: 'test Linker',
-  FeaturedTopics: [
-    {
-      id: 'testId',
-      name: 'testName',
-      url: 'testURl',
-      summary: { EN: 'testSummary' },
-    },
-  ],
-  error: false,
-};
-
-describe('FeaturedTopics Component', () => {
-  let renderedComponent;
-  beforeEach(() => {
-    renderedComponent = mount(<FeaturedTopics />, {
-      context: { insertCss: () => {} },
-    });
+describe('Tile component', () => {
+  it('should render tile with name and url', () => {
+  const component = mount(<Tile name="test" url="www.test.com" />, {context: { insertCss: () => {} }});
+  expect(component.text()).toEqual('test');
+  expect(component.find('Link').prop("to")).toEqual('www.test.com')
   });
 
-  it('renders the header', async () => {
-    fetch('*', minState);
-    // expect(setState).to.be.calledOnce;
-    await renderedComponent.instance().componentDidMount();
-    expect(renderedComponent.find('.center').get(0)).toEqual('test heading');
-  });
-
-  it('renders one container class', () => {
-    renderedComponent.setState(minState);
-    expect(renderedComponent.find('.container').length).toEqual(1);
-  });
-  it('renders null if state.error true', () => {
-    renderedComponent.setState({ error: true });
-    renderedComponent.update();
-    expect(renderedComponent.html()).toEqual(null);
+  it('should render tile with null values', () => {
+  const component = mount(<Tile  />, {context: { insertCss: () => {} }});
+  expect(component.text()).toEqual("");
+  expect(component.find('Link').prop("to")).toEqual(null)
   });
 });
-*/
+
+

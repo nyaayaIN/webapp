@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
-import Tile  from '../../components/Tile';
+import Tile from '../../components/Tile';
 import s from './Category.css';
 
 class Category extends React.Component {
@@ -25,8 +25,8 @@ class Category extends React.Component {
         </div>
         <div className={s.featuredTopics}>
           {this.props.topics.map(topic => (
-              <Tile name={topic.name} url={topic.url} />
-            ))}
+            <Tile name={topic.name} url={topic.url} />
+          ))}
         </div>
       </div>
     );
