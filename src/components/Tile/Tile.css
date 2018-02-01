@@ -2,8 +2,8 @@
 
 .tile {
   padding: 0.5em;
-  background-color: var(--nyaaya_blue);
-  height: 200px;
+  background-color: var(--primary);
+  height: 10em;
   width: 20%;
   margin: 0.25em;
   text-align: center;
@@ -12,5 +12,5 @@
 }
 
 .tile:hover {
-  background-color: var(--nyaaya_green);
+  background-color: var(--secondary);
 }

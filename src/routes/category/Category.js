@@ -23,7 +23,7 @@ class Category extends React.Component {
           <h1 className={s.categoryName}>{this.props.name}</h1>
           <p>{this.props.description}</p>
         </div>
-        <div className={s.featuredTopics}>
+        <div className={s.topicsGrid}>
           {this.props.topics.map(topic => (
             <Tile name={topic.name} url={topic.url} />
           ))}

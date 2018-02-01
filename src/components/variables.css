@@ -96,8 +96,8 @@
   /*
    * Colors
    * ======================================================================== */
-  --nyaaya_blue: rgb(232, 250, 255);
-  --nyaaya_green: rgb(84, 241, 178);
-  --background_grey: rgb(237, 237, 237);
+  --primary: rgb(232, 250, 255);
+  --secondary: rgb(84, 241, 178);
+  --tertiary: rgb(237, 237, 237);
   --error_alert: red;
 }
