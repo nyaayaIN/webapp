@@ -11,7 +11,7 @@
  * ========================================================================== */
 
 html {
-  color: #222;
+  color: var(--text-colour);
   font-weight: 100;
   font-size: 1em; /* ~16px; */
   font-family: var(--font-family-base);
@@ -35,12 +35,12 @@ a {
  */
 
 ::-moz-selection {
-  background: #b3d4fc;
+  background: var(--secondary-colour);
   text-shadow: none;
 }
 
 ::selection {
-  background: #b3d4fc;
+  background: var(--secondary-colour);
   text-shadow: none;
 }
 

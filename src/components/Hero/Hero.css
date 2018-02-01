@@ -1,0 +1,26 @@
+@import '../variables.css';
+
+.root {
+  display: block;
+  margin: 0;
+  padding: 0;
+  background: var(--neutral-medium-colour);
+}
+
+.container {
+  margin: 3em auto;
+  height: 25em;
+  max-width: var(--max-content-width);
+  width: 100%;
+  display: flex;
+}
+
+.content {
+  width: 100%;
+  max-width: 35em;
+  align-self: flex-end;
+}
+
+.title {
+  font-weight: 500;
+}

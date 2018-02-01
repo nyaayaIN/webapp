@@ -71,6 +71,14 @@ app.get('/data/topic/:slug', (req, res) => {
   res.send(mockData.topic[req.params.slug] || {});
 });
 
+app.get('/data/static_pages/:page', (req, res) => {
+  res.send(mockData.static_pages[req.params.page] || {});
+});
+
+app.get('/data/featured/:aspect', (req, res) => {
+  res.send(mockData.featured[req.params.aspect] || {});
+});
+
 app.get('/data/:api', (req, res) => {
   res.send(mockData[req.params.api] || {});
 });

@@ -9,103 +9,27 @@
 
 @import '../../components/variables.css';
 
-.hero {
-  background: #f9f9f9;
-  padding: 15em 0 2em;
+.root {
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+
+.root div {
+  flex: 1 100%;
 }
 
 .container {
-  margin: 0 auto;
-  padding: 0 0 40px;
+  margin: 3em auto;
   max-width: var(--max-content-width);
+  width: 100%;
 }
 
-.heroTitle {
+.heading {
+  text-align: center;
+  font-size: 2em;
   font-weight: 500;
-}
-
-.heroContent {
-  display: block;
-  max-width: 525px;
-}
-
-.subscriberForm {
-  padding: 5px 0;
-}
-
-.subscribeInput {
-  padding: 10px;
-}
-
-.subscribeSubmit {
-  padding: 10px;
-}
-
-.title {
-  font-weight: 500;
-  text-align: center;
-}
-
-.featured {
-  padding: 2em 0;
-}
-
-.featuredTopics {
-  -ms-box-orient: horizontal;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-flow: wrap row;
-  flex-flow: wrap row;
-}
-
-.featuredTopic {
-  background: #f0f0f0;
-  height: 200px;
-  width: 22.5%;
-  margin: 0 1.25%;
-  text-align: center;
-}
-
-.featuredTopicTitle {
-  color: #666;
-  text-decoration: none;
-  text-align: center;
-}
-
-.usp {
-  padding: 2em 0;
-}
-
-.uspContent {
-  font-family: var(--font-family-secondary);
-}
-
-.follow {
-  padding: 2em 0;
-}
-
-.socialMedia {
-  -ms-box-orient: horizontal;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  margin: 5em 0;
-}
-
-.social {
-  width: 100px;
-  height: 100px;
-  background: #f0f0f0;
-  text-align: center;
-  margin: 0 15px;
 }

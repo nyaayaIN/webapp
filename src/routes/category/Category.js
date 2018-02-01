@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
-import Link from '../../components/Link';
+import Topics from '../../components/Topics';
 import s from './Category.css';
 
 class Category extends React.Component {
@@ -25,13 +25,7 @@ class Category extends React.Component {
         </div>
         <div className={s.categoryTopics}>
           <div className={s.container}>
-            {this.props.topics.map(topic => (
-              <div className={s.topic}>
-                <Link className={s.topicLink} to={topic.url}>
-                  {topic.name}
-                </Link>
-              </div>
-            ))}
+            <Topics collection={this.props.topics} />
           </div>
         </div>
       </div>

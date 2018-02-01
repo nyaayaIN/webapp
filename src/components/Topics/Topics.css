@@ -1,0 +1,37 @@
+@import '../variables.css';
+
+.topics {
+  padding: 2.5em 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: safe center;
+}
+
+.topic {
+  color: var(--text-colour);
+  height: 10em;
+  width: 22.5%;
+  margin: 1.25%;
+  text-decoration: none;
+}
+
+.topic:hover {
+  color: var(--primary-colour);
+}
+
+.tile {
+  border: solid 1px var(--neutral-dark-colour);
+  background: var(--neutral-medium-colour);
+  height: 100%;
+  display: flex;
+}
+
+.title {
+  background: var(--lightest-colour);
+  align-self: flex-end;
+  padding: 1em;
+  width: 100%;
+}
