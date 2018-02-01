@@ -21,7 +21,7 @@ class Category extends React.Component {
       <div className={s.root}>
         <div className={s.container}>
           <h1 className={s.categoryName}>{this.props.name}</h1>
-          <p>{this.props.description}</p>
+          <p className={s.categoryDescription}>{this.props.description}</p>
         </div>
         <div className={s.categoryTopics}>
           <div className={s.container}>

@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Home.css';
 import Topics from '../../components/Topics';
+import Follow from '../../components/Follow';
+import Questions from '../../components/Questions';
 import Hero from '../../components/Hero';
 
 class Home extends React.Component {
@@ -44,6 +46,18 @@ class Home extends React.Component {
         <div className={s.container}>
           <div className={s.heading}>{this.props.headings.featured_topics}</div>
           <Topics collection={this.props.featured.topics} />
+        </div>
+
+        <div className={s.container}>
+          <div className={s.heading}>{this.props.headings.follow_us}</div>
+          <Follow />
+        </div>
+
+        <div className={s.container}>
+          <div className={s.heading}>
+            {this.props.headings.featured_questions}
+          </div>
+          <Questions collection={this.props.featured.questions} />
         </div>
       </div>
     );

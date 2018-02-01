@@ -1,7 +1,8 @@
 @import '../variables.css';
 
 .root {
-  background: rgb(237, 237, 237);
+  background: var(--lightest-colour);
+  border-bottom: solid 1px var(--neutral-medium-colour);
 }
 
 .container {
@@ -39,7 +40,7 @@
 }
 
 .topics {
-  background: rgb(237, 237, 237);
+  background: var(--lightest-colour);
   display: none;
   position: absolute;
   margin: 0 0 0 -10px;
@@ -69,4 +70,32 @@
 .errorText {
   color: red;
   text-align: center;
+}
+
+@media screen and (width < 850px) {
+  .categories {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: safe center;
+  }
+
+  .category {
+    font-size: 1em;
+    padding: 0.5em 1em;
+    width: 100%;
+    height: auto;
+  }
+
+  .topics {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+
+  .topic {
+    max-width: 100%;
+    padding: 0.25em 1em;
+  }
 }
