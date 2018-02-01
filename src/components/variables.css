@@ -92,4 +92,18 @@
   --screen-sm-min: 768px;  /* Small screen / tablet */
   --screen-md-min: 992px;  /* Medium screen / desktop */
   --screen-lg-min: 1200px; /* Large screen / wide desktop */
+
+  /*
+   * Colours
+   * ======================================================================== */
+
+  --primary-colour: #29d16b;
+  --secondary-colour: #009aec;
+  --tertiary-colour: #006336;
+  --neutral-light-colour: #e6edf1;
+  --neutral-medium-colour: #d2dae0;
+  --neutral-dark-colour: #bfc8d2;
+  --text-colour: #444451;
+  --lightest-colour: #fff;
+  --darkest-colour: #444451;
 }

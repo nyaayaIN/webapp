@@ -5,26 +5,52 @@
       "about_title": "About Us",
       "contact_title": "Contact Us",
       "blog_title": "Blog"
+    },
+    "home": {
+      "page_title": "Nyaya - India’s Laws Explained",
+      "hero_title": "India’s Laws Explained",
+      "hero_description":
+        "Nyaaya is committed to providing you with clear, actionable information in simple language so you can protect yourself, assert your rights and seek justice when you have been wronged. Sign up to our newsletter to get monthly updates on new topics, explanations on what’s in the news and answers to popular questions.",
+      "input_name": "Your Name",
+      "input_email": "Your Email Address",
+      "featured_topics": "Featured Topics",
+      "what_we_do": "What We Do",
+      "follow_us": "Follow Us",
+      "word_of_the_day": "Word of the Day",
+      "featured_questions": "Featured Questions"
     }
   },
-  "featured": [
-    {
-      "name": "Sexual Harassment at the Workplace",
-      "url": "/topic/sexual-harassment-at-the-workplace"
-    },
-    {
-      "name": "Domestic Violence",
-      "url": "/topic/domestic-violence"
-    },
-    {
-      "name": "Marriage",
-      "url": "/topic/marriage"
-    },
-    {
-      "name": "Drugs and Narcotics",
-      "url": "/topic/drugs-and-narcotics"
-    }
-  ],
+  "featured": {
+    "topics": [
+      {
+        "name": "Sexual Harassment at the Workplace",
+        "url": "/topic/sexual-harassment-at-the-workplace"
+      },
+      {
+        "name": "Domestic Violence",
+        "url": "/topic/domestic-violence"
+      },
+      {
+        "name": "Marriage",
+        "url": "/topic/marriage"
+      },
+      {
+        "name": "Drugs and Narcotics",
+        "url": "/topic/drugs-and-narcotics"
+      }
+    ],
+    "questions": [
+      {
+        "question": "Can the police search me when I am arrested?",
+        "url": "/topic/arrest#q4"
+      },
+      {
+        "question":
+          "If a complaint is made against someone for demanding dowry, will they be arrested immediately",
+        "url": "/topic/dowry#q7"
+      }
+    ]
+  },
   "categories": [
     {
       "name": "Children",
