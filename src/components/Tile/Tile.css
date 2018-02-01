@@ -1,0 +1,16 @@
+@import '../variables.css';
+
+.tile {
+  padding: 0.5em;
+  background-color: var(--primary);
+  height: 10em;
+  width: 20%;
+  margin: 0.25em;
+  text-align: center;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+}
+
+.tile:hover {
+  background-color: var(--secondary);
+}

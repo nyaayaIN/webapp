@@ -12,7 +12,7 @@ import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Home.css';
 import heroContent from './hero.md';
 import content from './home.md';
-import Link from '../../components/Link';
+import Tile from '../../components/Tile';
 
 const API = '/data/featured';
 
@@ -49,11 +49,7 @@ class Home extends React.Component {
             <h1 className={s.title}>{content.featured}</h1>
             <div className={s.featuredTopics}>
               {this.state.featured.map(topic => (
-                <div className={s.featuredTopic}>
-                  <Link to={topic.url}>
-                    <div className={s.featuredTopicTitle}>{topic.name}</div>
-                  </Link>
-                </div>
+                <Tile name={topic.name} url={topic.url} />
               ))}
             </div>
           </div>
