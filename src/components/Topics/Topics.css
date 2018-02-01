@@ -35,3 +35,15 @@
   padding: 1em;
   width: 100%;
 }
+
+@media screen and (width >= 500px) and (width <= 1000px) {
+  .topic {
+    width: 47.5%;
+  }
+}
+
+@media screen and (width < 500px) {
+  .topic {
+    width: 98.5%;
+  }
+}
