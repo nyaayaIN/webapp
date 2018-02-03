@@ -18,8 +18,24 @@
 }
 
 .item {
+  cursor: pointer;
   display: block;
   padding: 0.5em;
   border: solid 1px var(--neutral-light-colour);
   margin: 0.5em 0;
+}
+
+.explanation {
+  padding: 1em 0;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 2em;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  padding: 0.5em 0;
 }

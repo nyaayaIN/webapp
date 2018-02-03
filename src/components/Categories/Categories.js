@@ -45,14 +45,14 @@ class Categories extends React.Component {
       <div className={s.root}>
         <div className={s.container}>
           <ul className={s.categories}>
-            {this.state.categories.map(category => (
-              <li className={s.category}>
+            {this.state.categories.map((category, index) => (
+              <li className={s.category} key={index}>
                 <Link className={s.categoryLink} to={category.url}>
                   {category.name} &#9662;
                 </Link>
                 <ul className={s.topics}>
-                  {category.topics.map(topic => (
-                    <li className={s.topic}>
+                  {category.topics.map((topic, index) => (
+                    <li className={s.topic} key={index}>
                       <Link className={s.topicLink} to={topic.url}>
                         {topic.name}
                       </Link>
