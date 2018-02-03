@@ -17,8 +17,8 @@ class Topics extends React.Component {
   render() {
     return (
       <div className={s.topics}>
-        {this.props.collection.map(topic => (
-          <Link className={s.topic} to={topic.url}>
+        {this.props.collection.map((topic, index) => (
+          <Link className={s.topic} to={topic.url} key={index}>
             <div className={s.tile}>
               <div className={s.title}>{topic.name}</div>
             </div>

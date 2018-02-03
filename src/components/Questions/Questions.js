@@ -17,8 +17,8 @@ class Questions extends React.Component {
   render() {
     return (
       <ul className={s.questions}>
-        {this.props.collection.map(item => (
-          <li className={s.question}>
+        {this.props.collection.map((item, index) => (
+          <li className={s.question} key={index}>
             <Link to={item.url} className={s.questionLink}>
               <p className={s.questionText}>{item.question}</p>
             </Link>
