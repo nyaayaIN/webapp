@@ -1,0 +1,6 @@
+{
+  "name": "TopicSummary",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./TopicSummary.js"
+}
