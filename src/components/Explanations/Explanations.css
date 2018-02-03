@@ -1,0 +1,25 @@
+@import '../variables.css';
+
+.root {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.current {
+  width: 65%;
+}
+
+.menu {
+  width: 35%;
+  list-style-type: none;
+  margin: 0;
+  padding: 1em;
+}
+
+.item {
+  display: block;
+  padding: 0.5em;
+  border: solid 1px var(--neutral-light-colour);
+  margin: 0.5em 0;
+}

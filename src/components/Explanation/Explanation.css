@@ -1,0 +1,14 @@
+@import '../variables.css';
+
+.explanation {
+  padding: 1em 0;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 2em;
+}
+
+.content {
+  padding: 1em 0;
+}

@@ -13,8 +13,11 @@ async function action({ fetch, params }) {
       <Layout>
         <Topic
           name={data.name}
-          description={data.description}
-          topics={data.topics}
+          summary={data.summary}
+          explanations={data.explanations}
+          qna={data.qna}
+          checklists={data.checklists}
+          glossary={data.glossary}
         />
       </Layout>
     ),

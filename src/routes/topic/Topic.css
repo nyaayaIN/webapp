@@ -9,7 +9,3 @@
   margin: 0 auto;
   max-width: var(--max-content-width);
 }
-
-.topicName {
-  font-weight: normal;
-}

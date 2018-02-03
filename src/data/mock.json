@@ -16,7 +16,7 @@
       "featured_topics": "Featured Topics",
       "what_we_do": "What We Do",
       "follow_us": "Follow Us",
-      "word_of_the_day": "Word of the Day",
+      "word_of_the_day": "Featured Word",
       "featured_questions": "Featured Questions"
     }
   },
@@ -460,8 +460,7 @@
   "topic": {
     "children-accused-of-crime": {
       "name": "Children Accused of Crime",
-      "summary":
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "summary": "",
       "image": "",
       "explanations": [
         {
@@ -509,7 +508,62 @@
       ]
     },
     "child-labour": {
-      "name": "Child Labour"
+      "name": "Child Labour",
+      "summary":
+        "<p>Indian law prohibits employing children under the age of 14 in all occupations as well as employing children between 14 and 18 in hazardous occupations and processes. There are a few exceptions to this, namely:</p><ul><li>Children in family businesses are allowed to work after school and during vacations.</li><li>Children can act in movies, advertisements and be involved in sport activities</li></ul>",
+      "image": "",
+      "explanations": [
+        {
+          "title": "Children under 14",
+          "content":
+            "<p>It is illegal to employ children under 14. Any person who employs a child below 14 can be punished with jail time of between <strong>six months and two years</strong> and/or fine between <strong>Rs. 20,000 and Rs. 50,000</strong>.</p><p>A person can be punished for all other violations (for example, with respect to maintenance of register, work hours, health and safety conditions) with jail time of up to <strong>one month</strong> and/ or a fine of up to <strong>Rs. 10,000</strong>. First time offences can be settled if the person pays a certain sum of fine. There are a number of other laws which also punish employment of children in specific conditions or scenarios.</p>"
+        },
+        {
+          "title": "Children between 14-18",
+          "content":
+            "<p>Adolescents or children (14-18) are generally allowed to work except in:</p><ul><li><strong>Hazardous occupations</strong> – Mines and inflammable substances or explosives (such as firework factories).</li><li><strong>Hazardous processes </strong>– The list of industries which use hazardous processes is provided in another law (the Factories Act, 1948) and is available here. They include coal, power generation, paper, fertilizer, iron and steel industries, asbestos, etc.</li></ul><p>Any person who employs  a child between 14 and 18 in a hazardous occupation or process can be punished with jail time of between <strong>six months</strong> and <strong>two years</strong> and/or fine between <strong>Rs. 20,000 and Rs. 50,000</strong>. They can also be prosecuted under other laws such as the Factories Act, Mines Act, Merchant Shipping Act and the Motor Transport Workers Act.</p><p>Some general rules that should be followed when employing adolescents (except when they are working with family or government-funded/recognized schools) are:</p><ul><li>Adolescents can only be made to work continuously for a maximum period of three hours at a time. She or he needs to be given a break for an hour.</li><li>In a single day, the period of work (including break time) cannot exceed 6 hours. This includes the time they spend in waiting for work.</li><li>Adolescents cannot be made to work between <b>7 pm and 8 am.</b></li><li>An adolescent has to be given one day off every week.</li><li>If the adolescent is already working at another place, the occupier cannot make him or her work at their place on the same day.</li></ul><p>State governments have their own regulations regarding the conditions too.</p>"
+        },
+        {
+          "title": "Children working in the family business",
+          "content":
+            "<p>It is legal to make children (below 14) work in the family business. The business could belong to or be run by immediate family (mother, father, brother or sister) or extended family (father’s sister and brother, or mother’s sister and brother).</p><p>It is important that the family business does not involve dangerous substances or processes (the term in law is ‘hazardous’ occupation or process). The law tells us what jobs are considered hazardous. Mines, explosives and processes involved in the coal, power generation industries etc are included. For, the full list of hazardous occupations or processes, please read the list of industries provided here.</p><p>Even though it is lawful to use children in the family business, the child’s education must not be affected. She or he can only be made to do this after school hours or during vacation.</p>"
+        },
+        {
+          "title": "Children in Movies/TV/Sports",
+          "content":
+            "<p>Children can act in movies and TV serials or be involved in sport activities and be paid for it. They could also do this as a hobby. The government has not yet come out with the full list of allowed entertainment and sporting activities under this exception. Also, the rules regarding the conditions of employment of such children have not yet come out. Again, it is important that the child’s education is not affected.</p><p>An exception to this exception is hiring children in a circus - that is not allowed and is illegal under the law.</p>"
+        }
+      ],
+      "qna": [
+        {
+          "question": "Lorem ipsum dolor sit amet",
+          "answer": ""
+        },
+        {
+          "question": "Lorem ipsum dolor sit amet",
+          "answer": ""
+        }
+      ],
+      "checklists": [
+        {
+          "title": "Lorem",
+          "content": ["stuff", "goes", "here"]
+        },
+        {
+          "title": "Lorem",
+          "content": ["stuff", "goes", "here"]
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Lorem",
+          "definition": ""
+        },
+        {
+          "term": "Lorem",
+          "definition": ""
+        }
+      ]
     },
     "free-and-compulsory-education": {
       "name": "Free and Compulsory Education"
