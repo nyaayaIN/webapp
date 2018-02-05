@@ -5,6 +5,7 @@ import s from './Topic.css';
 
 import TopicSummary from '../../components/TopicSummary';
 import Explanations from '../../components/Explanations';
+import QnA from '../../components/QnA';
 
 class Topic extends React.Component {
   static propTypes = {
@@ -16,6 +17,15 @@ class Topic extends React.Component {
         content: PropTypes.string.isRequired,
       }),
     ).isRequired,
+    qna: PropTypes.arrayOf(
+      PropTypes.shape({
+        question: PropTypes.string.isRequired,
+        answer: PropTypes.string.isRequired,
+      }),
+    ).isRequired,
+    chosen: PropTypes.shape({
+      explanation: PropTypes.number.isRequired,
+    }).isRequired,
   };
 
   render() {
@@ -23,7 +33,11 @@ class Topic extends React.Component {
       <div className={s.root}>
         <TopicSummary name={this.props.name} summary={this.props.summary} />
         <div className={s.container}>
-          <Explanations collection={this.props.explanations} />
+          <Explanations
+            collection={this.props.explanations}
+            chosen={this.props.chosen.explanation}
+          />
+          <QnA collection={this.props.qna} />
         </div>
       </div>
     );

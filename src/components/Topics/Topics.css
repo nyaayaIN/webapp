@@ -11,7 +11,7 @@
 }
 
 .topic {
-  color: var(--text-colour);
+  color: var(--tertiary-text-colour);
   height: 10em;
   width: 22.5%;
   margin: 1.25%;

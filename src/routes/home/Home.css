@@ -29,6 +29,7 @@
 }
 
 .heading {
+  color: var(--primary-text-colour);
   text-align: center;
   font-size: 2em;
   font-weight: 500;
