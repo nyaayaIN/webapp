@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   background: var(--neutral-light-colour);
+  z-index: -1;
 }
 
 .container {
@@ -16,13 +17,15 @@
 }
 
 .content {
+  font-size: 0.95em;
   width: 100%;
-  max-width: 35em;
+  max-width: 40em;
   align-self: flex-end;
 }
 
 .title {
   font-weight: 500;
+  color: var(--primary-text-colour);
 }
 
 @media screen and (width < 1000px) {

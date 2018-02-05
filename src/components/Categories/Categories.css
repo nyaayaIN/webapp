@@ -3,6 +3,7 @@
 .root {
   background: var(--lightest-colour);
   border-bottom: solid 1px var(--neutral-medium-colour);
+  box-shadow: 0 2px 6px 0 rgba(50, 50, 50, 0.25);
 }
 
 .container {
@@ -23,17 +24,16 @@
 .category {
   height: 1em;
   list-style-type: none;
-  color: rgb(74, 74, 74);
   text-align: left;
   font-size: 0.75em;
   font-weight: bold;
 }
 
 .categoryLink {
-  color: #666;
+  color: var(--primary-text-colour);
   display: block;
-  font-size: 1.1em;
-  font-weight: normal;
+  font-size: 1.15em;
+  font-weight: 500;
   text-decoration: none;
   text-transform: capitalize;
   width: 100%;

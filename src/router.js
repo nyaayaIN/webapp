@@ -18,7 +18,7 @@ export default new UniversalRouter(routes, {
         .then(action => action.default(context, params));
     }
     if (typeof context.route.action === 'function') {
-      return context.route.action(context, params);
+      return context.route.action(context, params, context.query);
     }
     return undefined;
   },

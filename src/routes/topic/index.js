@@ -2,10 +2,13 @@ import React from 'react';
 import Topic from './Topic';
 import Layout from '../../components/Layout';
 
-async function action({ fetch, params }) {
+async function action({ fetch, params, query }) {
   const resp = await fetch(`/data/topic/${params[0]}`, {});
   const data = await resp.json();
   if (!data) throw new Error('Failed to load topic information');
+  const chosen = {
+    explanation: parseInt(query.explanation, 10) || 0,
+  };
   return {
     title: data.name,
     chunks: ['topic'],
@@ -18,6 +21,7 @@ async function action({ fetch, params }) {
           qna={data.qna}
           checklists={data.checklists}
           glossary={data.glossary}
+          chosen={chosen}
         />
       </Layout>
     ),

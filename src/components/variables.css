@@ -82,7 +82,7 @@
    * Layout
    * ======================================================================== */
 
-  --max-content-width: 1000px;
+  --max-content-width: 1100px;
 
   /*
    * Media queries breakpoints
@@ -103,7 +103,8 @@
   --neutral-light-colour: #e6edf1;
   --neutral-medium-colour: #d2dae0;
   --neutral-dark-colour: #bfc8d2;
-  --text-colour: #444451;
+  --primary-text-colour: #00754b;
+  --tertiary-text-colour: #444451;
   --lightest-colour: #fff;
   --darkest-colour: #444451;
 }

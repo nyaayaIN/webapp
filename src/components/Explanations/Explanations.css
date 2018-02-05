@@ -6,7 +6,7 @@
   flex-direction: row;
 }
 
-.current {
+.collection {
   width: 65%;
 }
 
@@ -18,15 +18,22 @@
 }
 
 .item {
+  text-align: left;
   cursor: pointer;
   display: block;
   padding: 0.5em;
   border: solid 1px var(--neutral-light-colour);
   margin: 0.5em 0;
+  width: 100%;
 }
 
 .explanation {
+  display: none;
   padding: 1em 0;
+}
+
+.explanation.active {
+  display: block;
 }
 
 .title {

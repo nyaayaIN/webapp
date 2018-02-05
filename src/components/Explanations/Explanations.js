@@ -2,19 +2,10 @@ import React from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import PropTypes from 'prop-types';
 import s from './Explanations.css';
-import history from '../../history';
 
 class Explanations extends React.Component {
-  constructor(props) {
-    super();
-    this.state = {
-      chosenIndex: null,
-      title: props.collection[0].title,
-      content: props.collection[0].content
-    }
-  }
-
   static propTypes = {
+    chosen: PropTypes.number.isRequired,
     collection: PropTypes.arrayOf(
       PropTypes.shape({
         title: PropTypes.string.isRequired,
@@ -23,44 +14,66 @@ class Explanations extends React.Component {
     ).isRequired,
   };
 
-  onClick(e){
-    e.preventDefault();
-    const id = e.target.attributes.getNamedItem('data-id').value;
-    this.setState({
-      title: this.props.collection[id].title,
-      content: this.props.collection[id].content
-    });
-    history.push('#explanation'+id);
+  constructor(props) {
+    super();
+    this.state = {
+      chosenIndex: props.chosen,
+    };
   }
 
+  handleClick = event => {
+    event.preventDefault();
+    const current = document.querySelector('[data-hidden="false"]');
+    current.style.display = 'none';
+    current.setAttribute('data-hidden', 'true');
+
+    const id = event.target.attributes.getNamedItem('data-id').value;
+    const explanation = document.querySelector(`[data-explanation="${id}"`);
+
+    explanation.style.display = 'block';
+    explanation.setAttribute('data-hidden', 'false');
+    this.setState({
+      chosenIndex: id,
+    });
+  };
+
   render() {
-    if(window.location.href.indexOf('#explanation')>-1 && this.state.chosenIndex === null){
-      const explanationIndex = window.location.href.split('#explanation')[1];
-      this.setState({
-        chosenIndex: explanationIndex,
-        title: this.props.collection[explanationIndex].title,
-        content: this.props.collection[explanationIndex].content
-      });
-    }
     return (
       <div className={s.root}>
-        <div className={s.current}>
-          <div className={s.explanation}>
-            <h2 className={s.title}>{this.state.title}</h2>
-            <div
-              className={s.content}
-              // eslint-disable-next-line react/no-danger
-              dangerouslySetInnerHTML={{ __html: this.state.content }}
-            />
-          </div>
-        </div>
-        <ul className={s.menu}>
+        <div className={s.collection}>
           {this.props.collection.map((explanation, index) => (
-            <li className={s.item} onClick={this.onClick.bind(this)} key={index} data-id={index}>
-              {explanation.title}
-            </li>
+            <div
+              className={
+                index === this.state.chosenIndex
+                  ? `${s.explanation} ${s.active}`
+                  : s.explanation
+              }
+              data-explanation={index}
+              data-hidden={index === this.state.chosenIndex ? 'false' : 'true'}
+            >
+              <h2 className={s.title}>{explanation.title}</h2>
+              <div
+                className={s.content}
+                // eslint-disable-next-line react/no-danger
+                dangerouslySetInnerHTML={{
+                  __html: explanation.content,
+                }}
+              />
+            </div>
           ))}
-        </ul>
+        </div>
+        <div className={s.menu}>
+          {this.props.collection.map((explanation, index) => (
+            <button
+              className={s.item}
+              onClick={this.handleClick}
+              key={explanation.id}
+              data-id={index}
+            >
+              {explanation.title}
+            </button>
+          ))}
+        </div>
       </div>
     );
   }
