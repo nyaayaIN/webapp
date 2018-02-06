@@ -17,6 +17,7 @@ class Header extends React.Component {
       contact: 'Contact Us',
       blog: 'Blog',
       logo: 'Nyaaya',
+      view: 'View Categories'
     };
   }
 
@@ -29,6 +30,7 @@ class Header extends React.Component {
           contact: data.contact_title,
           blog: data.blog_title,
           logo: data.logo_text,
+          view: data.view_categories
         });
       });
   }
@@ -52,7 +54,7 @@ class Header extends React.Component {
             />
           </Link>
         </div>
-        <Categories />
+        <Categories view={this.state.view}/>
       </div>
     );
   }

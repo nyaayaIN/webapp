@@ -1,14 +1,21 @@
 import React from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
+import PropTypes from 'prop-types';
 import s from './Categories.css';
 import Link from '../Link';
 
 const API = '/data/categories';
 
 class Categories extends React.Component {
+  static propTypes = {
+    view: PropTypes.string.isRequired
+  };
+
   constructor(props) {
     super(props);
     this.state = {
+      view: props.view,
+      menuClass: "hidden",
       categories: [],
       error: false,
     };
@@ -29,6 +36,13 @@ class Categories extends React.Component {
       });
   }
 
+  toggleMenu = event => {
+    event.preventDefault();
+    this.setState({
+      menuClass: this.state.menuClass === "hidden" ? "show" : "hidden"
+    });
+  };
+
   render() {
     if (this.state.error) {
       return (
@@ -43,7 +57,12 @@ class Categories extends React.Component {
     }
     return (
       <div className={s.root}>
-        <div className={s.container}>
+        <button
+          className={s.mobileMenu}
+          onClick={this.toggleMenu}>
+            {this.state.view}
+        </button>
+        <div className={s.container+" "+s[this.state.menuClass]}>
           <ul className={s.categories}>
             {this.state.categories.map((category) => (
               <li className={s.category} key={category.id}>
