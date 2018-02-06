@@ -22,12 +22,6 @@ class Contact extends React.Component {
             className={s.contactContent} // eslint-disable-next-line react/no-danger
             dangerouslySetInnerHTML={{ __html: content.html }}
           />
-          <div className={s.contactMedia}>
-            <div className={s.contactMedium}>facebook</div>
-            <div className={s.contactMedium}>twitter</div>
-            <div className={s.contactMedium}>linkedin</div>
-            <div className={s.contactMedium}>email</div>
-          </div>
         </div>
       </div>
     );

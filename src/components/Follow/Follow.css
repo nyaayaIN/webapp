@@ -1,37 +1,41 @@
 @import '../variables.css';
 
+.root {
+  background: var(--neutral-light-colour);
+  color: #fff;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 2em 0;
+  max-width: var(--max-content-width);
+  text-align: center;
+}
+
+.title {
+  color: var(--primary-text-colour);
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  font-size: 1.25em;
+}
+
+.cta {
+  margin: 0;
+  padding: 0.45em 0;
+  font-size: 0.85em;
+  color: var(--tertiary-text-colour);
+}
+
 .socialMedia {
   display: flex;
   flex-wrap: wrap;
   align-content: stretch;
   justify-content: safe center;
-  margin: 5em 0;
-}
-
-.icon {
-  height: 7.5em;
-  width: 7.5em;
-  border-radius: 50%;
-  margin: 0 1.5em;
-  background: var(--neutral-light-colour);
+  padding: 1em 0;
 }
 
 .socialLink {
   text-decoration: none;
-}
-
-.facebook {
-  background: #3b5998;
-}
-
-.twitter {
-  background: #00aced;
-}
-
-.linkedin {
-  background: #007bb6;
-}
-
-.medium {
-  background: #111;
+  margin: 0 1em;
 }

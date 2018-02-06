@@ -1,7 +1,7 @@
 @import '../variables.css';
 
 .root {
-  background: #333;
+  background: var(--neutral-dark-colour);
   color: #fff;
 }
 
@@ -12,8 +12,87 @@
   text-align: center;
 }
 
+.categories {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.category {
+  width: 10%;
+  list-style-type: none;
+  text-align: left;
+}
+
+.categoryLink {
+  color: var(--lightest-colour);
+  display: block;
+  font-size: 0.85em;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: capitalize;
+  width: 100%;
+}
+
+.topic {
+  display: block;
+  color: var(--neutral-light-colour);
+  font-size: 0.75em;
+  line-height: 1.25em;
+  padding: 0.25em 0;
+  font-weight: 100;
+  text-decoration: none;
+}
+
 .text {
   color: rgba(255, 255, 255, 0.5);
   padding: 2px 5px;
   font-size: 1em;
+}
+
+.bottom {
+  margin: 1em 0;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.company {
+  width: 50%;
+  text-align: left;
+}
+
+.terms {
+  width: 50%;
+  text-align: left;
+}
+
+.slogan {
+  font-size: 0.75em;
+}
+
+.licenseIcons {
+  margin-bottom: 1em;
+}
+
+.licenseIcons img {
+  margin-right: 0.5em;
+}
+
+.termsText {
+  color: var(--neutral-medium-colour);
+  font-size: 0.75em;
+}
+
+.termsText a {
+  color: var(--neutral-light-colour);
+}
+
+@media screen and (width < 850px) {
+  .categories {
+    display: none;
+  }
 }
