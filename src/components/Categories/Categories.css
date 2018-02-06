@@ -6,6 +6,16 @@
   box-shadow: 0 2px 6px 0 rgba(50, 50, 50, 0.25);
 }
 
+.mobileMenu {
+  border: none;
+  display: none;
+  color: var(--primary-text-colour);
+  text-align: center;
+  padding: 1em 0;
+  font-weight: normal;
+  width: 100%;
+}
+
 .container {
   margin: 0 auto;
   padding: 20px 0;
@@ -73,11 +83,20 @@
 }
 
 @media screen and (width < 850px) {
+  .mobileMenu {
+    display: block;
+  }
+
+  .container.hidden {
+    display: none;
+  }
+
+  .container.show {
+    display: block;
+  }
+
   .categories {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: stretch;
-    justify-content: safe center;
+    display: block;
   }
 
   .category {
@@ -88,7 +107,7 @@
   }
 
   .topics {
-    display: block;
+    display: none;
     position: relative;
     margin: 0;
     padding: 0;
