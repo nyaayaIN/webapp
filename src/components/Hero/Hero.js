@@ -5,6 +5,7 @@ import s from './Hero.css';
 
 class Hero extends React.Component {
   static propTypes = {
+    style: PropTypes.string.isRequired,
     content: PropTypes.shape({
       title: PropTypes.string.isRequired,
       description: PropTypes.string.isRequired,
@@ -15,9 +16,13 @@ class Hero extends React.Component {
     return (
       <div className={s.root}>
         <div className={s.container}>
-          <div className={s.content}>
+          <div className={s.content + " " + s[this.props.style]}>
             <h1 className={s.title}>{this.props.content.title}</h1>
-            <p>{this.props.content.description}</p>
+            <div
+              className={s.description}
+              // eslint-disable-next-line react/no-danger
+              dangerouslySetInnerHTML={{ __html: this.props.content.description }}
+            />
           </div>
         </div>
       </div>

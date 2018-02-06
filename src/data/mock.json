@@ -10,7 +10,7 @@
       "page_title": "Nyaya - India’s Laws Explained",
       "hero_title": "India’s Laws Explained",
       "hero_description":
-        "Nyaaya is committed to providing you with clear, actionable information in simple language so you can protect yourself, assert your rights and seek justice when you have been wronged. Sign up to our newsletter to get monthly updates on new topics, explanations on what’s in the news and answers to popular questions.",
+        "Nyaaya is committed to providing you with clear, actionable information in simple language so you can protect yourself, assert your rights and seek justice when you have been wronged. Sign up to our newsletter to stay up to date.",
       "input_name": "Your Name",
       "input_email": "Your Email Address",
       "featured_topics": "Featured Topics",
@@ -18,227 +18,255 @@
       "follow_us": "Follow Us",
       "word_of_the_day": "Featured Word",
       "featured_questions": "Featured Questions"
+    },
+    "follow": {
+      "title": "Hey! You can reach us in any of the following ways",
+      "cta":
+        "Drop us a mail or follow us on social media for updates, news and more",
+      "email": "Email",
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "linkedin": "LinkedIn"
+    },
+    "footer": {
+      "slogan": "India's Laws Explained",
+      "about": "About Us",
+      "contact": "Contact Us",
+      "blog": "Blog",
+      "terms":
+        "Except where otherwise noted, content on this site is licensed under <a href='https://creativecommons.org/licenses/by-nc-sa/2.5/in/' target='_blank' rel='noopener noreferrer'>Attribution-NonCommercial-ShareAlike 2.5 India</a> (CC BY-NC-SA 2.5 IN) license. Icons by <a href='http://thenounproject.com/' target='_blank' rel='noopener noreferrer'>The Noun Project.</a>"
     }
   },
   "featured": {
     "topics": [
       {
+        "id": "00001",
         "name": "Sexual Harassment at the Workplace",
         "url": "/topic/sexual-harassment-at-the-workplace"
       },
       {
+        "id": "00002",
         "name": "Domestic Violence",
         "url": "/topic/domestic-violence"
       },
       {
+        "id": "00003",
         "name": "Marriage",
         "url": "/topic/marriage"
       },
       {
+        "id": "00004",
         "name": "Drugs and Narcotics",
         "url": "/topic/drugs-and-narcotics"
-      }
-    ],
-    "questions": [
-      {
-        "question": "Can the police search me when I am arrested?",
-        "url": "/topic/arrest#q4"
-      },
-      {
-        "question":
-          "If a complaint is made against someone for demanding dowry, will they be arrested immediately",
-        "url": "/topic/dowry#q7"
-      },
-      {
-        "question":
-          "What is the difference between an FIR and a private complaint?",
-        "url": "/topic/first-information-report#q5"
-      },
-      {
-        "question":
-          "What is the difference between an FIR and a private complaint?",
-        "url": "/topic/first-information-report#q5"
-      },
-      {
-        "question":
-          "If I wrote an article cautioning a community about a problem, would it amount to defamation?",
-        "url": "/topic/defamation#q11"
-      },
-      {
-        "question":
-          "Can a public servant be punished if they accept a bribe but don’t do what was the person offering the bribe asked for?",
-        "url": "/topic/anti-corruption#q4"
       }
     ]
   },
   "categories": [
     {
+      "id": "00005",
       "name": "Children",
       "url": "/category/children",
       "topics": [
         {
+          "id": "00006",
           "name": "Children accused of Crime",
           "url": "/topic/children-accused-of-crime"
         },
         {
+          "id": "00007",
           "name": "Child Labour",
           "url": "/topic/child-labour"
         },
         {
+          "id": "00008",
           "name": "Free and Compulsory Education",
           "url": "/topic/free-and-compulsory-education"
         }
       ]
     },
     {
+      "id": "00009",
       "name": "Citizen's Rights",
       "url": "/category/citizens-rights",
       "topics": [
         {
+          "id": "00010",
           "name": "Anti-corruption",
           "url": "/topic/anti-corruption"
         },
         {
+          "id": "00011",
           "name": "Right to Information",
           "url": "/topic/right-to-information"
         }
       ]
     },
     {
+      "id": "00012",
       "name": "Family",
       "url": "/category/family",
       "topics": [
         {
+          "id": "00013",
           "name": "Dowry",
           "url": "/topic/dowry"
         },
         {
+          "id": "00014",
           "name": "Marriage",
           "url": "/topic/marriage"
         },
         {
+          "id": "00015",
           "name": "Divorce and Separation",
           "url": "/topic/divorce-and-separation"
         },
         {
+          "id": "00016",
           "name": "Domestic Violence",
           "url": "/topic/domestic-violence"
         },
         {
+          "id": "00017",
           "name": "Maintenance of Family",
           "url": "/topic/maintenance-of-family"
         }
       ]
     },
     {
+      "id": "00018",
       "name": "Health",
       "url": "/category/health",
       "topics": [
         {
+          "id": "00019",
           "name": "Smoking",
           "url": "/topic/smoking"
         },
         {
+          "id": "00020",
           "name": "Drugs and Narcotics",
           "url": "/topic/drugs-and-narcotics"
         }
       ]
     },
     {
+      "id": "00021",
       "name": "Human Rights",
       "url": "/category/human-rights",
       "topics": [
         {
+          "id": "00022",
           "name": "Manual Scavenging",
           "url": "/topic/manual-scavenging"
         },
         {
+          "id": "00023",
           "name": "Scheduled Caste and Scheduled Tribes",
           "url": "/topic/scheduled-caste-and-scheduled-tribes"
         }
       ]
     },
     {
+      "id": "00024",
       "name": "Legal Process",
       "url": "/category/legal-process",
       "topics": [
         {
+          "id": "00025",
           "name": "Arrest",
           "url": "/topic/arrest"
         },
         {
+          "id": "00026",
           "name": "Bail",
           "url": "/topic/bail"
         },
         {
+          "id": "00027",
           "name": "Traffic Fines",
           "url": "/topic/traffic-fines"
         },
         {
+          "id": "00028",
           "name": "First Information Report",
           "url": "/topic/first-information-report"
         }
       ]
     },
     {
+      "id": "00029",
       "name": "Media & Tech",
       "url": "/category/media-and-tech",
       "topics": [
         {
+          "id": "00030",
           "name": "Censorship",
           "url": "/topic/censorship"
         },
         {
+          "id": "00031",
           "name": "Online Abuse",
           "url": "/topic/online-abuse"
         },
         {
+          "id": "00032",
           "name": "Defamation",
           "url": "/topic/defamation"
         }
       ]
     },
     {
+      "id": "00033",
       "name": "Wealth",
       "url": "/category/wealth",
       "topics": [
         {
+          "id": "00034",
           "name": "Check Bounce",
           "url": "/topic/check-bounce"
         },
         {
+          "id": "00035",
           "name": "Online Bank Fraud",
           "url": "/topic/online-bank-fraud"
         },
         {
+          "id": "00036",
           "name": "Will",
           "url": "/topic/will"
         }
       ]
     },
     {
+      "id": "00037",
       "name": "Women",
       "url": "/category/women",
       "topics": [
         {
+          "id": "00038",
           "name": "Rape",
           "url": "/topic/rape"
         },
         {
+          "id": "00039",
           "name": "Sexual Harassment",
           "url": "/topic/sexual-harassment"
         }
       ]
     },
     {
+      "id": "00040",
       "name": "Work",
       "url": "/category/work",
       "topics": [
         {
+          "id": "00041",
           "name": "Prostitution",
           "url": "/topic/prostitution"
         },
         {
+          "id": "00042",
           "name": "Sexual Harassment at the Workplace",
           "url": "/topic/sexual-harassment-at-the-workplace"
         }

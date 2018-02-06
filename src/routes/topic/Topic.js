@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Topic.css';
 
-import TopicSummary from '../../components/TopicSummary';
+import Hero from '../../components/Hero';
 import Explanations from '../../components/Explanations';
 import QnA from '../../components/QnA';
 
@@ -29,9 +29,13 @@ class Topic extends React.Component {
   };
 
   render() {
+    const summary = {
+      title: this.props.name,
+      description: this.props.summary
+    };
     return (
       <div className={s.root}>
-        <TopicSummary name={this.props.name} summary={this.props.summary} />
+        <Hero content={summary} style="bottom" />
         <div className={s.container}>
           <Explanations
             collection={this.props.explanations}

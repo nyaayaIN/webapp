@@ -9,7 +9,8 @@
 }
 
 .container {
-  margin: 3em auto;
+  margin: 0 auto;
+  padding-bottom: 2em;
   height: 25em;
   max-width: var(--max-content-width);
   width: 100%;
@@ -19,8 +20,15 @@
 .content {
   font-size: 0.95em;
   width: 100%;
-  max-width: 40em;
+  max-width: 30em;
+}
+
+.bottom {
   align-self: flex-end;
+}
+
+.top {
+  align-self: flex-start;
 }
 
 .title {

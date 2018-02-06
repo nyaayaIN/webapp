@@ -27,29 +27,18 @@ class Home extends React.Component {
           name: PropTypes.string.isRequired,
           url: PropTypes.string.isRequired,
         }),
-      ).isRequired,
-      questions: PropTypes.arrayOf(
-        PropTypes.shape({
-          question: PropTypes.string.isRequired,
-          url: PropTypes.string.isRequired,
-        }),
-      ).isRequired,
+      ).isRequired
     }).isRequired,
   };
 
   render() {
     return (
       <div className={s.root}>
-        <Hero content={this.props.hero} />
+        <Hero content={this.props.hero} style="bottom" />
 
         <div className={s.container}>
           <div className={s.heading}>{this.props.headings.featured_topics}</div>
           <Topics collection={this.props.featured.topics} />
-        </div>
-
-        <div className={s.container}>
-          <div className={s.heading}>{this.props.headings.follow_us}</div>
-          <Follow />
         </div>
       </div>
     );
