@@ -10,13 +10,15 @@ class Category extends React.Component {
     description: PropTypes.string.isRequired,
     topics: PropTypes.arrayOf(
       PropTypes.shape({
-        url: PropTypes.string.isRequired,
         name: PropTypes.string.isRequired,
+        image: PropTypes.string.isRequired,
+        url: PropTypes.string.isRequired,
       }),
     ).isRequired,
   };
 
   render() {
+    console.log(this.props.topics);
     return (
       <div className={s.root}>
         <div className={s.container}>

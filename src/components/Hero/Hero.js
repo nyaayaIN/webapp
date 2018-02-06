@@ -5,6 +5,7 @@ import s from './Hero.css';
 
 class Hero extends React.Component {
   static propTypes = {
+    image: PropTypes.string.isRequired,
     style: PropTypes.string.isRequired,
     content: PropTypes.shape({
       title: PropTypes.string.isRequired,
@@ -13,8 +14,12 @@ class Hero extends React.Component {
   };
 
   render() {
+    const heroStyle = {
+      background: "url("+this.props.image+") center no-repeat",
+      backgroundSize: "cover"
+    };
     return (
-      <div className={s.root}>
+      <div className={s.root} style={heroStyle}>
         <div className={s.container}>
           <div className={s.content + " " + s[this.props.style]}>
             <h1 className={s.title}>{this.props.content.title}</h1>

@@ -15,6 +15,7 @@ async function action({ fetch, params, query }) {
     component: (
       <Layout>
         <Topic
+          hero={"/topics/"+ params[0]+"-full.jpg"}
           name={data.name}
           summary={data.summary}
           explanations={data.explanations}

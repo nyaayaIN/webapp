@@ -1,7 +1,7 @@
 @import '../variables.css';
 
 .topics {
-  padding: 2.5em 0;
+  padding: 0;
   margin: 0;
   list-style: none;
   display: flex;
@@ -12,28 +12,33 @@
 
 .topic {
   color: var(--tertiary-text-colour);
-  height: 10em;
   width: 22.5%;
-  margin: 1.25%;
+  margin: 1.5% 0.5%;
   text-decoration: none;
 }
 
-.topic:hover {
-  color: var(--primary-colour);
+.tile {
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.51);
+  height: 100%;
 }
 
-.tile {
-  border: solid 1px var(--neutral-dark-colour);
-  background: var(--neutral-medium-colour);
-  height: 100%;
-  display: flex;
+.thumbnail {
+  width: 100%;
+  height: auto;
 }
 
 .title {
   background: var(--lightest-colour);
-  align-self: flex-end;
-  padding: 1em;
-  width: 100%;
+  color: var(--primary-text-colour);
+  font-size: 0.9em;
+  font-weight: normal;
+  padding: 0.5em 1em;
+  height: 2.5em;
+}
+
+.topic:hover .title {
+  background: var(--primary-text-colour);
+  color: var(--neutral-light-colour);
 }
 
 @media screen and (width >= 500px) and (width <= 1000px) {

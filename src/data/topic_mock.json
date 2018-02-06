@@ -1,0 +1,718 @@
+{
+  "children-accused-of-crime": {
+    "name": "Children Accused of Crime",
+    "summary": "",
+    "image": "",
+    "explanations": [
+      {
+        "title": "Lorem ipsum dolor sit amet",
+        "content": ""
+      },
+      {
+        "title": "Lorem ipsum dolor sit amet",
+        "content": ""
+      },
+      {
+        "title": "Lorem ipsum dolor sit amet",
+        "content": ""
+      }
+    ],
+    "qna": [
+      {
+        "question": "Lorem ipsum dolor sit amet",
+        "answer": ""
+      },
+      {
+        "question": "Lorem ipsum dolor sit amet",
+        "answer": ""
+      }
+    ],
+    "checklists": [
+      {
+        "title": "Lorem",
+        "content": ["stuff", "goes", "here"]
+      },
+      {
+        "title": "Lorem",
+        "content": ["stuff", "goes", "here"]
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Lorem",
+        "definition": ""
+      },
+      {
+        "term": "Lorem",
+        "definition": ""
+      }
+    ]
+  },
+  "child-labour": {
+    "name": "Child Labour",
+    "summary":
+      "<p>Indian law prohibits employing children under the age of 14 in all occupations as well as employing children between 14 and 18 in hazardous occupations and processes. There are a few exceptions to this, namely:</p><ul><li>Children in family businesses are allowed to work after school and during vacations.</li><li>Children can act in movies, advertisements and be involved in sport activities</li></ul>",
+    "image": "",
+    "explanations": [
+      {
+        "title": "Employing children under 14",
+        "content":
+          "<p>It is illegal to employ children under 14. Any person who employs a child below 14 can be punished with jail time of between <strong>six months and two years</strong> and/or fine between <strong>Rs. 20,000 and Rs. 50,000</strong>.</p><p>A person can be punished for all other violations (for example, with respect to maintenance of register, work hours, health and safety conditions) with jail time of up to <strong>one month</strong> and/ or a fine of up to <strong>Rs. 10,000</strong>. First time offences can be settled if the person pays a certain sum of fine. There are a number of other laws which also punish employment of children in specific conditions or scenarios.</p>"
+      },
+      {
+        "title": "Employing children between 14-18",
+        "content":
+          "<p>Adolescents or children (14-18) are generally allowed to work except in:</p><ul><li><strong>Hazardous occupations</strong> – Mines and inflammable substances or explosives (such as firework factories).</li><li><strong>Hazardous processes </strong>– The list of industries which use hazardous processes is provided in another law (the Factories Act, 1948) and is available here. They include coal, power generation, paper, fertilizer, iron and steel industries, asbestos, etc.</li></ul><p>Any person who employs  a child between 14 and 18 in a hazardous occupation or process can be punished with jail time of between <strong>six months</strong> and <strong>two years</strong> and/or fine between <strong>Rs. 20,000 and Rs. 50,000</strong>. They can also be prosecuted under other laws such as the Factories Act, Mines Act, Merchant Shipping Act and the Motor Transport Workers Act.</p><p>Some general rules that should be followed when employing adolescents (except when they are working with family or government-funded/recognized schools) are:</p><ul><li>Adolescents can only be made to work continuously for a maximum period of three hours at a time. She or he needs to be given a break for an hour.</li><li>In a single day, the period of work (including break time) cannot exceed 6 hours. This includes the time they spend in waiting for work.</li><li>Adolescents cannot be made to work between <b>7 pm and 8 am.</b></li><li>An adolescent has to be given one day off every week.</li><li>If the adolescent is already working at another place, the occupier cannot make him or her work at their place on the same day.</li></ul><p>State governments have their own regulations regarding the conditions too.</p>"
+      },
+      {
+        "title": "Children working in the family business",
+        "content":
+          "<p>It is legal to make children (below 14) work in the family business. The business could belong to or be run by immediate family (mother, father, brother or sister) or extended family (father’s sister and brother, or mother’s sister and brother).</p><p>It is important that the family business does not involve dangerous substances or processes (the term in law is ‘hazardous’ occupation or process). The law tells us what jobs are considered hazardous. Mines, explosives and processes involved in the coal, power generation industries etc are included. For, the full list of hazardous occupations or processes, please read the list of industries provided here.</p><p>Even though it is lawful to use children in the family business, the child’s education must not be affected. She or he can only be made to do this after school hours or during vacation.</p>"
+      },
+      {
+        "title": "Children working in Movies/TV/Sports",
+        "content":
+          "<p>Children can act in movies and TV serials or be involved in sport activities and be paid for it. They could also do this as a hobby. The government has not yet come out with the full list of allowed entertainment and sporting activities under this exception. Also, the rules regarding the conditions of employment of such children have not yet come out. Again, it is important that the child’s education is not affected.</p><p>An exception to this exception is hiring children in a circus - that is not allowed and is illegal under the law.</p>"
+      }
+    ],
+    "qna": [
+      {
+        "question":
+          "Can parents be punished for allowing their children to work?",
+        "answer":
+          "<p>The parents or guardians of the children who are working in violation of this law will generally not be punished for allowing their children to work. However, this immunity does not apply if they make their child (who is under 14) work for commercial purposes or the child (between 14 and 18) work in a hazardous occupation or process. The law does give them a chance to correct their wrong – when they are caught doing this the first time, they can settle it. However, if they make their child work again in violation of the law, they can be punished with a fine of up to Rs. 10,000.</p>"
+      },
+      {
+        "question":
+          "How will the government know if there are adolescents working at a particular workplace?",
+        "answer":
+          "<p>The person in-charge has a duty to maintain a register which must be made open for checking by the government inspector during office hours. The register should contain the following details of all adolescent employees:<ul><li>name and date of birth</li><li>working hours and periods of work as well as the periods of rest</li><li>the type of work.</li></ul></p>"
+      }
+    ],
+    "checklists": [
+      {
+        "title": "Lorem",
+        "content": ["stuff", "goes", "here"]
+      },
+      {
+        "title": "Lorem",
+        "content": ["stuff", "goes", "here"]
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Lorem",
+        "definition": ""
+      },
+      {
+        "term": "Lorem",
+        "definition": ""
+      }
+    ]
+  },
+  "free-and-compulsory-education": {
+    "name": "Free and Compulsory Education",
+    "summary": "",
+    "image": "",
+    "explanations": [],
+    "qna": [],
+    "checklists": [],
+    "glossary": []
+  },
+  "anti-corruption": {
+    "name": "Anti-corruption",
+    "summary":
+      "Corruption is the abuse of power by people in power for their own gain in a dishonest or unethical way. In India, it is illegal for public servants to accept money/gifts over and above their salary, in return for doing their duty, favoring a person or for not doing their duty. Any person helping the public servant commit these crimes can also be punished.",
+    "image": "",
+    "explanations": [
+      {
+        "title": "Public Servant",
+        "content":
+          "<p>You are a public servant if you are:<ul><li>Working for the government</li><li>Your salary is paid by the government</li><li>The work you do is a public duty</li></ul></p><p>You can also be considered a public servant if you are:<ul><li>Working for and are being paid by a local authority like a municipality or panchayat.</li><li>Employed in educational or cultural institutes which get money from the central, state or local government (like the panchayat)</li><li>A co-operative society engaged in agriculture, industry, trade or banking, and the co-operative society is receiving money from:<ul><li>the government, or</li><li>a company created by laws passed by the government, or</li><li>a company that is owned or controlled by the government or aided by the government, or</li><li>a company in which the government is the majority shareholder.</li></ul></li><li>Employed by and being paid by:<ul><li>a company established under central or state laws (for example, the Life Insurance Corporation), or</li><li>a company which is aided by, owned or controlled by the government, or</li><li>a company where the government is the majority shareholder (for example, the Air India Limited)</li></ul></li></ul></p>"
+      },
+      {
+        "title": "Public Sevants accepting bribes",
+        "content":
+          "<p>Public servants in India are not allowed to<ul><li>accept money/gifts other than the salary provided as part of their job</li><li>Ask for or get money/gifts, in addition to their salary, in return for doing their official duty</li><li>Ask for or get money/gifts, in addition to their salary, in return for not doing their official duty</li><li>Be partial to someone who has paid them money or give them gifts</li><li>Do any special favours for someone who has offered them money or gifts</li></ul></p><p>You can be sent to jail for a period of 3 to 7 years and be asked to pay fine for doing any of the above.</p><p>A public servant breaks the law by accepting any gift or benefit, not just money. You are breaking the law if you, as a public servant, accept something of value from a person without paying for the gift/service and with whom you have a business or official relationship. You can be sent to jail for a period of 6 months to 5 years and may also have to pay fine.</p><p><b>Example:</b> You are a public servant working in the Public Works Department and are in-charge of approving tender for road construction. You accept a car from Ravi without paying him any money. You know that his company will apply to your department for approval of a contract to build a highway. If Ravi is given the approval, it would be considered, accepting the car would be considered as accepting a bribe.</p>"
+      },
+      {
+        "title": "Influencing Public Servants",
+        "content":
+          "<p>You are breaking the law if you as a public servant help someone commit the crime of influencing public servants. It does not matter that the crime was not actually committed. You can be sent to jail for a period of 3 years to 7 years along with a fine.</p><p><b>Example:</b> If I as a Magistrate of a district influence the Chief Engineer to favour a friend in a road construction tender. Whether or not my friend gets the tender doesn't matter. The magistrate can still be punished for just the influencing part.</p>"
+      },
+      {
+        "title": "Public Servant Stealing",
+        "content":
+          "<p>When a public servant steals or gets someone to steal or sell any property given to them as part of their official work, they can be punished for “criminal misconduct.” The punishment for this offence is imprisonment between 4 and 10 years along with a fine.</p>"
+      },
+      {
+        "title": "Abetment",
+        "content":
+          "<p>You are breaking the law if you help, suggest or encourage a public servant to commit the crimes of accepting money or gifts in addition to their salary or property from business associates, even if the crime was not successfully committed. You can be sent to jail for a period of 3 to 7 years and will also have to pay fine.</p><p>Example:Rajesh, Ravi's cousin offers Mukesh (a public servant) a new house in return for appointing Ravi to the post of junior Railway officer. Even if Ravi does not get the post, Rajesh has &#8220;abetted&#8221; or helped Mukesh break the law.</p>"
+      }
+    ],
+    "qna": [
+      {
+        "question":
+          "Can I be punished under this law even if I was not successful in committing the crime?",
+        "answer":
+          "<p>Yes, if you as a public servant try to steal or sell property given to you as part of your work or take gifts or money unlawfully, you can be punished. It does not matter that you did not succeed. You can be sent to jail for a period of 3 to 7 years and can also be asked to pay fine.</p><p><b>Example:</b>Mukesh is a police officer. His superior officer has given him gold jewelry for safekeeping, which was returned by a thief during police questioning. Mukesh tries to sell it to Ravi, but the senior officer sees them and stops him. Even though Mukesh failed he is still breaking this law.</p>"
+      },
+      {
+        "question":
+          "Can the police inspect your pass book and bank details if they doubt you are breaking anti-corruption law?",
+        "answer":
+          "<p>Yes, if the police think that you are breaking this law and they have the power to investigate, they can check your banker's books in connection with your crime. They can also check the banker's books of another person who might be holding money on your behalf.</p>"
+      },
+      {
+        "question":
+          "What about my salary and other perks? Can I be accused of bribery for getting those?",
+        "answer":
+          "<p>No. Salary, house allowance, pension payment and all payments that the public servant gets for his work are not considered bribes</p>"
+      },
+      {
+        "question": "What if I take the money but don't do the favour?",
+        "answer":
+          "<p>You can still be punished. For example, you are a junior officer in the Bhopal Municipality. You accept bribe from Ravi promising to give his company approval to build a tank in the locality, but you know that as a junior officer you do not have the power to give the approval. You can still be punished under this law.</p>"
+      },
+      {
+        "question":
+          "What if the favour is done, but not through any action of mine?",
+        "answer":
+          "<p>You can still be punished if you took money and made the person who bribed you believe that you were responsible for the favour.For example, you take Rs. 20,000 from Ravi after making him believe that he got the job with the Forest Department because of your connections with the head of the Forest Department. Even if you did not actually have any connections with the head of the Forest Department, you will still be breaking this law.</p>"
+      },
+      {
+        "question": "How are repeat offenders punished under this law?",
+        "answer":
+          "<p>Any person who regularly influences public servants through illegal means or uses business relationships to influence public servants can be sent to jail for a period of 5 to 10 years and can also be asked to pay fine.</p>"
+      }
+    ],
+    "checklists": [],
+    "glossary": []
+  },
+  "right-to-information": {
+    "name": "Right to Information",
+    "summary": "",
+    "image": "",
+    "explanations": [],
+    "qna": [],
+    "checklists": [],
+    "glossary": []
+  },
+  "family": {
+    "name": "Family",
+    "summary": "",
+    "image": "",
+    "explanations": [],
+    "qna": [],
+    "checklists": [],
+    "glossary": []
+  },
+  "dowry": {
+    "name": "Dowry",
+    "summary": "",
+    "image": "",
+    "explanations": [],
+    "qna": [],
+    "checklists": [],
+    "glossary": []
+  },
+  "marriage": {
+    "name": "Marriage",
+    "summary": "",
+    "image": "",
+    "explanations": [],
+    "qna": [],
+    "checklists": [],
+    "glossary": []
+  },
+  "divorce-and-separation": {
+    "name": "Divorce & Separation",
+    "summary": "",
+    "image": "",
+    "explanations": [],
+    "qna": [],
+    "checklists": [],
+    "glossary": []
+  },
+  "domestic-violence": {
+    "name": "Domestic Violence",
+    "summary": "",
+    "image": "",
+    "explanations": [],
+    "qna": [],
+    "checklists": [],
+    "glossary": []
+  },
+  "maintenance-of-family": {
+    "name": "Maintenance of Family",
+    "summary": "",
+    "image": "",
+    "explanations": [],
+    "qna": [],
+    "checklists": [],
+    "glossary": []
+  },
+  "smoking": {
+    "name": "Smoking",
+    "summary": "",
+    "image": "",
+    "explanations": [],
+    "qna": [],
+    "checklists": [],
+    "glossary": []
+  },
+  "drugs-and-narcotics": {
+    "name": "Drugs and Narcotics",
+    "summary": "",
+    "image": "",
+    "explanations": [],
+    "qna": [],
+    "checklists": [],
+    "glossary": []
+  },
+  "manual-scavenging": {
+    "name": "Manual Scavenging",
+    "summary": "",
+    "image": "",
+    "explanations": [],
+    "qna": [],
+    "checklists": [],
+    "glossary": []
+  },
+  "scheduled-caste-and-scheduled-tribes": {
+    "name": "Scheduled Caste & Scheduled Tribes",
+    "summary": "",
+    "image": "",
+    "explanations": [],
+    "qna": [],
+    "checklists": [],
+    "glossary": []
+  },
+  "arrest": {
+    "name": "Arrest",
+    "summary":
+      "Arrests are carried out by the police when they have information about somebody (i.e. accused) committing a crime. Arrests have to be allowed by the concerned Magistrate. In certain situations, the Magistrate can also ask anyone else apart from the police to arrest a person suspected of committing a crime.",
+    "image": "",
+    "explanations": [
+      {
+        "title": "Arrested by Police",
+        "content":
+          "<p><b>No person can be detained by the police without being informed of the reasons and the basis in law for their arrest</b>. This doesn’t mean they always need a warrant to arrest you. Normally a Magistrate issues a warrant to arrest you, but if the Police suspect that you committed a cognizable crime, you can be arrested even without an arrest warrant.</p><p>You have the right to consult with and be defended by a lawyer of your choice. When being arrested, <ul><li>you can ask the police to show the warrant for arrest, police report and other documents for your arrest and the police are required to show you this.</li><li>the police arresting you and handling the interrogation should bear accurate, visible and clear identification and name tags with their designations.</li><li>the police officer carrying out the arrest should prepare a memo of arrest which contains the date and time of arrest that should be signed by the person being arrested and attested by at least one witness (either a member of the family of the person being arrested or a respectable person of the locality from where the arrest is made).</li><li>The police officer should tell you if you can or cannot apply for bail</li></ul></p><p>Before taking you away, the police has a duty to inform your friends, relatives, or any other person who you choose, about your arrest. With 12 hours of the arrest, the police officer has to inform the police control room of <ul><li>the person being so arrested</li><li>the place where they are being detained</li></ul></p>"
+      },
+      {
+        "title": "Informing Friends/Family of Arrest",
+        "content":
+          "<p>When you are being arrested, before taking you away, you can choose a person (friend or family member) whom the police must inform about your arrest. If the arrested person’s friends or family live in a different district or town, the police must notify them of<ul><li>the time</li><li>place of arrest</li><li>Where the arrested person is being held</li></ul>The police can notify the relative or friend through the Legal Aid Organisation in the district and the police station of that area within a period of 8 to 12 hours after the arrest.</p>"
+      },
+      {
+        "title": "Being held in custody",
+        "content":
+          "<p>When you are being held in custody,<ul><li>You are entitled to haves someone interested in your well-being (such as a friend or relative or any other person) know of your arrest and where you being held</li><li>You can ask to examined for major and minor injuries on your body and the police must comply. The &ldquo;Inspection Memo&rdquo; must be signed by you and the police officer  conducting the arrest and a copy should be given to you.</li><li>You should be subjected to medical examination by a trained doctor every 48 hours</li></ul></p>"
+      },
+      {
+        "title": "Police Interrogation",
+        "content":
+          "<p>The police officers handling the interrogation should bear accurate, visible and clear identification and name tags with their designations. The details of the police personnel who handle your interrogation, must be recorded in a register. The arrested person may be permitted to meet their his lawyer during interrogation, though not throughout the interrogation.</p>"
+      },
+      {
+        "title": "Produced before the Magistrate",
+        "content":
+          "<p>Anyone who is arrested and in custody of the police should be produced before the nearest magistrate within a period of twenty-four hours of their arrest. Copies of all the documents including the memo of arrest, should be sent to the concerned Magistrate for their record.</p>"
+      },
+      {
+        "title": "Unlawful Arrest",
+        "content":
+          "<p>When the police arrest someone without following the procedure as laid down in the law, it is considered to be unlawful arrests. In such cases, the arrested person or the relative/s of such person can file a habeas corpus petition before a High Court. This petition is filed to requesting to produce the person so arrested and determine the legality of their arrest.</p>"
+      },
+      {
+        "title": "Summons",
+        "content":
+          "<p>A summons is a notice issued by the court when a legal proceeding has been started against a person or there is a requirement of the person for appearing as witness in the court. The person who has received the summons should go to the court accordingly.</p>"
+      }
+    ],
+    "qna": [
+      {
+        "question": "Do the police need an 'arrest warrant' to arrest me?",
+        "answer":
+          "<p>No, they do not need a warrant if they suspect that you committed a serious crime. Such crimes for which you can be arrested even without an arrest warrant are known as 'cognizable' crimes. Examples include murder, sexual offences, acid attack, rioting, starting a fire etc. Normally, it is the Magistrate which will issue a warrant to arrest you. Since these type of crimes need urgent action from the police, the police can take charge even without permission from the Magistrate.</p><p>Non-cognizable crimes are less serious crimes such as adultery, defamation etc. When a non-cognizable crime has been committed, the police needs the permission of the Magistrate to make an arrest. Generally, since these crimes are more private in nature and do not need the police to act urgently, the normal process of getting permission from the Magistrate must be followed. There is an exception to this general rule if the police see you committing or someone accuses you of committing a non-cognizable crime when the police are around. In such situations the police can arrest you if you refuse to tell them your name and address or give them the wrong name and address.</p>"
+      },
+      {
+        "question": "When can the police arrest without a warrant?",
+        "answer":
+          "<p>The police can arrest you without a warrant in two broad cases. One, where you are suspected of having committed a cognizable crime. Two, where the police suspect you are planning to commit a cognizable crime.</p><p>In the first category, the law lays down the specific situations in which the police can arrest you without an arrest warrant:<ul><li>when you commit a crime in front of a police officer (for example at a public event or in a police station);</li><li>when the police have received reliable information or a complaint that you have committed a cognizable crime;</li><li>if the court has declared you as a proclaimed offender;</li><li>if the police found you with stolen property and they suspect you;</li><li>if you cause trouble to a police officer who is performing her duty;</li><li>if you escape from custody;</li><li>if you are suspected of deserting the army;</li><li>if you are a suspect in a crime outside India and you are liable to be brought back to India; or</li><li>if you were convicted of a crime in the past and have violated rules relating to released convicts.</li></ul></p><p>The possibility of being arrested is much lesser if you have been accused of a cognizable crime with jail time of less than seven years. The police should have reliable information which points to your involvement. Further you can be arrested only if:<ul><li>you are likely to escape, destroy evidence, or influence the victim or witnesses,</li><li>you are likely to commit yet another crime, or</li><li>if your presence is necessary for police investigation.</li></ul></p><p>The Supreme Court has held that in every such case the police must begin by issuing a 'notice of appearance' asking you to appear at the police station. If the police then think that they need to arrest you, they will need to have proper reasons for doing so and will need to record these reasons. The police officer makes an 'Arrest Memo' at the time of arrest that contains this and other details which is signed by you. The Supreme Court has also directed the police to issue a notice of appearance within 2 weeks of starting a case. If they are not making an arrest, they have to inform the Magistrate.</p>"
+      },
+      {
+        "question":
+          "Can I resist an arrest if I think I should not be arrested?",
+        "answer":
+          "<p>Resisting an arrest does not help - it only allows the police to use force to arrest you. If you do not submit to being arrested, the police can use all means necessary to arrest you. Though they have a duty not to cause your death, they can use deadly force if you are being accused of a crime which is punishable with death or prison for the rest of your life.</p>"
+      },
+      {
+        "question": "Can the police search me when I am arrested?",
+        "answer":
+          "<p>Yes, the police can search you when they are arresting you and place anything they find in safe custody. If you are a woman, you can be searched only by another woman. The police have to give you a personal search memo which is a list of all the things that they have taken – this search memo is sometimes known as jamatalashi. They can also take your fingerprints with the permission of the Magistrate.</p>"
+      },
+      {
+        "question":
+          "Can a doctor or medical officer examine me when I am under arrest?",
+        "answer":
+          "<p>Yes, there are two purposes for which you can be examined.<ul><li>The first is to determine if you as the accused have been hurt or subject to violence by the police. You can ask for a copy of the report prepared by the doctor. If you are a woman, then a female doctor has to conduct the investigation.</li><li>If the police think that a medical examination can prove that you committed a crime, then can ask a doctor to conduct an examination on you. If you do not cooperate with the doctor, they can use reasonable force on you.</li></ul></p>"
+      },
+      {
+        "question": "How long can the police keep me under arrest?",
+        "answer":
+          "<p>The police need to present you before the Magistrate as soon as possible after you have been arrested. They cannot keep you under arrest for more than 24 hours – this excludes travel time to the court. The police officer will also need to provide a copy of the entries in the case diary to the Magistrate. The case diary is a daily diary kept by an officer detailing all that happens in an investigation. The Supreme Court has directed the police officers to provide the Magistrate a checklist of the reasons for your arrest along with all documents related to your arrest including the arrest memo.</p><p>After you've been presented before the Magistrate, the Magistrate can discharge you or grant you bail. Your lawyer should ask for your release if the police only needed to issue a 'notice of appearance' and not actually arrest you. The police can detain you beyond 24 hours only with permission of the Magistrate. They may seek 'police custody' or 'judicial custody'. Police custody can only last 15 days from the date of arrest. This means you will kept inside the lock-up at the police station for a maximum of fourteen more days.</p><p>If the police have not been able to file the charge-sheet and depending on the crime you have been suspected of, you can be in judicial custody for up to 90 days for crimes that you could possibly go to prison for more than 10 years, and up to 60 days for all other kinds of offences.</p><p>You cannot be sent to jail for more than fourteen days at a time even in judicial custody. You will be brought before the Magistrate after each fourteen day period. After the 60 or 90 day period, you have a right to be released on bail.</p>"
+      }
+    ],
+    "checklists": [],
+    "glossary": []
+  },
+  "bail": {
+    "name": "Bail",
+    "summary": "",
+    "image": "",
+    "explanations": [],
+    "qna": [],
+    "checklists": [],
+    "glossary": []
+  },
+  "traffic-fines": {
+    "name": "Traffic Fines",
+    "summary": "",
+    "image": "",
+    "explanations": [],
+    "qna": [],
+    "checklists": [],
+    "glossary": []
+  },
+  "first-information-report": {
+    "name": "First Information Report (FIR)",
+    "summary": "",
+    "image": "",
+    "explanations": [],
+    "qna": [],
+    "checklists": [],
+    "glossary": []
+  },
+  "censorship": {
+    "name": "Censorship",
+    "summary": "",
+    "image": "",
+    "explanations": [],
+    "qna": [],
+    "checklists": [],
+    "glossary": []
+  },
+  "online-abuse": {
+    "name": "Online Abuse",
+    "summary": "",
+    "image": "",
+    "explanations": [],
+    "qna": [],
+    "checklists": [],
+    "glossary": []
+  },
+  "defamation": {
+    "name": "Defamation",
+    "summary": "",
+    "image": "",
+    "explanations": [],
+    "qna": [],
+    "checklists": [],
+    "glossary": []
+  },
+  "check-bounce": {
+    "name": "Check Bounce",
+    "summary": "",
+    "image": "",
+    "explanations": [],
+    "qna": [],
+    "checklists": [],
+    "glossary": []
+  },
+  "online-bank-fraud": {
+    "name": "Online Bank Fraud",
+    "summary": "",
+    "image": "",
+    "explanations": [],
+    "qna": [],
+    "checklists": [],
+    "glossary": []
+  },
+  "will": {
+    "name": "Will",
+    "summary":
+      "A Will is a legal document that clearly sets out your wishes for the how your assets or property are to be distributed after your death. Having a clear, legally valid and up-to-date Will is the best way to help ensure that your assets are protected and distributed according to your wishes. You can make a will at any point during your lifetime, if you are a person of sound mind and more than 18 years of age",
+    "image": "",
+    "explanations": [
+      {
+        "id": "0001234",
+        "title": "Making a will",
+        "content":
+          "<p>You can make a will at any point during your lifetime if you are a<ul><li>person of sound mind, and</li><li>Over the age of 18</li></ul>The idea here is that a person making the will should be aware of what they are doing.</p><p>Illustratively, a person with mental disabilities can also make a will when they are aware of what they are doing. If a person is under the influence of alcohol and does not know what they are doing, then they cannot make a will.</p>"
+      },
+      {
+        "id": "0001235",
+        "title": "Valid Will",
+        "content":
+          "<p>For a will to be valid:<ul><li>It must have your signature (or your thumb impression)</li><li>The signing/fingerprinting should be done in the presence of two other people who will act as witnesses</li><li>Both witnesses sign the will or put their thumb-impression in your presence.</li></ul>You can also direct someone else to sign your will in your presence. There is no prescribed format or prescribed place for this signing. Anyone can be a witness to your will - including the executor.</p>"
+      },
+      {
+        "id": "0001236",
+        "title": "Contents of a Will",
+        "content":
+          "<p>You can give away all of your property over which you have complete ownership. You cannot give away property which you do not own. In some cases, you may have life interest in the property, i.e. when someone has given you the property under their will only to use for your lifetime, but you do not own it.</p><p>You may include any movable or immovable property which you have acquired by yourself. If you are a member of a Hindu joint family, you can only give away your portion of the ancestral property in a will.</p>"
+      },
+      {
+        "id": "0001237",
+        "title": "Appointing an executor for a Will",
+        "content":
+          "<p>The person to whom you give the duty of carrying out the instructions given in your will, after your death, is called the executor of the will.</p><p>You can appoint any person who is of sound mind and who is above 18 years of age to be your executor. You must choose a person in whom you have full confidence and who is willing and capable of acting as the executor.</p><p>Read our checklist on how to choose an executor. When you haven’t appointed an executor in your will, the court has the power to appoint an administrator who will execute your will.</p>"
+      },
+      {
+        "id": "0001238",
+        "title": "Administrator Appointed Executor for a Will",
+        "content":
+          "<p>The court has the power to appoint an administrator or an executor who will execute your will if<ul><li>you haven’t appointed an executor in your will</li><li>the executor you appointed is incapable of acting as an executor</li><li>The executor you appointed refuses to act as an executor</li></ul>If you are the beneficiary of a will which does not have an executor or if the person named does not want to perform the functions, you can apply to the court for appointment of an administrator.</p><p>When a person dies without naming an executor in his or her will, one of the beneficiaries in the will has to apply for grant of letters of administration. The process for the same is similar to that for the grant of probate</p>"
+      },
+      {
+        "id": "0001239",
+        "title": "Registering a Will",
+        "content":
+          "<p>Registering a will is not compulsory. In case you decide to register the will, you may do so personally or through an authorised agent. You have to deposit the will in a sealed cover with your name on it and of your agent (if any), along with a statement of the nature of document to the Registrar of Sub-Assurances of local division.Once the Registrar receives the cover and is satisfied, she will keep the sealed cover in his custody.</p><p>Generally, you do not have to pay stamp duty on wills. However, you will have to pay registration fees which will differ in different states. Procedures might also be different.</p><p>If you want to recover the will (say for changing it or for revoking it), you may apply either personally or through a duly authorised agent to the Registrar and if the Registrar is satisfied that either you or your agent have applied, she will return it. On your death, a person can make an application to the registrar to allow to get the will or see the contents of the will.</p><p>If you’ve made changes to the will through a codicil, you should ideally get it registered in the same manner. A codicil is a written statement which supplements or modifies an existing will.</p>"
+      },
+      {
+        "id": "0001240",
+        "title": "Probate Process",
+        "content":
+          "<p>In certain cases, it is necessary obtain a probate of the will in order to establish your right as a beneficiary of the will. You will have to apply to the court for a probate. It is a certification by the court with respect to the genuineness and validity of execution of the will. Getting a probate does not however mean that your title to the property has been established. This is essentially an official evidence of the executor’s right to administer the estate of the deceased. While there is no specific deadline by which you need to obtain the probate, you should avoid long delays.</p><p>A probate is compulsory for wills of Hindus, Buddhists, Jains and Sikhs in Chennai and Mumbai or if their property is in Chennai and Mumbai. It is also applicable to Christians outside Kerala and Parsis (who died after 1962) in Kolkata, Chennai and Mumbai. Please confirm with a lawyer if you should get a probate for the will.</p>"
+      },
+      {
+        "id": "0001241",
+        "title": "Changing a Will",
+        "content":
+          "<p>You can change your will as many times as you want. It is possible to make changes to your will even if it’s been registered.</p><p>Ideally, if you are making substantive changes to a will in order to convey your wishes properly, you should execute a codicil. A codicil is a written statement which supplements or modifies an existing will. It must be executed in the same manner as that of the original will.</p><p>You can also make changes by deleting, modifying or inserting new language in a will, you should sign and get the signature of the witnesses in the margins near the changes or at the end of the will by making a reference to the changes. No other changes can be made to an already executed will (unless it has been made to make it clear or legible).</p>"
+      },
+      {
+        "id": "0001242",
+        "title": "Undo or Cancel a Will",
+        "content":
+          "<p>You can undo or cancel your will in the following ways:<ul><li>By making another will or any document which is executed in the same way as a will</li><li>By burning, tearing or destroying the will</li><li>Directing another person to burn, tear or destroy the will in your presence.</li></ul></p>"
+      }
+    ],
+    "qna": [
+      {
+        "question": "What happens if I die without a will?",
+        "answer":
+          "<p>Depending on your religion, there are different rules with respect to how your assets and property will be distributed after your death. However, if you make a will, your assets and property will be distributed among the people of your choosing and the specific religious rules do not generally apply.</p><p>As a Hindu person, the rules of inheritance under a law known as the Hindu Succession Act, 1956, are applicable.</p><p>Similarly as a Muslim, the rules applicable to inheritance will be according to Muslim personal law (unless you are married under the law on civil marriages). If Muslim personal law becomes applicable, you cannot distribute your entire property to people who are not your legal heirs. You can only will away one-third of your property to someone else and the remaining two-third has to be distributed among your legal heirs.</p>"
+      }
+    ],
+    "checklists": [],
+    "glossary": []
+  },
+  "rape": {
+    "name": "Rape",
+    "summary": "",
+    "image": "",
+    "explanations": [],
+    "qna": [],
+    "checklists": [],
+    "glossary": []
+  },
+  "sexual-harassment": {
+    "name": "Sexual Harassment",
+    "summary": "",
+    "image": "",
+    "explanations": [],
+    "qna": [],
+    "checklists": [],
+    "glossary": []
+  },
+  "prostitution": {
+    "name": "Prostitution",
+    "summary": "",
+    "image": "",
+    "explanations": [],
+    "qna": [],
+    "checklists": [],
+    "glossary": []
+  },
+  "sexual-harassment-at-the-workplace": {
+    "name": "Sexual Harassment",
+    "summary":
+      "Sexual harassment is unwelcome sexual behaviour at your workplace that makes you feel offended, humiliated or intimidated. Indian law protects women from men and women who ask for or demand sex or any other sexual activity at a place of work. All employers are obligated to make sure that the workplace is safe for all women and take any accusations of sexual harassment very seriously.",
+    "image": "",
+    "explanations": [
+      {
+        "id": "0001243",
+        "title": "Victims recognized by the law",
+        "content":
+          "<p>Only women are protected from sexual harassment at the workplace. Men in India cannot file a case of sexual harassment at the workplace against another male or female employee. Any working woman is protected from being subjected to sexual harassment at the workplace if she is<ul><li>A full-time employee</li><li>A part-time employee</li><li>A contractual employee</li><li>working for compensation (cash or other)</li><li>A visitor to a workplace</li><li>A domestic help</li><li>hired through an agency</li><li>working on a short-term basis</li><li>working on a long-term basis</li><li>working on a daily basis</li><li>A volunteer</li><li>An intern</li></ul></p><p>If you are unsure whether you can be considered a victim of sexual harassment at the workplace, please contact  legal experts with details about your scenario.</p>"
+      },
+      {
+        "id": "0001244",
+        "title": "Accused of Sexual Harassment",
+        "content":
+          "<p>If you are facing allegations of sexual harassment, it is important to take them seriously and prepare your defences. If you do not appear for three consecutive hearings convened by the Committee set up by your employer to investigate the case, the Committee has the right to give a decision without your perspective. While women are protected from being sexually harassed at the workplace, the complaint of sexual harassment can be made against any person, irrespective of gender.</p><p>The law does guarantee you some rights, namely:<ul><li>You cannot be arrested without a warrant</li><li>You have the right to obtain a copy of the complaint within 7 working days of the complaint being filed with the Committee.</li><li>You have a right to file a reply and submit documents and list of witnesses to the contents stated in the complaint with the committee within 10 working days of receiving the documents of complainant.</li><li>You have the right to legal representation, however your lawyer can only represent you from the stage of the proceedings before the Complaints Committee.</li><li>You have the right to appeal a decision made by the Committee</li></ul></p><p>If the allegations of sexual harassment are found to be false by the Internal Complaints Committee then no action will be taken against you. However, if the sexual harassment allegation is found to be true by the Internal Complaints Committee then they can make several recommendations of actions to be taken against you to the employer or the District Officer.</p>"
+      },
+      {
+        "id": "0001245",
+        "title": "Actions/Behaviour seen as Sexual Harassment",
+        "content":
+          "<p>The law has a broad definition of Sexual Harassment. It could be:<ul><li>Unwelcome touching or other physical contact</li><li>Asking or demanding sex or any other sexual activity</li><li>Making remarks which are of a sexual nature</li><li>Showing pornographic material which may include videos, magazines, books etc</li></ul></p><p>Any other actions that are sexual in nature, which may be through speech, writing, touching etc. that are unwelcome can also be considered sexual harassment.</p><p>Please also see this government handbook on Sexual Harassment of Women at Workplace issued by the Ministry of Women and Child Development, Government of India to understand in detail different actions that can be considered sexual harassment.</p>"
+      },
+      {
+        "id": "0001247",
+        "title": "Filing a Complaint",
+        "content":
+          "<p>If you have been sexually harassed at the workplace, follow these steps to file a complaint. If there has been more than one incident then you should file the complaint within 3 months of the date of the last incident of sexual harassment. However, the Internal Complaints Committee or Local Complaints Committee (as applicable) can extend this time period to another 3 months (and not more) if they find that you could not have made the complaint earlier.</p><p>In case for some reason the victim cannot make the complaint in writing, the members of the Committee have to help the victim in writing down the complaint. A complaint can also be submitted on behalf of the victim under the certain circumstances.</p><p>It is important to take the complaint seriously and prepare accordingly. If you do not appear for three consecutive hearings without a good reason for your absence, then the Committee may terminate the inquiry or decide the matter in your absence.</p><p>If you do not want to formally complain you also have the option of conciliation.</p>"
+      },
+      {
+        "id": "0001248",
+        "title": "Work Environment After Filing a Complaint",
+        "content":
+          "<p>A victim of sexual harassment can write to the Complaints Committee for certain benefits to create a safe work environment for her, such as:<ul><li>stopping the accused from reporting on her work performance or writing her confidential report or even assigning it to someone else</li><li>Prevent the accused from supervising any academic activity of the victim in an educational institution</li></ul></p>"
+      },
+      {
+        "id": "0001249",
+        "title": "Taking Leave during Proceedings/Inquiry",
+        "content":
+          "<p>If you’re the victim of Sexual Harassment at the workplace and have filed a complaint with your employer, your employer should have set up an Internal Complaints Committee to review the case. In such an event, your employer cannot force you to continue working nor can they take away any sanctioned leave already promised. You may exercise your right to use your employer provided leave and request the committee for additional leave.</p>"
+      },
+      {
+        "id": "0001250",
+        "title": "Working during proceedings/inquiry",
+        "content":
+          "<p>If you are the victim of sexual harassment and you have filed a complaint, your employer should have set up an Internal Committee to handle the case. While the committee is looking into the case, your employer cannot ask you to leave work. You can, however, make a request to the Committee which can then recommend to the employer that:<ul><li>They transfer either your or the offender to another workplace, or</li><li>You be granted three months' leave.</li></ul></p>"
+      },
+      {
+        "id": "0001251",
+        "title": "Privacy of Complaint and Proceedings",
+        "content":
+          "<p>As a victim you have a right to keep the contents of your complaint and the happenings in the inquiry proceedings confidential. As per the law the following information is confidential:<ul><li>Your identity and address</li><li>Identity and address of the accused as well as the witnesses</li><li>Information about the conciliation or inquiry proceedings or</li><li>recommendations of the Internal Committee or the Local Committee</li><li>Action taken by the employer or District Officer</li></ul>All of the above information cannot be published, communicated or made known to the public, press or media in any way.</p>"
+      },
+      {
+        "id": "0001252",
+        "title": "Complaining on behalf of Victim",
+        "content":
+          "<p>When a victim is unable to file a complaint herself due to physical incapacity; a complaint can be filed on her behalf by <ul><li>A relative or friend,</li><li>A co-worker</li><li>Someone with knowledge of the incident, with written consent of the victim</li><li>An officer of the National Commission for Women or State Women's Commission.</li></ul></p><p>If the victim is unable to make a complaint herself because of mental incapacity then a complaint can be filed on her behalf by:<ul><li>A relative/friend,</li><li>A special educator</li><li>A qualified psychiatrist psychologist</li><li>The guardian/authority under whom she receives treatment or care</li><li>Any person with knowledge of the incident along with her relative or friend or a special educator or qualified psychiatrist psychologist or guardian/authority under whom she receives treatment or care</li></ul></p><p>When a victim is unable to make a complaint for any other reason other than physical or mental incapacity then a complaint can be filed on her behalf by anyone with knowledge of the incident with her written consent</p><p>When a victim is dead then anyone who has knowledge of the incident with the written consent of the legal heir can file on the victim's behalf.</p>"
+      },
+      {
+        "id": "0001253",
+        "title": "Appealing a decision",
+        "content":
+          "<p>Both the victim and the accused have a right of appeal from the decision of the Internal or Local Complaints Committee. You should appeal within 90 days of the decision of the Committee. A few cases in which there can be an appeal is when the Committee decides that:<ul><li>there has been no sexual harassment</li><li>the offender should be let off or punished in some way or</li>the offender should compensate the victim or</li><li>victim has made a wrong complaint on purpose or</li><li>witness has given wrong information or fake documents or</li><li>someone has made public the details of a sexual harassment complaint, or</li><li>the employer has not implemented the recommendations on time.</li></ul></p><p>The appeal can be made before the authority mentioned in the service rules of the workplace. If there are no service rules, they can appeal to specific industrial tribunal and labour courts. All of the recommendations with be implemented within 6 months by the District Officer who receives them from the Committee.</p>"
+      },
+      {
+        "id": "0001254",
+        "title": "Reaching a Settlement",
+        "content":
+          "<p>If you do not want to solve your matter through a formal complaint with the Internal Complaints Committee you can ask the Committee to help you settle the matter through Conciliation. Only the victim has a right to initiate a process of conciliation. On reaching a settlement through the conciliation process the settlement will be sent to the employer or District Officer so that action can be taken.</p><p>You have a right to a copy of the recorded settlement which will be provided to you by the Internal or Local Complaints Committee. The offender also has a right to a copy. The Internal Complaints Committee will not initiate an inquiry once a settlement is arrived at through conciliation. Monetary settlement cannot be made the basis of conciliation.</p>"
+      },
+      {
+        "id": "0001255",
+        "title": "Compensation",
+        "content":
+          "<p>The amount of money you will receive as compensation will be decided on the following factors:<ul><li>mental trauma and distress caused to the victim</li><li>lost job opportunities because of the sexual harassment</li><li>medical treatment (physical or psychiatric) and</li><li>victim's income and general financial status.</li></ul>The Committee can decide that such compensation be paid in instalments or at one go.</p>"
+      },
+      {
+        "id": "0001256",
+        "title": "Punishment",
+        "content":
+          "<p>The law does not set a specific punishment for Sexual Harassment at the workplace. Instead it leaves it to the investigating Committee that will recommend that the employer act according to the service rules if a workplace has them. If you have an employee handbook, please refer to that to see what your employer’s policy is. If the workplace does not have service rules, then the Committee will recommend that the District Officer take action. This can be by way of:<ul><li>Written apology</li><li>Denying a raise/promotion/increment</li><li>Community Service</li><li>Warning or censure</li><li>Termination of Employment</li><li>Undergo Counseling</li></ul></p><p>Irrespective of whether or not the workplace has service rules, the Committee can also recommend that the employer deduct a certain amount from your salary/wages so that compensation can be paid to the aggrieved woman. However, if the employer cannot deduct money because you are not going to work or have left work, the Committee can order you to pay the victim directly. If then you do not pay the compensation, then the Committee can ask the District Officer to recover the amount from you.</p>"
+      },
+      {
+        "id": "0001257",
+        "title": "False Complaint",
+        "content":
+          "<p>If the Committee finds that the woman (or her representative) made a wrong or malicious complaint or that she gave them fake documents, action can be taken against the woman or person according to the service rules of the workplace. If there are no service rules, action can be taken in any manner recommended by the Committee, such as:<ul><li>Written apology</li><li>Warning or censure</li><li>Not giving a promotion</li><li>Not giving an increment</li><li>Termination of employment</li><li>Undergoing counselling session</li><li>Community service</li></ul></p><p>If the victim is unable to provide enough proof to the Committee, it does not automatically make her complaint false. The Committee will have to conduct an inquiry to find out if she made a wrong complaint on purpose.</p><p>Example: If there is a complaint initiated by Isha against Rohit but there are no witnesses or documents or any indication whatsoever that there was sexual harassment, then this will not be regarded as a false complaint. However, if Isha wrote an email where she told a friend she was lying, this may be a malicious or false complaint.</p>"
+      },
+      {
+        "id": "0001258",
+        "title": "Employer’s Responsibility",
+        "content":
+          "<p>Under the law, an employer has a set of binding duties to create a safe work environment for women. </p><p>Women employees should feel safe from sexual harassment from co-workers as well as others who might just be visiting the workplace. It’s important for employers to visibly display the sexual harassment policy of the company along with the order setting up the Internal Complaints Committee so employees as well as visitors to the workplace can see it.</p><p>When as an employer you fail to<ul><li>Set up an Internal Complaints Committee</li><li>take action to create an inquiry report, take action for false/malicious complaint or not reporting the number of cases of sexual harassment in the annual report</li></ul>does not follow or attempts to not follow or helps someone else is not following the Act</p><p><b>You may be fined with a maximum amount of Rupees Fifty Thousand.</b></p>"
+      }
+    ],
+    "qna": [
+      {
+        "question": "Do only offices have to prevent sexual harassment?",
+        "answer":
+          "<p>If you are responsible for the management, supervision and control of the workplace then you will be understood as an employer under the law. (See section 2g of the Sexual Harassment Of Women At Workplace (Prevention, Prohibition And Redressal) Act, 2013. In the case of:<ul><li><b>Government offices:</b>An employer is usually the head of department. Sometimes, the government may decide that another person will be considered as the 'employer'.</li><li><b>Private offices:</b> An employer is any person who manages and is in charge of the office. This includes the board or committee making and implementing policies.</li><li><b>Any office:</b> A person who is an employer according to their contract.</li><li><b>Home:</b> The person or the house which hires a domestic worker. The nature of the work and the number of workers do not matter.</li></p>"
+      },
+      {
+        "question":
+          "Can a member of the Internal Complaints Committee be removed?",
+        "answer":
+          "<p>A member of the Internal Complaints Committee has to be removed from office if he or she:<ul><li>leaks any information in relation to a sexual harassment case to the public, or</li><li>has been convicted of a crime or is currently the subject of an inquiry, or</li><li>is found guilty in any disciplinary proceeding, or has disciplinary proceedings pending against him or her, or</li><li>has abused their position in any way.</li><li>The employer will have to get a new member in his or her place.</li></ul></p>"
+      },
+      {
+        "question":
+          "Can a committee make a decision about a sexual harassment case without the person being present?",
+        "answer":
+          "<p>The Complaints Committee has the right to end the inquiry or, if either parties are absent for three consecutive hearings, make a decision and give an order. The Committee can only do this if it has given a 15 day notice to the parties in writing.</p>"
+      },
+      {
+        "question":
+          "Can a man file a case of sexual harassment against another man or woman at the workplace?",
+        "answer":
+          "<p>No, this Act is only for women who are sexually harassed in workplaces.</p>"
+      },
+      {
+        "question":
+          "Do I have to be employed at the workplace where sexual harassment happened to be able to file a complaint?",
+        "answer":
+          "<p>No, you do not have to be employed at the workplace where sexual harassment happened to be able to file a complaint. If you visited another workplace where you are not an employee and were sexually harassed by someone at that workplace you can file a complaint with the Internal Complaints Committee of  that workplace.</p>"
+      },
+      {
+        "question":
+          "Am I allowed to approach the police and courts even if I file a complaint under this  Act?",
+        "answer":
+          "<p>Yes, the Act gives you a choice between dealing with the offender within the office or approaching a court or both. If you wish, you can file a criminal complaint as well as approach your Internal/Local Complaints Committee or file either one of the complaints.</p>"
+      },
+      {
+        "question":
+          "Can a woman teacher/professor file a case of sexual harassment against a student?",
+        "answer":
+          "<p>Yes, a woman teacher/professor can file a case of sexual harassment against a student. The University Grants Commission has regulations under the Prevention of Sexual Harassment at the Workplace Act, 2013 known as the University Grants Commission (Prevention, Prohibition and Redressal of Sexual Harassment of Women Employees and Students in Higher Educational Institutions) Regulations, 2015.</p>"
+      },
+      {
+        "question":
+          "Can women customers/patrons of a store file a case of sexual harassment against store owner/manager?",
+        "answer":
+          "<p>Yes, women customers/patrons of a store can file a case of sexual harassment against a store owner/manager.</p>"
+      },
+      {
+        "question": "What's the difference between harassment and flirting?",
+        "answer":
+          "<p>If flirting is unwelcome and makes you uncomfortable then it can amount to sexual harassment. </p>"
+      },
+      {
+        "question":
+          "Can a woman file a sexual harassment complaint against someone she was in a relationship with?",
+        "answer":
+          "<p>Yes, if a woman was in a relationship with a man and then they were no longer together and he subsequently sexually harassed at her workplace then she can file a complaint against him. </p>"
+      },
+      {
+        "question":
+          "Is sexual harassment at a job interview sexual harassment at a workplace?",
+        "answer":
+          "<p>Yes, sexual harassment at a job interview would constitute sexual harassment at a   workplace.</p>"
+      },
+      {
+        "question": "Is gender based discrimination sexual harassment?",
+        "answer":
+          "<p>Sexual harassment is a form of gender based discrimination. Not all gender based discrimination at a workplace will be considered sexual harassment. To understand if your specific case of gender based discrimination at your workplace is sexual harassment please look at the explanations. For further clarification please contact a lawyer.</p>"
+      },
+      {
+        "question":
+          "Is being asked about my sexual orientation sexual harassment?",
+        "answer":
+          "<p>Yes, being asked in a manner that makes you uncomfortable about your sexual orientation at a workplace can amount to sexual harassment at the workplace.</p>"
+      }
+    ],
+    "checklists": [],
+    "glossary": []
+  }
+}

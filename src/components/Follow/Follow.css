@@ -35,7 +35,21 @@
   padding: 1em 0;
 }
 
-.socialLink {
-  text-decoration: none;
+.iconContainer {
+  background: url('./button.png') center center no-repeat;
+  width: 3em;
+  height: 3em;
   margin: 0 1em;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  height: 1em;
+}
+
+.facebookIcon {
+  height: 1.5em;
 }

@@ -1,0 +1,214 @@
+{
+  "data": [
+    {
+      "id": "00005",
+      "name": "Children",
+      "url": "/category/children",
+      "topics": [
+        {
+          "id": "00006",
+          "name": "Children accused of Crime",
+          "url": "/topic/children-accused-of-crime"
+        },
+        {
+          "id": "00007",
+          "name": "Child Labour",
+          "url": "/topic/child-labour"
+        },
+        {
+          "id": "00008",
+          "name": "Free and Compulsory Education",
+          "url": "/topic/free-and-compulsory-education"
+        }
+      ]
+    },
+    {
+      "id": "00009",
+      "name": "Citizen's Rights",
+      "url": "/category/citizens-rights",
+      "topics": [
+        {
+          "id": "00010",
+          "name": "Anti-corruption",
+          "url": "/topic/anti-corruption"
+        },
+        {
+          "id": "00011",
+          "name": "Right to Information",
+          "url": "/topic/right-to-information"
+        }
+      ]
+    },
+    {
+      "id": "00012",
+      "name": "Family",
+      "url": "/category/family",
+      "topics": [
+        {
+          "id": "00013",
+          "name": "Dowry",
+          "url": "/topic/dowry"
+        },
+        {
+          "id": "00014",
+          "name": "Marriage",
+          "url": "/topic/marriage"
+        },
+        {
+          "id": "00015",
+          "name": "Divorce and Separation",
+          "url": "/topic/divorce-and-separation"
+        },
+        {
+          "id": "00016",
+          "name": "Domestic Violence",
+          "url": "/topic/domestic-violence"
+        },
+        {
+          "id": "00017",
+          "name": "Maintenance of Family",
+          "url": "/topic/maintenance-of-family"
+        }
+      ]
+    },
+    {
+      "id": "00018",
+      "name": "Health",
+      "url": "/category/health",
+      "topics": [
+        {
+          "id": "00019",
+          "name": "Smoking",
+          "url": "/topic/smoking"
+        },
+        {
+          "id": "00020",
+          "name": "Drugs and Narcotics",
+          "url": "/topic/drugs-and-narcotics"
+        }
+      ]
+    },
+    {
+      "id": "00021",
+      "name": "Human Rights",
+      "url": "/category/human-rights",
+      "topics": [
+        {
+          "id": "00022",
+          "name": "Manual Scavenging",
+          "url": "/topic/manual-scavenging"
+        },
+        {
+          "id": "00023",
+          "name": "Scheduled Caste and Scheduled Tribes",
+          "url": "/topic/scheduled-caste-and-scheduled-tribes"
+        }
+      ]
+    },
+    {
+      "id": "00024",
+      "name": "Legal Process",
+      "url": "/category/legal-process",
+      "topics": [
+        {
+          "id": "00025",
+          "name": "Arrest",
+          "url": "/topic/arrest"
+        },
+        {
+          "id": "00026",
+          "name": "Bail",
+          "url": "/topic/bail"
+        },
+        {
+          "id": "00027",
+          "name": "Traffic Fines",
+          "url": "/topic/traffic-fines"
+        },
+        {
+          "id": "00028",
+          "name": "First Information Report",
+          "url": "/topic/first-information-report"
+        }
+      ]
+    },
+    {
+      "id": "00029",
+      "name": "Media & Tech",
+      "url": "/category/media-and-tech",
+      "topics": [
+        {
+          "id": "00030",
+          "name": "Censorship",
+          "url": "/topic/censorship"
+        },
+        {
+          "id": "00031",
+          "name": "Online Abuse",
+          "url": "/topic/online-abuse"
+        },
+        {
+          "id": "00032",
+          "name": "Defamation",
+          "url": "/topic/defamation"
+        }
+      ]
+    },
+    {
+      "id": "00033",
+      "name": "Wealth",
+      "url": "/category/wealth",
+      "topics": [
+        {
+          "id": "00034",
+          "name": "Check Bounce",
+          "url": "/topic/check-bounce"
+        },
+        {
+          "id": "00035",
+          "name": "Online Bank Fraud",
+          "url": "/topic/online-bank-fraud"
+        },
+        {
+          "id": "00036",
+          "name": "Will",
+          "url": "/topic/will"
+        }
+      ]
+    },
+    {
+      "id": "00037",
+      "name": "Women",
+      "url": "/category/women",
+      "topics": [
+        {
+          "id": "00038",
+          "name": "Rape",
+          "url": "/topic/rape"
+        },
+        {
+          "id": "00039",
+          "name": "Sexual Harassment",
+          "url": "/topic/sexual-harassment"
+        }
+      ]
+    },
+    {
+      "id": "00040",
+      "name": "Work",
+      "url": "/category/work",
+      "topics": [
+        {
+          "id": "00041",
+          "name": "Prostitution",
+          "url": "/topic/prostitution"
+        },
+        {
+          "id": "00042",
+          "name": "Sexual Harassment at the Workplace",
+          "url": "/topic/sexual-harassment-at-the-workplace"
+        }
+      ]
+    }
+  ]
+}

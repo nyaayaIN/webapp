@@ -1,0 +1,42 @@
+{
+  "header": {
+    "logo_text": "Nyaaya - India's laws explained",
+    "about_title": "About Us",
+    "contact_title": "Contact Us",
+    "blog_title": "Blog"
+  },
+  "home": {
+    "page_title": "Nyaya - India’s Laws Explained",
+    "hero_title": "India’s Laws Explained",
+    "hero_description":
+      "Nyaaya is committed to providing you with clear, actionable information about Indian law in simple language so you can protect yourself, assert your rights and seek justice.",
+    "featured_topics": "Featured Topics",
+    "what_we_do": "What We Do",
+    "follow_us": "Follow Us",
+    "word_of_the_day": "Featured Word",
+    "featured_questions": "Featured Questions"
+  },
+  "follow": {
+    "title": "Hey! You can reach us in any of the following ways",
+    "cta":
+      "Drop us a mail or follow us on social media for updates, news and more",
+    "email": "Email",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "linkedin": "LinkedIn"
+  },
+  "subscribe": {
+    "cta":
+      "Sign up to get updates on new information published, answers to popular questions and more",
+    "email": "Your Email Address",
+    "action": "Subscribe"
+  },
+  "footer": {
+    "slogan": "India's Laws Explained",
+    "about": "About Us",
+    "contact": "Contact Us",
+    "blog": "Blog",
+    "terms":
+      "Except where otherwise noted, content on this site is licensed under <a href='https://creativecommons.org/licenses/by-nc-sa/2.5/in/' target='_blank' rel='noopener noreferrer'>Attribution-NonCommercial-ShareAlike 2.5 India</a> (CC BY-NC-SA 2.5 IN) license. Icons by <a href='http://thenounproject.com/' target='_blank' rel='noopener noreferrer'>The Noun Project.</a>"
+  }
+}

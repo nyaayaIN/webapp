@@ -9,6 +9,7 @@ import QnA from '../../components/QnA';
 
 class Topic extends React.Component {
   static propTypes = {
+    hero: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
     summary: PropTypes.string.isRequired,
     explanations: PropTypes.arrayOf(
@@ -35,7 +36,7 @@ class Topic extends React.Component {
     };
     return (
       <div className={s.root}>
-        <Hero content={summary} style="bottom" />
+        <Hero content={summary} style="bottom" image={this.props.hero}/>
         <div className={s.container}>
           <Explanations
             collection={this.props.explanations}
