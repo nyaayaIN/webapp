@@ -1,0 +1,28 @@
+{
+  "topics": [
+    {
+      "id": "00001",
+      "image": "/topics/sexual-harassment-at-the-workplace-thumb.jpg",
+      "name": "Sexual Harassment at the Workplace",
+      "url": "/topic/sexual-harassment-at-the-workplace"
+    },
+    {
+      "id": "00002",
+      "image": "/topics/arrest-thumb.jpg",
+      "name": "Arrest",
+      "url": "/topic/arrest"
+    },
+    {
+      "id": "00003",
+      "image": "/topics/child-labour-thumb.jpg",
+      "name": "Child Labour",
+      "url": "/topic/child-labour"
+    },
+    {
+      "id": "00004",
+      "image": "/topics/will-thumb.jpg",
+      "name": "Will",
+      "url": "/topic/will"
+    }
+  ]
+}

@@ -3,6 +3,7 @@ import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Footer.css';
 import Link from '../Link';
 import Follow from '../Follow';
+import Subscribe from '../Subscribe';
 
 import logoUrl from './logo.png';
 import ccUrl from './cc_icon_white_x2.png';
@@ -65,6 +66,7 @@ class Footer extends React.Component {
     return (
       <div className={s.root}>
         <Follow />
+        <Subscribe />
         <div className={s.container}>
           <ul className={s.categories}>
             {this.state.categories.map((category) => (

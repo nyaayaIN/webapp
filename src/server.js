@@ -13,9 +13,15 @@ import { ErrorPageWithoutStyle } from './routes/error/ErrorPage';
 import errorPageStyle from './routes/error/ErrorPage.css';
 import createFetch from './createFetch';
 import router from './router';
-import mockData from './data/mock.json';
 import assets from './assets.json'; // eslint-disable-line import/no-unresolved
 import config from './config';
+
+
+import mockCategories from './data/categories_mock.json';
+import mockCategory from './data/category_mock.json';
+import mockFeatured from './data/featured_mock.json';
+import mockStatic from './data/static_mock.json';
+import mockTopic from './data/topic_mock.json';
 
 const app = express();
 
@@ -64,23 +70,23 @@ if (__DEV__) {
 // -----------------------------------------------------------------------------
 
 app.get('/data/category/:slug', (req, res) => {
-  res.send(mockData.category[req.params.slug] || {});
+  res.send(mockCategory[req.params.slug] || {});
 });
 
 app.get('/data/topic/:slug', (req, res) => {
-  res.send(mockData.topic[req.params.slug] || {});
+  res.send(mockTopic[req.params.slug] || {});
 });
 
 app.get('/data/static_pages/:page', (req, res) => {
-  res.send(mockData.static_pages[req.params.page] || {});
+  res.send(mockStatic[req.params.page] || {});
 });
 
-app.get('/data/featured/:aspect', (req, res) => {
-  res.send(mockData.featured[req.params.aspect] || {});
+app.get('/data/featured', (req, res) => {
+  res.send(mockFeatured || {});
 });
 
-app.get('/data/:api', (req, res) => {
-  res.send(mockData[req.params.api] || {});
+app.get('/data/categories', (req, res) => {
+  res.send(mockCategories.data || {});
 });
 
 //

@@ -14,9 +14,7 @@ async function action({ fetch }) {
 
   const hero = {
     title: i18n.hero_title,
-    description: i18n.hero_description,
-    name: i18n.input_name,
-    email: i18n.input_email,
+    description: i18n.hero_description
   };
 
   const headings = {

@@ -5,7 +5,7 @@
 
 .link {
   display: inline-block;
-  padding: 3px 8px;
+  padding: 1em;
   text-decoration: none;
   font-size: 0.8em;
   font-weight: 100;
@@ -14,7 +14,10 @@
 
 .link,
 .link:active,
-.link:visited,
-.link:hover {
+.link:visited {
   color: rgb(255, 255, 255);
+}
+
+.link:hover {
+  font-weight: normal;
 }

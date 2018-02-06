@@ -4,7 +4,7 @@
   display: block;
   margin: 0;
   padding: 0;
-  background: var(--neutral-light-colour);
+  background: var(--neutral-light-colour) center center/cover no-repeat;
   z-index: -1;
 }
 
@@ -18,9 +18,12 @@
 }
 
 .content {
+  background: rgba(0, 0, 0, 0.75);
+  color: var(--lightest-colour);
   font-size: 0.95em;
+  padding: 1em;
   width: 100%;
-  max-width: 30em;
+  max-width: 28em;
 }
 
 .bottom {
@@ -33,11 +36,14 @@
 
 .title {
   font-weight: 500;
-  color: var(--primary-text-colour);
+  margin: 0;
+  padding-bottom: 0.25em;
+  color: var(--lightest-colour);
 }
 
 @media screen and (width < 1000px) {
-  .content {
-    padding: 0 3%;
+  .container {
+    height: 30em;
+    padding-bottom: 0;
   }
 }

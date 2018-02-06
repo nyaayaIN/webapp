@@ -6,13 +6,13 @@ import Topics from '../../components/Topics';
 import Follow from '../../components/Follow';
 import Hero from '../../components/Hero';
 
+import heroUrl from './hero.png';
+
 class Home extends React.Component {
   static propTypes = {
     hero: PropTypes.shape({
       title: PropTypes.string.isRequired,
-      description: PropTypes.string.isRequired,
-      name: PropTypes.string.isRequired,
-      email: PropTypes.string.isRequired,
+      description: PropTypes.string.isRequired
     }).isRequired,
     headings: PropTypes.shape({
       featured_topics: PropTypes.string.isRequired,
@@ -34,8 +34,7 @@ class Home extends React.Component {
   render() {
     return (
       <div className={s.root}>
-        <Hero content={this.props.hero} style="bottom" />
-
+        <Hero content={this.props.hero} style="bottom" image={heroUrl}/>
         <div className={s.container}>
           <div className={s.heading}>{this.props.headings.featured_topics}</div>
           <Topics collection={this.props.featured.topics} />

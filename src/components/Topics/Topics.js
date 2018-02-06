@@ -9,6 +9,7 @@ class Topics extends React.Component {
     collection: PropTypes.arrayOf(
       PropTypes.shape({
         name: PropTypes.string.isRequired,
+        image: PropTypes.string.isRequired,
         url: PropTypes.string.isRequired,
       }),
     ).isRequired,
@@ -20,6 +21,7 @@ class Topics extends React.Component {
         {this.props.collection.map((topic, index) => (
           <Link className={s.topic} to={topic.url} key={index}>
             <div className={s.tile}>
+              <img className={s.thumbnail} src={topic.image} alt={topic.name}/>
               <div className={s.title}>{topic.name}</div>
             </div>
           </Link>

@@ -2,7 +2,10 @@ import React from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Follow.css';
 
-import Link from '../Link';
+import mail from './mail-icon.svg';
+import facebook from './facebook-icon.svg';
+import twitter from './twitter-icon.svg';
+import linkedin from './linkedin-icon.svg';
 
 const I18N_API = '/data/static_pages/follow';
 
@@ -40,7 +43,26 @@ class Follow extends React.Component {
           </div>
 
           <div className={s.socialMedia}>
-            <p>Here there be icons</p>
+            <a className={s.link} href="mailto:contact@nyaaya.in" target="_blank" rel="noopener noreferrer">
+              <div className={s.iconContainer}>
+                <img src={mail} alt={this.state.i18n.mail} className={s.icon}/>
+              </div>
+            </a>
+            <a className={s.link} href="https://facebook.com/nyaayain/" target="_blank" rel="noopener noreferrer">
+              <div className={s.iconContainer}>
+                <img src={facebook} alt={this.state.i18n.facebook} className={s.facebookIcon}/>
+              </div>
+            </a>
+            <a className={s.link} href="https://twitter.com/NyaayaIN" target="_blank" rel="noopener noreferrer">
+              <div className={s.iconContainer}>
+                <img src={twitter} alt={this.state.i18n.twitter} className={s.icon}/>
+              </div>
+            </a>
+            <a className={s.link} href="https://www.linkedin.com/company/nyaaya/" target="_blank" rel="noopener noreferrer">
+              <div className={s.iconContainer}>
+                <img src={linkedin} alt={this.state.i18n.linkedin} className={s.icon}/>
+              </div>
+            </a>
           </div>
         </div>
       </div>
