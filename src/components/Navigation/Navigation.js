@@ -33,21 +33,23 @@ class Navigation extends React.Component {
         >
           {blog}
         </a>
-        <a className={s.socialLink} href="https://facebook.com/nyaayain/" target="_blank" rel="noopener noreferrer">
-          <div className={s.iconContainer}>
-            <img src={facebook} className={s.icon}/>
-          </div>
-        </a>
-        <a className={s.socialLink} href="https://twitter.com/NyaayaIN" target="_blank" rel="noopener noreferrer">
-          <div className={s.iconContainer}>
-            <img src={twitter} className={s.icon}/>
-          </div>
-        </a>
-        <a className={s.socialLink} href="https://www.linkedin.com/company/nyaaya/" target="_blank" rel="noopener noreferrer">
-          <div className={s.iconContainer}>
-            <img src={linkedin} className={s.icon}/>
-          </div>
-        </a>
+        <div className={s.socialLinksContainer}>
+          <a className={s.socialLink} href="https://facebook.com/nyaayain/" target="_blank" rel="noopener noreferrer">
+            <div className={s.iconContainer}>
+              <img src={facebook} className={s.icon}/>
+            </div>
+          </a>
+          <a className={s.socialLink} href="https://twitter.com/NyaayaIN" target="_blank" rel="noopener noreferrer">
+            <div className={s.iconContainer}>
+              <img src={twitter} className={s.icon}/>
+            </div>
+          </a>
+          <a className={s.socialLink} href="https://www.linkedin.com/company/nyaaya/" target="_blank" rel="noopener noreferrer">
+            <div className={s.iconContainer}>
+              <img src={linkedin} className={s.icon}/>
+            </div>
+          </a>
+        </div>
       </div>
     );
   }

@@ -16,7 +16,7 @@
       },
       {
         "name": "Free and Compulsory Education",
-        "image":"free-and-compulsory-education-thumb.jpg",
+        "image": "free-and-compulsory-education-thumb.jpg",
         "url": "/topic/free-and-compulsory-education"
       }
     ]
@@ -111,8 +111,7 @@
     "topics": [
       {
         "name": "Arrest",
-        "image":
-          "arrest-thumb.jpg",
+        "image": "arrest-thumb.jpg",
         "url": "/topic/arrest"
       },
       {
@@ -185,11 +184,6 @@
         "name": "Rape",
         "image": "",
         "url": "/topic/rape"
-      },
-      {
-        "name": "Sexual Harassment",
-        "image": "",
-        "url": "/topic/sexual-harassment"
       }
     ]
   },

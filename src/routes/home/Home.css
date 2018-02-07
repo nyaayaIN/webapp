@@ -34,3 +34,25 @@
   font-size: 1.75em;
   font-weight: normal;
 }
+
+.featuredTopics {
+  background: var(--neutral-light-colour);
+  border-bottom: solid 1px var(--neutral-medium-colour);
+}
+
+.story {
+  padding: 5em 0;
+}
+
+.storyTitle {
+  background-image: linear-gradient(to right, var(--primary-colour) 0%, var(--secondary-colour) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3em;
+  font-weight: 500;
+  line-height: 1em;
+}
+
+.shortExplanation {
+  max-width: 850px;
+}

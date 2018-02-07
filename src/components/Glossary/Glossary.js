@@ -48,12 +48,11 @@ class Glossary extends React.Component {
       <div className={s.root}>
         <div className={s.container}>
           <div className={s.title}>Glossary</div>
-        </div>
-        <div className={s.glossarySection}>
-          <div className={s.container}>
+          <div className={s.glossarySection}>
             <div className={s.terms}>
               {this.props.collection.map((word, index) => (
                 <button
+                    key={word.id}
                     className={s.termOption}
                     data-id={index}
                     onClick={this.handleClick} >
@@ -61,14 +60,16 @@ class Glossary extends React.Component {
                 </button>
               ))}
             </div>
-            {this.props.collection.map((word, index) => (
-              <div className={this.state.classes[index]}>
-                <div className={s.glossaryItem}>
-                  <div className={s.term} data-index={index}>{word.term}</div>
-                  <div className={s.definition}>{word.definition}</div>
+            <div className={s.definedTerm}>
+              {this.props.collection.map((word, index) => (
+                <div className={this.state.classes[index]} key={word.id}>
+                  <div className={s.glossaryItem}>
+                    <div className={s.term} data-index={index}>{word.term}</div>
+                    <div className={s.definition}>{word.definition}</div>
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       </div>

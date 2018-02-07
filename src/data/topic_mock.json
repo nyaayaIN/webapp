@@ -6,41 +6,49 @@
     "image": "",
     "explanations": [
       {
+        "id": "exp00",
         "title": "Protection of Children",
         "content":
           "<p>It is the responsibility of the Board to ensure that proceedings of a case where the accused is a child, are the least intimidating and as child-friendly as possible. So, the Board works to ensure informed consent and participation of the child and family at each stage. It has an interpreter or translator, and assured legal aid for children in need.</p><p>The Board can conduct jail visits to check if children are accidentally lodged there. It must inspect the facilities for children at least once a month to check on their upkeep. Similar to the magistrate, the Board can also order the lodging of an FIR for offences committed against children.</p>"
       },
       {
+        "id": "exp01",
         "title": "Classification of crimes",
         "content":
           "<p>Crimes committed by children are seen along the lines of three categories based on seriousness of crime:<ol><li><b>Petty Offences:</b> Crimes for which maximum punishment is imprisonment up to 3 years. These include crimes such as assault, causing simple hurt, theft, forgery etc.</li><li><b>Serious Offences:</b> Crimes for which punishment between 3 to 7 years’ imprisonment. These include crimes such as attempt to commit culpable homicide, causing grievous hurt, cheating etc.</li><li><b>Heinous Offences:</b> Crimes for which punishment is imprisonment for 7 years or more.</li></ol><p>These include crimes such as murder, rape, dacoity etc. For a full list of such offences, <a href='https://www.nls.ac.in/ccl/jjdocuments/punishment7years.pdf' target='_blank' rel='noopener noreferrer'>read this chart</a> prepared by a university research centre.</p>"
       },
       {
+        "id": "exp02",
         "title": "Arresting a child",
         "content":
           "<p>Considering the age of children, there are certain rules the police have to follow while arresting a child offender. They are:<ul><li>The police cannot handcuff you or exert any force when they arrest you</li><li>The police officer must, immediately, inform your parents or guardians.</li><li>If they do not release you on bail, then the officer must tell them the location of the Juvenile Justice Board  where you will be produced.</li><li>The police officer, or probation officer if there is one, is also required to prepare a ‘Social Investigation Report’ within two weeks and submit it to the Board. This contains details that would be helpful for the Board to make its decisions, such as your family background.</li></ul></p>"
       },
       {
+        "id": "exp03",
         "title": "FIR Registration",
         "content":
           "<p><b>Petty Offences:</b> No registration of a FIR is required</p> <p><b>Serious Offences:</b> No registration of a FIR is required (They are supposed to record it in the general diary along with the social background report for these two types of offences)</p> <p><b>Heinous Offence:</b> FIR needs to be filed against a child</p>"
       },
       {
+        "id": "exp04",
         "title": "Preliminary Assessment",
         "content":
           "<p>A preliminary assessment is conducted when a heinous offence is committed by a child over the age of 16. It is an attempt to find out whether the child was mature enough to understand her acts and their consequences and if the proceedings need to be conducted under normal procedures like that of an adult’s. The Board can take the help of trained psychologists and experts to arrive at its conclusions, but must complete the inquiry within 3 months.</p>"
       },
       {
+        "id": "exp05",
         "title": "Children’s Court ",
         "content":
           "<p>When the Board decides that a child should be tried as an adult after a Preliminary Assessment, it sends the case to a Children’s Court. The Children’s Court may be an existing Sessions Court that is dealing with child-specific laws, or a special court set up for the purpose of dealing with crimes under the Juvenile Justice Act. The Children’s Court may do one of two things:<ol><li>It may decide that the child must be treated like an adult for the trial, and then conduct a regular trial and pass final judgment. While the Children’s Court can generally pass the maximum sentence for a Heinous Offence (i.e., it can pass a sentence of more than 3 years), it cannot award the death penalty or life imprisonment without the possibility of release in such cases.</li><li>It may decide that there is no need to conduct a trial as an adult, and may conduct an inquiry like the Board, passing orders under Section 18 of the Juvenile Justice Act</li></ol></p><p>In all proceedings, the Children’s Court must ensure a child-friendly atmosphere is maintained. It must also ensure that the child be sent to a Place of Safety if detained during proceedings. If she is found guilty of a having committing the Heinous Offence, she will be sent to the Place of Safety until she becomes 21 years old, after which she can be sent to jail. The child should have access to reformative services (like education, skill development) when she is at the Place of Safety.</p>"
       },
       {
+        "id": "exp06",
         "title": "Punishment",
         "content":
           "<p>The punishments that can be awarded by the Board for Petty Offences and Serious Offences:<ul><li>Giving the child a firm warning, letting the child go home while simultaneously counselling the parents;</li><li>Ordering the child to attend group counselling sessions;</li><li>Ordering the child to perform supervised community service;</li><li>Ordering the parents or guardians to pay fine.</li><li>Releasing the child on probation. The parents or guardians will have to execute a bond (up to 3 years) which may include surety and be responsible for the child’s behaviour. The responsibility can also be handed over to a ‘fit person’ or ‘fit facility’ which is a recognized person or government organization or NGO which is prepared to accept the child’s responsibility.</li><li>Sending the child to a Special Home for up to three years.</li></ul></p><p>If the Board thinks that keeping the child in the Special Home would be against their best interests, or other children in that home, then the child could be sent to a Place of Safety. The Board may also pass orders directing the child to attend school or vocational training, or preventing the child from going to a specified place.</p><p>The law does focus on ensuring rehabilitation of children and The Board or the Children’s Court has to develop an Individual Care Plan and monitor its implementation. An Individual Care Plan are is an overall development plan addressing issues like health and nutrition needs, emotional and educational needs.</p>"
       },
       {
+        "id": "exp07",
         "title": "Rehabilitation of Children",
         "content":
           "<p>The main principle guiding decisions of rehabilitation is restoration. The authorities under must try to ensure that a child is restored to the care and protection of either his/her parents or guardians where it is in their best interests.</p><p>If not, then the authorities must ensure that the child is restored to the care and protection of a child-care institution recognised under the JJ Act, which have many services to help with the rehabilitation of children.</p><p>The responsibility to care for children doesn’t end when they complete the age of 18 and leave the institution. Children leaving the institution can be provided with financial support to help in re-integration into society.</p>"
@@ -48,37 +56,44 @@
     ],
     "qna": [
       {
+        "id": "qna00",
         "question": "Can children be arrested?",
         "answer":
           "<p>Yes, the police can arrest children if they believe they have committed a crime. Typically, police stations will have a child welfare protection officer and in each district and city, there will be at least one special juvenile police unit. When the police arrest a child on suspicion of committing a crime, this should normally be done by a Special Juvenile Police Unit. If a regular police officer arrests the child, then the child should immediately be placed under the care of the Juvenile Police Unit, or a designated Child Welfare Police Officer.</p><p>The police can also arrest children who have run away from an institution where they were placed under the JJ Act, such as an Observation Home, Special Home or Place of Safety.</p><p>In certain circumstances (for example, with respect to habitual thieves), the Magistrate can order that adults be detained in prison if they do not execute a bond for good behaviour or peace. Even though arrests of children are allowed, the Magistrate cannot order a similar detention with respect to children.</p>"
       },
       {
+        "id": "qna01",
         "question": "How long can the police hold a child in jail?",
         "answer":
           "<p>A child can never be kept in a police lockup or regular jail. The police must bring you before the Board within 24 hours of apprehending/detaining you. If the police does not release you immediately on bail, you can only be kept in an Observation Home until you are taken to the Board (within 24 hours). The police are also supposed to inform a child welfare officer who is supposed to accompany you to the Board for the first hearing.</p>"
       },
       {
+        "id": "qna02",
         "question": "Can the police arrest me without telling my parents?",
         "answer":
           "<p>The police have a duty to tell your parents or guardians why you have been arrested. They can ask the police for the charges under which you have been arrested.</p><p>If the police have registered an FIR (or first information report), they have a duty to give your parents or guardians a copy of this FIR [Rule 8(3)(iii), Model Rules]. An FIR is the document prepared by the police when they get any information about a crime that has occurred.</p>"
       },
       {
+        "id": "qna03",
         "question": "How does the Board decide when to detain me?",
         "answer":
           "<p>The Board has the power to detain you, though in most cases you get bail. If the Board decides to allow for your release on bail, your parents or guardians are supposed to submit an undertaking in a certain form. If you are unable to satisfy the bail conditions for a week, then the Board is required to modify these to help you. The Board may decide to deny bail if this is against your interests. For instance, if this would bring you into contact with criminals or expose you to moral, physical or psychological danger.</p>"
       },
       {
+        "id": "qna04",
         "question": "What jail are minors sent to?",
         "answer":
           "<p>While the inquiry is going on, minors can only be detained in Observation Homes or a Place of Safety. The Board has to tell them how long you will be detained in the order. To know which institution is denoted an ‘Observation Home’ or a ‘Place of Safety’, information can be obtained from the relevant State Government website.</p>"
       },
       {
+        "id": "qna05",
         "question":
           "If i was under 18 when I committed the crime but over 18 when I was arrested, how will I be tried?",
         "answer":
           "<p>You will be treated as a 'Child in conflict of the law' and tried accordingly as you were under 18 when the crime happened.</p>"
       },
       {
+        "id": "qna06",
         "question":
           "Can my 5 or 6 year old child be seen as a criminal in the eyes of the law?",
         "answer":
@@ -87,48 +102,70 @@
     ],
     "glossary": [
       {
+        "id": "glos00",
         "term": "Juvenile",
-        "definition": "‘Juvenile’ and ‘child’ mean one and the same thing under this law. If you are under 18 years of age and the police believe that you have committed a crime, you are a juvenile."
+        "definition":
+          "‘Juvenile’ and ‘child’ mean one and the same thing under this law. If you are under 18 years of age and the police believe that you have committed a crime, you are a juvenile."
       },
       {
+        "id": "glos01",
         "term": "Children in conflict with law",
-        "definition": "A child in conflict with law is one who is a child-offender (i.e. a child who is believed to have committed a crime)"
+        "definition":
+          "A child in conflict with law is one who is a child-offender (i.e. a child who is believed to have committed a crime)"
       },
       {
+        "id": "glos02",
         "term": "Juvenile Justice Board/Authority",
-        "definition": "The Juvenile Justice Board or the Board is the authority that deals with Children in Conflict with Law (a child who has possibly committed a crime). Typically, each district would have a Board that would deal with affairs pertaining to that area."
+        "definition":
+          "The Juvenile Justice Board or the Board is the authority that deals with Children in Conflict with Law (a child who has possibly committed a crime). Typically, each district would have a Board that would deal with affairs pertaining to that area."
       },
       {
+        "id": "glos03",
         "term": "Summons case",
-        "definition": "Cases wherein the offence committed is punishable by imprisonment not exceeding two years. The trial procedure is such that the accused only needs to be informed orally about the accusations and gets only one opportunity to present his/her case."
+        "definition":
+          "Cases wherein the offence committed is punishable by imprisonment not exceeding two years. The trial procedure is such that the accused only needs to be informed orally about the accusations and gets only one opportunity to present his/her case."
       },
       {
+        "id": "glos04",
         "term": "Summary trial",
-        "definition": "Cases for small offences punishable with an imprisonment of not more than six months. A summary trial cannot award a punishment of imprisonment more than three months."
+        "definition":
+          "Cases for small offences punishable with an imprisonment of not more than six months. A summary trial cannot award a punishment of imprisonment more than three months."
       },
       {
+        "id": "glos05",
         "term": "Police diary",
-        "definition": "A diary in which every police officer making an investigation shall enter (day by day) his proceedings in the investigation, including the time at which the information reached him, the time at which he began and closed his investigation, the place or places visited by him, and a statement of the circumstances found out through his investigation"
+        "definition":
+          "A diary in which every police officer making an investigation shall enter (day by day) his proceedings in the investigation, including the time at which the information reached him, the time at which he began and closed his investigation, the place or places visited by him, and a statement of the circumstances found out through his investigation"
       },
       {
+        "id": "glos06",
         "term": "Probation",
-        "definition": "Release of a child offender on good conduct, to be placed under the care of a parent, guardian or any other fit person/institution for not more than three years."
+        "definition":
+          "Release of a child offender on good conduct, to be placed under the care of a parent, guardian or any other fit person/institution for not more than three years."
       },
       {
+        "id": "glos07",
         "term": "Juvenile Justice Board/Authority",
-        "definition": "The Juvenile Justice Board or the Board is the authority that deals with Children in Conflict with Law (a child who has possibly committed a crime). Typically, each district would have a Board that would deal with affairs pertaining to that area."
+        "definition":
+          "The Juvenile Justice Board or the Board is the authority that deals with Children in Conflict with Law (a child who has possibly committed a crime). Typically, each district would have a Board that would deal with affairs pertaining to that area."
       },
       {
+        "id": "glos08",
         "term": "Observation home",
-        "definition": "A home for children specified under this law, established and maintained in every district or group of districts by a State Government."
+        "definition":
+          "A home for children specified under this law, established and maintained in every district or group of districts by a State Government."
       },
       {
+        "id": "glos0",
         "term": "Open Shelter",
-        "definition": "A facility for children established and maintained by the State Government."
+        "definition":
+          "A facility for children established and maintained by the State Government."
       },
       {
+        "id": "glos10",
         "term": "Special Juvenile Police Unit",
-        "definition": "A unit of the police force of a district/city or any other police unit dealing with children and designated for handling children."
+        "definition":
+          "A unit of the police force of a district/city or any other police unit dealing with children and designated for handling children."
       }
     ]
   },
@@ -139,21 +176,25 @@
     "image": "",
     "explanations": [
       {
+        "id": "exp00",
         "title": "Employing children under 14",
         "content":
           "<p>It is illegal to employ children under 14. Any person who employs a child below 14 can be punished with jail time of between <strong>six months and two years</strong> and/or fine between <strong>Rs. 20,000 and Rs. 50,000</strong>.</p><p>A person can be punished for all other violations (for example, with respect to maintenance of register, work hours, health and safety conditions) with jail time of up to <strong>one month</strong> and/ or a fine of up to <strong>Rs. 10,000</strong>. First time offences can be settled if the person pays a certain sum of fine. There are a number of other laws which also punish employment of children in specific conditions or scenarios.</p>"
       },
       {
+        "id": "exp01",
         "title": "Employing children between 14-18",
         "content":
           "<p>Adolescents or children (14-18) are generally allowed to work except in:</p><ul><li><strong>Hazardous occupations</strong> – Mines and inflammable substances or explosives (such as firework factories).</li><li><strong>Hazardous processes </strong>– The list of industries which use hazardous processes is provided in another law (the Factories Act, 1948) and is available here. They include coal, power generation, paper, fertilizer, iron and steel industries, asbestos, etc.</li></ul><p>Any person who employs  a child between 14 and 18 in a hazardous occupation or process can be punished with jail time of between <strong>six months</strong> and <strong>two years</strong> and/or fine between <strong>Rs. 20,000 and Rs. 50,000</strong>. They can also be prosecuted under other laws such as the Factories Act, Mines Act, Merchant Shipping Act and the Motor Transport Workers Act.</p><p>Some general rules that should be followed when employing adolescents (except when they are working with family or government-funded/recognized schools) are:</p><ul><li>Adolescents can only be made to work continuously for a maximum period of three hours at a time. She or he needs to be given a break for an hour.</li><li>In a single day, the period of work (including break time) cannot exceed 6 hours. This includes the time they spend in waiting for work.</li><li>Adolescents cannot be made to work between <b>7 pm and 8 am.</b></li><li>An adolescent has to be given one day off every week.</li><li>If the adolescent is already working at another place, the occupier cannot make him or her work at their place on the same day.</li></ul><p>State governments have their own regulations regarding the conditions too.</p>"
       },
       {
+        "id": "exp02",
         "title": "Children working in the family business",
         "content":
           "<p>It is legal to make children (below 14) work in the family business. The business could belong to or be run by immediate family (mother, father, brother or sister) or extended family (father’s sister and brother, or mother’s sister and brother).</p><p>It is important that the family business does not involve dangerous substances or processes (the term in law is ‘hazardous’ occupation or process). The law tells us what jobs are considered hazardous. Mines, explosives and processes involved in the coal, power generation industries etc are included. For, the full list of hazardous occupations or processes, please read the list of industries provided here.</p><p>Even though it is lawful to use children in the family business, the child’s education must not be affected. She or he can only be made to do this after school hours or during vacation.</p>"
       },
       {
+        "id": "exp03",
         "title": "Children working in Movies/TV/Sports",
         "content":
           "<p>Children can act in movies and TV serials or be involved in sport activities and be paid for it. They could also do this as a hobby. The government has not yet come out with the full list of allowed entertainment and sporting activities under this exception. Also, the rules regarding the conditions of employment of such children have not yet come out. Again, it is important that the child’s education is not affected.</p><p>An exception to this exception is hiring children in a circus - that is not allowed and is illegal under the law.</p>"
@@ -161,12 +202,14 @@
     ],
     "qna": [
       {
+        "id": "qna00",
         "question":
           "Can parents be punished for allowing their children to work?",
         "answer":
           "<p>The parents or guardians of the children who are working in violation of this law will generally not be punished for allowing their children to work. However, this immunity does not apply if they make their child (who is under 14) work for commercial purposes or the child (between 14 and 18) work in a hazardous occupation or process. The law does give them a chance to correct their wrong – when they are caught doing this the first time, they can settle it. However, if they make their child work again in violation of the law, they can be punished with a fine of up to Rs. 10,000.</p>"
       },
       {
+        "id": "qna01",
         "question":
           "How will the government know if there are adolescents working at a particular workplace?",
         "answer":
@@ -175,16 +218,20 @@
     ],
     "glossary": [
       {
+        "id": "glos00",
         "term": "Adolescent",
         "definition": "A child who falls under the age group 14 to 18"
       },
       {
+        "id": "glos01",
         "term": "Child",
         "definition": "A person who is below the age of 14"
       },
       {
+        "id": "glos02",
         "term": "Hazardous Environment",
-        "definition": "These are workplaces where the life and health of a child can get affected. For example: Working in a fire cracker factory can badly affect the health of a child by exposing it to harmful substances."
+        "definition":
+          "These are workplaces where the life and health of a child can get affected. For example: Working in a fire cracker factory can badly affect the health of a child by exposing it to harmful substances."
       }
     ]
   },
@@ -195,41 +242,49 @@
     "image": "",
     "explanations": [
       {
+        "id": "exp00",
         "title": "Compulsory education",
         "content":
           "<p>All children between the ages of 6 to 14 can get free education from class 1 to class 8, in a nearby government school or aided school.Children who have never been to school or have dropped out, can get back to school. They will get admission in a class suitable to their age.</p><p>Children who are poor or underprivileged in some way, can get free education till class 8 in a private school. Even if they don’t have documents like transfer certificate and age proof, children must be given admission in a school. They cannot be forced to give tests for getting admission in a school, nor can they be asked to leave school or be forced to repeat a class, till they complete class 8.</p><p>It is illegal to beat up or harass a child.</p>"
       },
       {
+        "id": "exp01",
         "title": "Dropouts/Never been to school",
         "content":
           "<p>A child who is older than 6 years and has never gone to school or a child who is older than 6 years and has gone to school but dropped out before completing class 8 - <ul><li>Will be admitted to a class suitable to her age. For example, a 12 year old child who has never gone to school will be admitted to class 6 or class 7, and not class 1 or 2.</li><li>Such a child will get extra help with studies so she can catch up with other children of her age.</li><li>Such a child will have the right to free education till class 8, even after the age of 14.</li></ul></p>"
       },
       {
+        "id": "exp02",
         "title": "Aided School",
         "content":
           "<p>Aided Schools have a responsibility to offer free education to a proportion of children from class 1 to class 8. The proportion will be the same as the proportion of the school’s annual expenditure and it gets from the government. But it cannot be less than 25%</p>"
       },
       {
+        "id": "exp03",
         "title": "Specified Category School And Private School",
         "content":
           "<p>These schools have a duty to fill up atleast 25% of its seats in class 1 with children from disadvantaged background and weaker section. Give free education to these children from class 1 to class 8.</p><p>If the school starts from nursery or kindergarten, it will fill up at least 25% of its seats in the lowest class with children from disadvantaged  background and weaker section and give free education to these children till class 8.</p>"
       },
       {
+        "id": "exp04",
         "title": "Minority Schools",
         "content":
           "<p>Minority schools are schools run by members of a minority group. Minorities are religious groups other than Hindus, such as Christians, Muslims and Parsis. They are also groups in a state who don’t speak the main language of the state, such as Tamilians in Haryana or Gujaratis in Karnataka.</p><p>The Constitution of India allows minorities to run schools in their own way, so that they can protect their culture and language. This means that minority schools don’t have to follow all the rules which apply to other schools.</p>"
       },
       {
+        "id": "exp05",
         "title": "Certificate of Recognition",
         "content":
           "<p>Every school (other than a government school) which has been set up after this Act came into place has to follow some rules in order to recognised under this law. If it doesn’t, it will not be recognised by the government. Under the rules, even schools which were set up before the Act came into place have to file for recognition within 3 months.</p>"
       },
       {
+        "id": "exp06",
         "title": "Children belonging to disadvantaged groups",
         "content":
           "<p>A child with disability has special rights for getting education. Some of these are:<ul><li>She can get free education till she turns 18.</li><li>She can study part-time after class 5.</li><li>She can get special books and equipment that she needs for free from the go</li></ul>Also, the government has to take special steps to help children with disability get education - give transport facilities, scholarships, part-time classes, informal education, make it easier for such children to give exams etc. This is provided under another law.</p><p>A child with 80% disability or two or more disabilities can choose to be educated at home.</p><p>The following are also considered to be disadvantaged groups in the eyes of the law<ul><li>a child from a Scheduled Caste (SC),</li><li>a child from a Scheduled Tribe (ST),</li><li>a child who is not SC or ST but is from a group which is socially or educationally backward. </li></ul></p><p>Apart from this, State and UT Governments can decide if there are some other children who are disadvantaged. For example:<ul><li>a child with HIV, </li><li>a transgender child or child of transgender persons,</li><li>an orphan,</li><li>a child living on the street,</li><li>a child of a migrant worker.</li></ul></p>"
       },
       {
+        "id": "exp07",
         "title": "Children in low-income families",
         "content":
           "<p>State and Union Territory Governments have to fix a minimum income limit. Any child whose parents earn less than this limit will be a child belonging to a weaker section, in that state or UT. Please check the government notification issued by the state or UT to figure out the minimum income limit in your state or UT.</p>"
@@ -237,30 +292,35 @@
     ],
     "qna": [
       {
+        "id": "qna00",
         "question":
           "What are religious schools and does this Act apply to such schools?",
         "answer":
           "<p>They are schools which give religious education, like Madrasas and Vedic Pathshalas. They are not obligated to provide free education.</p>"
       },
       {
+        "id": "qna01",
         "question":
           "Is it compulsory for parents to send their children to school?",
         "answer":
           "<p>The word ‘compulsory’ means that it is compulsory for the government to give free education to all children. It does not mean it is compulsory for parents to send their children to school.</p>"
       },
       {
+        "id": "qna02",
         "question":
           "Is pre-school education or education before first standard compulsory?",
         "answer":
           "<p>Governments can provide pre-school education to children between the ages of 3-6 years. However, it is not compulsory for them to do so.</p>"
       },
       {
+        "id": "qna03",
         "question":
           "Will private schools get any money from the government for giving free education to 25% of children?",
         "answer":
           "<p>Yes. The government will pay them the amount they spend on every child or its own per-child expenditure - whichever is lower.</p>"
       },
       {
+        "id": "qna04",
         "question":
           "If a school is derecognised, what happens to the children studying in that school?",
         "answer":
@@ -276,26 +336,31 @@
     "image": "",
     "explanations": [
       {
+        "id": "exp00",
         "title": "Public Servant",
         "content":
           "<p>You are a public servant if you are:<ul><li>Working for the government</li><li>Your salary is paid by the government</li><li>The work you do is a public duty</li></ul></p><p>You can also be considered a public servant if you are:<ul><li>Working for and are being paid by a local authority like a municipality or panchayat.</li><li>Employed in educational or cultural institutes which get money from the central, state or local government (like the panchayat)</li><li>A co-operative society engaged in agriculture, industry, trade or banking, and the co-operative society is receiving money from:<ul><li>the government, or</li><li>a company created by laws passed by the government, or</li><li>a company that is owned or controlled by the government or aided by the government, or</li><li>a company in which the government is the majority shareholder.</li></ul></li><li>Employed by and being paid by:<ul><li>a company established under central or state laws (for example, the Life Insurance Corporation), or</li><li>a company which is aided by, owned or controlled by the government, or</li><li>a company where the government is the majority shareholder (for example, the Air India Limited)</li></ul></li></ul></p>"
       },
       {
+        "id": "exp01",
         "title": "Public Sevants accepting bribes",
         "content":
           "<p>Public servants in India are not allowed to<ul><li>accept money/gifts other than the salary provided as part of their job</li><li>Ask for or get money/gifts, in addition to their salary, in return for doing their official duty</li><li>Ask for or get money/gifts, in addition to their salary, in return for not doing their official duty</li><li>Be partial to someone who has paid them money or give them gifts</li><li>Do any special favours for someone who has offered them money or gifts</li></ul></p><p>You can be sent to jail for a period of 3 to 7 years and be asked to pay fine for doing any of the above.</p><p>A public servant breaks the law by accepting any gift or benefit, not just money. You are breaking the law if you, as a public servant, accept something of value from a person without paying for the gift/service and with whom you have a business or official relationship. You can be sent to jail for a period of 6 months to 5 years and may also have to pay fine.</p><p><b>Example:</b> You are a public servant working in the Public Works Department and are in-charge of approving tender for road construction. You accept a car from Ravi without paying him any money. You know that his company will apply to your department for approval of a contract to build a highway. If Ravi is given the approval, it would be considered, accepting the car would be considered as accepting a bribe.</p>"
       },
       {
+        "id": "exp02",
         "title": "Influencing Public Servants",
         "content":
           "<p>You are breaking the law if you as a public servant help someone commit the crime of influencing public servants. It does not matter that the crime was not actually committed. You can be sent to jail for a period of 3 years to 7 years along with a fine.</p><p><b>Example:</b> If I as a Magistrate of a district influence the Chief Engineer to favour a friend in a road construction tender. Whether or not my friend gets the tender doesn't matter. The magistrate can still be punished for just the influencing part.</p>"
       },
       {
+        "id": "exp03",
         "title": "Public Servant Stealing",
         "content":
           "<p>When a public servant steals or gets someone to steal or sell any property given to them as part of their official work, they can be punished for “criminal misconduct.” The punishment for this offence is imprisonment between 4 and 10 years along with a fine.</p>"
       },
       {
+        "id": "exp04",
         "title": "Abetment",
         "content":
           "<p>You are breaking the law if you help, suggest or encourage a public servant to commit the crimes of accepting money or gifts in addition to their salary or property from business associates, even if the crime was not successfully committed. You can be sent to jail for a period of 3 to 7 years and will also have to pay fine.</p><p>Example:Rajesh, Ravi's cousin offers Mukesh (a public servant) a new house in return for appointing Ravi to the post of junior Railway officer. Even if Ravi does not get the post, Rajesh has &#8220;abetted&#8221; or helped Mukesh break the law.</p>"
@@ -303,50 +368,66 @@
     ],
     "qna": [
       {
+        "id": "qna00",
         "question":
           "Can I be punished under this law even if I was not successful in committing the crime?",
         "answer":
           "<p>Yes, if you as a public servant try to steal or sell property given to you as part of your work or take gifts or money unlawfully, you can be punished. It does not matter that you did not succeed. You can be sent to jail for a period of 3 to 7 years and can also be asked to pay fine.</p><p><b>Example:</b>Mukesh is a police officer. His superior officer has given him gold jewelry for safekeeping, which was returned by a thief during police questioning. Mukesh tries to sell it to Ravi, but the senior officer sees them and stops him. Even though Mukesh failed he is still breaking this law.</p>"
       },
       {
+        "id": "qna01",
         "question":
           "Can the police inspect your pass book and bank details if they doubt you are breaking anti-corruption law?",
         "answer":
           "<p>Yes, if the police think that you are breaking this law and they have the power to investigate, they can check your banker's books in connection with your crime. They can also check the banker's books of another person who might be holding money on your behalf.</p>"
       },
       {
+        "id": "qna02",
         "question":
           "What about my salary and other perks? Can I be accused of bribery for getting those?",
         "answer":
           "<p>No. Salary, house allowance, pension payment and all payments that the public servant gets for his work are not considered bribes</p>"
       },
       {
+        "id": "qna03",
         "question": "What if I take the money but don't do the favour?",
         "answer":
           "<p>You can still be punished. For example, you are a junior officer in the Bhopal Municipality. You accept bribe from Ravi promising to give his company approval to build a tank in the locality, but you know that as a junior officer you do not have the power to give the approval. You can still be punished under this law.</p>"
       },
       {
+        "id": "qna04",
         "question":
           "What if the favour is done, but not through any action of mine?",
         "answer":
           "<p>You can still be punished if you took money and made the person who bribed you believe that you were responsible for the favour.For example, you take Rs. 20,000 from Ravi after making him believe that he got the job with the Forest Department because of your connections with the head of the Forest Department. Even if you did not actually have any connections with the head of the Forest Department, you will still be breaking this law.</p>"
       },
       {
+        "id": "qna05",
         "question": "How are repeat offenders punished under this law?",
         "answer":
           "<p>Any person who regularly influences public servants through illegal means or uses business relationships to influence public servants can be sent to jail for a period of 5 to 10 years and can also be asked to pay fine.</p>"
       }
     ],
-    "glossary": [{
-      "term": "Election",
-      "definition": "An election is the process by which a person is elected to the Parliament, State legislature or any other local authority (e.g. municipality) through voting."
-    }, {
-      "term": "Public duty",
-      "definition": "As a public servant, a public duty is the responsibility you have towards the government, the people or society, in doing your duty. Just as you have a duty to take care of your parents in their old age, public servants have a duty towards the government, people and society at large."
-    }, {
-      "term": "Banker's books",
-      "definition": "Banker’s books mean ledgers and account books where the day to day transactions of the bank or a specific bank account are stored."
-    }]
+    "glossary": [
+      {
+        "id": "glos00",
+        "term": "Election",
+        "definition":
+          "An election is the process by which a person is elected to the Parliament, State legislature or any other local authority (e.g. municipality) through voting."
+      },
+      {
+        "id": "glos01",
+        "term": "Public duty",
+        "definition":
+          "As a public servant, a public duty is the responsibility you have towards the government, the people or society, in doing your duty. Just as you have a duty to take care of your parents in their old age, public servants have a duty towards the government, people and society at large."
+      },
+      {
+        "id": "glos02",
+        "term": "Banker's books",
+        "definition":
+          "Banker’s books mean ledgers and account books where the day to day transactions of the bank or a specific bank account are stored."
+      }
+    ]
   },
   "right-to-information": {
     "name": "Right to Information",
@@ -355,59 +436,144 @@
     "image": "",
     "explanations": [
       {
+        "id": "exp00",
         "title": "Request to obtaining information",
         "content":
           "<p>The application can be in either English, Hindi or the official language of the area. The application should be in writing. It can be submitted personally, through post, e-mail or through online portals. For public authorities under the authority of the Central Government, there is an online forum where RTI applications can be made directly. You can also access step-by-step guidelines on how to send an application through the online portal. A useful compilation for states is available here.</p><p>If someone cannot make the request because they are illiterate or unable to write, the PIO has a duty to help the person so that they can take down the request and put it in writing. If the application is sent to the wrong public authority by mistake, the PIO who receives this application has a duty to transfer it within five days.</p>"
       },
       {
+        "id": "exp01",
         "title": "Application Fees",
         "content":
           "<p>There is an application fee which varies for the Centre and for States. For public authorities under the Central Government, this is Rs. 10. For public authorities under the State Governments, please check rules applicable to each state here.</p><p>In addition to the application fees, there is also a fee for the information to be delivered (depending on format/number of pages).For the fees applicable to public authorities under the Central Government, please check the RTI Rules, 2012. For the fees applicable to public authorities, please check the individual state rules.</p><p>The PIO can ask you to pay more fees for the information but will however have to justify the higher fee with proper calculations. The time period between the notice for increased fees and its payment will be excluded from the 30 day period within which you were originally supposed to have received your information.</p>"
       },
       {
+        "id": "exp02",
         "title": "Processing of an Application",
         "content":
           "<p>The PIO can take 30 days to provide the information that is requested. If the application is made to an APIO, the information must be provided for in 35 days. If the information has some serious consequences on a person's life and is needed urgently, the PIO should give the information within 48 hours.</p><p>Under this law, the PIO can refuse to answer certain applications. Please read Section 8 and 9 of this Act to figure out information which is generally exempt from this Act.</p><p>If the information is not given within 30/35 days, you have to assume that the PIO/APIO denied your request for information. Further, the PIO has a duty to provide the information free of charge.</p>"
       },
       {
+        "id": "exp03",
         "title": "Refused Application",
         "content":
           "<p>When the PIO refuses your request for information, she has to tell you:<ul><li>why the request was refused</li><li>details of whom you can approach to appeal against this refusal, and</li><li>how much time you have to file this appeal.</li></ul></p><p>If the PIO has not replied with information or has refused to give you the information unlawfully, you can appeal to an officer senior in rank to the PIO or file a complaint with the Central or State Information Commission, if the PIO has denied your request unlawfully (that is, not for the allowed reasons in Sections 8 and 9) or within time.</p>"
       },
       {
+        "id": "exp04",
         "title": "Exempted Information",
         "content":
           "<p>If your application requests for the following kinds of information, the public authority can lawfully refuse to give you:<ul><li>Information that affects the security and economic interests of the government with another country</li><li>Information that is banned from being published by any court or tribunal</li><li>Information that would result in a breach of privilege of the Legislature</li><li>Information that would harm commercial interests</li><li>Information that arises because of a relationship based on trust</li><li>Information from a foreign government which was given as a secret</li><li>Information that exposes whistleblowers or endangers lives</li><li>Information that would cause difficulty to police investigation or arrests in criminal cases</li><li>Records of the Cabinet Ministers (reasons and materials can be made public after the decision is made)</li><li>Personal information (however, such information has to be revealed to the Parliament or State Legislature if asked for)</li></ul></p><p>If the release of the information causes a copyright infringement, the PIO can refuse the request for information. Furthermore, if the information is more than 20 years old, it has to be given to the applicant. However, information relating to security and economic interests with another country, breach of parliamentary privilege and Cabinet proceedings can be denied even if it is more than 20 years old.</p>"
       },
       {
+        "id": "exp05",
         "title": "Complaining about an application",
         "content":
           "<p>If you have a complaint with the way in which the PIO handled your RTI application, you can approach the higher authorities established under this Act - the Central Information Commission or the State Information Commission. They have a duty under this Act to inquire into your complaint. You can make a complaint in the following situations:<ul><li>when the public authority has not appointed a PIO in the first place;</li><li>when a PIO has refused to give information;</li><li>when a PIO has not given you information within the allowed time;</li><li>when the PIO has asked for too much fees for giving you the information; and</li><li>when the PIO has given you incomplete or wrong information.</li></ul></p><p>If the Commission is convinced that there are reasonable grounds in the complaint, it has to initiate an inquiry into the matter. For the purpose of conducting an inquiry, it has the same powers as a civil court. This means that it can ask for people to come and be witnesses or submit relevant documents as evidence, inspect these documents, and ask for any public records.</p>"
       },
       {
+        "id": "exp06",
         "title": "Appealing a decision on an application",
         "content":
           "<p>If you do not receive a decision from the PIO within 30 days, you can file an appeal against the decision of the PIO before an officer who is senior to the PIO. You need to file this appeal within 30 days. This time period be extended, if the officer feels that the delay is justified.</p><p>Usually the public authority will state who the appellate authority is on its website or at its office. This will be an officer who is senior in rank to the PIO. A third party can also file an appeal within 30 days of the date of the order by the PIO.</p><p>If you are not satisfied with the first appeal decision, you can make a second appeal within 90 days to Central Information Commission or the State Information Commission by following the suggested format for the second appeal.</p><p>The responsibility of proving that the refusal to provide information was justified, lies squarely on the PIO which refused this information. The Information Commission should finish the appeal in 30 days. This can be extended to forty-five days with reasons being recorded for the extension.</p><p>In order to make a decision, the Information Commission can ask the public authority to:<ul><li>provide information in a particular manner;</li><li>appoint a PIO</li><li>publish relevant information</li><li>manage records properly</li><li>conduct training programmes for officials</li><li>provide an annual report</li><li>provide compensation to any complainant</li></ul>It can also impose penalties and reject specific applications.</p>"
       },
       {
+        "id": "exp07",
         "title": "Penalties for withholding/providing wrong information",
         "content":
           "<p>The Central or State Information Commission can impose a daily penalty of Rs. 250 on the public information officer who has withheld information or provided wrong information. This has to be paid until the information is provided. However, the total amount of the penalty should not exceed Rs. 25,000.</p><p>The PIO has to be given a chance to present her case before the penalty is decided - however, the burden is on her to prove that she acted lawfully. Disciplinary action can also be taken against the PIO in accordance with their service rules.</p>"
       },
       {
+        "id": "exp08",
         "title": "Excluded Organizations",
         "content":
           "<p>The list of organisations in the Second Schedule and security and intelligence organisations of State Governments (mentioned in government notifications) are exempt from giving information. However, information relating to corruption or human rights violations in such organisations can be asked for and provided after the Central Information Commission agrees to it. This has to be provided in 45 days.</p>"
       }
     ],
-    "qna": [],
-    "glossary": [{
-      "term": "Public duty",
-      "definition": "As a public servant, a public duty is the responsibility you have towards the government, the people or society, in doing your duty. Just as you have a duty to take care of your parents in their old age, public servants have a duty towards the government, people and society at large."
-    }, {
-      "term": "Appellate Authority",
-      "definition": "The commissioners where appeals can be fined when the PIO does not respond within the stipulated time."
-    }]
+    "qna": [
+      {
+        "id": "qna00",
+        "question":
+          "If I live in Jammu and Kashmir, can I rely on the Right to Information act to get information about the government?",
+        "answer":
+          "<p>No, this act does not apply to the state of Jammu and Kashmir, however Jammu and Kashmir has its own Right to information Act, 2009. You can file under it. It is the same as the RTI Act elsewhere.</p>"
+      },
+      {
+        "id": "qna01",
+        "question":
+          "Is it compulsory for a public authority to have a PIO/APIO?",
+        "answer":
+          "<p>Yes, all public authorities must have a Public Information Officer (PIO) and an Assistant Public Information Officer (APIO) for each of its offices. Depending on whether the public authority falls under the Central or State Government, the PIO will be called the Central PIO or the State PIO.</p><p>Central or State Assistant Public Information Officers had to be appointed at the sub-divisional or sub-district level. They had to be appointed within 100 days of the Act coming into force.</p>"
+      },
+      {
+        "id": "qna02",
+        "question": "To whom do you address your application to?",
+        "answer":
+          "<p>You need to address the application to the Central/ State PIO or the Central/State APIO. The APIO can take 5 extra days to process the application.</p>"
+      },
+      {
+        "id": "qna03",
+        "question":
+          "Is the PIO the only officer responsible for giving information under this Act?",
+        "answer":
+          "<p>While applications for information are made only to the PIO/APIO, every officer in the public authority has a duty to help the PIO/APIO if she asks for help. If she does not help, she can be held liable under this Act just like the PIO/ APIO.</p>"
+      },
+      {
+        "id": "qna04",
+        "question":
+          "What if a person with disabilities has sought information under this Act?",
+        "answer":
+          "<p>The PIO should take care to ensure that the information is provided in such a way that the person can access it. For example, if the applicant is blind, the PIO should deliver the information in Braille.</p>"
+      },
+      {
+        "id": "qna05",
+        "question":
+          "What if someone is below the poverty line and cannot pay the fees?",
+        "answer":
+          "<p>The person will not be required to pay and the information will be provided free of charge.</p>"
+      },
+      {
+        "id": "qna06",
+        "question":
+          "What if only a portion of the information I sought is exempted?",
+        "answer":
+          "<p>If the information contained in the record can be separately provided (not containing the exempted information), then the public authority should give you the information in response to your request. For example, details regarding vendors for purchase of defence equipment can be provided separately from details regarding the defence equipment being deployed during a conflict.</p><p>In such a case, the PIO has to give you a notice containing the following details:<ul><li>Fact that only a portion of the records you asked for is being provided (the exempted information has been removed from the record)</li><li>Reasons for why this decision was made</li><li>Name and designation of the person who gave the decision</li><li>Details of fees to be paid and</li><li>Your right to review this decision (including details of the appellate authorities/ officers and fees to be paid).</li></ul></p>"
+      },
+      {
+        "id": "qna07",
+        "question": "Can a PIO release information belonging to third parties?",
+        "answer":
+          "<p>If the RTI application you have made is in relation to confidential information belonging to a third party which was supplied to the public authority, the PIO has to follow certain steps.</p><ol><li>the PIO has to send a notice to the third party within 5 days of getting the application.</li><li>the third party has 10 days to agree with or object to the PIO releasing its confidential information to you.</li></ol><p>After giving the third party an opportunity to make its submissions, the PIO has to make a decision on whether to disclose the information to you within 40 days of receiving the application. The PIO will at the same time send a notice to the third party regarding her decision - the third party has the option to appeal against this decision.</p>"
+      },
+      {
+        "id": "qna08",
+        "question":
+          "Can I go to an ordinary civil court and file a complaint under this Act?",
+        "answer":
+          "<p>No, all disputes should be resolved by the bodies created under this Act such as the officer in charge of an appeal in a public authority or a Central/State Information Commission</p>"
+      },
+      {
+        "id": "qna09",
+        "question":
+          "Will my RTI be more effective if i file it through a lawyer?",
+        "answer":
+          "<p>No it does not make any difference. The PIO will still consider it as filed by you. </p>"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "glos00",
+        "term": "Public duty",
+        "definition":
+          "As a public servant, a public duty is the responsibility you have towards the government, the people or society, in doing your duty. Just as you have a duty to take care of your parents in their old age, public servants have a duty towards the government, people and society at large."
+      },
+      {
+        "id": "glos01",
+        "term": "Appellate Authority",
+        "definition":
+          "The commissioners where appeals can be fined when the PIO does not respond within the stipulated time."
+      }
+    ]
   },
   "family": {
     "name": "Family",
@@ -459,68 +625,132 @@
   },
   "smoking": {
     "name": "Smoking",
-    "summary": "Smoking in public places like restaurants, public transport, or places of education is illegal in India. It’s okay to smoke in completely open spaces like roads, and also in private places like your own house.  The law also bans selling tobacco and cigarettes to people under 18 as well as advertising tobacco and cigarettes.  It is also illegal to sell cigarettes that do not comply with the rules and regulations of warnings on labels.",
+    "summary":
+      "Smoking in public places like restaurants, public transport, or places of education is illegal in India. It’s okay to smoke in completely open spaces like roads, and also in private places like your own house.  The law also bans selling tobacco and cigarettes to people under 18 as well as advertising tobacco and cigarettes.  It is also illegal to sell cigarettes that do not comply with the rules and regulations of warnings on labels.",
     "image": "",
-    "explanations": [{
-      "title": "Selling Cigarettes",
-      "content": "<p>There are some prohibitions and restrictions when it comes to selling cigarettes. It is illegal to<ul><li>sell cigarettes or tobacco products to people under 18</li><li>sell cigarettes or tobacco products within 100 yards of any educational institution</li></ul>If you are caught selling cigarettes to minors (under 18), a police officer can detain you. You may also be taken to the Magistrate post-detention. You will be punished with a fine upto Rs. 200.</p>"
-    }, {
-      "title": "Smoking in a public place",
-      "content": "<p>Smoking in public buildings like a restaurant, theatre, healthcare institutions or public transport is not allowed and is a crime. You are allowed to smoke in completely open spaces like roads or parks, however it is still illegal to smoke in places like bus stops, railway stations or open auditoriums. You can smoke in designated smoking areas. Under this law, hotels (with more than 30 rooms), airports, or restaurants (which can seat more than 30 people) can create a separate smoking area where smokers can smoke.</p><p>If you are caught smoking in a public place, a police officer can detain you for smoking in a public place. You will be punished with a maximum fine of Rs. 200</p>"
-    }, {
-      "title": "Owner’s responsibilities",
-      "content": "<p>Under the Rules created under this Act, the owner of a public place must display a warning board at the entrance of the public place and inside. The board must be a minimum of 60 cm by 30 cm.</p>"
-    }, {
-      "title": "Advertising Cigarettes and Tobacco products",
-      "content": "<p>You must not advertise cigarettes or other tobacco products, even if you are offered money to do so. This also means that you must not advertise the brand name of companies selling cigarettes and tobacco products for sponsorship. The first time you are caught advertising cigarettes or tobacco products, you will be imprisoned upto 2 years and/or will pay fine upto Rs. 1000. After the first time, you will be imprisoned upto 5 years and will pay fine upto Rs. 5000</p><p>Where tobacco products are sold, a warning board containing 'Tobacco Causes Cancer' or 'Tobacco Kills' must be displayed. No brand promotion is allowed on such board.This does not apply if the advertisement is on:<ul><li>The package selling tobacco or cigarettes</li><li>The shop where tobacco or cigarettes are available.</li></ul></p>"
-    }, {
-      "title": "Warning Labels on Cigarettes and Tobacco products",
-      "content": "<p>All cigarette and tobacco products must:<ul><li>Have a warning on their label, which may include a photographic warning. The details of the size of warnings in the labels are found in the rules, which are summarised here.</li><li>This warning must be on the biggest side of the package</li><li>The nicotine and tar contents of the product is visible on the package</li><li>The maximum limit of nicotine and tar allowed is visible on the package and the nicotine and tar amount in the tobacco must not exceed the allowed amount</li><li>The warning on the tobacco product should be Readable and clear as well as bold and visible</li><li>The warning on the package must be in all the languages used on the packaging. Where a foreign language is used on the package, the warning must be in English.</li><li>The details of the size of warnings in the labels are found in the rules, which are summarised here.</li></ul>If you produce the products without warnings, then you can go to jail for upto 2 years or will have to pay fine of Rs. 5,000. When caught a second time, you can go to jail for 5 years or will have to pay fine of Rs. 10,000. If you sell cigarettes without warnings, you can be sent to jail for upto 1 year, or you may have to pay fine upto Rs.1,000 if it was your first offence. When caught a second time, you may go to jail for 2 years, or will pay fine upto Rs. 3,000.</p>"
-    }, {
-      "title": "Seizure of cigarettes and tobacco products",
-      "content": "<p>Any police officer, or officer of State Food & Drug Administration or any officer authorised by the Central Government who is above the Sub-Inspector Rank may enter and search the premises of any location where:<ul><li>Advertisement of cigarettes & tobacco products takes place</li><li>Trade of cigarettes & tobacco products is carried out</li></ul></p>"
-    }, {
-      "title": "Punishment for Companies",
-      "content": "<p>As actions like advertising tobacco products can be committed by companies, the company will directly be prosecuted for committing offenses pertaining to smoking. In addition, the people in charge of the company at the time of the advertising can be prosecuted. Such people will have to prove that they did not know about the illegal actions committed by the company. If any officer of the company was directly involved, they can be prosecuted as individuals as well.</p>"
-    }, {
-      "title": "Appeal",
-      "content": "<p>You can always appeal any decision made by a court regarding violations of The Cigarettes And Other Tobacco Products Act. Additional evidence may be taken when the Appeal is heard. When an Appeal is made, the fine amount cannot be increased unless you have been heard in person or by a representative.You can only appeal once.</p>"
-    }],
-    "qna": [{
-      "question": "Can officers enter and search my premises where I sell cigarettes?",
-      "answer": "<p>Any police officer, or officer of State Food & Drug Administration or any officer authorised by the Central Government who is above the Sub-Inspector Rank may enter and search the premises of any location where:<ul><li>Advertisement of cigarettes & tobacco products takes place</li><li>Trade of cigarettes & tobacco products is carried out</li></ul></p>"
-    }, {
-      "question": "Can police officers seize cigarette or tobacco products?",
-      "answer": "<p>Yes, police officers can seize cigarettes/tobacco products when they believe that provisions of the The Cigarettes And Other Tobacco Products (Prohibition Of Advertisement And Regulation Of Trade And Commerce, Production, Supply And Distribution) Act, 2003 are violated. However, they may not hold the cigarettes/tobacco for more than 90 days without approval of the District Judge.</p>"
-    }, {
-      "question": "Can the Court order confiscation of cigarette packages?",
-      "answer": "<p>Yes, but you must be given notice before such an Order is made. Instead of the confiscation, the Court may allow you to pay the costs of the good seized. The Officers will then return the seized packages to you. The Court can order confiscation of packages or ask you to pay costs without any limit to the cost, unless the Central Government notifies a limit.</p>"
-    }, {
-      "question": "Can I go to jail if I make cigarette packets without the warnings?",
-      "answer": "<p>If you produce the products, then you can go to jail for upto 2 years or will have to pay fine of Rs. 5,000. When caught a second time, you can go to jail for 5 years or will have to pay fine of Rs. 10,000.</p>"
-    }, {
-      "question": "Can I go to jail if I sell products without the warning?",
-      "answer": "<p>Yes. The first time, for upto 1 year, or you may have to pay fine upto Rs. 1000. When caught a second time, you may go to jail for 2 years, or will pay fine upto Rs. 3000.</p>"
-    }, {
-      "question": "Do I have to put warning labels on cigarettes I am exporting?",
-      "answer": "<p>Nothing in this Act applies to cigarette and tobacco products which are exported. However, all exported products must comply with requirements of the foreign country."
-    }],
-    "glossary": [{
-      "term": "Advertisement",
-      "definition": "Advertising is an audio or visual form of marketing communication that employs an openly sponsored, non-personal message to promote or sell a product, service or idea. With respect to advertising smoking, any of the following can be considered to be an advertisement: A Notice, A Circular, A Label, A Wrapper, A television commercial, A billboard sign, Any Announcements"
-    }, {
-      "term": "Cigarette",
-      "definition": "Anything covering a roll of tobacco is considered to be a cigarette. It does not matter if the covering contains tobacco or not. As long as people a roll of tobacco calling it a cigarette, it will be considered a cigarette. Beedi, cheerot and cigar are not considered to be cigarettes"
-    },{
-      "term": "Specified Warning",
-      "definition": "A specified warning is a warning against the use of cigarettes or tobacco products. It is to be printed, painted or shown on packages of cigarettes or any other tobacco products."
-    },{
-      "term": "Tobacco Products",
-      "definition": "Cigarettes, Cigars, Cheroots, Beedis, Cigarette tobacco, pipe tobacco, hookah tobacco, Chewing tobacco, Snuff, Pan masala, or any chewable item containing tobacco, Gutka, Tooth powder containing tobacco"
-    },{
-      "term": "Public Place",
-      "definition": "A public place is any place that can be visited by the public except open spaces like a regular park."
-    }]
+    "explanations": [
+      {
+        "id": "exp00",
+        "title": "Selling Cigarettes",
+        "content":
+          "<p>There are some prohibitions and restrictions when it comes to selling cigarettes. It is illegal to<ul><li>sell cigarettes or tobacco products to people under 18</li><li>sell cigarettes or tobacco products within 100 yards of any educational institution</li></ul>If you are caught selling cigarettes to minors (under 18), a police officer can detain you. You may also be taken to the Magistrate post-detention. You will be punished with a fine upto Rs. 200.</p>"
+      },
+      {
+        "id": "exp01",
+        "title": "Smoking in a public place",
+        "content":
+          "<p>Smoking in public buildings like a restaurant, theatre, healthcare institutions or public transport is not allowed and is a crime. You are allowed to smoke in completely open spaces like roads or parks, however it is still illegal to smoke in places like bus stops, railway stations or open auditoriums. You can smoke in designated smoking areas. Under this law, hotels (with more than 30 rooms), airports, or restaurants (which can seat more than 30 people) can create a separate smoking area where smokers can smoke.</p><p>If you are caught smoking in a public place, a police officer can detain you for smoking in a public place. You will be punished with a maximum fine of Rs. 200</p>"
+      },
+      {
+        "id": "exp02",
+        "title": "Owner’s responsibilities",
+        "content":
+          "<p>Under the Rules created under this Act, the owner of a public place must display a warning board at the entrance of the public place and inside. The board must be a minimum of 60 cm by 30 cm.</p>"
+      },
+      {
+        "id": "exp03",
+        "title": "Advertising Cigarettes and Tobacco products",
+        "content":
+          "<p>You must not advertise cigarettes or other tobacco products, even if you are offered money to do so. This also means that you must not advertise the brand name of companies selling cigarettes and tobacco products for sponsorship. The first time you are caught advertising cigarettes or tobacco products, you will be imprisoned upto 2 years and/or will pay fine upto Rs. 1000. After the first time, you will be imprisoned upto 5 years and will pay fine upto Rs. 5000</p><p>Where tobacco products are sold, a warning board containing 'Tobacco Causes Cancer' or 'Tobacco Kills' must be displayed. No brand promotion is allowed on such board.This does not apply if the advertisement is on:<ul><li>The package selling tobacco or cigarettes</li><li>The shop where tobacco or cigarettes are available.</li></ul></p>"
+      },
+      {
+        "id": "exp04",
+        "title": "Warning Labels on Cigarettes and Tobacco products",
+        "content":
+          "<p>All cigarette and tobacco products must:<ul><li>Have a warning on their label, which may include a photographic warning. The details of the size of warnings in the labels are found in the rules, which are summarised here.</li><li>This warning must be on the biggest side of the package</li><li>The nicotine and tar contents of the product is visible on the package</li><li>The maximum limit of nicotine and tar allowed is visible on the package and the nicotine and tar amount in the tobacco must not exceed the allowed amount</li><li>The warning on the tobacco product should be Readable and clear as well as bold and visible</li><li>The warning on the package must be in all the languages used on the packaging. Where a foreign language is used on the package, the warning must be in English.</li><li>The details of the size of warnings in the labels are found in the rules, which are summarised here.</li></ul>If you produce the products without warnings, then you can go to jail for upto 2 years or will have to pay fine of Rs. 5,000. When caught a second time, you can go to jail for 5 years or will have to pay fine of Rs. 10,000. If you sell cigarettes without warnings, you can be sent to jail for upto 1 year, or you may have to pay fine upto Rs.1,000 if it was your first offence. When caught a second time, you may go to jail for 2 years, or will pay fine upto Rs. 3,000.</p>"
+      },
+      {
+        "id": "exp05",
+        "title": "Seizure of cigarettes and tobacco products",
+        "content":
+          "<p>Any police officer, or officer of State Food & Drug Administration or any officer authorised by the Central Government who is above the Sub-Inspector Rank may enter and search the premises of any location where:<ul><li>Advertisement of cigarettes & tobacco products takes place</li><li>Trade of cigarettes & tobacco products is carried out</li></ul></p>"
+      },
+      {
+        "id": "exp06",
+        "title": "Punishment for Companies",
+        "content":
+          "<p>As actions like advertising tobacco products can be committed by companies, the company will directly be prosecuted for committing offenses pertaining to smoking. In addition, the people in charge of the company at the time of the advertising can be prosecuted. Such people will have to prove that they did not know about the illegal actions committed by the company. If any officer of the company was directly involved, they can be prosecuted as individuals as well.</p>"
+      },
+      {
+        "id": "exp07",
+        "title": "Appeal",
+        "content":
+          "<p>You can always appeal any decision made by a court regarding violations of The Cigarettes And Other Tobacco Products Act. Additional evidence may be taken when the Appeal is heard. When an Appeal is made, the fine amount cannot be increased unless you have been heard in person or by a representative.You can only appeal once.</p>"
+      }
+    ],
+    "qna": [
+      {
+        "id": "exp08",
+        "question":
+          "Can officers enter and search my premises where I sell cigarettes?",
+        "answer":
+          "<p>Any police officer, or officer of State Food & Drug Administration or any officer authorised by the Central Government who is above the Sub-Inspector Rank may enter and search the premises of any location where:<ul><li>Advertisement of cigarettes & tobacco products takes place</li><li>Trade of cigarettes & tobacco products is carried out</li></ul></p>"
+      },
+      {
+        "id": "exp09",
+        "question": "Can police officers seize cigarette or tobacco products?",
+        "answer":
+          "<p>Yes, police officers can seize cigarettes/tobacco products when they believe that provisions of the The Cigarettes And Other Tobacco Products (Prohibition Of Advertisement And Regulation Of Trade And Commerce, Production, Supply And Distribution) Act, 2003 are violated. However, they may not hold the cigarettes/tobacco for more than 90 days without approval of the District Judge.</p>"
+      },
+      {
+        "id": "exp10",
+        "question": "Can the Court order confiscation of cigarette packages?",
+        "answer":
+          "<p>Yes, but you must be given notice before such an Order is made. Instead of the confiscation, the Court may allow you to pay the costs of the good seized. The Officers will then return the seized packages to you. The Court can order confiscation of packages or ask you to pay costs without any limit to the cost, unless the Central Government notifies a limit.</p>"
+      },
+      {
+        "id": "exp11",
+        "question":
+          "Can I go to jail if I make cigarette packets without the warnings?",
+        "answer":
+          "<p>If you produce the products, then you can go to jail for upto 2 years or will have to pay fine of Rs. 5,000. When caught a second time, you can go to jail for 5 years or will have to pay fine of Rs. 10,000.</p>"
+      },
+      {
+        "id": "exp12",
+        "question": "Can I go to jail if I sell products without the warning?",
+        "answer":
+          "<p>Yes. The first time, for upto 1 year, or you may have to pay fine upto Rs. 1000. When caught a second time, you may go to jail for 2 years, or will pay fine upto Rs. 3000.</p>"
+      },
+      {
+        "id": "exp13",
+        "question":
+          "Do I have to put warning labels on cigarettes I am exporting?",
+        "answer":
+          "<p>Nothing in this Act applies to cigarette and tobacco products which are exported. However, all exported products must comply with requirements of the foreign country."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "glos00",
+        "term": "Advertisement",
+        "definition":
+          "Advertising is an audio or visual form of marketing communication that employs an openly sponsored, non-personal message to promote or sell a product, service or idea. With respect to advertising smoking, any of the following can be considered to be an advertisement: A Notice, A Circular, A Label, A Wrapper, A television commercial, A billboard sign, Any Announcements"
+      },
+      {
+        "id": "glos01",
+        "term": "Cigarette",
+        "definition":
+          "Anything covering a roll of tobacco is considered to be a cigarette. It does not matter if the covering contains tobacco or not. As long as people a roll of tobacco calling it a cigarette, it will be considered a cigarette. Beedi, cheerot and cigar are not considered to be cigarettes"
+      },
+      {
+        "id": "glos02",
+        "term": "Specified Warning",
+        "definition":
+          "A specified warning is a warning against the use of cigarettes or tobacco products. It is to be printed, painted or shown on packages of cigarettes or any other tobacco products."
+      },
+      {
+        "id": "glos03",
+        "term": "Tobacco Products",
+        "definition":
+          "Cigarettes, Cigars, Cheroots, Beedis, Cigarette tobacco, pipe tobacco, hookah tobacco, Chewing tobacco, Snuff, Pan masala, or any chewable item containing tobacco, Gutka, Tooth powder containing tobacco"
+      },
+      {
+        "id": "glos04",
+        "term": "Public Place",
+        "definition":
+          "A public place is any place that can be visited by the public except open spaces like a regular park."
+      }
+    ]
   },
   "drugs-and-narcotics": {
     "name": "Drugs and Narcotics",
@@ -532,62 +762,121 @@
   },
   "manual-scavenging": {
     "name": "Manual Scavenging",
-    "summary": "In India it is illegal to employ people as manual scavengers to clean insanitary latrines as well as to clean sewers and septic tanks without protective gear or construct insanitary latrines. It is also illegal to not demolish or convert insanitary latrines within a certain period of The Prohibition Of Employment As Manual Scavengers And Their Rehabilitation Act of 2013 coming into force.",
+    "summary":
+      "In India it is illegal to employ people as manual scavengers to clean insanitary latrines as well as to clean sewers and septic tanks without protective gear or construct insanitary latrines. It is also illegal to not demolish or convert insanitary latrines within a certain period of The Prohibition Of Employment As Manual Scavengers And Their Rehabilitation Act of 2013 coming into force.",
     "image": "",
-    "explanations": [{
-      "title": "Manual Scavenger",
-      "content": "<p>Any person who has been employed to handle undecomposed human waste from an insanitary latrine, open drain or pit or railway track is a manual scavenger. The person could have been employed by anyone - say, someone from their village or by an agency or contractor. It does not matter if she was given regular employment or engaged on contract basis.</p><p>Any person who has been employed to clean human waste and does so with the help of the appropriate protective gear and equipment will not be considered a manual scavenger.</p><p>Another group of people called 'safai karamcharis' (“cleanliness workers”) are also sometimes considered as manual scavengers - however, they usually refer to people working as sweepers or cleaning workers in the municipalities, government or private organisations.</p>"
-    },{
-      "title": "Build an insanitary latrine",
-      "content": "<p>It is unlawful and an offence under this Act for any person, municipality, panchayat or agency to build an insanitary latrine that requires human waste to be removed manually by a person before the waste has properly decomposed. </p><p>Local authorities are required to carry out a survey of insanitary latrines in its area and publish a list of all such latrines which were identified during the survey. The local authorities are responsible for the building and maintenance of these community sanitary latrines and must make sure that they are functional and hygienic.</p><p>First time offenders constructing an insanitary latrine can face jail time up to one year as well as a fine for up to Rs.50,000. Second time offenders can face jail time up to two years and a fine for up to Rs.1,00,000.</p>"
-    },{
-      "title": "Demolishing or converting an insanitary latrine",
-      "content": "<p>The person who occupies the property which has an 'insanitary latrine' exists is required to demolish or convert it. If there was more than one person who owns the property on which the insanitary latrine is built, the costs had to be paid by the owner (if she is one of the occupiers) or equally by all of them. While the State Government could choose to help occupiers with the conversion process, the occupier cannot use the government's inaction as an excuse to maintain an insanitary latrine beyond 9 months. In case the occupier does not destroy or convert an insanitary latrine within 9 months, the local authority has to take over after giving a notice of 21 days. The authority can then recover the costs from the occupier.</p><p>First time offenders can face jail time up to one year as well as a fine for up to Rs.50,000</p><p>Second time offenders can face jail time up to two years and a fine for up to Rs.1,00,000</p>"
-    },{
-      "title": "Employing a manual scavenger",
-      "content": "<p>Employing a manual scavenger is illegal in India. People who do so face the following repercussions.</p><table><tr><th>Action</th><th>Punishment for committing the offence for the first time</th><th>Punishment for committing the offence for the second time offence</th></tr><tbody><tr><td>Employing someone as a manual scavenger</td><td>Jail time up to one year as well as a fine for up to Rs.50,000</td><td>Jail time up to two years and a fine for up to Rs.1,00,000</td></tr><tr><td>Employing a person for hazardous cleaning of a sewer or a septic tank.</td><td>Jail time up to 2 years and fine for up Rs. 2,00,000</td><td>Jail time up to 5 years and a fine for up to Rs. 5,00,000</td></tr></tbody></table></p>"
-    },{
-      "title": "Cleaning Sewers",
-      "content": "<p>It is unlawful for anyone (including municipalities and panchayats) to employ any person for the cleaning of a sewer or a septic tank without the necessary protective gear. Anyone who employs a person for hazardous cleaning of a sewer or a septic tank can face up to 2 years jail time and a fine up to Rs. 2,00,000 for their first offence. If it is a repeat offence they can face jail time up to up to 5 years and a fine up to Rs. 5,00,000.</p>"
-    },{
-      "title": "Offence Committed by Company",
-      "content": "<p>When a company commits the offence of manual scavenging, every person who, at the time the offence was committed, was in charge of, and was responsible to, the company for the conduct of the business of the company, as well as the company, will be deemed to be guilty of the offence. When the offence has been committed by a company and it is proved that offence has been committed and can be attributed to the director, manager, secretary or other officer of the company, such an offence. </p>"
-    },{
-      "title": "Authority Where Complaints Can be Filed",
-      "content": "<p>The National Commission for Safai Karamcharis is where all complaints of not following the provisions of this law are filed. This Commission will enquire into all of these complaints and report these complaints to the officers of the Municipalities and the Panchayats with recommendations of further actions. </p>"
-    },{
-      "title": "Rehabilitation",
-      "content": "<p>Both in an urban and rural area, if the officers of the Municipality or the Panchayat believe that Manual Scavenging may be taking place in their area of control. In such a case, a survey is done and a list of manual scavengers is created. The Municipality and the Panchayat have a duty to rehabilitate the people included in the list of manual scavengers. The District Magistrate is responsible for ensuring that manual scavengers in that district are rehabilitated in accordance with this law. The District Magistrate or the State Government may assign responsibilities to subordinate officers and officers in the Municipality. The rehabilitation will happen in the following manner:<ul><li>Immediate help - Within 1 month they must be given a photo ID and some cash.</li><li>Children's education - Her children can get a government scholarship.</li><li>Property - The government must put in place schemes under which the person is allotted land and money to build a house or money for a built house.</li><li>Training for other jobs - The government has to help train either the person or another adult member of her family in other skills. The person should also be paid Rs. 3000 during the time she is undergoing training.</li><li>Loan - The government must put in place schemes under which the person (or another adult family member) has the option of getting a subsidy or loan with less interest rates to help them get into another field or occupation.</li><li>Other Help - The government can choose to give them any other kind of legal or other help.</li><li>Government Schemes - The Central Government has put in place a scheme called the 'Self Employment Scheme for Rehabilitation' of Manual Scavengers. Read more about the scheme here. There are numerous loan schemes put in place by the National Safai Karamcharis Finance & Development Corporation which are offered through state channelling agencies. Read more about such schemes here.</li></ul></p>"
-    }],
-    "qna": [{
-      "question": "Are the toilets in trains insanitary latrines?",
-      "answer": "<p>Logically, a railway coach latrine would be an insanitary latrine because the human waste needs to be cleaned manually from the tracks. However, the definition of 'insanitary latrine' expressly excludes such latrines if they are being cleaned by an employee using proper protective gear.</p>"
-    },{
-      "question": "What happens to manual scavengers who have signed an agreement of employment?",
-      "answer": "<p>If anyone had signed an agreement with manual scavengers to employ them to clean up certain insanitary latrines, this agreement would be considered as having no legal effect.This does not mean that people who had been employed under the agreement will be jobless - the employer has a duty to employ her in another job and pay the same salary at a minimum.</p>"
-    },{
-      "question": "If someone has been excluded from the survey process, does she still have the chance to be identified as a manual scavenger?",
-      "answer": "<p>Yes, any person working as a manual scavenger in an urban area can apply to the CEO of the Municipality to be identified as a manual scavenger. They can make the application at any time (during or after the survey was conducted in the area).</p>"
-    },{
-      "question": "Can the government exercise any investigative powers under this law to find out who employs and maintains insanitary latrines?",
-      "answer": "<p>The government can appoint 'Inspectors' who have the powers to:<ul><li>test latrines</li><li>search premises where manual scavenging might be taking place,</li><li>examine people found at such places</li><li>ask questions and get information about contractors or people employed as manual scavengers</li><li>seize documents such as copies of registers, record of wages or notices.</li></ul>Not showing documents or giving information to the inspector when asked can be considered a crime under the general law on crimes. The law on criminal procedure in relation to search or seizure under a warrant would apply to searches and seizures conducted by such inspectors.</p>"
-    },{
-      "question": "Can a company be punished in connection with manual scavenging?",
-      "answer": "<p>Yes, offences like having insanitary latrines in construction sites can be committed by companies. The company will be directly prosecuted by the government. In addition, the people in charge can be prosecuted. If any officer was directly involved in the crime, they can be prosecuted as individuals as well.</p>"
-    }],
-    "glossary": [{
+    "explanations": [
+      {
+        "id": "exp00",
+        "title": "Manual Scavenger",
+        "content":
+          "<p>Any person who has been employed to handle undecomposed human waste from an insanitary latrine, open drain or pit or railway track is a manual scavenger. The person could have been employed by anyone - say, someone from their village or by an agency or contractor. It does not matter if she was given regular employment or engaged on contract basis.</p><p>Any person who has been employed to clean human waste and does so with the help of the appropriate protective gear and equipment will not be considered a manual scavenger.</p><p>Another group of people called 'safai karamcharis' (“cleanliness workers”) are also sometimes considered as manual scavengers - however, they usually refer to people working as sweepers or cleaning workers in the municipalities, government or private organisations.</p>"
+      },
+      {
+        "id": "exp01",
+        "title": "Build an insanitary latrine",
+        "content":
+          "<p>It is unlawful and an offence under this Act for any person, municipality, panchayat or agency to build an insanitary latrine that requires human waste to be removed manually by a person before the waste has properly decomposed. </p><p>Local authorities are required to carry out a survey of insanitary latrines in its area and publish a list of all such latrines which were identified during the survey. The local authorities are responsible for the building and maintenance of these community sanitary latrines and must make sure that they are functional and hygienic.</p><p>First time offenders constructing an insanitary latrine can face jail time up to one year as well as a fine for up to Rs.50,000. Second time offenders can face jail time up to two years and a fine for up to Rs.1,00,000.</p>"
+      },
+      {
+        "id": "exp02",
+        "title": "Demolishing or converting an insanitary latrine",
+        "content":
+          "<p>The person who occupies the property which has an 'insanitary latrine' exists is required to demolish or convert it. If there was more than one person who owns the property on which the insanitary latrine is built, the costs had to be paid by the owner (if she is one of the occupiers) or equally by all of them. While the State Government could choose to help occupiers with the conversion process, the occupier cannot use the government's inaction as an excuse to maintain an insanitary latrine beyond 9 months. In case the occupier does not destroy or convert an insanitary latrine within 9 months, the local authority has to take over after giving a notice of 21 days. The authority can then recover the costs from the occupier.</p><p>First time offenders can face jail time up to one year as well as a fine for up to Rs.50,000</p><p>Second time offenders can face jail time up to two years and a fine for up to Rs.1,00,000</p>"
+      },
+      {
+        "id": "exp03",
+        "title": "Employing a manual scavenger",
+        "content":
+          "<p>Employing a manual scavenger is illegal in India. People who do so face the following repercussions.</p><table><tr><th>Action</th><th>Punishment for committing the offence for the first time</th><th>Punishment for committing the offence for the second time offence</th></tr><tbody><tr><td>Employing someone as a manual scavenger</td><td>Jail time up to one year as well as a fine for up to Rs.50,000</td><td>Jail time up to two years and a fine for up to Rs.1,00,000</td></tr><tr><td>Employing a person for hazardous cleaning of a sewer or a septic tank.</td><td>Jail time up to 2 years and fine for up Rs. 2,00,000</td><td>Jail time up to 5 years and a fine for up to Rs. 5,00,000</td></tr></tbody></table></p>"
+      },
+      {
+        "id": "exp04",
+        "title": "Cleaning Sewers",
+        "content":
+          "<p>It is unlawful for anyone (including municipalities and panchayats) to employ any person for the cleaning of a sewer or a septic tank without the necessary protective gear. Anyone who employs a person for hazardous cleaning of a sewer or a septic tank can face up to 2 years jail time and a fine up to Rs. 2,00,000 for their first offence. If it is a repeat offence they can face jail time up to up to 5 years and a fine up to Rs. 5,00,000.</p>"
+      },
+      {
+        "id": "exp05",
+        "title": "Offence Committed by Company",
+        "content":
+          "<p>When a company commits the offence of manual scavenging, every person who, at the time the offence was committed, was in charge of, and was responsible to, the company for the conduct of the business of the company, as well as the company, will be deemed to be guilty of the offence. When the offence has been committed by a company and it is proved that offence has been committed and can be attributed to the director, manager, secretary or other officer of the company, such an offence. </p>"
+      },
+      {
+        "id": "exp06",
+        "title": "Authority Where Complaints Can be Filed",
+        "content":
+          "<p>The National Commission for Safai Karamcharis is where all complaints of not following the provisions of this law are filed. This Commission will enquire into all of these complaints and report these complaints to the officers of the Municipalities and the Panchayats with recommendations of further actions. </p>"
+      },
+      {
+        "id": "exp07",
+        "title": "Rehabilitation",
+        "content":
+          "<p>Both in an urban and rural area, if the officers of the Municipality or the Panchayat believe that Manual Scavenging may be taking place in their area of control. In such a case, a survey is done and a list of manual scavengers is created. The Municipality and the Panchayat have a duty to rehabilitate the people included in the list of manual scavengers. The District Magistrate is responsible for ensuring that manual scavengers in that district are rehabilitated in accordance with this law. The District Magistrate or the State Government may assign responsibilities to subordinate officers and officers in the Municipality. The rehabilitation will happen in the following manner:<ul><li>Immediate help - Within 1 month they must be given a photo ID and some cash.</li><li>Children's education - Her children can get a government scholarship.</li><li>Property - The government must put in place schemes under which the person is allotted land and money to build a house or money for a built house.</li><li>Training for other jobs - The government has to help train either the person or another adult member of her family in other skills. The person should also be paid Rs. 3000 during the time she is undergoing training.</li><li>Loan - The government must put in place schemes under which the person (or another adult family member) has the option of getting a subsidy or loan with less interest rates to help them get into another field or occupation.</li><li>Other Help - The government can choose to give them any other kind of legal or other help.</li><li>Government Schemes - The Central Government has put in place a scheme called the 'Self Employment Scheme for Rehabilitation' of Manual Scavengers. Read more about the scheme here. There are numerous loan schemes put in place by the National Safai Karamcharis Finance & Development Corporation which are offered through state channelling agencies. Read more about such schemes here.</li></ul></p>"
+      }
+    ],
+    "qna": [
+      {
+        "id": "qna00",
+        "question": "Are the toilets in trains insanitary latrines?",
+        "answer":
+          "<p>Logically, a railway coach latrine would be an insanitary latrine because the human waste needs to be cleaned manually from the tracks. However, the definition of 'insanitary latrine' expressly excludes such latrines if they are being cleaned by an employee using proper protective gear.</p>"
+      },
+      {
+        "id": "qna01",
+        "question":
+          "What happens to manual scavengers who have signed an agreement of employment?",
+        "answer":
+          "<p>If anyone had signed an agreement with manual scavengers to employ them to clean up certain insanitary latrines, this agreement would be considered as having no legal effect.This does not mean that people who had been employed under the agreement will be jobless - the employer has a duty to employ her in another job and pay the same salary at a minimum.</p>"
+      },
+      {
+        "id": "qna02",
+        "question":
+          "If someone has been excluded from the survey process, does she still have the chance to be identified as a manual scavenger?",
+        "answer":
+          "<p>Yes, any person working as a manual scavenger in an urban area can apply to the CEO of the Municipality to be identified as a manual scavenger. They can make the application at any time (during or after the survey was conducted in the area).</p>"
+      },
+      {
+        "id": "qna03",
+        "question":
+          "Can the government exercise any investigative powers under this law to find out who employs and maintains insanitary latrines?",
+        "answer":
+          "<p>The government can appoint 'Inspectors' who have the powers to:<ul><li>test latrines</li><li>search premises where manual scavenging might be taking place,</li><li>examine people found at such places</li><li>ask questions and get information about contractors or people employed as manual scavengers</li><li>seize documents such as copies of registers, record of wages or notices.</li></ul>Not showing documents or giving information to the inspector when asked can be considered a crime under the general law on crimes. The law on criminal procedure in relation to search or seizure under a warrant would apply to searches and seizures conducted by such inspectors.</p>"
+      },
+      {
+        "id": "qna04",
+        "question":
+          "Can a company be punished in connection with manual scavenging?",
+        "answer":
+          "<p>Yes, offences like having insanitary latrines in construction sites can be committed by companies. The company will be directly prosecuted by the government. In addition, the people in charge can be prosecuted. If any officer was directly involved in the crime, they can be prosecuted as individuals as well.</p>"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "glos00",
         "term": "Hazardous Cleaning",
-        "definition": "An employer has a duty to provide protective gear and cleaning equipment for their employees who are made to clean sewers or septic tanks. When an employer does not provide any protective gear, it will be considered 'hazardous cleaning'"
-      }, {
+        "definition":
+          "An employer has a duty to provide protective gear and cleaning equipment for their employees who are made to clean sewers or septic tanks. When an employer does not provide any protective gear, it will be considered 'hazardous cleaning'"
+      },
+      {
+        "id": "glos01",
         "term": "Insanitary latrine",
-        "definition": "Any latrine that requires human waste to be removed manually by a person before the waste has properly decomposed is an insanitary latrine. The removal of waste could be in the latrine itself or from an open drain or pit into which the waste is flushed out."
-      }, {
+        "definition":
+          "Any latrine that requires human waste to be removed manually by a person before the waste has properly decomposed is an insanitary latrine. The removal of waste could be in the latrine itself or from an open drain or pit into which the waste is flushed out."
+      },
+      {
+        "id": "glos02",
         "term": "Occupier",
-        "definition": "The person who occupies the property which has an 'insanitary latrine' exists or where someone is employed as a manual scavenger is considered the 'occupier' of the property."
-      }, {
+        "definition":
+          "The person who occupies the property which has an 'insanitary latrine' exists or where someone is employed as a manual scavenger is considered the 'occupier' of the property."
+      },
+      {
+        "id": "glos03",
         "term": "National Commission for Safai Karamcharis",
-        "definition": "The 'National Commission for Safai Karmacharis' is a government body that has to supervise and monitor the implementation of The Prohibition Of Employment As Manual Scavengers And Their Rehabilitation Act"
-      }]
+        "definition":
+          "The 'National Commission for Safai Karmacharis' is a government body that has to supervise and monitor the implementation of The Prohibition Of Employment As Manual Scavengers And Their Rehabilitation Act"
+      }
+    ]
   },
   "scheduled-caste-and-scheduled-tribes": {
     "name": "Scheduled Caste & Scheduled Tribes",
@@ -776,19 +1065,179 @@
   },
   "first-information-report": {
     "name": "First Information Report (FIR)",
-    "summary": "",
+    "summary":
+      "First Information Report(FIR) is written document prepared by police when they receive information about any criminal offense. It’s generally a complaint lodged by the victim of a cognizable offense or by someone on their behalf and sets the the process of criminal justice in motion.",
     "image": "",
-    "explanations": [],
-    "qna": [],
-    "glossary": []
+    "explanations": [
+      {
+        "id": "exp00",
+        "title": "Who can file an FIR",
+        "content":
+          "<p>Anyone who is either a victim of a crime or someone who has knowledge of the crime can file an FIR. It is not necessary that you must have all information of the crime in order to file an FIR. But it is important that you report everything you know to the police.</p>"
+      },
+      {
+        "id": "exp01",
+        "title": "How to file an FIR",
+        "content":
+          "<p>If a crime has taken place:<ol><li><b>Go to the nearest police station.</b> It does not necessarily have to be in the area where the crime has been committed.</li><li>You will be directed to the Duty Officer. You can either <b>verbally tell the officer what happened, or write down the details yourself</b>. If you tell the police verbally, then they must write it down.</li><li>The Duty Officer will then make an entry in the General Diary or Daily Diary.</li><li>If you have a <b>written complaint</b> with you, please carry <b>two copies and give them to the Duty Officer</b>. Both will be stamped and one will be returned to you. The stamp bears a <b>Daily Diary Number or DD No.</b> and is <b>proof that they received your complaint</b>.</li><li>Once the <b>police have read it out</b>, if all the details are correct, you can <b>sign the FIR</b>. You have the <b>right to get a copy of the FIR for free</b>. Note the FIR number, date of FIR and the name of the police station. In case you lose your copy, you can use these details to access the FIR online for free.</li></ol></p><p>After registering the FIR, the contents of the FIR cannot be changed. However, you can give additional information to the police later on at any point.</p><p>In some states and cities, certain kinds of FIRs and complaints can be registered online. For example, in Delhi an online complaint can be filed for cases of missing persons or children, unidentified children or persons or dead bodies, senior citizen registration, stolen or unclaimed vehicle search or missing stolen mobile phones. </p>"
+      },
+      {
+        "id": "exp02",
+        "title": "Where can an FIR be filed",
+        "content":
+          "<p>An FIR can be filed at any police station. The fact that the crime may not have been committed in that police stations jurisdiction has no consequence to the filing. It is mandatory for the police to record the information provided, and then transfer it to the police station in whose area/jurisdiction the offence took place. For instance, if a crime was committed in North Delhi, the information can even be registered with a police station in South Delhi.</p><p>This concept is generally referred to as “Zero FIR” and was introducing in 2013. It departs from the previous practice where only that police station could record the information, in the area where the crime occurred, which at times caused massive delays in addressing a situation.</p>"
+      },
+      {
+        "id": "exp03",
+        "title": "Physically or Mentally Disabled",
+        "content":
+          "<p>Where a person who is mentally or physically disable, wants to report certain crimes committed against him, instead of coming a police station, the police can go to their residence or any such place convenient to the informant, for recording the information. Such information may even be videographed.</p>"
+      },
+      {
+        "id": "exp04",
+        "title": "Protection for Women",
+        "content":
+          "<p>In cases of certain crimes like rape, domestic violence and sexual harassment where the information is given by a woman, it must be recorded by a woman police officer or a woman officer.</p>"
+      },
+      {
+        "id": "exp05",
+        "title": "",
+        "content": "<p></p>"
+      }
+    ],
+    "qna": [
+      {
+        "id": "qna00",
+        "question": "Can the police refuse to register my FIR?",
+        "answer":
+          "<p>No, it is mandatory for the police to register an FIR. If they do refuse, the information can be sent to the Superintendent of Police in writing. He may conduct the investigation himself or order his subordinate police officers to carry it out.</p>"
+      },
+      {
+        "id": "qna01",
+        "question":
+          "I am a victim of a crime, but because of certain fears, I did not report it immediately. Would it affect my case if the FIR was registered late?",
+        "answer":
+          "<p>In most cases, delay in filing an FIR is not fatal to the case. If explained well, even long delays can be condoned. But it largely depends on the amount of time that has passed since the occurrence of the offence and various other factors. However, the delay in itself cannot be a reason for discarding the case.</p>"
+      },
+      {
+        "id": "qna02",
+        "question":
+          "I am not able to go to the police station. Is there any other way I can file an FIR?",
+        "answer":
+          "<p>Yes, you can call 100 and register an FIR with them. Some States even allow registering an FIR online.</p>"
+      },
+      {
+        "id": "qna03",
+        "question":
+          "What is the difference between an FIR and a private complaint?",
+        "answer":
+          "<p>FIR is filed with the police for cognizable offences. Whereas private complaint is made to the Magistrate for both cognizable and non cognizable offences.</p>"
+      },
+      {
+        "id": "qna04",
+        "question":
+          "What is the value of an FIR in a case? Why do I have to file it?",
+        "answer":
+          "<p>Though not regarded as evidence per se, an FIR is the most valuable document in the entire criminal process. It is the basis on which the police investigate the particular offence and frame their charge sheet accordingly.</p>"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "glos00",
+        "term": "Cognizable offence",
+        "definition":
+          "An offence for which a police officer may arrest the offender without a warrant."
+      },
+      {
+        "id": "glos01",
+        "term": "Police diary",
+        "definition":
+          "A diary in which every police officer making an investigation shall enter (day by day) his proceedings in the investigation, including the time at which the information reached him, the time at which he began and closed his investigation, the place or places visited by him, and a statement of the circumstances found out through his investigation."
+      },
+      {
+        "id": "glos02",
+        "term": "First Information Report",
+        "definition":
+          "The FIR is the information relating to a cognizable offence recorded in writing by the officer in charge of a police station and signed by the informant (person giving the information), to be entered in a book kept by the officer."
+      },
+      {
+        "id": "glos03",
+        "term": "Duty Officer",
+        "definition": "An Officer who is on duty at a particular time."
+      },
+      {
+        "id": "glos04",
+        "term": "Written complaint",
+        "definition":
+          "A written claim asking a Magistrate to take action because some person has committed an offence. It does not include a police report."
+      },
+      {
+        "id": "glos05",
+        "term": "Jurisdiction",
+        "definition": "Area over which one has official power or authority."
+      },
+      {
+        "id": "glos06",
+        "term": "Investigation",
+        "definition":
+          "All proceedings for the collection of evidence conducted by a police officer or any person (except a Magistrate) authorized to collect evidence by a Magistrate."
+      }
+    ]
   },
   "censorship": {
     "name": "Censorship",
-    "summary": "",
+    "summary":
+      "Censorship is when an authority (such as the government) cuts out or suppresses communication. The official stance of the Government has been that it does not censor films, it only certifies them.",
     "image": "",
-    "explanations": [],
-    "qna": [],
-    "glossary": []
+    "explanations": [
+      {
+        "id": "exp00",
+        "title": "Censorship of Films/Movies",
+        "content":
+          "<p>Form films/movies to be shown to the general public, they must be certified. Many films are certified only if certain conditions are met and certain changes are made to the film – this amounts to censoring which is generally understood as blocking or hiding content from its intended audience.</p><p>The law says that the Board can refuse to certify a film if any part, or the whole goes against the sovereignty of India, or affects its relations with other countries. The Board can also take action if it thinks the film is indecent, against morality or if it is likely to cause public unrest or defame anyone. This is similar to language in the Constitution, which lists situations in which our fundamental right of free speech can be regulated.</p><p>In addition, however, the Central Government has also been given the power to issue more 'guidelines' to help the Board decide how to proceed. You should read them for yourself.</p><p>Some of the things the guidelines says are -<ul><li>Films should provide a 'clean and healthy environment'</li><li>Anti-social activities, or drinking/drug use can't be glorified, and</li><li>There should not be needless violence</li><li>Films shouldn't cater to the 'baser instinct', or be 'vulgar'.</li><li>It should not degrade women and sexual violence against women should be shown 'to the minimum'</li><li>Anti-national or communal attitudes can't be promoted</li></ul></p>"
+      },
+      {
+        "id": "exp01",
+        "title": "Censor Board Actions",
+        "content":
+          "<p>When showing a film/movie to the general public in a theatre, you have to apply to the Certification Board (commonly known as the Censor Board) for a certificate. The process for filing the application is detailed in Rule 21 of the Cinematograph Rules. The Board examines the film, and it also has to hear from you. Then it can do any one of the following:<ul><li>It can release the film with one of 4 certificates:<ul><li>Certify it as being free to be seen by anyone (‘U’ or ‘Unrestricted’ certificate), or</li><li>It can release the film, but also ‘caution’ parents to decide whether children below 12 years should be taken to see it. (‘U/A’ certificate, meaning Unrestricted, with adult supervision for children below 12 years)</li><li>It can release the film, but certify it as ‘Adult’ only. (‘A’ certificate)</li><li>It can say that the film can only be seen by certain kinds of people, say doctors or scientists. (‘S’ certificate, not common these days)</li></ul></li><li>It can tell the filmmaker to make changes to the film before it can be certified by the Board as above.</li><li>Totally refuse to certify the film (which cannot be released without this certificate). Some recent movies that were totally banned include Lipstick Under My Burkha and The Painted House.</li></ul></p>"
+      },
+      {
+        "id": "exp02",
+        "title": "Public showing of a film without a certificate",
+        "content":
+          "<p>The law lays down punishments in the following way - <br /><b>For showing an uncertified film:</b> The punishment is a minimum prison of 3 months and maximum of three years, and also fine between Rupees 20,000 and one lakh.If the person continues to break the law after getting notice, he can be fined up to rupees 20,000 per day. A judge however can reduce this punishment if he has good reasons. By the order of the Court under Section 7 of the Cinematograph Act, 1952, the film can also be forfeited to the Government.<br /><b>For showing an adult or special film to children or people it is not certified for:</b>Minimum 3 years prison, and also can be fined up to Rupees one lakh.If the person continues to break the law after getting notice, he can be fined up to Rupees 20,000 per day. The film can also be forfeited to the Government.<br /><b>For making changes to the film after its been certified:</b>Minimum 3 years prison, and also can be fined up to 1 lakh rupees.If the person continues to break the law after getting notice, he can be fined up to rupees 20 thousand per day. The film can also be forfeited to the Government.</p>"
+      },
+      {
+        "id": "exp03",
+        "title": "Censorship of TV Content",
+        "content":
+          "<p>A different set of laws deal with content on TV. The main law (﻿The Cable Television Networks (Regulation) Act, 1995) allows the Government to ban channels, or even entire cable operators (say Star TV as a whole). Any content can be blocked by the Government if it feels that the content is encouraging hatred between groups, or it can cause public unrest.</p><p>Content can also be blocked if it violates the Programme Code and Advertising Code put out by the Government that all cable channels must follow. As with the film guidelines, you should read them yourself. They have a widely worded set of conditions, such as:<ul><li>Content should not 'offend good taste or decency'</li><li>Should not encourage superstition.</li><li>Should not be derogatory to women.</li></p>"
+      },
+      {
+        "id": "exp04",
+        "title": "Censorship of the Internet",
+        "content":
+          "<p>The law has two main ways in which content on the internet can be blocked:<ol><li>The Government can block any content which is either a threat to national security, or can disrupt public order, or content that encourages people to commit some crime. There are rules that lay down the procedure to be followed for this blocking to take place.</li><li>There are certain responsibilities on any internet service provider, or on platforms like Facebook or Quora, to remove any illegal content, if it gets an order from a Court. Illegal content is defined in a broad manner, including anything that is 'grossly harmful', 'harassing', or 'blasphemous'</li></ol></p><p>Earlier, there were even more stringent provisions in the Information Technology Act - Section 66A, for example, said that anyone could be arrested for sending an annoying email or posting any 'offensive' content. The Supreme Court in 2012 decided, however, that Section 66A was unconstitutional, and that platforms or ISPs were not required to take down content based on a complaint - a court order was needed.</p><p>There is also currently some confusion whether an uncensored version of a film can be shown online, through, say, Youtube, Hotstar or Netflix. While the Cinematograph Act doesn't apply directly to online content, last year the Censor Board said that they will demand an undertaking from all applicants (filmmakers) that censored portions of their films will not be released anywhere, internet included.</p>"
+      }
+    ],
+    "qna": [
+      {
+        "id": "qna00",
+        "question":
+          "The Board has said I need to make extensive cuts to my film! What are my options?",
+        "answer":
+          "<p>The law says you have to appeal within 30 days to a Tribunal known as the Film Certification Appellate Tribunal (FCAT). It can revise the decision of the Board. However, the Central Government also has a lot of power to change the decisions made by the Board or the Tribunal. It can look into any film which is being considered by the Board, and can also look into any decision that has been made by the Board or the Tribunal. It can then make any orders cancelling or suspending a certificate, or changing the status (from, say ‘U/A’ to ‘A’) certification or release, and the Board will have to follow the order.</p><p>The Government has to hear your side of the story first, and any order only remains valid for two months. However, it can make this procedure totally secret, if it thinks it’s ‘against public interest’ to make it public.</p>"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "glos00",
+        "term": "The Censor Board",
+        "definition":
+          "The Censor Board is actually known officially as the Certification Board in the law. It has up to 25 members appointed by the Central Government. Not much is given in the law about their qualifications. Apart from its headquarters in Mumbai, there are 9 other regional offices."
+      }
+    ]
   },
   "online-abuse": {
     "name": "Online Abuse",
@@ -965,25 +1414,37 @@
           "<p>If it is proved that an adult:<ul><li>lives or spends a lot of time with a sex worker</li><li>helps or forces her prostitution, or influences her to do that work</li><li>is a tout or pimp</li></ul>The law assumes this person is living on the earnings of prostitution, and this person will be punished accordingly.</p>"
       }
     ],
-    "glossary": [{
-      "term": "Prostitution",
-      "definition": "A sexual act is carried out where money is received."
-    },{
-      "term": "Brothel",
-      "definition": "any place which is used for sexual exploitation or abuse for the gain of another person, or the gain of two or more sex workers"
-    },{
-      "term": "Under trials",
-      "definition": "people who have been arrested for a crime but have not been found guilty by any court, and whose trials are on-going."
-    },{
-      "term": "Corrective Institution",
-      "definition": "any institution where people in need of correction, such as sex workers found guilty of certain crimes under this law, are kept. It includes shelters where people currently undergoing trials are kept"
-    },{
-      "term": "Protective home",
-      "definition": "any institution where people in need of care and protection are kept. They must have certain equipment, facilities and technically qualified people. A shelter where under trials are kept is not a protective home. A corrective institution is not considered a protective home."
-    },{
-      "term": "Solicitation",
-      "definition": "Solicitation is defined as tempting or attracting a person towards prostitution, or loitering in an area and disturbing public decency, or harassing any person for prostitution."
-    }]
+    "glossary": [
+      {
+        "term": "Prostitution",
+        "definition": "A sexual act is carried out where money is received."
+      },
+      {
+        "term": "Brothel",
+        "definition":
+          "any place which is used for sexual exploitation or abuse for the gain of another person, or the gain of two or more sex workers"
+      },
+      {
+        "term": "Under trials",
+        "definition":
+          "people who have been arrested for a crime but have not been found guilty by any court, and whose trials are on-going."
+      },
+      {
+        "term": "Corrective Institution",
+        "definition":
+          "any institution where people in need of correction, such as sex workers found guilty of certain crimes under this law, are kept. It includes shelters where people currently undergoing trials are kept"
+      },
+      {
+        "term": "Protective home",
+        "definition":
+          "any institution where people in need of care and protection are kept. They must have certain equipment, facilities and technically qualified people. A shelter where under trials are kept is not a protective home. A corrective institution is not considered a protective home."
+      },
+      {
+        "term": "Solicitation",
+        "definition":
+          "Solicitation is defined as tempting or attracting a person towards prostitution, or loitering in an area and disturbing public decency, or harassing any person for prostitution."
+      }
+    ]
   },
   "sexual-harassment-at-the-workplace": {
     "name": "Sexual Harassment",
@@ -1080,7 +1541,8 @@
         "title": "Employer’s Responsibility",
         "content":
           "<p>Under the law, an employer has a set of binding duties to create a safe work environment for women. </p><p>Women employees should feel safe from sexual harassment from co-workers as well as others who might just be visiting the workplace. It’s important for employers to visibly display the sexual harassment policy of the company along with the order setting up the Internal Complaints Committee so employees as well as visitors to the workplace can see it.</p><p>When as an employer you fail to<ul><li>Set  up an Internal Complaints Committee by an order in writing.<ul><li>Set up an Internal Complaints Committee for each office, unit or branch.</li><li>Organize training programs for the members of the Internal Complaints Committee</li><li>Provide facilities to the Internal Complaints Committee to conduct inquiries.</li><li>Ensure that all witnesses and the offender appear before the Internal Complaints Committee.</li><li>Make sure all information is available to the Internal Complaints Committee.</li><li>Support any woman who chooses to file a criminal case against the offender, whether the perpetrator is an employee or not. Further, support her if she chooses to file a complaint with the Internal Complaints Committee of the workplace where the incident took place.</li><li>Should treat sexual harassment as a misconduct under service rules</li><li>Ensure that the Annual Reports by the Internal Complaints Committee are submitted on time.</li><li>Pay the external member of the Internal Complaints Committee fees</li><li>Be responsible for getting a new member of the Internal Complaints Committee if a member is removed from office</li><li>Implement the settlement terms and take action as per the recommendations of the Internal Complaints Committee or the Local Complaints Committee.</li><li>Send a report back to the Internal Complaints Committee on how the recommendations of the Committee were implemented.</ul></li><li>Frame a comprehensive sexual harassment policy for the workplace. Visibly display the sexual harassment policy of the company along with the order setting up the Internal Complaints Committee at your workplace.</li><li>Organize regular workshops to educate the employees about issues of sexual harassment</li></ul>or does not follow or attempts to not follow or helps someone else is not following the above instructions, you may be fined with a maximum amount of Rupees Fifty Thousand.</b></p>"
-      },{
+      },
+      {
         "title":
           "Filing a Complaint as a victim of sexual harassment at the workplace",
         "content":

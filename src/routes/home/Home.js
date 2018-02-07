@@ -17,9 +17,7 @@ class Home extends React.Component {
     headings: PropTypes.shape({
       featured_topics: PropTypes.string.isRequired,
       what_we_do: PropTypes.string.isRequired,
-      follow_us: PropTypes.string.isRequired,
-      word_of_the_day: PropTypes.string.isRequired,
-      featured_questions: PropTypes.string.isRequired,
+      short_explanation: PropTypes.string.isRequired
     }).isRequired,
     featured: PropTypes.shape({
       topics: PropTypes.arrayOf(
@@ -35,9 +33,18 @@ class Home extends React.Component {
     return (
       <div className={s.root}>
         <Hero content={this.props.hero} style="center" image={heroUrl} theme="light"/>
-        <div className={s.container}>
-          <div className={s.heading}>{this.props.headings.featured_topics}</div>
-          <Topics collection={this.props.featured.topics} />
+        <div className={s.featuredTopics}>
+          <div className={s.container}>
+            <div className={s.heading}>{this.props.headings.featured_topics}</div>
+            <Topics collection={this.props.featured.topics} />
+          </div>
+        </div>
+        <div className={s.story}>
+          <div className={s.container}>
+            <h2 className={s.storyTitle}
+              dangerouslySetInnerHTML={{ __html: this.props.headings.what_we_do }} />
+            <div className={s.shortExplanation}>{this.props.headings.short_explanation}</div>
+          </div>
         </div>
       </div>
     );

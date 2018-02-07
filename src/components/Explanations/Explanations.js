@@ -31,7 +31,7 @@ class Explanations extends React.Component {
   handleClick = event => {
     event.preventDefault();
     let newClasses = this.state.explanationClasses
-    
+
     const id = event.target.attributes.getNamedItem('data-id').value;
 
     newClasses[this.state.chosenIndex] = s.explanation;
@@ -49,7 +49,8 @@ class Explanations extends React.Component {
         <div className={s.collection}>
           {this.props.collection.map((explanation, index) => (
             <div  className={this.state.explanationClasses[index]}
-                  data-explanation={index} >
+                  data-explanation={index}
+                  key={explanation.id}>
               <h2 className={s.title}>{explanation.title}</h2>
               <div
                 className={s.content}

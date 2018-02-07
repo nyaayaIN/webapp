@@ -1,63 +1,16 @@
 {
-  "topics": [{
+  "topics": [
+    {
       "id": "00001",
       "image": "children-accused-of-crime-thumb.jpg",
       "name": "Children Accused of Crime",
       "url": "/topic/children-accused-of-crime"
     },
     {
-      "id": "00002",
-      "image": "child-labour-thumb.jpg",
-      "name": "Child Labour",
-      "url": "/topic/child-labour"
-    },
-    {
-      "id": "00003",
-      "image": "free-and-compulsory-education-thumb.jpg",
-      "name": "Free and Compulsory Education",
-      "url": "/topic/free-and-compulsory-education"
-    },
-    {
-      "id": "00004",
-      "image": "anti-corruption-thumb.jpg",
-      "name": "Anti-Corruption",
-      "url": "/topic/anti-corruption"
-    },
-    {
-      "id": "00005",
-      "image": "right-to-information-thumb.jpg",
-      "name": "Right To Information",
-      "url": "/topic/right-to-information"
-    },
-    {
-      "id": "00013",
-      "image": "smoking-thumb.jpg",
-      "name": "Smoking",
-      "url": "/topic/smoking"
-    },
-    {
-      "id": "00015",
-      "image": "manual-scavenging-thumb.jpg",
-      "name": "Manual Scavenging",
-      "url": "/topic/manual-scavenging"
-    },
-    {
       "id": "00017",
       "image": "arrest-thumb.jpg",
       "name": "Arrest",
       "url": "/topic/arrest"
-    },
-    {
-      "id": "00018",
-      "image": "bail-thumb.jpg",
-      "name": "Bail",
-      "url": "/topic/bail"
-    },
-    {
-      "id": "00021",
-      "image": "censorship-thumb.jpg",
-      "name": "Censorship",
-      "url": "/topic/censorship"
     },
     {
       "id": "00026",

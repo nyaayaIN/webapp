@@ -20,9 +20,7 @@ async function action({ fetch }) {
   const headings = {
     featured_topics: i18n.featured_topics,
     what_we_do: i18n.what_we_do,
-    follow_us: i18n.follow_us,
-    word_of_the_day: i18n.word_of_the_day,
-    featured_questions: i18n.featured_questions,
+    short_explanation: i18n.short_explanation,
   };
 
   return {

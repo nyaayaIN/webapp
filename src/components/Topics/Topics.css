@@ -11,29 +11,34 @@
 }
 
 .topic {
-  color: var(--tertiary-text-colour);
+  border: solid 1px var(--neutral-medium-colour);
+  color: var(--lightest-colour);
   width: 22.5%;
   margin: 1.5% 0.5%;
   text-decoration: none;
 }
 
 .tile {
-  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.51);
   height: 100%;
 }
 
 .thumbnail {
   width: 100%;
   height: auto;
+  filter: grayscale(100%);
 }
 
 .title {
   background: var(--lightest-colour);
-  color: var(--primary-text-colour);
+  color: var(--darkest-colour);
   font-size: 1em;
   font-weight: normal;
   padding: 0.5em 1em;
   height: 2.5em;
+}
+
+.topic:hover .thumbnail {
+  filter: none;
 }
 
 .topic:hover .title {
