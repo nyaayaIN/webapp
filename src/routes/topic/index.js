@@ -15,12 +15,11 @@ async function action({ fetch, params, query }) {
     component: (
       <Layout>
         <Topic
-          hero={"/topics/"+ params[0]+"-full.jpg"}
+          hero={params[0]+"-full.jpg"}
           name={data.name}
           summary={data.summary}
           explanations={data.explanations}
           qna={data.qna}
-          checklists={data.checklists}
           glossary={data.glossary}
           chosen={chosen}
         />

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="27px" viewBox="0 0 27 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="10.4434251" cy="9.55657492" r="9.55657492"></circle>
+        <filter x="-31.4%" y="-31.4%" width="162.8%" height="162.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.769478104   0 0 0 0 0.765789199   0 0 0 0 0.765789199  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1118.000000, -18.000000)">
+        <g id="Group-3" transform="translate(1121.000000, 22.000000)">
+            <g id="Oval-5-Copy">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <path d="M14.5391,10.4772944 L14.5391,13.2973846 L12.8998216,13.2973846 L12.8998216,10.6648569 C12.8998216,10.0029872 12.66346,9.55315653 12.0703094,9.55315653 C11.6166926,9.55315653 11.3491049,9.85770814 11.2296529,10.1508034 C11.1866432,10.2563521 11.1735804,10.4041682 11.1735804,10.5500856 L11.1735804,13.2970495 L9.53591684,13.2970495 C9.53591684,13.2970495 9.55790137,8.84010016 9.53591684,8.37850989 L11.1739162,8.37850989 L11.1739162,9.07565815 C11.1716937,9.08138635 11.1669131,9.08614123 11.1646747,9.09250766 L11.1739162,9.09250766 L11.1739162,9.07565815 C11.3927542,8.74059873 11.7804334,8.26310036 12.6510367,8.26310036 C13.7315723,8.26311631 14.5391,8.96599277 14.5391,10.4772944 Z M7.82113955,6.00698995 C7.26081386,6.00698995 6.8938401,6.37384963 6.8938401,6.85769848 C6.8938401,7.3285113 7.24998948,7.70776876 7.80011435,7.70776876 L7.8099954,7.70776876 C8.38274435,7.70776876 8.73761462,7.3285113 8.73761462,6.85769848 C8.72647046,6.37384963 8.38276033,6.00698995 7.82113955,6.00698995 Z M6.99164328,13.2973686 L8.62996237,13.2973686 L8.62996237,8.37820673 L6.99164328,8.37820673 L6.99164328,13.2973686 Z" id="LinkedIn_3_" fill="#11ABC7" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

@@ -85,24 +85,50 @@
           "<p>Children under 7 years are completely excluded from criminal law, and children between ages 7 to 12 are excluded if the courts thought that they did not understand the consequence of their actions. The term used in such cases is ‘doli incapax’ which means a child is incapable of understanding the consequences of a crime, and hence is considered under one of the general exceptions to treating someone as a criminal under Indian Penal Code.</p>"
       }
     ],
-    "checklists": [
-      {
-        "title": "Lorem",
-        "content": ["stuff", "goes", "here"]
-      },
-      {
-        "title": "Lorem",
-        "content": ["stuff", "goes", "here"]
-      }
-    ],
     "glossary": [
       {
-        "term": "Lorem",
-        "definition": ""
+        "term": "Juvenile",
+        "definition": "‘Juvenile’ and ‘child’ mean one and the same thing under this law. If you are under 18 years of age and the police believe that you have committed a crime, you are a juvenile."
       },
       {
-        "term": "Lorem",
-        "definition": ""
+        "term": "Children in conflict with law",
+        "definition": "A child in conflict with law is one who is a child-offender (i.e. a child who is believed to have committed a crime)"
+      },
+      {
+        "term": "Juvenile Justice Board/Authority",
+        "definition": "The Juvenile Justice Board or the Board is the authority that deals with Children in Conflict with Law (a child who has possibly committed a crime). Typically, each district would have a Board that would deal with affairs pertaining to that area."
+      },
+      {
+        "term": "Summons case",
+        "definition": "Cases wherein the offence committed is punishable by imprisonment not exceeding two years. The trial procedure is such that the accused only needs to be informed orally about the accusations and gets only one opportunity to present his/her case."
+      },
+      {
+        "term": "Summary trial",
+        "definition": "Cases for small offences punishable with an imprisonment of not more than six months. A summary trial cannot award a punishment of imprisonment more than three months."
+      },
+      {
+        "term": "Police diary",
+        "definition": "A diary in which every police officer making an investigation shall enter (day by day) his proceedings in the investigation, including the time at which the information reached him, the time at which he began and closed his investigation, the place or places visited by him, and a statement of the circumstances found out through his investigation"
+      },
+      {
+        "term": "Probation",
+        "definition": "Release of a child offender on good conduct, to be placed under the care of a parent, guardian or any other fit person/institution for not more than three years."
+      },
+      {
+        "term": "Juvenile Justice Board/Authority",
+        "definition": "The Juvenile Justice Board or the Board is the authority that deals with Children in Conflict with Law (a child who has possibly committed a crime). Typically, each district would have a Board that would deal with affairs pertaining to that area."
+      },
+      {
+        "term": "Observation home",
+        "definition": "A home for children specified under this law, established and maintained in every district or group of districts by a State Government."
+      },
+      {
+        "term": "Open Shelter",
+        "definition": "A facility for children established and maintained by the State Government."
+      },
+      {
+        "term": "Special Juvenile Police Unit",
+        "definition": "A unit of the police force of a district/city or any other police unit dealing with children and designated for handling children."
       }
     ]
   },
@@ -147,24 +173,18 @@
           "<p>The person in-charge has a duty to maintain a register which must be made open for checking by the government inspector during office hours. The register should contain the following details of all adolescent employees:<ul><li>name and date of birth</li><li>working hours and periods of work as well as the periods of rest</li><li>the type of work.</li></ul></p>"
       }
     ],
-    "checklists": [
-      {
-        "title": "Lorem",
-        "content": ["stuff", "goes", "here"]
-      },
-      {
-        "title": "Lorem",
-        "content": ["stuff", "goes", "here"]
-      }
-    ],
     "glossary": [
       {
-        "term": "Lorem",
-        "definition": ""
+        "term": "Adolescent",
+        "definition": "A child who falls under the age group 14 to 18"
       },
       {
-        "term": "Lorem",
-        "definition": ""
+        "term": "Child",
+        "definition": "A person who is below the age of 14"
+      },
+      {
+        "term": "Hazardous Environment",
+        "definition": "These are workplaces where the life and health of a child can get affected. For example: Working in a fire cracker factory can badly affect the health of a child by exposing it to harmful substances."
       }
     ]
   },
@@ -247,7 +267,6 @@
           "<p>The children will  get admission in a nearby government school. </p>"
       }
     ],
-    "checklists": [],
     "glossary": []
   },
   "anti-corruption": {
@@ -318,8 +337,16 @@
           "<p>Any person who regularly influences public servants through illegal means or uses business relationships to influence public servants can be sent to jail for a period of 5 to 10 years and can also be asked to pay fine.</p>"
       }
     ],
-    "checklists": [],
-    "glossary": []
+    "glossary": [{
+      "term": "Election",
+      "definition": "An election is the process by which a person is elected to the Parliament, State legislature or any other local authority (e.g. municipality) through voting."
+    }, {
+      "term": "Public duty",
+      "definition": "As a public servant, a public duty is the responsibility you have towards the government, the people or society, in doing your duty. Just as you have a duty to take care of your parents in their old age, public servants have a duty towards the government, people and society at large."
+    }, {
+      "term": "Banker's books",
+      "definition": "Banker’s books mean ledgers and account books where the day to day transactions of the bank or a specific bank account are stored."
+    }]
   },
   "right-to-information": {
     "name": "Right to Information",
@@ -374,8 +401,13 @@
       }
     ],
     "qna": [],
-    "checklists": [],
-    "glossary": []
+    "glossary": [{
+      "term": "Public duty",
+      "definition": "As a public servant, a public duty is the responsibility you have towards the government, the people or society, in doing your duty. Just as you have a duty to take care of your parents in their old age, public servants have a duty towards the government, people and society at large."
+    }, {
+      "term": "Appellate Authority",
+      "definition": "The commissioners where appeals can be fined when the PIO does not respond within the stipulated time."
+    }]
   },
   "family": {
     "name": "Family",
@@ -383,7 +415,6 @@
     "image": "",
     "explanations": [],
     "qna": [],
-    "checklists": [],
     "glossary": []
   },
   "dowry": {
@@ -392,7 +423,6 @@
     "image": "",
     "explanations": [],
     "qna": [],
-    "checklists": [],
     "glossary": []
   },
   "marriage": {
@@ -401,7 +431,6 @@
     "image": "",
     "explanations": [],
     "qna": [],
-    "checklists": [],
     "glossary": []
   },
   "divorce-and-separation": {
@@ -410,7 +439,6 @@
     "image": "",
     "explanations": [],
     "qna": [],
-    "checklists": [],
     "glossary": []
   },
   "domestic-violence": {
@@ -419,7 +447,6 @@
     "image": "",
     "explanations": [],
     "qna": [],
-    "checklists": [],
     "glossary": []
   },
   "maintenance-of-family": {
@@ -428,17 +455,72 @@
     "image": "",
     "explanations": [],
     "qna": [],
-    "checklists": [],
     "glossary": []
   },
   "smoking": {
     "name": "Smoking",
-    "summary": "",
+    "summary": "Smoking in public places like restaurants, public transport, or places of education is illegal in India. It’s okay to smoke in completely open spaces like roads, and also in private places like your own house.  The law also bans selling tobacco and cigarettes to people under 18 as well as advertising tobacco and cigarettes.  It is also illegal to sell cigarettes that do not comply with the rules and regulations of warnings on labels.",
     "image": "",
-    "explanations": [],
-    "qna": [],
-    "checklists": [],
-    "glossary": []
+    "explanations": [{
+      "title": "Selling Cigarettes",
+      "content": "<p>There are some prohibitions and restrictions when it comes to selling cigarettes. It is illegal to<ul><li>sell cigarettes or tobacco products to people under 18</li><li>sell cigarettes or tobacco products within 100 yards of any educational institution</li></ul>If you are caught selling cigarettes to minors (under 18), a police officer can detain you. You may also be taken to the Magistrate post-detention. You will be punished with a fine upto Rs. 200.</p>"
+    }, {
+      "title": "Smoking in a public place",
+      "content": "<p>Smoking in public buildings like a restaurant, theatre, healthcare institutions or public transport is not allowed and is a crime. You are allowed to smoke in completely open spaces like roads or parks, however it is still illegal to smoke in places like bus stops, railway stations or open auditoriums. You can smoke in designated smoking areas. Under this law, hotels (with more than 30 rooms), airports, or restaurants (which can seat more than 30 people) can create a separate smoking area where smokers can smoke.</p><p>If you are caught smoking in a public place, a police officer can detain you for smoking in a public place. You will be punished with a maximum fine of Rs. 200</p>"
+    }, {
+      "title": "Owner’s responsibilities",
+      "content": "<p>Under the Rules created under this Act, the owner of a public place must display a warning board at the entrance of the public place and inside. The board must be a minimum of 60 cm by 30 cm.</p>"
+    }, {
+      "title": "Advertising Cigarettes and Tobacco products",
+      "content": "<p>You must not advertise cigarettes or other tobacco products, even if you are offered money to do so. This also means that you must not advertise the brand name of companies selling cigarettes and tobacco products for sponsorship. The first time you are caught advertising cigarettes or tobacco products, you will be imprisoned upto 2 years and/or will pay fine upto Rs. 1000. After the first time, you will be imprisoned upto 5 years and will pay fine upto Rs. 5000</p><p>Where tobacco products are sold, a warning board containing 'Tobacco Causes Cancer' or 'Tobacco Kills' must be displayed. No brand promotion is allowed on such board.This does not apply if the advertisement is on:<ul><li>The package selling tobacco or cigarettes</li><li>The shop where tobacco or cigarettes are available.</li></ul></p>"
+    }, {
+      "title": "Warning Labels on Cigarettes and Tobacco products",
+      "content": "<p>All cigarette and tobacco products must:<ul><li>Have a warning on their label, which may include a photographic warning. The details of the size of warnings in the labels are found in the rules, which are summarised here.</li><li>This warning must be on the biggest side of the package</li><li>The nicotine and tar contents of the product is visible on the package</li><li>The maximum limit of nicotine and tar allowed is visible on the package and the nicotine and tar amount in the tobacco must not exceed the allowed amount</li><li>The warning on the tobacco product should be Readable and clear as well as bold and visible</li><li>The warning on the package must be in all the languages used on the packaging. Where a foreign language is used on the package, the warning must be in English.</li><li>The details of the size of warnings in the labels are found in the rules, which are summarised here.</li></ul>If you produce the products without warnings, then you can go to jail for upto 2 years or will have to pay fine of Rs. 5,000. When caught a second time, you can go to jail for 5 years or will have to pay fine of Rs. 10,000. If you sell cigarettes without warnings, you can be sent to jail for upto 1 year, or you may have to pay fine upto Rs.1,000 if it was your first offence. When caught a second time, you may go to jail for 2 years, or will pay fine upto Rs. 3,000.</p>"
+    }, {
+      "title": "Seizure of cigarettes and tobacco products",
+      "content": "<p>Any police officer, or officer of State Food & Drug Administration or any officer authorised by the Central Government who is above the Sub-Inspector Rank may enter and search the premises of any location where:<ul><li>Advertisement of cigarettes & tobacco products takes place</li><li>Trade of cigarettes & tobacco products is carried out</li></ul></p>"
+    }, {
+      "title": "Punishment for Companies",
+      "content": "<p>As actions like advertising tobacco products can be committed by companies, the company will directly be prosecuted for committing offenses pertaining to smoking. In addition, the people in charge of the company at the time of the advertising can be prosecuted. Such people will have to prove that they did not know about the illegal actions committed by the company. If any officer of the company was directly involved, they can be prosecuted as individuals as well.</p>"
+    }, {
+      "title": "Appeal",
+      "content": "<p>You can always appeal any decision made by a court regarding violations of The Cigarettes And Other Tobacco Products Act. Additional evidence may be taken when the Appeal is heard. When an Appeal is made, the fine amount cannot be increased unless you have been heard in person or by a representative.You can only appeal once.</p>"
+    }],
+    "qna": [{
+      "question": "Can officers enter and search my premises where I sell cigarettes?",
+      "answer": "<p>Any police officer, or officer of State Food & Drug Administration or any officer authorised by the Central Government who is above the Sub-Inspector Rank may enter and search the premises of any location where:<ul><li>Advertisement of cigarettes & tobacco products takes place</li><li>Trade of cigarettes & tobacco products is carried out</li></ul></p>"
+    }, {
+      "question": "Can police officers seize cigarette or tobacco products?",
+      "answer": "<p>Yes, police officers can seize cigarettes/tobacco products when they believe that provisions of the The Cigarettes And Other Tobacco Products (Prohibition Of Advertisement And Regulation Of Trade And Commerce, Production, Supply And Distribution) Act, 2003 are violated. However, they may not hold the cigarettes/tobacco for more than 90 days without approval of the District Judge.</p>"
+    }, {
+      "question": "Can the Court order confiscation of cigarette packages?",
+      "answer": "<p>Yes, but you must be given notice before such an Order is made. Instead of the confiscation, the Court may allow you to pay the costs of the good seized. The Officers will then return the seized packages to you. The Court can order confiscation of packages or ask you to pay costs without any limit to the cost, unless the Central Government notifies a limit.</p>"
+    }, {
+      "question": "Can I go to jail if I make cigarette packets without the warnings?",
+      "answer": "<p>If you produce the products, then you can go to jail for upto 2 years or will have to pay fine of Rs. 5,000. When caught a second time, you can go to jail for 5 years or will have to pay fine of Rs. 10,000.</p>"
+    }, {
+      "question": "Can I go to jail if I sell products without the warning?",
+      "answer": "<p>Yes. The first time, for upto 1 year, or you may have to pay fine upto Rs. 1000. When caught a second time, you may go to jail for 2 years, or will pay fine upto Rs. 3000.</p>"
+    }, {
+      "question": "Do I have to put warning labels on cigarettes I am exporting?",
+      "answer": "<p>Nothing in this Act applies to cigarette and tobacco products which are exported. However, all exported products must comply with requirements of the foreign country."
+    }],
+    "glossary": [{
+      "term": "Advertisement",
+      "definition": "Advertising is an audio or visual form of marketing communication that employs an openly sponsored, non-personal message to promote or sell a product, service or idea. With respect to advertising smoking, any of the following can be considered to be an advertisement: A Notice, A Circular, A Label, A Wrapper, A television commercial, A billboard sign, Any Announcements"
+    }, {
+      "term": "Cigarette",
+      "definition": "Anything covering a roll of tobacco is considered to be a cigarette. It does not matter if the covering contains tobacco or not. As long as people a roll of tobacco calling it a cigarette, it will be considered a cigarette. Beedi, cheerot and cigar are not considered to be cigarettes"
+    },{
+      "term": "Specified Warning",
+      "definition": "A specified warning is a warning against the use of cigarettes or tobacco products. It is to be printed, painted or shown on packages of cigarettes or any other tobacco products."
+    },{
+      "term": "Tobacco Products",
+      "definition": "Cigarettes, Cigars, Cheroots, Beedis, Cigarette tobacco, pipe tobacco, hookah tobacco, Chewing tobacco, Snuff, Pan masala, or any chewable item containing tobacco, Gutka, Tooth powder containing tobacco"
+    },{
+      "term": "Public Place",
+      "definition": "A public place is any place that can be visited by the public except open spaces like a regular park."
+    }]
   },
   "drugs-and-narcotics": {
     "name": "Drugs and Narcotics",
@@ -446,17 +528,66 @@
     "image": "",
     "explanations": [],
     "qna": [],
-    "checklists": [],
     "glossary": []
   },
   "manual-scavenging": {
     "name": "Manual Scavenging",
-    "summary": "",
+    "summary": "In India it is illegal to employ people as manual scavengers to clean insanitary latrines as well as to clean sewers and septic tanks without protective gear or construct insanitary latrines. It is also illegal to not demolish or convert insanitary latrines within a certain period of The Prohibition Of Employment As Manual Scavengers And Their Rehabilitation Act of 2013 coming into force.",
     "image": "",
-    "explanations": [],
-    "qna": [],
-    "checklists": [],
-    "glossary": []
+    "explanations": [{
+      "title": "Manual Scavenger",
+      "content": "<p>Any person who has been employed to handle undecomposed human waste from an insanitary latrine, open drain or pit or railway track is a manual scavenger. The person could have been employed by anyone - say, someone from their village or by an agency or contractor. It does not matter if she was given regular employment or engaged on contract basis.</p><p>Any person who has been employed to clean human waste and does so with the help of the appropriate protective gear and equipment will not be considered a manual scavenger.</p><p>Another group of people called 'safai karamcharis' (“cleanliness workers”) are also sometimes considered as manual scavengers - however, they usually refer to people working as sweepers or cleaning workers in the municipalities, government or private organisations.</p>"
+    },{
+      "title": "Build an insanitary latrine",
+      "content": "<p>It is unlawful and an offence under this Act for any person, municipality, panchayat or agency to build an insanitary latrine that requires human waste to be removed manually by a person before the waste has properly decomposed. </p><p>Local authorities are required to carry out a survey of insanitary latrines in its area and publish a list of all such latrines which were identified during the survey. The local authorities are responsible for the building and maintenance of these community sanitary latrines and must make sure that they are functional and hygienic.</p><p>First time offenders constructing an insanitary latrine can face jail time up to one year as well as a fine for up to Rs.50,000. Second time offenders can face jail time up to two years and a fine for up to Rs.1,00,000.</p>"
+    },{
+      "title": "Demolishing or converting an insanitary latrine",
+      "content": "<p>The person who occupies the property which has an 'insanitary latrine' exists is required to demolish or convert it. If there was more than one person who owns the property on which the insanitary latrine is built, the costs had to be paid by the owner (if she is one of the occupiers) or equally by all of them. While the State Government could choose to help occupiers with the conversion process, the occupier cannot use the government's inaction as an excuse to maintain an insanitary latrine beyond 9 months. In case the occupier does not destroy or convert an insanitary latrine within 9 months, the local authority has to take over after giving a notice of 21 days. The authority can then recover the costs from the occupier.</p><p>First time offenders can face jail time up to one year as well as a fine for up to Rs.50,000</p><p>Second time offenders can face jail time up to two years and a fine for up to Rs.1,00,000</p>"
+    },{
+      "title": "Employing a manual scavenger",
+      "content": "<p>Employing a manual scavenger is illegal in India. People who do so face the following repercussions.</p><table><tr><th>Action</th><th>Punishment for committing the offence for the first time</th><th>Punishment for committing the offence for the second time offence</th></tr><tbody><tr><td>Employing someone as a manual scavenger</td><td>Jail time up to one year as well as a fine for up to Rs.50,000</td><td>Jail time up to two years and a fine for up to Rs.1,00,000</td></tr><tr><td>Employing a person for hazardous cleaning of a sewer or a septic tank.</td><td>Jail time up to 2 years and fine for up Rs. 2,00,000</td><td>Jail time up to 5 years and a fine for up to Rs. 5,00,000</td></tr></tbody></table></p>"
+    },{
+      "title": "Cleaning Sewers",
+      "content": "<p>It is unlawful for anyone (including municipalities and panchayats) to employ any person for the cleaning of a sewer or a septic tank without the necessary protective gear. Anyone who employs a person for hazardous cleaning of a sewer or a septic tank can face up to 2 years jail time and a fine up to Rs. 2,00,000 for their first offence. If it is a repeat offence they can face jail time up to up to 5 years and a fine up to Rs. 5,00,000.</p>"
+    },{
+      "title": "Offence Committed by Company",
+      "content": "<p>When a company commits the offence of manual scavenging, every person who, at the time the offence was committed, was in charge of, and was responsible to, the company for the conduct of the business of the company, as well as the company, will be deemed to be guilty of the offence. When the offence has been committed by a company and it is proved that offence has been committed and can be attributed to the director, manager, secretary or other officer of the company, such an offence. </p>"
+    },{
+      "title": "Authority Where Complaints Can be Filed",
+      "content": "<p>The National Commission for Safai Karamcharis is where all complaints of not following the provisions of this law are filed. This Commission will enquire into all of these complaints and report these complaints to the officers of the Municipalities and the Panchayats with recommendations of further actions. </p>"
+    },{
+      "title": "Rehabilitation",
+      "content": "<p>Both in an urban and rural area, if the officers of the Municipality or the Panchayat believe that Manual Scavenging may be taking place in their area of control. In such a case, a survey is done and a list of manual scavengers is created. The Municipality and the Panchayat have a duty to rehabilitate the people included in the list of manual scavengers. The District Magistrate is responsible for ensuring that manual scavengers in that district are rehabilitated in accordance with this law. The District Magistrate or the State Government may assign responsibilities to subordinate officers and officers in the Municipality. The rehabilitation will happen in the following manner:<ul><li>Immediate help - Within 1 month they must be given a photo ID and some cash.</li><li>Children's education - Her children can get a government scholarship.</li><li>Property - The government must put in place schemes under which the person is allotted land and money to build a house or money for a built house.</li><li>Training for other jobs - The government has to help train either the person or another adult member of her family in other skills. The person should also be paid Rs. 3000 during the time she is undergoing training.</li><li>Loan - The government must put in place schemes under which the person (or another adult family member) has the option of getting a subsidy or loan with less interest rates to help them get into another field or occupation.</li><li>Other Help - The government can choose to give them any other kind of legal or other help.</li><li>Government Schemes - The Central Government has put in place a scheme called the 'Self Employment Scheme for Rehabilitation' of Manual Scavengers. Read more about the scheme here. There are numerous loan schemes put in place by the National Safai Karamcharis Finance & Development Corporation which are offered through state channelling agencies. Read more about such schemes here.</li></ul></p>"
+    }],
+    "qna": [{
+      "question": "Are the toilets in trains insanitary latrines?",
+      "answer": "<p>Logically, a railway coach latrine would be an insanitary latrine because the human waste needs to be cleaned manually from the tracks. However, the definition of 'insanitary latrine' expressly excludes such latrines if they are being cleaned by an employee using proper protective gear.</p>"
+    },{
+      "question": "What happens to manual scavengers who have signed an agreement of employment?",
+      "answer": "<p>If anyone had signed an agreement with manual scavengers to employ them to clean up certain insanitary latrines, this agreement would be considered as having no legal effect.This does not mean that people who had been employed under the agreement will be jobless - the employer has a duty to employ her in another job and pay the same salary at a minimum.</p>"
+    },{
+      "question": "If someone has been excluded from the survey process, does she still have the chance to be identified as a manual scavenger?",
+      "answer": "<p>Yes, any person working as a manual scavenger in an urban area can apply to the CEO of the Municipality to be identified as a manual scavenger. They can make the application at any time (during or after the survey was conducted in the area).</p>"
+    },{
+      "question": "Can the government exercise any investigative powers under this law to find out who employs and maintains insanitary latrines?",
+      "answer": "<p>The government can appoint 'Inspectors' who have the powers to:<ul><li>test latrines</li><li>search premises where manual scavenging might be taking place,</li><li>examine people found at such places</li><li>ask questions and get information about contractors or people employed as manual scavengers</li><li>seize documents such as copies of registers, record of wages or notices.</li></ul>Not showing documents or giving information to the inspector when asked can be considered a crime under the general law on crimes. The law on criminal procedure in relation to search or seizure under a warrant would apply to searches and seizures conducted by such inspectors.</p>"
+    },{
+      "question": "Can a company be punished in connection with manual scavenging?",
+      "answer": "<p>Yes, offences like having insanitary latrines in construction sites can be committed by companies. The company will be directly prosecuted by the government. In addition, the people in charge can be prosecuted. If any officer was directly involved in the crime, they can be prosecuted as individuals as well.</p>"
+    }],
+    "glossary": [{
+        "term": "Hazardous Cleaning",
+        "definition": "An employer has a duty to provide protective gear and cleaning equipment for their employees who are made to clean sewers or septic tanks. When an employer does not provide any protective gear, it will be considered 'hazardous cleaning'"
+      }, {
+        "term": "Insanitary latrine",
+        "definition": "Any latrine that requires human waste to be removed manually by a person before the waste has properly decomposed is an insanitary latrine. The removal of waste could be in the latrine itself or from an open drain or pit into which the waste is flushed out."
+      }, {
+        "term": "Occupier",
+        "definition": "The person who occupies the property which has an 'insanitary latrine' exists or where someone is employed as a manual scavenger is considered the 'occupier' of the property."
+      }, {
+        "term": "National Commission for Safai Karamcharis",
+        "definition": "The 'National Commission for Safai Karmacharis' is a government body that has to supervise and monitor the implementation of The Prohibition Of Employment As Manual Scavengers And Their Rehabilitation Act"
+      }]
   },
   "scheduled-caste-and-scheduled-tribes": {
     "name": "Scheduled Caste & Scheduled Tribes",
@@ -464,7 +595,6 @@
     "image": "",
     "explanations": [],
     "qna": [],
-    "checklists": [],
     "glossary": []
   },
   "arrest": {
@@ -543,7 +673,6 @@
           "<p>The police need to present you before the Magistrate as soon as possible after you have been arrested. They cannot keep you under arrest for more than 24 hours – this excludes travel time to the court. The police officer will also need to provide a copy of the entries in the case diary to the Magistrate. The case diary is a daily diary kept by an officer detailing all that happens in an investigation. The Supreme Court has directed the police officers to provide the Magistrate a checklist of the reasons for your arrest along with all documents related to your arrest including the arrest memo.</p><p>After you've been presented before the Magistrate, the Magistrate can discharge you or grant you bail. Your lawyer should ask for your release if the police only needed to issue a 'notice of appearance' and not actually arrest you. The police can detain you beyond 24 hours only with permission of the Magistrate. They may seek 'police custody' or 'judicial custody'. Police custody can only last 15 days from the date of arrest. This means you will kept inside the lock-up at the police station for a maximum of fourteen more days.</p><p>If the police have not been able to file the charge-sheet and depending on the crime you have been suspected of, you can be in judicial custody for up to 90 days for crimes that you could possibly go to prison for more than 10 years, and up to 60 days for all other kinds of offences.</p><p>You cannot be sent to jail for more than fourteen days at a time even in judicial custody. You will be brought before the Magistrate after each fourteen day period. After the 60 or 90 day period, you have a right to be released on bail.</p>"
       }
     ],
-    "checklists": [],
     "glossary": []
   },
   "bail": {
@@ -635,7 +764,6 @@
           "<p>When a person applies for a bail, a person has to keep some money as security. This is ensure that the person does not run away.</p>"
       }
     ],
-    "checklists": [],
     "glossary": []
   },
   "traffic-fines": {
@@ -644,7 +772,6 @@
     "image": "",
     "explanations": [],
     "qna": [],
-    "checklists": [],
     "glossary": []
   },
   "first-information-report": {
@@ -653,7 +780,6 @@
     "image": "",
     "explanations": [],
     "qna": [],
-    "checklists": [],
     "glossary": []
   },
   "censorship": {
@@ -662,7 +788,6 @@
     "image": "",
     "explanations": [],
     "qna": [],
-    "checklists": [],
     "glossary": []
   },
   "online-abuse": {
@@ -671,7 +796,6 @@
     "image": "",
     "explanations": [],
     "qna": [],
-    "checklists": [],
     "glossary": []
   },
   "defamation": {
@@ -680,7 +804,6 @@
     "image": "",
     "explanations": [],
     "qna": [],
-    "checklists": [],
     "glossary": []
   },
   "check-bounce": {
@@ -689,7 +812,6 @@
     "image": "",
     "explanations": [],
     "qna": [],
-    "checklists": [],
     "glossary": []
   },
   "online-bank-fraud": {
@@ -698,7 +820,6 @@
     "image": "",
     "explanations": [],
     "qna": [],
-    "checklists": [],
     "glossary": []
   },
   "will": {
@@ -769,7 +890,7 @@
           "<p>Depending on your religion, there are different rules with respect to how your assets and property will be distributed after your death. However, if you make a will, your assets and property will be distributed among the people of your choosing and the specific religious rules do not generally apply.</p><p>As a Hindu person, the rules of inheritance under a law known as the Hindu Succession Act, 1956, are applicable.</p><p>Similarly as a Muslim, the rules applicable to inheritance will be according to Muslim personal law (unless you are married under the law on civil marriages). If Muslim personal law becomes applicable, you cannot distribute your entire property to people who are not your legal heirs. You can only will away one-third of your property to someone else and the remaining two-third has to be distributed among your legal heirs.</p>"
       }
     ],
-    "checklists": [],
+
     "glossary": []
   },
   "rape": {
@@ -778,7 +899,6 @@
     "image": "",
     "explanations": [],
     "qna": [],
-    "checklists": [],
     "glossary": []
   },
   "sexual-harassment": {
@@ -787,7 +907,6 @@
     "image": "",
     "explanations": [],
     "qna": [],
-    "checklists": [],
     "glossary": []
   },
   "prostitution": {
@@ -846,8 +965,25 @@
           "<p>If it is proved that an adult:<ul><li>lives or spends a lot of time with a sex worker</li><li>helps or forces her prostitution, or influences her to do that work</li><li>is a tout or pimp</li></ul>The law assumes this person is living on the earnings of prostitution, and this person will be punished accordingly.</p>"
       }
     ],
-    "checklists": [],
-    "glossary": []
+    "glossary": [{
+      "term": "Prostitution",
+      "definition": "A sexual act is carried out where money is received."
+    },{
+      "term": "Brothel",
+      "definition": "any place which is used for sexual exploitation or abuse for the gain of another person, or the gain of two or more sex workers"
+    },{
+      "term": "Under trials",
+      "definition": "people who have been arrested for a crime but have not been found guilty by any court, and whose trials are on-going."
+    },{
+      "term": "Corrective Institution",
+      "definition": "any institution where people in need of correction, such as sex workers found guilty of certain crimes under this law, are kept. It includes shelters where people currently undergoing trials are kept"
+    },{
+      "term": "Protective home",
+      "definition": "any institution where people in need of care and protection are kept. They must have certain equipment, facilities and technically qualified people. A shelter where under trials are kept is not a protective home. A corrective institution is not considered a protective home."
+    },{
+      "term": "Solicitation",
+      "definition": "Solicitation is defined as tempting or attracting a person towards prostitution, or loitering in an area and disturbing public decency, or harassing any person for prostitution."
+    }]
   },
   "sexual-harassment-at-the-workplace": {
     "name": "Sexual Harassment",
@@ -943,7 +1079,22 @@
         "id": "0001258",
         "title": "Employer’s Responsibility",
         "content":
-          "<p>Under the law, an employer has a set of binding duties to create a safe work environment for women. </p><p>Women employees should feel safe from sexual harassment from co-workers as well as others who might just be visiting the workplace. It’s important for employers to visibly display the sexual harassment policy of the company along with the order setting up the Internal Complaints Committee so employees as well as visitors to the workplace can see it.</p><p>When as an employer you fail to<ul><li>Set up an Internal Complaints Committee</li><li>take action to create an inquiry report, take action for false/malicious complaint or not reporting the number of cases of sexual harassment in the annual report</li></ul>does not follow or attempts to not follow or helps someone else is not following the Act</p><p><b>You may be fined with a maximum amount of Rupees Fifty Thousand.</b></p>"
+          "<p>Under the law, an employer has a set of binding duties to create a safe work environment for women. </p><p>Women employees should feel safe from sexual harassment from co-workers as well as others who might just be visiting the workplace. It’s important for employers to visibly display the sexual harassment policy of the company along with the order setting up the Internal Complaints Committee so employees as well as visitors to the workplace can see it.</p><p>When as an employer you fail to<ul><li>Set  up an Internal Complaints Committee by an order in writing.<ul><li>Set up an Internal Complaints Committee for each office, unit or branch.</li><li>Organize training programs for the members of the Internal Complaints Committee</li><li>Provide facilities to the Internal Complaints Committee to conduct inquiries.</li><li>Ensure that all witnesses and the offender appear before the Internal Complaints Committee.</li><li>Make sure all information is available to the Internal Complaints Committee.</li><li>Support any woman who chooses to file a criminal case against the offender, whether the perpetrator is an employee or not. Further, support her if she chooses to file a complaint with the Internal Complaints Committee of the workplace where the incident took place.</li><li>Should treat sexual harassment as a misconduct under service rules</li><li>Ensure that the Annual Reports by the Internal Complaints Committee are submitted on time.</li><li>Pay the external member of the Internal Complaints Committee fees</li><li>Be responsible for getting a new member of the Internal Complaints Committee if a member is removed from office</li><li>Implement the settlement terms and take action as per the recommendations of the Internal Complaints Committee or the Local Complaints Committee.</li><li>Send a report back to the Internal Complaints Committee on how the recommendations of the Committee were implemented.</ul></li><li>Frame a comprehensive sexual harassment policy for the workplace. Visibly display the sexual harassment policy of the company along with the order setting up the Internal Complaints Committee at your workplace.</li><li>Organize regular workshops to educate the employees about issues of sexual harassment</li></ul>or does not follow or attempts to not follow or helps someone else is not following the above instructions, you may be fined with a maximum amount of Rupees Fifty Thousand.</b></p>"
+      },{
+        "title":
+          "Filing a Complaint as a victim of sexual harassment at the workplace",
+        "content":
+          "<ul><li>Draft a Complaint</li><li>Make Six Copies of the Complaint </li><li>Make sure to submit the supporting documents for the Complaint with the Complaint</li><li>Ensure you submit the names and addresses of any witnesses who are submitting your complaint</li><li>Submit your Complaint to the Internal Complaints Committee* within 3 months of the incident taking place.</li></ul><p>*If your workplace does not have an Internal Complaints Committee then approach the Local Complaints Committee of your district through nodal officers appointed by the District Officer.</p>"
+      },
+      {
+        "title": "Responsibilities of Higher Education Institutions",
+        "content":
+          "<ul><li>Modify its ordinances and rules in relation to the requirements of the Regulations. </li><li>Publicly notify the provisions against Sexual Harassment.</li><li>Must organise Training programs or workshops for the Officers, functionaries, faculty and Student, to ensure knowledge and awareness of the rights, entitlements and responsibilities enshrined in the act and the regulations. </li><li>Act decisively against all gender based violence perpetrated against employees and student of all sexes recognizing that primarily women employees and students and some male students and students of third gender are vulnerable to many forms of sexual harassment and humiliation. </li><li>Publicly commit itself to a zero tolerance policy towards sexual harassment. </li><li>Include in its Prospectus and display prominently on Notice boards the penalty and consequences of Sexual Harassment and make the Institutional community aware of the information for redressal of complaints, the contact details of ICC, the procedure for filing complaints etc. </li><li>Inform about the recourse available to the employees and students if they are the victim of Sexual Harassment. </li><li>Organise orientation programs for the members of ICC to deal with all kinds of complaints and sensitively come to a decision. </li><li>Must try to curb all forms of harassment of employees and students whether it is from someone in dominant power or from peers or from someone outside the geographical limits. </li><li>Bring into light all those who are guilty of Sexual harassment against the employees and students and initiate proceedings as required by the law. </li><li>Should treat Sexual Harassment as a misconduct under the service rules and initiate proceedings under misconduct if the perpetrator is an employee. </li><li>Treat sexual harassment as a violation of disciplinary rules resulting in Rustication or expulsion if the perpetrator is a student. </li><li>Ensure Compliance with the provisions within 60 days from the date of publication of these regulations. </li><li>Monitor timely submissions of reports by ICC. </li><li>Prepare annual status report with details, number of cases filed and their disposal and submit the same to the Commission. </li><li>Conduct a regular and half yearly review of the efficacy and implementation of  anti-sexual harassment policies. </li><li>Must ensure adequate lighting in the campus, well Trained Security system, and health facilities.</li></ul>"
+      },
+      {
+        "title": "Composition of Internal Complaints Committee",
+        "content":
+          "<ul><li>A presiding officer who shall be woman faculty member employed at senior level.</li><li>3 students if the matter involves students.</li><li>1 member from the NGO’s or associations committed to the cause of women or a person familiar with the issues relating to sexual harassment. And such member shall be paid fees or allowances for holding the proceedings of the internal committee.</li><li>At least one half of the total members should be women.</li><li>Person in senior administrative positions such as Vice chancellor, Registrar, Dean, HOD etc, shall not be member of ICC in order to ensure autonomy in their functioning.</li><li>The term of office for ICC shall be for 3 years. HEI’s may also employ a system where 1/3rd of the members change every year.</li><li>If the presiding officer acts in violation of his powers, he shall be removed from the position and a fresh nomination will take place.</li></ul><p>The ICC shall comply with the procedure prescribed in these regulations and the act, for making the complaint and the enquiry in the time bound manner. And the HEI must provide ICC with all the necessary facilities to conduct the enquiry.</p>"
       }
     ],
     "qna": [
@@ -1021,30 +1172,6 @@
           "Is being asked about my sexual orientation sexual harassment?",
         "answer":
           "<p>Yes, being asked in a manner that makes you uncomfortable about your sexual orientation at a workplace can amount to sexual harassment at the workplace.</p>"
-      }
-    ],
-    "checklists": [
-      {
-        "title":
-          "Filing a Complaint as a victim of sexual harassment at the workplace",
-        "content":
-          "<ul><li>Draft a Complaint</li><li>Make Six Copies of the Complaint </li><li>Make sure to submit the supporting documents for the Complaint with the Complaint</li><li>Ensure you submit the names and addresses of any witnesses who are submitting your complaint</li><li>Submit your Complaint to the Internal Complaints Committee* within 3 months of the incident taking place.</li></ul><p>*If your workplace does not have an Internal Complaints Committee then approach the Local Complaints Committee of your district through nodal officers appointed by the District Officer.</p>"
-      },
-      {
-        "title":
-          "Employer Responsibility to Prevent Sexual Harassment at workplace",
-        "content":
-          "<ul><li>Set  up an Internal Complaints Committee by an order in writing.<ul><li>Set up an Internal Complaints Committee for each office, unit or branch.</li><li>Organize training programs for the members of the Internal Complaints Committee</li><li>Provide facilities to the Internal Complaints Committee to conduct inquiries.</li><li>Ensure that all witnesses and the offender appear before the Internal Complaints Committee.</li><li>Make sure all information is available to the Internal Complaints Committee.</li><li>Support any woman who chooses to file a criminal case against the offender, whether the perpetrator is an employee or not. Further, support her if she chooses to file a complaint with the Internal Complaints Committee of the workplace where the incident took place.</li><li>Should treat sexual harassment as a misconduct under service rules</li><li>Ensure that the Annual Reports by the Internal Complaints Committee are submitted on time.</li><li>Pay the external member of the Internal Complaints Committee fees</li><li>Be responsible for getting a new member of the Internal Complaints Committee if a member is removed from office</li><li>Implement the settlement terms and take action as per the recommendations of the Internal Complaints Committee or the Local Complaints Committee.</li><li>Send a report back to the Internal Complaints Committee on how the recommendations of the Committee were implemented.</ul></li><li>Frame a comprehensive sexual harassment policy for the workplace. Visibly display the sexual harassment policy of the company along with the order setting up the Internal Complaints Committee at your workplace.</li><li>Organize regular workshops to educate the employees about issues of sexual harassment</li></ul>"
-      },
-      {
-        "title": "Responsibilities of Higher Education Institutions",
-        "content":
-          "<ul><li>Modify its ordinances and rules in relation to the requirements of the Regulations. </li><li>Publicly notify the provisions against Sexual Harassment.</li><li>Must organise Training programs or workshops for the Officers, functionaries, faculty and Student, to ensure knowledge and awareness of the rights, entitlements and responsibilities enshrined in the act and the regulations. </li><li>Act decisively against all gender based violence perpetrated against employees and student of all sexes recognizing that primarily women employees and students and some male students and students of third gender are vulnerable to many forms of sexual harassment and humiliation. </li><li>Publicly commit itself to a zero tolerance policy towards sexual harassment. </li><li>Include in its Prospectus and display prominently on Notice boards the penalty and consequences of Sexual Harassment and make the Institutional community aware of the information for redressal of complaints, the contact details of ICC, the procedure for filing complaints etc. </li><li>Inform about the recourse available to the employees and students if they are the victim of Sexual Harassment. </li><li>Organise orientation programs for the members of ICC to deal with all kinds of complaints and sensitively come to a decision. </li><li>Must try to curb all forms of harassment of employees and students whether it is from someone in dominant power or from peers or from someone outside the geographical limits. </li><li>Bring into light all those who are guilty of Sexual harassment against the employees and students and initiate proceedings as required by the law. </li><li>Should treat Sexual Harassment as a misconduct under the service rules and initiate proceedings under misconduct if the perpetrator is an employee. </li><li>Treat sexual harassment as a violation of disciplinary rules resulting in Rustication or expulsion if the perpetrator is a student. </li><li>Ensure Compliance with the provisions within 60 days from the date of publication of these regulations. </li><li>Monitor timely submissions of reports by ICC. </li><li>Prepare annual status report with details, number of cases filed and their disposal and submit the same to the Commission. </li><li>Conduct a regular and half yearly review of the efficacy and implementation of  anti-sexual harassment policies. </li><li>Must ensure adequate lighting in the campus, well Trained Security system, and health facilities.</li></ul>"
-      },
-      {
-        "title": "Composition of Internal Complaints Committee",
-        "content":
-          "<ul><li>A presiding officer who shall be woman faculty member employed at senior level.</li><li>3 students if the matter involves students.</li><li>1 member from the NGO’s or associations committed to the cause of women or a person familiar with the issues relating to sexual harassment. And such member shall be paid fees or allowances for holding the proceedings of the internal committee.</li><li>At least one half of the total members should be women.</li><li>Person in senior administrative positions such as Vice chancellor, Registrar, Dean, HOD etc, shall not be member of ICC in order to ensure autonomy in their functioning.</li><li>The term of office for ICC shall be for 3 years. HEI’s may also employ a system where 1/3rd of the members change every year.</li><li>If the presiding officer acts in violation of his powers, he shall be removed from the position and a fresh nomination will take place.</li></ul><p>The ICC shall comply with the procedure prescribed in these regulations and the act, for making the complaint and the enquiry in the time bound manner. And the HEI must provide ICC with all the necessary facilities to conduct the enquiry.</p>"
       }
     ],
     "glossary": [

@@ -18,7 +18,6 @@ class Category extends React.Component {
   };
 
   render() {
-    console.log(this.props.topics);
     return (
       <div className={s.root}>
         <div className={s.container}>

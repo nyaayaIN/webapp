@@ -30,7 +30,7 @@
 .title {
   background: var(--lightest-colour);
   color: var(--primary-text-colour);
-  font-size: 0.9em;
+  font-size: 1em;
   font-weight: normal;
   padding: 0.5em 1em;
   height: 2.5em;
