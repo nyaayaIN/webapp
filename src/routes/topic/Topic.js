@@ -5,6 +5,7 @@ import s from './Topic.css';
 
 import Hero from '../../components/Hero';
 import Explanations from '../../components/Explanations';
+import Glossary from '../../components/Glossary';
 import QnA from '../../components/QnA';
 
 class Topic extends React.Component {
@@ -24,6 +25,12 @@ class Topic extends React.Component {
         answer: PropTypes.string.isRequired,
       }),
     ).isRequired,
+    glossary: PropTypes.arrayOf(
+      PropTypes.shape({
+        term: PropTypes.string.isRequired,
+        definition: PropTypes.string.isRequired,
+      }),
+    ).isRequired,
     chosen: PropTypes.shape({
       explanation: PropTypes.number.isRequired,
     }).isRequired,
@@ -37,11 +44,14 @@ class Topic extends React.Component {
     return (
       <div className={s.root}>
         <Hero content={summary} style="bottom" image={this.props.hero}/>
+        <Explanations
+          collection={this.props.explanations}
+          chosen={this.props.chosen.explanation}
+        />
+        <Glossary
+          collection={this.props.glossary}
+        />
         <div className={s.container}>
-          <Explanations
-            collection={this.props.explanations}
-            chosen={this.props.chosen.explanation}
-          />
           <QnA collection={this.props.qna} />
         </div>
       </div>

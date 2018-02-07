@@ -1,0 +1,79 @@
+@import '../variables.css';
+
+.root {
+  padding: 3em 0 0;
+  background: url(./background.png) center center no-repeat;
+  margin-bottom: 3em;
+  border-top: solid 1px var(--neutral-medium-colour);
+  border-bottom: solid 1px var(--neutral-medium-colour);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: var(--max-content-width);
+}
+
+.title {
+  font-weight: 500;
+  font-size: 1.5em;
+  color: var(--primary-text-colour);
+}
+
+.glossarySection {
+  padding: 2em 0;
+}
+
+.termOption {
+  font-family: var(--font-family-base);
+  color: var(--neutral-dark-colour);
+  display: inline-block;
+  border: solid 1px var(--neutral-dark-colour);
+  margin: 0.25em 1em 0.25em 0;
+  padding: 0.5em 1em;
+  background: var(--lightest-colour);
+}
+
+.glossaryItemContainer {
+  display: none;
+}
+
+.glossaryItemContainer.active {
+  display: block;
+}
+
+.glossaryItem {
+  background: var(--lightest-colour);
+  border: solid 1px var(--secondary-colour);
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 1.5em;
+  border-radius: 1em;
+  margin: 0.5em 0;
+}
+
+.term {
+  width: 35%;
+  color: var(--secondary-colour);
+  font-size: 2em;
+  line-height: 125%;
+  font-weight: 500;
+}
+
+.definition {
+  width: 65%;
+  border-left: solid 1px var(--neutral-medium-colour);
+  padding-left: 2.5%;
+}
+
+@media screen and (width < 850px) {
+  .glossaryItem {
+    display: block;
+  }
+
+  .term,
+  .definition {
+    width: 100%;
+    border: none;
+  }
+}
