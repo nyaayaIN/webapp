@@ -23,6 +23,8 @@ class QnA extends React.Component {
   render() {
     return (
       <div className={s.root}>
+        <div className={s.title}>Questions and Answers</div>
+        <div className={s.subtitle}>Click on a question to view the answer</div>
         {this.props.collection.map((qna, index) => (
           <div className={s.couplet}>
             <button
@@ -30,7 +32,8 @@ class QnA extends React.Component {
               data-question={index}
               onClick={this.handleClick}
             >
-              {qna.question}
+              {index+1}. {qna.question}
+              <span className={s.arrow}>&#10597;</span>
             </button>
             <div
               className={s.answer}

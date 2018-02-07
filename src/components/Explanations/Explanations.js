@@ -16,24 +16,30 @@ class Explanations extends React.Component {
 
   constructor(props) {
     super();
+    let explanationClasses = [];
+    props.collection.map((explanation, index) =>(
+      explanationClasses.push(index === props.chosen ?
+                                s.explanation + " " + s.active :
+                                s.explanation)
+    ));
     this.state = {
       chosenIndex: props.chosen,
+      explanationClasses : explanationClasses
     };
   }
 
   handleClick = event => {
     event.preventDefault();
-    const current = document.querySelector('[data-hidden="false"]');
-    current.style.display = 'none';
-    current.setAttribute('data-hidden', 'true');
-
+    let newClasses = this.state.explanationClasses
+    
     const id = event.target.attributes.getNamedItem('data-id').value;
-    const explanation = document.querySelector(`[data-explanation="${id}"`);
 
-    explanation.style.display = 'block';
-    explanation.setAttribute('data-hidden', 'false');
+    newClasses[this.state.chosenIndex] = s.explanation;
+    newClasses[id] = s.explanation + " " + s.active;
+
     this.setState({
       chosenIndex: id,
+      explanationClasses: newClasses
     });
   };
 
@@ -42,15 +48,8 @@ class Explanations extends React.Component {
       <div className={s.root}>
         <div className={s.collection}>
           {this.props.collection.map((explanation, index) => (
-            <div
-              className={
-                index === this.state.chosenIndex
-                  ? `${s.explanation} ${s.active}`
-                  : s.explanation
-              }
-              data-explanation={index}
-              data-hidden={index === this.state.chosenIndex ? 'false' : 'true'}
-            >
+            <div  className={this.state.explanationClasses[index]}
+                  data-explanation={index} >
               <h2 className={s.title}>{explanation.title}</h2>
               <div
                 className={s.content}

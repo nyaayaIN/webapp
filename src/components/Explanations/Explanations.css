@@ -1,6 +1,8 @@
 @import '../variables.css';
 
 .root {
+  margin: 0 auto;
+  max-width: var(--max-content-width);
   height: 100%;
   display: flex;
   flex-direction: row;
@@ -11,20 +13,35 @@
 }
 
 .menu {
+  background: var(--neutral-dark-colour);
   width: 35%;
   list-style-type: none;
   margin: 0;
-  padding: 1em;
+  padding: 1.5em 0;
 }
 
 .item {
   text-align: left;
   cursor: pointer;
+  color: var(--lightest-colour);
   display: block;
-  padding: 0.5em;
-  border: solid 1px var(--neutral-light-colour);
-  margin: 0.5em 0;
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0.5em 1em;
   width: 100%;
+  font-weight: 100;
+  font-family: var(--font-family-base);
+}
+
+.item:hover {
+  color: var(--primary-colour);
+}
+
+.item:focus {
+  outline: none;
+  background: var(--primary-text-colour);
+  color: var(--lightest-colour);
 }
 
 .explanation {
@@ -44,5 +61,5 @@
 }
 
 .content {
-  padding: 0.5em 0;
+  padding: 0.5em 1em 0.5em 0;
 }

@@ -6,17 +6,20 @@
     "topics": [
       {
         "name": "Children accused of Crime",
-        "image": "/topics/children-accused-of-crime-thumb.jpg",
+        "image":
+          "https://s3.ap-south-1.amazonaws.com/staging-image-test/images/children-accused-of-crime-thumb.jpg",
         "url": "/topic/children-accused-of-crime"
       },
       {
         "name": "Child Labour",
-        "image": "/topics/child-labour-thumb.jpg",
+        "image":
+          "https://s3.ap-south-1.amazonaws.com/staging-image-test/images/child-labour-thumb.jpg",
         "url": "/topic/child-labour"
       },
       {
         "name": "Free and Compulsory Education",
-        "image": "/topics/free-and-compulsory-education.jpg",
+        "image":
+          "https://s3.ap-south-1.amazonaws.com/staging-image-test/images/free-and-compulsory-education.jpg",
         "url": "/topic/free-and-compulsory-education"
       }
     ]
@@ -111,7 +114,8 @@
     "topics": [
       {
         "name": "Arrest",
-        "image": "/topics/arrest-thumb.jpg",
+        "image":
+          "https://s3.ap-south-1.amazonaws.com/staging-image-test/images/arrest-thumb.jpg",
         "url": "/topic/arrest"
       },
       {
@@ -204,7 +208,8 @@
       },
       {
         "name": "Sexual Harassment at the Workplace",
-        "image": "/topics/sexual-harassment-at-the-workplace-thumb.jpg",
+        "image":
+          "https://s3.ap-south-1.amazonaws.com/staging-image-test/images/sexual-harassment-at-the-workplace-thumb.jpg",
         "url": "/topic/sexual-harassment-at-the-workplace"
       }
     ]

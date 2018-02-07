@@ -4,8 +4,19 @@
   padding-right: 1em;
 }
 
+.title {
+  font-weight: 500;
+  font-size: 1.3em;
+}
+
+.subtitle {
+  padding: 0.5em 0;
+  margin-bottom: 1em;
+  border-bottom: solid 1px var(--neutral-medium-colour);
+}
+
 .couplet {
-  border: solid 1px var(--neutral-light-colour);
+  border: none;
   margin: 0.2em 0;
 }
 
@@ -16,8 +27,15 @@
   text-align: left;
   width: 100%;
   margin: 0.25em 0;
-  font-size: 1.1em;
+  font-size: 1em;
+  font-family: var(--font-family-base);
+  color: var(--neutral-dark-colour);
   padding: 0.25em 1em;
+}
+
+.arrow {
+  display: block;
+  float: right;
 }
 
 .question:focus {
