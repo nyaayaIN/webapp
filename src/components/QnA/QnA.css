@@ -2,6 +2,7 @@
 
 .root {
   padding-right: 1em;
+  margin: 2em 0;
 }
 
 .title {
@@ -30,7 +31,7 @@
   font-size: 1em;
   font-family: var(--font-family-base);
   color: var(--neutral-dark-colour);
-  padding: 0.25em 1em;
+  padding: 0.25em 0;
 }
 
 .arrow {

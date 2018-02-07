@@ -2,6 +2,7 @@
 
 .root {
   margin: 0 auto;
+  border-bottom: solid 1px var(--neutral-medium-colour);
   max-width: var(--max-content-width);
   height: 100%;
   display: flex;
@@ -13,7 +14,8 @@
 }
 
 .menu {
-  background: var(--neutral-dark-colour);
+  border-left: solid 1px var(--neutral-light-colour);
+  border-right: solid 1px var(--neutral-light-colour);
   width: 35%;
   list-style-type: none;
   margin: 0;
@@ -21,16 +23,16 @@
 }
 
 .item {
-  text-align: left;
+  text-align: right;
   cursor: pointer;
-  color: var(--lightest-colour);
+  color: var(--primary-text-colour);
   display: block;
   background: none;
   border: none;
   margin: 0;
   padding: 0.5em 1em;
   width: 100%;
-  font-weight: 100;
+  font-weight: normal;
   font-family: var(--font-family-base);
 }
 
@@ -70,8 +72,5 @@
 
 .content table th {
   font-weight: 500;
-}
-
-.content table th {
   border-bottom: solid 1px var(--neutral-medium-colour);
 }

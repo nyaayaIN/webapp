@@ -26,7 +26,7 @@ class QnA extends React.Component {
         <div className={s.title}>Questions and Answers</div>
         <div className={s.subtitle}>Click on a question to view the answer</div>
         {this.props.collection.map((qna, index) => (
-          <div className={s.couplet}>
+          <div className={s.couplet} key={qna.id}>
             <button
               className={s.question}
               data-question={index}

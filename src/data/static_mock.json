@@ -7,15 +7,15 @@
     "view_categories": "View Categories"
   },
   "home": {
-    "page_title": "Nyaya - India’s Laws Explained",
+    "page_title": "Nyaaya - India’s Laws Explained",
     "hero_title": "India’s Laws Explained",
     "hero_description":
       "<p>Nyaaya is committed to providing you with clear, actionable information about Indian law in simple language so you can protect yourself, assert your rights and seek justice. Subscribe to our newsletter to stay up to date.</p><form action='https://nyaaya.createsend.com/t/d/s/fjrjil/' method='post'><input style='padding:1em' placeholder='Your Email Address' name='cm-fjrjil-fjrjil' type='email' required /><button style='background:#00754b;color: white;padding: 1em;border: solid 1px #00754b;text-transform: uppercase;letter-spacing: 0.1em;' type='submit'>Subscribe</button></form>",
     "featured_topics": "Featured Topics",
-    "what_we_do": "What We Do",
-    "follow_us": "Follow Us",
-    "word_of_the_day": "Featured Word",
-    "featured_questions": "Featured Questions"
+    "what_we_do":
+      "We help you understand the law,<br />so you can seek justice",
+    "short_explanation":
+      "While laws exist for the citizens of the country, they seem to be written for lawyers to read and  understand. Knowing the law strongly affects your ability to get results from the justice system that are in your favour. We hope that by helping someone understand the laws that affect them and navigate the legal system, we're taking a step towards improving how the system works for the people of India."
   },
   "follow": {
     "title": "Hey! You can reach us in any of the following ways",

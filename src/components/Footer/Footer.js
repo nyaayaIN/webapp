@@ -96,7 +96,6 @@ class Footer extends React.Component {
               </div>
               <div className={s.slogan}>{this.state.i18n.slogan}</div>
             </div>
-            <div className={s.contact} />
             <div className={s.terms}>
               <div className={s.licenseIcons}>
                 <img src={ccUrl} width="30" height="30" />
@@ -104,8 +103,7 @@ class Footer extends React.Component {
                 <img src={ncUrl} width="30" height="30" />
                 <img src={saUrl} width="30" height="30" />
               </div>
-              <div
-                className={s.termsText}
+              <div className={s.termsText}
                 // eslint-disable-next-line react/no-danger
                 dangerouslySetInnerHTML={{
                   __html: this.state.i18n.terms,

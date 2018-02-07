@@ -51,10 +51,17 @@
 
 .topics {
   background: var(--lightest-colour);
+  border-left: solid 1px var(--neutral-medium-colour);
+  border-right: solid 1px var(--neutral-medium-colour);
+  border-bottom: solid 1px var(--neutral-medium-colour);
   display: none;
   position: absolute;
-  margin: 0 0 0 -10px;
+  margin: 22px 0 0 -10px;
   padding: 10px;
+}
+
+.category:last-child .topics {
+  margin: 22px 0 0 -95px;
 }
 
 .category:hover .topics {
@@ -64,7 +71,7 @@
 .topic {
   list-style-type: none;
   margin: 0;
-  max-width: 125px;
+  width: 125px;
   padding: 7px 0;
   text-align: left;
 }
@@ -111,10 +118,15 @@
     position: relative;
     margin: 0;
     padding: 0;
+    border: none;
   }
 
   .topic {
     max-width: 100%;
     padding: 0.25em 1em;
+  }
+
+  .category:last-child .topics {
+    margin: 0;
   }
 }
