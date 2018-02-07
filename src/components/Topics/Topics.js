@@ -4,6 +4,8 @@ import PropTypes from 'prop-types';
 import s from './Topics.css';
 import Link from '../Link';
 
+const S3 = 'https://s3.ap-south-1.amazonaws.com/staging-image-test/images/';
+
 class Topics extends React.Component {
   static propTypes = {
     collection: PropTypes.arrayOf(
@@ -21,7 +23,7 @@ class Topics extends React.Component {
         {this.props.collection.map((topic, index) => (
           <Link className={s.topic} to={topic.url} key={index}>
             <div className={s.tile}>
-              <img className={s.thumbnail} src={topic.image} alt={topic.name}/>
+              <img className={s.thumbnail} src={S3+topic.image} alt={topic.name}/>
               <div className={s.title}>{topic.name}</div>
             </div>
           </Link>

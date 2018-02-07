@@ -21,3 +21,17 @@
 .link:hover {
   font-weight: normal;
 }
+
+.socialLink {
+  display: inline-block;
+}
+
+.iconContainer {
+  width: 2em;
+  height: 2em;
+}
+
+.icon {
+  width: 100%;
+  height: auto;
+}

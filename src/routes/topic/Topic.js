@@ -8,6 +8,8 @@ import Explanations from '../../components/Explanations';
 import Glossary from '../../components/Glossary';
 import QnA from '../../components/QnA';
 
+const S3 = 'https://s3.ap-south-1.amazonaws.com/staging-image-test/images/';
+
 class Topic extends React.Component {
   static propTypes = {
     hero: PropTypes.string.isRequired,
@@ -43,7 +45,7 @@ class Topic extends React.Component {
     };
     return (
       <div className={s.root}>
-        <Hero content={summary} style="bottom" image={this.props.hero}/>
+        <Hero content={summary} style="bottom" image={S3+this.props.hero} theme="dark"/>
         <Explanations
           collection={this.props.explanations}
           chosen={this.props.chosen.explanation}

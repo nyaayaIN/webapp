@@ -7,6 +7,7 @@ class Hero extends React.Component {
   static propTypes = {
     image: PropTypes.string.isRequired,
     style: PropTypes.string.isRequired,
+    theme: PropTypes.string.isRequired,
     content: PropTypes.shape({
       title: PropTypes.string.isRequired,
       description: PropTypes.string.isRequired,
@@ -15,13 +16,12 @@ class Hero extends React.Component {
 
   render() {
     const heroStyle = {
-      background: "url("+this.props.image+") center no-repeat",
-      backgroundSize: "cover"
+      backgroundImage: "url("+this.props.image+")"
     };
     return (
       <div className={s.root} style={heroStyle}>
         <div className={s.container}>
-          <div className={s.content + " " + s[this.props.style]}>
+          <div className={s.content+" "+s[this.props.style]+" "+s[this.props.theme]}>
             <h1 className={s.title}>{this.props.content.title}</h1>
             <div
               className={s.description}

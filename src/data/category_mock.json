@@ -6,20 +6,17 @@
     "topics": [
       {
         "name": "Children accused of Crime",
-        "image":
-          "https://s3.ap-south-1.amazonaws.com/staging-image-test/images/children-accused-of-crime-thumb.jpg",
+        "image": "children-accused-of-crime-thumb.jpg",
         "url": "/topic/children-accused-of-crime"
       },
       {
         "name": "Child Labour",
-        "image":
-          "https://s3.ap-south-1.amazonaws.com/staging-image-test/images/child-labour-thumb.jpg",
+        "image": "child-labour-thumb.jpg",
         "url": "/topic/child-labour"
       },
       {
         "name": "Free and Compulsory Education",
-        "image":
-          "https://s3.ap-south-1.amazonaws.com/staging-image-test/images/free-and-compulsory-education.jpg",
+        "image":"free-and-compulsory-education-thumb.jpg",
         "url": "/topic/free-and-compulsory-education"
       }
     ]
@@ -31,12 +28,12 @@
     "topics": [
       {
         "name": "Anti-corruption",
-        "image": "",
+        "image": "anti-corruption-thumb.jpg",
         "url": "/topic/anti-corruption"
       },
       {
         "name": "Right to Information",
-        "image": "",
+        "image": "right-to-information-thumb.jpg",
         "url": "/topic/right-to-information"
       }
     ]
@@ -115,7 +112,7 @@
       {
         "name": "Arrest",
         "image":
-          "https://s3.ap-south-1.amazonaws.com/staging-image-test/images/arrest-thumb.jpg",
+          "arrest-thumb.jpg",
         "url": "/topic/arrest"
       },
       {
@@ -174,7 +171,7 @@
       },
       {
         "name": "Will",
-        "image": "",
+        "image": "will-thumb.jpg",
         "url": "/topic/will"
       }
     ]
@@ -203,13 +200,12 @@
     "topics": [
       {
         "name": "Prostitution",
-        "image": "",
+        "image": "prostitution-thumb.jpg",
         "url": "/topic/prostitution"
       },
       {
         "name": "Sexual Harassment at the Workplace",
-        "image":
-          "https://s3.ap-south-1.amazonaws.com/staging-image-test/images/sexual-harassment-at-the-workplace-thumb.jpg",
+        "image": "sexual-harassment-at-the-workplace-thumb.jpg",
         "url": "/topic/sexual-harassment-at-the-workplace"
       }
     ]

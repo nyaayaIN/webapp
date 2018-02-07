@@ -1,10 +1,11 @@
 @import '../variables.css';
 
 .root {
+  border-bottom: solid 1px var(--neutral-medium-colour);
   display: block;
   margin: 0;
   padding: 0;
-  background: var(--neutral-light-colour) center center/cover no-repeat;
+  background: var(--lightest-colour) center center/cover no-repeat;
   z-index: -1;
 }
 
@@ -18,8 +19,6 @@
 }
 
 .content {
-  background: rgba(0, 0, 0, 0.75);
-  color: var(--lightest-colour);
   font-size: 0.95em;
   padding: 1em;
   width: 100%;
@@ -34,16 +33,37 @@
   align-self: flex-start;
 }
 
+.center {
+  align-self: center;
+}
+
 .title {
+  color: var(--primary-text-colour);
   font-weight: 500;
   margin: 0;
   padding-bottom: 0.25em;
+}
+
+.dark {
+  background: rgba(0, 0, 0, 0.75);
+  color: var(--lightest-colour);
+}
+
+.dark .title {
   color: var(--lightest-colour);
 }
 
 @media screen and (width < 1000px) {
+  .root {
+    background-position: top right;
+  }
+
   .container {
     height: 30em;
     padding-bottom: 0;
+  }
+
+  .center {
+    align-self: flex-end;
   }
 }

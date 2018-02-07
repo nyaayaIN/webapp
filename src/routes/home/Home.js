@@ -34,7 +34,7 @@ class Home extends React.Component {
   render() {
     return (
       <div className={s.root}>
-        <Hero content={this.props.hero} style="bottom" image={heroUrl}/>
+        <Hero content={this.props.hero} style="center" image={heroUrl} theme="light"/>
         <div className={s.container}>
           <div className={s.heading}>{this.props.headings.featured_topics}</div>
           <Topics collection={this.props.featured.topics} />

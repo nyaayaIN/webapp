@@ -25,9 +25,9 @@
 
 .termOption {
   font-family: var(--font-family-base);
-  color: var(--neutral-dark-colour);
+  color: var(--tertiary-text-colour);
   display: inline-block;
-  border: solid 1px var(--neutral-dark-colour);
+  border: solid 1px var(--tertiary-text-colour);
   margin: 0.25em 1em 0.25em 0;
   padding: 0.5em 1em;
   background: var(--lightest-colour);

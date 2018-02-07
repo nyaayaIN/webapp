@@ -4,6 +4,10 @@ import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Navigation.css';
 import Link from '../Link';
 
+import facebook from './facebook.svg';
+import twitter from './twitter.svg';
+import linkedin from './linkedin.svg';
+
 class Navigation extends React.Component {
   static propTypes = {
     about: PropTypes.string.isRequired,
@@ -28,6 +32,21 @@ class Navigation extends React.Component {
           rel="noopener noreferrer"
         >
           {blog}
+        </a>
+        <a className={s.socialLink} href="https://facebook.com/nyaayain/" target="_blank" rel="noopener noreferrer">
+          <div className={s.iconContainer}>
+            <img src={facebook} className={s.icon}/>
+          </div>
+        </a>
+        <a className={s.socialLink} href="https://twitter.com/NyaayaIN" target="_blank" rel="noopener noreferrer">
+          <div className={s.iconContainer}>
+            <img src={twitter} className={s.icon}/>
+          </div>
+        </a>
+        <a className={s.socialLink} href="https://www.linkedin.com/company/nyaaya/" target="_blank" rel="noopener noreferrer">
+          <div className={s.iconContainer}>
+            <img src={linkedin} className={s.icon}/>
+          </div>
         </a>
       </div>
     );
