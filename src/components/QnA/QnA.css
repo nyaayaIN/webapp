@@ -1,8 +1,14 @@
 @import '../variables.css';
 
 .root {
-  padding-right: 1em;
-  margin: 2em 0;
+  background: var(--neutral-light-colour);
+  margin: 0;
+}
+
+.container {
+  padding: 2em 0;
+  margin: 0 auto;
+  max-width: var(--max-content-width);
 }
 
 .title {
@@ -13,17 +19,20 @@
 .subtitle {
   padding: 0.5em 0;
   margin-bottom: 1em;
-  border-bottom: solid 1px var(--neutral-medium-colour);
 }
 
 .couplet {
-  border: none;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: solid 1px var(--neutral-medium-colour);
   margin: 0.2em 0;
+  padding: 0.5em 0;
 }
 
 .question {
   background: none;
-  border: none;
+  border:none;
   cursor: pointer;
   text-align: left;
   width: 100%;
@@ -32,11 +41,6 @@
   font-family: var(--font-family-base);
   color: var(--neutral-dark-colour);
   padding: 0.25em 0;
-}
-
-.arrow {
-  display: block;
-  float: right;
 }
 
 .question:focus {

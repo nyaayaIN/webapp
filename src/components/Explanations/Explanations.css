@@ -2,7 +2,6 @@
 
 .root {
   margin: 0 auto;
-  border-bottom: solid 1px var(--neutral-medium-colour);
   max-width: var(--max-content-width);
   height: 100%;
   display: flex;
@@ -10,16 +9,21 @@
 }
 
 .collection {
-  width: 65%;
+  width: 70%;
 }
 
 .menu {
-  border-left: solid 1px var(--neutral-light-colour);
-  border-right: solid 1px var(--neutral-light-colour);
-  width: 35%;
+  box-shadow:3px 0 4px -1px rgba(50, 50, 50, 0.25), -3px 0 2px -1px rgba(50, 50, 50, 0.25);
+  width: 30%;
   list-style-type: none;
   margin: 0;
   padding: 1.5em 0;
+}
+
+.menuHeading {
+  text-align: right;
+  font-weight: 500;
+  padding: 0 1em;
 }
 
 .item {
@@ -33,7 +37,8 @@
   padding: 0.5em 1em;
   width: 100%;
   font-weight: normal;
-  font-family: var(--font-family-base);
+  font-size: 0.9em;
+  font-family: var(--font-family-secondary);
 }
 
 .item:hover {
@@ -42,13 +47,12 @@
 
 .item:focus {
   outline: none;
-  background: var(--primary-text-colour);
-  color: var(--lightest-colour);
+  font-weight: 500;
 }
 
 .explanation {
   display: none;
-  padding: 1em 0;
+  padding: 2em 1em 2em 0 ;
 }
 
 .explanation.active {
@@ -56,13 +60,16 @@
 }
 
 .title {
+  color:var(--primary-text-colour);
   font-weight: 500;
-  font-size: 2em;
+  font-size: 1.5em;
   margin: 0;
   padding: 0;
 }
 
 .content {
+  line-height: 175%;
+  font-family: var(--font-family-secondary);
   padding: 0.5em 1em 0.5em 0;
 }
 
@@ -73,4 +80,23 @@
 .content table th {
   font-weight: 500;
   border-bottom: solid 1px var(--neutral-medium-colour);
+}
+
+
+@media screen and (width < 850px) {
+  .root {
+    flex-direction: column-reverse;
+  }
+  .menu,
+  .collection {
+    width: 100%;
+  }
+  .menuHeading,
+  .item {
+    text-align: left;
+  }
+  .title,
+  .content {
+    padding: 0 1em;
+  }
 }

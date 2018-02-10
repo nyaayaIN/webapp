@@ -585,27 +585,131 @@
   },
   "dowry": {
     "name": "Dowry",
-    "summary": "",
+    "summary": "Dowry is anything of value, including cash and property, which is given by the bride’s family to the groom’s family as a condition of marriage. The law prohibits the practice of giving or taking dowry as well as demanding and advertising for dowry.",
     "image": "",
-    "explanations": [],
-    "qna": [],
-    "glossary": []
+    "explanations": [{
+      "id": "exp00",
+      "title": "Complaining about being asked to pay dowry",
+      "content": "<p>In case you have had to pay dowry at the time of your wedding, or someone from your family has paid on your behalf, or you personally know of someone who has had to pay dowry as a condition for marriage, you can make a complaint at the local police station or the Dowry Prohibition officer in your district. You can also directly write to the appropriate judicial authority for your case. Another option is to approach a government recognized welfare organization and process your complaint through them.</p><p>In case you have been coerced into paying dowry, you can still file a complaint against the offenders. The statements you make to the police and to the courts cannot be used against you and the police can start investigating the crime without the permission of a magistrate.</p><p>There is no time limit on when you can file a complaint under this law.</p>"
+    },{
+      "id": "exp01",
+      "title": "Women’s right to take possession of the dowry",
+      "content": "<p>If the dowry has passed hands at or after a wedding anyway, the woman has the right to take possession of the dowry.<p><p><b>Example:</b>Raj and Simran get married on August 20th. Simran’s father has given a car as dowry to Raj’s uncle, Aman in connection with the marriage. In this case, Aman must give it to Simran.</p><p>There are different guidelines given on this based on when the dowry was received.<ul><li>If the property was received before the wedding, then Aman must give it to Simran within 3 months of the wedding (before 20th November)</li><li>If the property was received on the day of the wedding or after, then Aman must give it to Simran within 3 months from the date on which he received it.</li><li>If Simran was below 18 at the time of her wedding, then Aman must give the car to Simran within 3 months of her turning 18. Aman must keep it in trust for her till she turns 18.</li><li></ul>If by any chance, Simran dies before Aman gave her the car, her heirs can claim it from Aman. If Simran dies due to unnatural causes within 7 years of her marriage, the property will be transferred to her children. It will be held in trust for them until they are 18. If she has no children, the property will go to her parents.</p>"
+    },{
+      "id": "exp02",
+      "title": "Husband's duty to hand over Dowry",
+      "content": "<p>If the dowry has passed hands at or after a wedding, the law imposes a duty on the person who has received the dowry to hand it over to the woman.</p>"
+    },{
+      "id": "exp04",
+      "title": "Maintaining a list of gifts received",
+      "content": "<p>Giving gifts or presents by either the bride or groom at the wedding is not punishable when it has been done voluntarily. The gifts should be entered in a list, according to the rules given in the law. Gifts from the bride’s side should be according to custom and as per financial capacity of the her family. Customs vary from place to place and from family to family. For example, In marriages in central and east India, sarees and jewellery are given to women relatives of both the bride and the groom, by the other side. This is as per custom. In terms of financial capacity, it would depend on each individual case, but generally gifts given should be of a value which does not create extraordinary financial burden to the person giving them. For example, if the Bride’s father has to take a loan of significant amount to buy gifts for the groom’s side, then it cannot be said that the gift has been given as per financial capacity of the person.</p>"
+    },{
+      "id": "exp05",
+      "title": "Demanding dowry",
+      "content": "<p>Anyone who in any way demands dowry from anyone related to the bride or the groom, as a condition for marriage, can be punished under the Dowry Prohibition Act, 1961. Demanding dowry is treated as a separate offence with the punishment being jail time between 6 months and 2 years and/or a fine which can go up to Rs 10,000</p>"
+    },{
+      "id": "exp06",
+      "title": "Giving or taking dowry",
+      "content": "<p>Any person who gives or takes dowry, and anyone who helps in the exchange of dowry, can be punished under this law.</p><p><b>Example:</b> Raj and Simran are getting married. The marriage has been fixed by the marriage broker Roja. Simran’s father, Sitapati gives Rs. 10 lakh and a car as dowry to Ram’s father Raja Bhoj. The exchange is facilitated through Roja. In case, the complaint is made by Sitapati, then both Raja Bhoj and Roja can be punished under this law. In case the complaint is made by someone else, or it comes to the knowledge of the authorities that an exchange of dowry has taken place, then all three parties involved in the exchange can be punished.</p><p>Any person who gives or takes dowry, and/or anyone who helps someone give or take dowry can be punished under this law. The punishment can be jail time for a minimum of 5 years. The fine is equal to the amount of dowry exchanged. If the amount is below 15,000 then the fine will be Rs. 15000.</p>"
+    },{
+      "id": "exp07",
+      "title": "Agreeing to pay dowry",
+      "content": "<p>Any agreement for the exchange of dowry is void. Raja bhoj cannot go to court if Sitapati refuses to pay the dowry even though they might have agreed to it earlier. The law treats such agreements as ‘void’-the agreement will be treated as if it never happened. It has no legal effect.</p>"
+    },{
+      "id": "exp08",
+      "title": "Advertising for dowry",
+      "content": "<p>Anyone who advertises and offers to give money, share in a business or property in return for marrying his son, daughter or relative and anyone who publicizes these kind of advertisements can be punished.</p><p><b>Example:</b> Sitapati advertises in the newspaper that he will give half his estate to anyone who marries his daughter. Sitapati can punished for advertising the offer for dowry and the newspaper publisher can be punished for sharing it publically.</p><p>Anyone who advertises and offers to give money, share in a business or property in return for marrying his son, daughter or relative and anyone who helps to publicize this kind of advertisement can be punished under this law.</p><p>The punishment can be jail time between 6 months and 5 years or it can be a fine upto Rs. 15,000. The court can impose jail time for less than 6 months for special reasons such as old age or medical conditions. The reasons for giving a reduced jail time have to be recorded by the court in the judgement.</p>"
+    },{
+      "id": "exp09",
+      "title": "Taking someone to court for dowry",
+      "content": "<p>The judicial process in a court starts when it comes to the knowledge of the concerned authorities. Given below are some circumstances:<ul><li>When it comes to the judge’s knowledge</li><li>When the Police have filed a charge-sheet  (or a police report)</li><li>When a private complaint has been filed from a victim or a relative of victim; or</li><li>When a complaint has been made by a government recognized welfare organization</li></ul>The trial of a crime under this law can only happen in:<ol><li>Court of Metropolitan Magistrate (urban areas with a large population usually have such courts)</li><li>Judicial Magistrate (First Class)</li><li>Any higher court ( eg. Sessions court)</li></ol></p>"
+    },{
+      "id": "exp10",
+      "title": "Accused of Dowry crime",
+      "content": "<p>If a case is filed against you for taking dowry, or helping someone to take dowry, or for demanding dowry, then, as per this law, burden of proof for showing that you have not done the same lies on you. For example, If Simran makes a complaint that Raj has asked her family for dowry, then Raj has to prove that he has not asked for dowry.</p>"
+    },{
+      "id": "exp11",
+      "title": "Bail",
+      "content": "<p>A person arrested under this law cannot get bail as a matter of right. He or she will have to make an application to the Court and the Court has the power to decide if you can be granted bail after your arrest.</p>"
+    }],
+    "qna": [{
+      "id": "qna00",
+      "question": "How is dowry different from gifts given during weddings, from one side to another?",
+      "answer": "<p>The crucial difference between dowry and a wedding gift is that gifts are given out of one’s own free will, there is no coercion or pressure. The main condition for something to be seen as dowry is that it must be given as a condition for marriage. So any gift given, whether it’s property, money, or anything else of value, would be considered as dowry, if it’s given as a condition for marriage. Customary gifts exchanged in accordance with prevailing practice and custom is not considered dowry.</p>"
+    }, {
+      "id": "qna01",
+      "question": "Can I settle matters with my wife to avoid going to court or being punished for accepting dowry?",
+      "answer": "<p>Certain less serious crimes can be settled by the victim and the accused. However, dowry crimes cannot be settled in this manner.</p>"
+    }, {
+      "id": "qna02",
+      "question": "If case for dowry harassment is made against all the members of the husband’s family, even though demand was made by just one person, then are they all liable?",
+      "answer": "<p>It depends on who has made the demand for, and is harassing the bride for dowry. If the family members can prove that they were not involved in any kind of harassment and never demanded dowry, they shall not be held liable. Therefore, it depends on who is liable and how. In case the demand was made by one person, say the husband, or the father-in-law, then the other family members will not be prosecuted. However, the burden of proof for showing that demand was not made by the whole family, remains on the family which has been accused.</p>"
+    }, {
+      "id": "qna03",
+      "question": " Can you also file a case under the domestic violence law for dowry harassment?",
+      "answer": "<p>Yes, depending on the type of harassment faced, whether verbal or physical, it would qualify as domestic violence under the Protection of Women from Domestic Violence Act 2005. The act provides immediate relief from any kind of harassment faced. The definition of domestic violence given in the law is very wide and covers a broad range of behaviours and instances.</p>"
+    }, {
+      "id": "qna04",
+      "question": " Are there any special punishment for death as a result of dowry demands?",
+      "answer": "<p>There is a specific provision in the Indian Penal Code, S. 304B which deals with Dowry death. This section makes it easier it easier to prove dowry death as against other death related offences. This is because it shifts the burden of proof on an accused (normally the burden of proof is on the prosecution or the complainant). As long as the prosecutor proves the case, the court will deem that the person has accused committed the offence.</p><p>The burden of proof only shifts once the prosecution can show certain things. These are:<ul><li>The death of the woman was caused by burns or injuries which are not like ordinary course burns and injuries;</li><li>The victim was a married woman and she died within 7 years of her marriage</li><li>The victim suffered ‘cruelty or harassment’ because of demands for dowry. So there must be some connection between the death and demands for dowry.</li></ul>Once all this is shown by the prosecutor, the court will deem that the accused has committed the offence. Now, the accused must prove that she or he did not commit the offence. The burden of proof shifts onto the accusedYou can be punished with jail time of up 7 years or more (including jail for life).</p>"
+    }, {
+      "id": "qna05",
+      "question": "If a complaint is made against someone for demanding dowry, will they be arrested immediately?",
+      "answer": "<p>No, while investigation in the case can start immediately, accused can only be arrested after warrant is given by the magistrate. Practically, police is instructed to make sure that all possible efforts should be made, before recommending registration of any FIR, for reconciliation and in case it is found that there is no possibility of settlement, then necessary steps in the first instance be taken to ensure return of stridhan and dowry articles etc. by the accused party to the complainant</p>"
+    }],
+    "glossary": [{
+      "id": "glos00",
+      "term": "Dowry",
+      "definition": "Dowry is anything of value, including money or property, given by the bride or groom, their parents or anyone else related to them or their families. It is given to the corresponding party, either directly or to their parents, or to their families. Dowry can be given any time in connection with the marriage. Dowry is given as a condition for marriage"
+    }, {
+      "id": "glos00",
+      "term": "Mahr",
+      "definition": "According to Muslim personal law, the wife is entitled to either money or property from her husband when she gets married. This is known as dower or Mahr and is not considered as dowry."
+    }, {
+      "id": "glos00",
+      "term": "Streedhan",
+      "definition": "Streedhan is the property given to the bride at the time of marriage. It is different from dowry because it is a voluntary gift given to the bride before or after her marriage. The bride has exclusive and absolute control over all her Streedhan. She has full freedom to sell, modify, use the Streedhan as she wishes. She can even decide to give it away, during or after her lifetime. Streedhan includes both movable and immovable property."
+    }, {
+      "id": "glos00",
+      "term": "Illustration",
+      "definition": "Resham, on her marriage receives two gold bangles from her mother. This is her Streedhan. However, if the gold bangles had been given under coercion by the groom’s family as a condition for marriage, it would be considered as dowry."
+    }, {
+      "id": "glos00",
+      "term": "Dowry Prohibition Officers",
+      "definition": "These are officers designated by different state governments for each state. They have some designated functions and may have additional functions assigned to them as per the decision of the state governments."
+    }]
   },
-  "marriage": {
-    "name": "Marriage",
-    "summary": "",
+  "annulment": {
+    "name": "Annulment",
+    "summary": "Annulment is a legal procedure for undoing a marriage of sorts by declaring it null and void. The main difference between annulment and divorce is that an annulment says that the marriage never really happened.",
     "image": "",
-    "explanations": [],
-    "qna": [],
-    "glossary": []
-  },
-  "divorce-and-separation": {
-    "name": "Divorce & Separation",
-    "summary": "",
-    "image": "",
-    "explanations": [],
-    "qna": [],
-    "glossary": []
+    "explanations": [{
+      "id": "exp00",
+      "title": "Decree of nullity",
+      "content": "<p>A decree of nullity is a judicial decree determining in effect that the marriage in question never existed and it is not a divorce which acknowledges that there was a marriage and it is ending. The decree of nullity declares that the marriage is and has always been null and void as there are many conditions under which a marriage in India can be considered as an invalid marriage. A party has to present a petition before Court against the other party, setting in detail the reason for the annulment.</p>"
+    }, {
+      "id": "exp01",
+      "title": "Conditions for Annulment",
+      "content": "<p>A marriage is considered to be a void marriage:<ul><li>If either you or your spouse was married to another person at the time of getting married to you.</li><li>If you or your spouse was suffering from a serious mental illness</li><li>If you or your spouse was below the minimum age (18 for women and 21 for men)</li><li>If your spouse was a close relative (within the prohibited degrees of relationship)</li><li>If a party was impotent at the time of marriage and when the case is presented to the Court</li><li>If one of the parties refuse to to complete the union of a marriage by the first marital sexual intercourse (consummate the marriage).</li><li>If one of the parties was at the time of the marriage pregnant by some other person other than the spouse. In these cases, the Court has to make sure that the allegations are true. </li><li>If the consent of either of the parties to the marriage were obtained by fraud or coercion.</li></ul></p>"
+    }, {
+      "id": "exp02",
+      "title": "Batil and Fasid",
+      "content": "<p>Under Muslim personal laws, marriages in violation of rules are known as Batil marriages. Those marriages which are in violation of conditions of affinity, fosterage etc are examples of  batil marriages. Batil is another way of saying that your marriage is void. A marriage can be annulled if it is a void and it means that the marriage is not legally binding.</p><p>In certain circumstances, your marriage may be considered as fasid or irregular. The prohibitions are temporary or a result of accidental circumstances - it is generally possible to rectify irregular marriages. An example of this is when no one has seen your marriage etc.</p>"
+    }, {
+      "id": "exp03",
+      "title": "Filing an Annulment",
+      "content": "<p>A petition is to be presented to the District Court which has jurisdiction. Jurisdiction is determined in the following manner:<ul><li>Where the marriage was solemnized</li><li>Where the respondent or the opposite party resides at the time of presentation</li><li>Where the parties last resided together</li><li>If the wife is the petitioner, then the place where she was residing when she filed the case</li><li>Where one of the parties has not been heard of being alive for a period of seven years.</li><li>If the wife is a resident in the territories which is covered by the Act and she has been resident for a period of three years before the petition has been presented in Court, then that area where she resides.</li><li>The petition should have all the facts and reliefs required and should only be submitted after it has been made certain that everything written in it is true. </li><li>The Court has a duty to make sure that the proceedings go smoothly and that there is an instance to grant the relief that the party wants. They also have to try their best to make sure that there is a chance of reconciliation between the parties. This means that the parties have to try to resume their marital relationship. </li><li>You can also file an appeal after the decree has been granted and any decree or order which is passed will be enforced and will have to be followed.</li></ul></p>"
+    }],
+    "qna": [{
+      "id": "qna00",
+      "question": "If I have found out that my spouse has a sexually transmitted disease can I have the marriage annulled?",
+      "answer": "<p>If your spouse is diagnosed with a Sexually Transmitted Disease that prevents you from engaging in sexual intercourse, you can ask for the marriage to be declared as invalid.</p>"
+    }],
+    "glossary": [{
+      "id": "glos00",
+      "term": "Coercion",
+      "definition": "The action or practice of persuading someone to do something by using force or threats."
+    }]
   },
   "domestic-violence": {
     "name": "Domestic Violence",
@@ -615,13 +719,101 @@
     "qna": [],
     "glossary": []
   },
-  "maintenance-of-family": {
-    "name": "Maintenance of Family",
-    "summary": "",
+  "care-for-parents-and-elderly": {
+    "name": "Care for Parents and Elderly",
+    "summary": "Maintenance is ordered by a court order where either daughter or son is asked to give certain amount to the parents or elderly persons to fulfill their basic needs. It is also known as alimony. The amount for maintenance depends on various circumstances. Maintenance means providing ‘dependents’ with basic needs such as food, clothing, shelter and amenities. It also includes access to essential services such as hospitals, etc.. The extent of duties depend upon which law is applicable to them, as we will explain.",
     "image": "",
-    "explanations": [],
-    "qna": [],
-    "glossary": []
+    "explanations": [{
+      "id": "exp00",
+      "title": "Children taking care of Parents",
+      "content": "<p>Indian law requires all persons to maintain and support their parents - biological, step-parents as well as adoptive depending on the circumstances. There is also a special law. The Maintenance And Welfare Of Parents And Senior Citizens Act, 2007, under which a senior citizen (above 60 years) can apply to a tribunal for maintenance from his adult children or legal heir. Under both these laws, you can apply for maintenance if you are unable to take care of yourself.</p>"
+    },{
+      "id": "exp01",
+      "title": "Maintenance under Hindu Law",
+      "content": "<p>Biological/Adoptive parents who are Hindu, Buddhist, Jain or Sikh and are aged or infirmed can seek maintenance from their grown children under the Hindu Adoptions and Maintenance Act if they are unable to support themselves from their own earning or property. In addition, even when the son or daughter is no more, parents can still claim maintenance from the wealth and properties of the deceased.</p>"
+    },{
+      "id": "exp02",
+      "title": "Maintenance under Code of Criminal Procedure",
+      "content": "<p>Under Section 125 of the Code of Criminal Procedure, If any person with sufficient resources refuses or ignores to maintain the following set of persons, then the Magistrate of the First Class may order such person to give monthly allowance for maintenance. The following are the set of persons:<ul><li>His wife who is not able to maintain hersel</li><li>His legitimate or illegitimate minor child who is unmarried or not and cannot maintain himself/hersel</li><li>His legitimate or illegitimate child (who is not a married daughter) and has attained majority, is of unsound mind or his handicapped and is unable to maintain himself or hersel</li><li>His parents who are unable to maintain themselves</li></ul></p>"
+    },{
+      "id": "exp03",
+      "title": "Amount of Maintenance",
+      "content": "<p>There is no standard sum of money awarded as maintenance. It is decided on a case-by-case basis. The amount due to you will be decided by the court taking in a number of factors such as:<ul><li>status and standard of living of the supporter and dependents</li><li>your needs and requirements (reasonably calculated)</li><li>whether you are living separately from your supporter</li><li>income, wealth and value of the supporter’s properties</li><li>income, wealth and value of your properties</li><li>number of persons who are to receive maintenance</li></ul>The judge will decide the duration of the maintenance to be paid but in most cases the duration is usually for the entire life of the person.</p>"
+    },{
+      "id": "exp04",
+      "title": "Maintenance after death",
+      "content": "<p>The duty to maintain parents exists even after the death of a person who is supposed to maintain them. Upon an application, the court may order that a portion of a person’s wealth and assets be given to parents who are old and infirm. The amount of maintenance in such cases will be calculated as per the rules of inheritance applicable to that dead person. The amount due to you will be decided by a court after considering a number of factors such as:<ul><li>full value of assets of the dead supporter after paying off his debts including any income from his property,</li><li>provisions of his will (if any),</li><li>nature and closeness of relationship with you,</li><li>your needs and requirements (reasonable calculated), or</li><li>number of people dependent on him for maintenance.</li></ul></p>"
+    },{
+      "id": "exp05",
+      "title": "Claiming Maintenance from Tribunal",
+      "content": "<p>You can file an application in a maintenance tribunal under the The Maintenance And Welfare Of Parents And Senior Citizens Act, 2007. You can file an application in the maintenance tribunal in the area where you live currently or have lived in the past or where your children or relatives live. Once you file an application to the Tribunal under The Maintenance And Welfare Of Parents And Senior Citizens Act, 2007, you cannot file an application for maintenance under Section 125 of the Code of Criminal Procedure, 1973 (which also gives you the right). Please remember that there is no cap on the amount of monthly maintenance you can seek under the Code. However, it could be a lengthier process.</p><h4>Process</h4><p>After you have filed an application (formats will vary from state to state), the court will first notify your children and tell them that you have filed such an application. Then, the court can decide to refer the case to a Conciliation Officer who will then try to get the parties to agree to a friendly settlement. If the court does not refer the case, it will listen to both parties (the parents and the children or relatives).</p><p>The court will conduct an inquiry to figure out how much maintenance you need to be paid. An inquiry is not a full blown legal proceeding. Even though the law does not allow for representation by lawyers in these courts, there are high court judgments which have held that this right of lawyers cannot be restricted. Even though this court is slightly informal in nature, it has the powers of a civil court and can order attendance of witnesses, take evidence on oath etc.</p><p>If the court finds that the children or relatives are neglecting to take care of the parents, they can pass an order directing them to pay a monthly maintenance. The court can also order that interest (between 5% and 8%) be paid on the maintenance amount from the date of the application.If your children or parents are not paying the maintenance even after the court order, you can go to any similar court (maintenance tribunal) and ask for help in enforcing the order.</p>"
+    },{
+      "id": "exp06",
+      "title": "Temporary maintenance",
+      "content": "<p>You can make an application to the court to order your children or relatives to pay you temporary maintenance (on a monthly basis). The court has to decide on whether you can get temporary maintenance within 90 days of informing your children or relatives of your application. In special circumstances, they can delay this for some more time (i.e. 30 days).This is not the final maintenance you can expect to get. The court may decide not to give you maintenance at all, or may decide to increase or decrease the amount of maintenance in the final order.</p>"
+    },{
+      "id": "exp07",
+      "title": "Punishment for abandoning and neglecting senior citizen",
+      "content": "<p>If you leave a senior citizen at some place with the intention of abandoning them and not taking care of them, you can be punished with jail time of up to three months and/or a fine of up to Rupees five thousand. The police can make an arrest without the permission of a court. However, this is a bailable crime. If you are able to pay the bail bond, you will be released.</p>"
+    }],
+    "qna": [{
+      "id": "qna00",
+      "question": "I do not have sons. So, can I claim maintenance from my daughter?",
+      "answer": "<p>Yes. The duty to maintain parents is both on sons and daughters equally. Even married daughters have a duty to maintain their parents. However, the court will order her to pay only from her own money and assets. The married daughter’s husband has no duty to support his wife’s parents.</p>"
+    }, {
+      "id": "qna01",
+      "question": "Can the amount of maintenance provided change at a later time?",
+      "answer": "<p>Yes. If there is a major change in your situation that changes your needs and requirements, the amount of maintenance can be altered by approaching the court.However, do remember that the amount can also be decreased depending on whether you now have an additional source of income or your requirements have decreased. It can also be cancelled – for example, if you have converted to another religion and are no longer a Hindu, the judge may cancel payments as you are no longer eligible to receive maintenance under Hindu law.</p>"
+    }, {
+      "id": "qna02",
+      "question": "Do the parents have to be biological parents to ask for maintenance? Can adoptive and step-parents also ask for support?",
+      "answer": "<p>The word ‘parents’ has been understood broadly and may include both step-parents and adoptive-parents depending upon the circumstances.</p>"
+    }, {
+      "id": "qna03",
+      "question": "I am an old man and I got diagnosed with arthritis. The costs of treatments have gone up. Can I increase the amount of maintenance? Can the amount of maintenance provided change at a later time?",
+      "answer": "<p>Yes. If there is a major change in your situation that changes your needs and requirements, the amount of maintenance can be altered by approaching the court. However, do remember that the amount can also be decreased depending on whether you now have an additional source of income or your requirements have decreased. It can also be cancelled – for example, if you have converted to another religion and are no longer a Hindu, the judge may cancel payments as you are no longer eligible to receive maintenance under Hindu law.</p>"
+    }, {
+      "id": "qna04",
+      "question": "Can I also ask my mother to pay me maintenance?",
+      "answer": "<p>Yes. The duty to maintain children is on both the parents. Where the mother is earning or has property of her own, the court can order both the parents to contribute towards the maintenance of their children. The amount that they have to contribute will be in proportion to their earning and wealth.</p>"
+    }, {
+      "id": "qna05",
+      "question": "Can I file a maintenance application against more than one child or relative?",
+      "answer": "<p>Yes you can. As a parent, you can file your maintenance application against all your children. All of them have a duty to maintain you. As a senior citizen (without children), you can file your maintenance application against any or all relatives who possess or will inherit your property. If there is more than one such relative, each relative is supposed to pay maintenance in proportion to the property that they will inherit from you.</p>"
+    }, {
+      "id": "qna06",
+      "question": "If my parents have filed a maintenance application against me, can I also involve my brother? ",
+      "answer": "<p>Yes, if you have siblings or other relatives who are legally supposed to maintain your parents/ senior citizen, you can file an application to get them involved in the case.</p>"
+    }],
+    "glossary": [{
+      "id": "glos00",
+      "term": "Maintenance",
+      "definition": "It is also known as alimony. When a married couple is divorced, the court orders husband to give certain amount to his wife in lump sum or monthly/weekly/yearly for sustaining basic life. Court looks into various factors before deciding the amount for maintenance."
+    },{
+      "id": "glos01",
+      "term": "Children",
+      "definition": "Includes son, daughter, grandson and granddaughter but does not include a minor"
+    },{
+      "id": "glos01",
+      "term": "Parent",
+      "definition": "Means father or mother whether biological, adoptive or step-father or step-mother, as the case may be, whether or not the father or the mother is a senior citizen."
+    },{
+      "id": "glos01",
+      "term": "Senior citizen",
+      "definition": "Means any person being a citizen of India , who has attained the age of sixty years or above."
+    },{
+      "id": "glos01",
+      "term": "Welfare",
+      "definition": "Welfare means the provision for food, health care, recreation centres and other amenities necessary for the senior citizens."
+    },{
+      "id": "glos01",
+      "term": "Adoptive",
+      "definition": "Means being acquired or related by adoption."
+    },{
+      "id": "glos01",
+      "term": "Maintenance Tribunal",
+      "definition": "The maintenance tribunal is a special court set up under this law. Maintenance tribunals have to be set up by state governments in each sub-division. This court has the powers of a normal civil court and can issue summons."
+    }]
   },
   "smoking": {
     "name": "Smoking",
@@ -880,11 +1072,55 @@
   },
   "scheduled-caste-and-scheduled-tribes": {
     "name": "Scheduled Caste & Scheduled Tribes",
-    "summary": "",
+    "summary": "Indian law  punishes cruel and degrading crimes committed against people belonging to Scheduled Castes and Tribes, gives special protections and rights to victims belonging to Scheduled Castes and Tribes and sets up courts for fast completion of cases.",
     "image": "",
-    "explanations": [],
-    "qna": [],
-    "glossary": []
+    "explanations": [{
+        "id": "exp00",
+        "title": "Cruel and Degrading Atrocities",
+        "content": "<p>The following actions are considered as crimes and have a minimum punishment of 6 months and a maximum of 5 years, plus fine.<ul><li>Hurting or boycotting an SC/ST member </li><li>force-feeding an SC/ST member with any disgusting substance that is not fit for humans to eat, such as cow dung, human excreta etc.</li><li>Dumping any disgusting substances (such as the bodies of dead animals, or excreta) inside or at the gate of a place where SC/ST members live, or in a neighbourhood of an SC/ST member, but only if it is done to insult or annoy her in some way.</li><li>Making an SC/ST member wear a garland of chappals, or making them walk around naked or semi-naked.</li><li>Forcing an SC/ST member to do anything which is insulting to the dignity of a human being, such as making them undress, forcing them to shave his head or his moustache or forcing them to paint his face.</li><li>Making an SC/ST member do bonded labour. The exception will be if the government makes some kind of public service compulsory – in that case it will not be a crime.</li><li>Forcing a SC/ST member to carry or dispose of a human or animal dead body.</li><li>Forcing an SC/ST member to do manual scavenging, or employ an SC/ST member to do manual scavenging.</li><li>Insulting and humiliating an SC/ST member on purpose, if it is done in a place visible to the public.</li><li>Abusing an SC/ST member using her caste name if it is done in a place visible to the public.</li><li>Damage any object, such as a statue or picture of Dr. Ambedkar, which is important to members of SCs/STs.</li><li>Say or publish anything that encourages hatred of SC/ST communities.</li><li>Say or write anything that insults any late person who is important to the SC/ST community, such as a leader.</li><li>Spoiling any water source that is usually used by SC/ST members.</li><li>Blocking an SC/ST member from a public place where she has a right to go.</li><li>Blocking an SC/ST member from:<ul><li>Using any common public area or resource such as water bodies, taps, wells, cremation grounds etc.</li><li>Riding a horse or a vehicle or carrying out a procession.</li><li>Entering into a religious place or participating in a religious ceremony, that is open to the public.</li><li>Entering a public place like a school, hospital or cinema hall.</li><li>Carrying on any business or job.</li></ul></li><li>Accusing an SC/ST member of practicing witchcraft, and hurting them physically or mentally.</li><li>Making a threat, or to actually practice social or economic boycott.</li></ul></p>"
+    }, {
+        "id": "exp01",
+        "title": "Land and Property",
+        "content": "<p>It is illegal take over any land that is owned or controlled by, or allotted to any SC/ST member as well as forcing an SC/ST member to leave her home, unless it is done legally. The takeover of the property is considered illegal if it is done<ul><li>without the agreement of the victim, or</li><li>by threatening him or someone connected to him, or</li><li>by making false records.</li></ul>It is also a crime to similarly illegally deprive an SC/ST member of his property, or to prevent him from exercising his rights over any land. This includes:<ul><li>Blocking an SC/ST member from accessing any forest rights under the Forest Rights Act.</li><li>Blocking rights to any water source or irrigation source.</li><li>Destroying or taking away crops.</li></ul>You can face imprisonment of a term of 6 months to 7 years for using fire or bombs to damage homes, religious places and/or property belonging to SC/ST members</p>"
+    }, {
+        "id": "exp02",
+        "title": "Voting and Elections",
+        "content": "<p>You can be sent to jail for a minimum of 6 months and a maximum of 5 years, plus fine if you commit any of the following crimes pertaining to interfering with the voting rights of an SC/ST member:<ul><li>Forcing them to vote in a certain way.</li><li>Stopping them from standing for elections.</li><li>Stopping them from proposing a candidate, or seconding the nomination of another SC/ST candidate.</li><li>Punishing them for voting a certain way</li></ul>It is a crime to interfere with the work of an SC/ST member who is a panchayat member or holds office in a municipality. Force or intimidation cannot be used to prevent such a person from doing their work.</p>"
+    }, {
+        "id": "exp03",
+        "title": "Women",
+        "content": "<p>It is a crime to sexually touch a woman belonging to a SC/ST without her consent. It is also a crime to sexually harass a SC/ST woman. If such a crime takes place, the woman’s past history and actions shall not affect the outcome in any way. Practices like devadasi are also illegal – an SC/ST woman cannot be ‘dedicated’ to any god, idol or temple.</p>"
+    }, {
+        "id": "exp04",
+        "title": "False case/statements",
+        "content": "<p>Filing a false case against an SC/ST member as well as giving false information to a government official that causes the official to harass an SC/ST member are both illegal. If a SC/ST member is falsely accused of a crime punishable by death, you will face life imprisonment and a fine. If the false statement causes the SC/ST member to be given the death penalty, you might face the death sentence. If the false case/statements result in the SC/ST member being accused of a crime punishable with 7 years or more of imprisonment, you will face imprisonment of a term of 6 months to 7 years.</p>"
+    }],
+    "qna": [{
+        "id": "qna00",
+        "question": "What are the consequences of not obeying the court order for externment?",
+        "answer": "<p>If you does not obey the court order, you can be arrested. The punishment is up to 1-year in jail. If, you do obey the order, the court can allow you to return to where the crime was committed, for short periods, after signing a bond. You can only stay in the area for the short period mentioned in the order, and must get fresh permission to visit again.</p>"
+    }],
+    "glossary": [{
+        "id": "glos00",
+        "term": "Special Public Prosecutor",
+        "definition": "This law says that for every special court set up, the state government has to appoint a government lawyer, who will be responsible for the purpose of conducting cases in that court. The government’s lawyer, under this law, has to have minimum seven year’s experience"
+    }, {
+        "id": "glos01",
+        "term": "Common Intention",
+        "definition": "Common Intention is mentioned in S.34 of the Indian Penal Code. This provision says that if a lot of people get together and do something illegal with the common intention of doing it, they would all be liable for the crime, individually. Basically, this means that each of them would be liable as if she/he would have done it alone, by themselves. For this section to apply, it has to be shown that people got together to do something illegal, and acted together towards achieving."
+    }, {
+        "id": "glos02",
+        "term": "Economic Boycott",
+        "definition": "Economic boycott is if someone refuses to enter into business relations with a SC/ST member. This includes refusing to work with or refuse to hire an SC/ST member, refusing to either provide a service to an SC/ST member, or not engaging her to perform a service and changing the way a certain business transaction is normally done, because the person is an SC/ST member."
+    }, {
+        "id": "glos03",
+        "term": "Externment",
+        "definition": "If the court thinks a person is likely to commit a crime under this law, it can order that the person move out of that area for up to three years. This is called externment. "
+    }, {
+        "id": "glos04",
+        "term": "Social Boycott",
+        "definition": "Social boycott is when someone refuses to enter into a normal social interaction with a person, and tries to keep her separate from other groups."
+    }]
   },
   "arrest": {
     "name": "Arrest",
@@ -893,36 +1129,43 @@
     "image": "",
     "explanations": [
       {
+        "id": "exp00",
         "title": "Arrested by Police",
         "content":
           "<p><b>No person can be detained by the police without being informed of the reasons and the basis in law for their arrest</b>. This doesn’t mean they always need a warrant to arrest you. Normally a Magistrate issues a warrant to arrest you, but if the Police suspect that you committed a cognizable crime, you can be arrested even without an arrest warrant.</p><p>You have the right to consult with and be defended by a lawyer of your choice. When being arrested, <ul><li>you can ask the police to show the warrant for arrest, police report and other documents for your arrest and the police are required to show you this.</li><li>the police arresting you and handling the interrogation should bear accurate, visible and clear identification and name tags with their designations.</li><li>the police officer carrying out the arrest should prepare a memo of arrest which contains the date and time of arrest that should be signed by the person being arrested and attested by at least one witness (either a member of the family of the person being arrested or a respectable person of the locality from where the arrest is made).</li><li>The police officer should tell you if you can or cannot apply for bail</li></ul></p><p>Before taking you away, the police has a duty to inform your friends, relatives, or any other person who you choose, about your arrest. With 12 hours of the arrest, the police officer has to inform the police control room of <ul><li>the person being so arrested</li><li>the place where they are being detained</li></ul></p>"
       },
       {
+        "id": "exp01",
         "title": "Informing Friends/Family of Arrest",
         "content":
           "<p>When you are being arrested, before taking you away, you can choose a person (friend or family member) whom the police must inform about your arrest. If the arrested person’s friends or family live in a different district or town, the police must notify them of<ul><li>the time</li><li>place of arrest</li><li>Where the arrested person is being held</li></ul>The police can notify the relative or friend through the Legal Aid Organisation in the district and the police station of that area within a period of 8 to 12 hours after the arrest.</p>"
       },
       {
+        "id": "exp02",
         "title": "Being held in custody",
         "content":
           "<p>When you are being held in custody,<ul><li>You are entitled to haves someone interested in your well-being (such as a friend or relative or any other person) know of your arrest and where you being held</li><li>You can ask to examined for major and minor injuries on your body and the police must comply. The &ldquo;Inspection Memo&rdquo; must be signed by you and the police officer  conducting the arrest and a copy should be given to you.</li><li>You should be subjected to medical examination by a trained doctor every 48 hours</li></ul></p>"
       },
       {
+        "id": "exp03",
         "title": "Police Interrogation",
         "content":
           "<p>The police officers handling the interrogation should bear accurate, visible and clear identification and name tags with their designations. The details of the police personnel who handle your interrogation, must be recorded in a register. The arrested person may be permitted to meet their his lawyer during interrogation, though not throughout the interrogation.</p>"
       },
       {
+        "id": "exp04",
         "title": "Produced before the Magistrate",
         "content":
           "<p>Anyone who is arrested and in custody of the police should be produced before the nearest magistrate within a period of twenty-four hours of their arrest. Copies of all the documents including the memo of arrest, should be sent to the concerned Magistrate for their record.</p>"
       },
       {
+        "id": "exp05",
         "title": "Unlawful Arrest",
         "content":
           "<p>When the police arrest someone without following the procedure as laid down in the law, it is considered to be unlawful arrests. In such cases, the arrested person or the relative/s of such person can file a habeas corpus petition before a High Court. This petition is filed to requesting to produce the person so arrested and determine the legality of their arrest.</p>"
       },
       {
+        "id": "exp06",
         "title": "Summons",
         "content":
           "<p>A summons is a notice issued by the court when a legal proceeding has been started against a person or there is a requirement of the person for appearing as witness in the court. The person who has received the summons should go to the court accordingly.</p>"
@@ -930,33 +1173,39 @@
     ],
     "qna": [
       {
+        "id": "qna00",
         "question": "Do the police need an 'arrest warrant' to arrest me?",
         "answer":
           "<p>No, they do not need a warrant if they suspect that you committed a serious crime. Such crimes for which you can be arrested even without an arrest warrant are known as 'cognizable' crimes. Examples include murder, sexual offences, acid attack, rioting, starting a fire etc. Normally, it is the Magistrate which will issue a warrant to arrest you. Since these type of crimes need urgent action from the police, the police can take charge even without permission from the Magistrate.</p><p>Non-cognizable crimes are less serious crimes such as adultery, defamation etc. When a non-cognizable crime has been committed, the police needs the permission of the Magistrate to make an arrest. Generally, since these crimes are more private in nature and do not need the police to act urgently, the normal process of getting permission from the Magistrate must be followed. There is an exception to this general rule if the police see you committing or someone accuses you of committing a non-cognizable crime when the police are around. In such situations the police can arrest you if you refuse to tell them your name and address or give them the wrong name and address.</p>"
       },
       {
+        "id": "qna01",
         "question": "When can the police arrest without a warrant?",
         "answer":
           "<p>The police can arrest you without a warrant in two broad cases. One, where you are suspected of having committed a cognizable crime. Two, where the police suspect you are planning to commit a cognizable crime.</p><p>In the first category, the law lays down the specific situations in which the police can arrest you without an arrest warrant:<ul><li>when you commit a crime in front of a police officer (for example at a public event or in a police station);</li><li>when the police have received reliable information or a complaint that you have committed a cognizable crime;</li><li>if the court has declared you as a proclaimed offender;</li><li>if the police found you with stolen property and they suspect you;</li><li>if you cause trouble to a police officer who is performing her duty;</li><li>if you escape from custody;</li><li>if you are suspected of deserting the army;</li><li>if you are a suspect in a crime outside India and you are liable to be brought back to India; or</li><li>if you were convicted of a crime in the past and have violated rules relating to released convicts.</li></ul></p><p>The possibility of being arrested is much lesser if you have been accused of a cognizable crime with jail time of less than seven years. The police should have reliable information which points to your involvement. Further you can be arrested only if:<ul><li>you are likely to escape, destroy evidence, or influence the victim or witnesses,</li><li>you are likely to commit yet another crime, or</li><li>if your presence is necessary for police investigation.</li></ul></p><p>The Supreme Court has held that in every such case the police must begin by issuing a 'notice of appearance' asking you to appear at the police station. If the police then think that they need to arrest you, they will need to have proper reasons for doing so and will need to record these reasons. The police officer makes an 'Arrest Memo' at the time of arrest that contains this and other details which is signed by you. The Supreme Court has also directed the police to issue a notice of appearance within 2 weeks of starting a case. If they are not making an arrest, they have to inform the Magistrate.</p>"
       },
       {
+        "id": "qna02",
         "question":
           "Can I resist an arrest if I think I should not be arrested?",
         "answer":
           "<p>Resisting an arrest does not help - it only allows the police to use force to arrest you. If you do not submit to being arrested, the police can use all means necessary to arrest you. Though they have a duty not to cause your death, they can use deadly force if you are being accused of a crime which is punishable with death or prison for the rest of your life.</p>"
       },
       {
+        "id": "qna03",
         "question": "Can the police search me when I am arrested?",
         "answer":
           "<p>Yes, the police can search you when they are arresting you and place anything they find in safe custody. If you are a woman, you can be searched only by another woman. The police have to give you a personal search memo which is a list of all the things that they have taken – this search memo is sometimes known as jamatalashi. They can also take your fingerprints with the permission of the Magistrate.</p>"
       },
       {
+        "id": "qna04",
         "question":
           "Can a doctor or medical officer examine me when I am under arrest?",
         "answer":
           "<p>Yes, there are two purposes for which you can be examined.<ul><li>The first is to determine if you as the accused have been hurt or subject to violence by the police. You can ask for a copy of the report prepared by the doctor. If you are a woman, then a female doctor has to conduct the investigation.</li><li>If the police think that a medical examination can prove that you committed a crime, then can ask a doctor to conduct an examination on you. If you do not cooperate with the doctor, they can use reasonable force on you.</li></ul></p>"
       },
       {
+        "id": "qna05",
         "question": "How long can the police keep me under arrest?",
         "answer":
           "<p>The police need to present you before the Magistrate as soon as possible after you have been arrested. They cannot keep you under arrest for more than 24 hours – this excludes travel time to the court. The police officer will also need to provide a copy of the entries in the case diary to the Magistrate. The case diary is a daily diary kept by an officer detailing all that happens in an investigation. The Supreme Court has directed the police officers to provide the Magistrate a checklist of the reasons for your arrest along with all documents related to your arrest including the arrest memo.</p><p>After you've been presented before the Magistrate, the Magistrate can discharge you or grant you bail. Your lawyer should ask for your release if the police only needed to issue a 'notice of appearance' and not actually arrest you. The police can detain you beyond 24 hours only with permission of the Magistrate. They may seek 'police custody' or 'judicial custody'. Police custody can only last 15 days from the date of arrest. This means you will kept inside the lock-up at the police station for a maximum of fourteen more days.</p><p>If the police have not been able to file the charge-sheet and depending on the crime you have been suspected of, you can be in judicial custody for up to 90 days for crimes that you could possibly go to prison for more than 10 years, and up to 60 days for all other kinds of offences.</p><p>You cannot be sent to jail for more than fourteen days at a time even in judicial custody. You will be brought before the Magistrate after each fourteen day period. After the 60 or 90 day period, you have a right to be released on bail.</p>"
@@ -971,41 +1220,49 @@
     "image": "",
     "explanations": [
       {
+        "id": "exp00",
         "title": "Conditions of Bail",
         "content":
           "<p>The conditions of grant of bail are:<ul><li>Bail should be allowed for the crime when the crime committed is <a href='http://ecourts.gov.in/sites/default/files/classification_2.pdf' target='_blank' rel='noopener noreferrer'>a bailable offence.</a></li><li>The person who is applying for bail must execute a bond to be let out of jail.</li><li>The court requires the accused to have surety sometimes</li><li>The court may ask the person to not leave the territory of the country and report to the court whenever he/she is required to so.</li><li>Sometimes bail is granted in non-bailable offences as well but that is done in special circumstances. The court discretion matters here.</li></ul></p>"
       },
       {
+        "id": "exp01",
         "title": "No Bail",
         "content":
           "<p>Even though bail can sometimes be granted for non-bailable offenses, if any of the following apply to your judgement, then no bail will be granted:<ul><li>death punishment,</li><li>prison for life, or</li><li>jail time of more than 7 years</li><li>if the offence is cognizable</li><li>has been convicted previously on two or more occasions of a cognizable offence punishable with imprisonment of three years or more but not less than seven years.</li></ul></p>"
       },
       {
+        "id": "exp02",
         "title": "Special Conditions for Bail",
         "content":
           "<p>Some cases when you can be granted bail when charged with a non-bailable offense are:<ul><li>If it appears to the officer or the court that at any stage of inquiry or trail, that there are no reasonable grounds for believing that the accused has committed a non-bailable offence then the accused can be granted bail.</li><li>If a case where the trail of an accused person of any non bailable offence is not concluded within 60 days from the first day of trail, and the person has been in jail all this while, then the court can release him on bail.</li><li>If an accused is in Jail after the conclusion of the offence and before the judgement is delivered, and the judge has reasonable grounds to think that the accused can be released then he is released.</li></ul></p>"
       },
       {
+        "id": "exp03",
         "title": "Released on Bail",
         "content":
           "<p>When the accused is let out on bail, they will have to sign a bond saying that they will appear before the court as and when they are required to come.A person who has been released on bail can be arrested again if the court considers it necessary to do so.</p>"
       },
       {
+        "id": "exp04",
         "title": "Special Exceptions for Women and Children",
         "content":
           "<p>If you are a woman or child below 16 and have committed any crime, the court cannot deny you bail.</p>"
       },
       {
+        "id": "exp05",
         "title": "Sureties for Bail",
         "content":
           "<p>When you approach court for bail, the court wants sufficient guarantees to ensure you won't run away. The court may ask you to get some people to take this responsibility. These persons are known as 'sureties'. Your surety should be someone known to you like your friends or family and ideally be from the same place. You don't always need a surety to be released.A surety does not have to always remain a surety. A person can apply to be 'discharged' as a surety - you will need to replace the surety. If you can't replace the surety, you will be taken into custody.</p>"
       },
       {
+        "id": "exp06",
         "title": "Bail Bond",
         "content":
           "<p>Bail bond is the money that a person must deposit with the court, when they have been granted bail. It is to make sure that the person does not run away. Usually this amount is Rs. 15,000-20,000. It might be less or more, depending upon the nature of crime. You can get bail in non-bailable offences even before you are arrested. It is a special kind of bail  called anticipatory bail.</p>"
       },
       {
+        "id": "exp07",
         "title": "Anticipatory Bail",
         "content":
           "<p>Many times, people file fake and frivolous cases against other persons. This leads to harming of reputation and time of other persons. To avoid from such problems, a person, if they have reasons to believe that they may be arrested for a non-bailable offence in the future, they can apply for a bail in the High Court or the Court of session even before they are arrested.</p><p>If the court finds good reasons for this bail application, then the court may allow for bail. However, it should not be assumed that the person gets bail in advance. A person will get bail only when he or she is arrested.</p><h4>Conditions for anticipatory bail</h4><p><ul><li>the person shall make themself available for interrogation by a police officer when required</li><li>the person shall not, directly, or indirectly make any inducement, threat or promise to any person acquainted with the facts of the case so as to dissuade them from disclosing such facts to the court or to any police officer.</li><li>the person shall not leave India without the previous permission of the court</li><li>And other conditions which are similar to that of normal bail</li></ul></p>"
@@ -1013,41 +1270,48 @@
     ],
     "qna": [
       {
+        "id": "qna00",
         "question":
           "When should I make an application for 'anticipatory bail'?",
         "answer":
           "<p>You can make this application whenever you have a reason to believe that you might be arrested. It is not necessary that an FIR has been filed against you. The court will first pass a temporary order if it decides that you can be granted such bail. It will then inform the police and the prosecutor. After hearing them, the court may convert your temporary protection into a final order granting anticipatory bail. </p>"
       },
       {
+        "id": "qna01",
         "question": "Can I be arrested once I have been released on bail?",
         "answer":
           "<p>Yes, even if you have been released on bail for a crime, the court can pass an order for your arrest if it thinks that your arrest is necessary.</p>"
       },
       {
+        "id": "qna02",
         "question":
           "I have been in jail for a long time and the trial is still going on. What are my options?",
         "answer":
           "<p>Yes, your options are:<ul><li> You have a right to be considered for release if your crime was tried by a Magistrate and the trial has not concluded within 60 days from the first date on which evidence was supposed to have been taken.</li><li>If you have spent the maximum jail time that could have been imposed on you.</li><li>if you have been in jail for one half of the maximum jail time that could have been imposed on you. The court can still send you back to jail or release you on a personal bond (with or without sureties) . If you are sent back to jail, please note that you have the right to be released once you have served the maximum jail time.</li></ul>However, neither of these rules apply if you are accused of a crime attracting death punishment.</p>"
       },
       {
+        "id": "qna03",
         "question":
           "I cannot afford bail. Does it mean I will have to remain in jail?",
         "answer":
           "<p>The court has a duty to impose a bail amount according to your circumstances. The court has to release you by asking you to sign a bond without sureties if:<ul><li>you have been accused of a bailable offence,</li><li>you cannot afford the surety amount, and</li><li>you have been in jail for 7 days from the date of your arrest.</li></ul>However, this does not apply to a situation where you have been kept in jail because of security proceedings for keeping peace or maintaining good behaviour or you have not obeyed conditions of a previous bail.</p>"
       },
       {
+        "id": "qna04",
         "question":
           "What can I do if the court has rejected my bail application?",
         "answer":
           "<p>You can approach a higher court - Sessions Court or the High Court. These courts have general powers to grant someone bail and to modify bail conditions. You can also try to wait and file another application before the same court. If you are filing another application before the same court, you have to show what change has happened from the time you were refused bail.</p>"
       },
       {
+        "id": "qna05",
         "question":
           "Will I need to sign a bail bond even I am found not-guilty after trial?",
         "answer":
           "<p>Yes, the court will ask you to sign a bail bond just before the trial gets over. This is because the government can always appeal against the decision. This bond will have sureties and will need you to appear before a higher court if the appeal is filed. This has a 6-month time limit - so if no appeal is filed within that time, you are completely free.</p>"
       },
       {
+        "id": "qna06",
         "question": "What does executing a bond mean?",
         "answer":
           "<p>When a person applies for a bail, a person has to keep some money as security. This is ensure that the person does not run away.</p>"
@@ -1241,19 +1505,159 @@
   },
   "online-abuse": {
     "name": "Online Abuse",
-    "summary": "",
+    "summary": "Online abuse is any type of abuse that happens on the internet, whether it’s over chat, posting on message boards and forums, through social networks, playing online games or using mobile phones.There is no specific law in India to deal with online abuse.When faced with online abuse, your first step should be to approach the administrators of the website/platform/application. If you’re not able to resolve the issue through them, you can collect proof of the abuse and  file a criminal complaint at the local police station or cyber investigation cell.",
     "image": "",
-    "explanations": [],
-    "qna": [],
-    "glossary": []
+    "explanations": [{
+        "id": "exp00",
+        "title": "Stopping the Abuse",
+        "content": "<p>Online abuse happens on various platforms on the internet - social media, chat, forums etc. When faced with online abuse, your first step should see what the policy of the platform where the abuse is happening, is and what steps the platform recommends for you to stop it. We have compiled a list of steps you can take for responding to abuse on facebook, facebook messenger, twitter, instagram, snapchat, reddit, youtube, whatsapp and text messages on your phone.</p><p> If the administrators of theplatform are not being responsive or you are unhappy with the results, then you can also file a criminal complaint at the local police station or cyber investigation cell. When you file an FIR, the police has to file the FIR and note down the information provided by you. Read more here. There are different provisions in the general law on crimes (the Indian Penal Code, 1860) and the law on information technology (the Information Technology Act, 2000) which make posting private pictures without your permission a crime.</p>"
+    }, {
+        "id": "exp01",
+        "title": "Account Takeover or Unauthorized Access",
+        "content": "<p>If someone takes over your account, accesses or secures access to the hardware or software or data in a computer without your permission, that person is guilty of the offence of unauthorized access under Section 43(a) of the Information Technology Act. Remember that, the act of accessing your account should be done either dishonestly or fraudulently as per the Indian Penal Code. The offender is liable to pay damages by way of compensation not exceeding one crore rupees to the person affected.</p>"
+    }, {
+        "id": "exp02",
+        "title": "Personal photos/videos of you",
+        "content": "<p>Section 66E of the Information Technology Act deals with violation of privacy. It is a crime to take pictures of a person’s private area, share them or publish them without their consent. The punishment can be jail for up to three years or up to two lakh rupees in fine or both.</p><p>It is a crime to circulate pictures view and/or capture the image of a woman going about her private acts, where she thinks that no one is watching her and this act is known as Voyeurism under Section 354C of the Indian Penal Code. </p>"
+    }, {
+        "id": "exp03",
+        "title": "Obscene Material and Sexual Harassment",
+        "content": "<p>Showing pornographic material to a woman when she does not want to watch or view it is considered as sexual harassment and is a crime under the Indian Penal Code. The punishment is jail time up to three years and/or a fine.</p><p>Publishing and sharing obscene material or anything which contains sexually explicit acts or conduct are crimes under the information technology law.</p><p>For publishing and sharing obscene material, the punishment is jail time of up to three years and a fine of Rupees five lakh. If the person has been convicted more than once, the jail time can increase to five years and the fine to Rupees ten lakh.</p><p>For publishing and sharing sexually explicit acts or conduct, the punishment is jail time of up to five years and a fine of Rupees ten lakh. If the person has been convicted more than once, the jail time can increase to seven years and the fine of up to Rupees ten lakh can be imposed.The victims of such crimes under the information technology law can be male or female.</p>"
+    }, {
+        "id": "exp04",
+        "title": "Insulting",
+        "content": "<p>There are some other provisions in the law which applies irrespective of whether you are male or female. For example, saying obscene things or doing obscene acts in a public place, saying or writing something which insults a person’s religion or religious beliefs or insulting someone by calling them by their caste name. The punishment for saying obscene things or doing obscene acts in a public place can be imprisonment for up to three months or a fine or both. The punishment for insulting a person’s religion or religious beliefs can be imprisonment for up to three years or a fine or both. The punishment for insulting someone by calling them by their caste name can be imprisonment for a term of six months to five years and a fine.</p>"
+    }, {
+        "id": "exp05",
+        "title": "Identity Theft",
+        "content": "<p>You can file a criminal complaint because identity theft and impersonation using a computer are crimes under the information technology law. If the person has dishonestly stolen your password, electronic signature or other unique identifying feature, the person has committed a crime. The punishment for this can be jail for three years and a fine of a lakh rupees.</p>"
+    }, {
+        "id": "exp06",
+        "title": "Impersonation",
+        "content": "<p>If anyone assumes a fake identity with an intention to deceive another or cheats by personation by using a computer or a communication device, they have committed a crime. The punishment for this can be jail for three years and a fine of one lakh rupees.</p>"
+    }, {
+        "id": "exp07",
+        "title": "Anonymous Threats",
+        "content": "<p>For filing an FIR, it is not necessary to know the name of the person responsible for the crime to lodge an FIR. You should try and tell the police whatever you know, but you don't have to know all the details. There is also a specific provision in the law dealing with threats from anonymous people. You can file a complaint even if you do not know who the person is. The punishment for criminal intimidation by an anonymous communication can be imprisonment for up to two years, in addition to the punishment for criminal intimidation, which is imprisonment for up to two years or a fine or both. </p>"
+    }, {
+        "id": "exp08",
+        "title": "Physical Threats",
+        "content": "<p>The threat of physical injury or harassment can be more intimidating. Threatening someone with physical injury or harm to their reputation in order to scare them is a crime. The Indian Penal Code also deals with threatening to injure any person, their reputation, or their property by classifying it as a crime of 'criminal intimidation'. The punishment for criminal intimidation is jail time of up to two years and/or a fine. If someone threatens to cause death or severe harm then the time of imprisonment is up to seven years and if the threats are directed at the decency of a woman then the time of imprisonment is up to seven years and/or a fine.</p>"
+    }, {
+        "id": "exp09",
+        "title": "Blackmailing",
+        "content": "<p>For filing an FIR, it is not necessary to know the name of the person responsible for the crime to lodge an FIR. You should try and tell the police whatever you know, but you don't have to know all the details. There is also a specific provision in the law dealing with threats from anonymous people. You can file a complaint even if you do not know who the person is. The punishment for criminal intimidation by an anonymous communication can be imprisonment for up to two years, in addition to the punishment for criminal intimidation, which is imprisonment for up to two years or a fine or both. </p>"
+    }, {
+        "id": "exp10",
+        "title": "Reporting Abuse to Administrators",
+        "content": "<p>Please click on the links below to follow the steps recommended by the platform<ul><li><a href='https://www.facebook.com/help/1417189725200547/' target-'_blank'>Facebook</a></li><li><a href='https://www.facebook.com/help/messenger-app/basic/833709093422928?helpref=hc_fnav' target='_blank'>Facebook Messenger</a></li><li><a href='https://help.twitter.com/en/safety-and-security/report-abusive-behavior' target-'_blank'>Twitter</a></li><li><a href='https://help.instagram.com/contact/584460464982589?helpref=faq_content' target='_blank'>Instagram</a></li><li><a href='https://www.youtube.com/create_channel?upsell=default&next=http%3A%2F%2Fwww.youtube.com%2Freportabuse' target='_blank'>YouTube</a></li><li><a href='https://www.reddit.com/r/help/comments/7blkhq/how_can_i_report_a_user_to_reddit_admins/' target='_blank'>Reddit</a></li></p><h4>Reporting abuse on Whatsapp</h4><p>When using Whatsapp on your mobile phone, follow the steps given below:<ol><li>Open the chat of the contact that you want to report</li><li>Click on the drop down menu option on the top right corner of your mobile screen</li><li>Tap on More</li><li>Tap on Block</li><li>Tap on Report and Block</li><li>It will state that the 'contact has been reported as spam.</li></ol>Similarly when using Whatsapp Web on your desktop, follow the steps given below:<ol><li>Open the chat of the contact that you want to report</li><li>Click on the drop down menu option on the top right corner of your mobile screen</li><li>Tap on Contact Info</li><li>Scroll down to the end and tap on Block Contact</li><li>Tap on Report spam and block.</li></ol></p>"
+    }, {
+        "id": "exp11",
+        "title": "Blocking abusers on Social Media",
+        "content": "<p>Most of the applications we use on our mobile phones and laptops, commonly referred to as Social media applications, provides the option to block abusers. To understand how to access the block option on Facebook, click here. Similarly, the block option is also available for <a href='https://support.snapchat.com/en-US/a/block-friends' target='_blank'>Snapchat</a>, <a href='https://help.instagram.com/426700567389543' target='_blank'>Instagram</a>, <a href='https://help.twitter.com/en/using-twitter/blocking-and-unblocking-accounts' target='_blank'>Twitter</a>, <a href='https://www.reddit.com/r/announcements/comments/4dmnn6/new_and_improved_block_user_feature_in_your_inbox/' target='_blank'>Reddit</a>, <a href='https://www.laptopmag.com/articles/block-someone-youtube' target='_blank'>Youtube</a> and <a href='https://faq.whatsapp.com/en/android/21080506/?category=5245250' target='_blank'>Whatsapp</a>.</p>"
+    }, {
+        "id": "exp12",
+        "title": "Blocking users on phones",
+        "content": "<h4>Android Phones</h4><p>To block a calls on Android, go to call history and click on the contact for a few seconds. Tap on the option Add to Blacklist and all the calls from this number will be rejected. To block SMS’s on Android, Go to the SMS list and click on the SMS you want to block for 2-3 seconds and you will see the block option on the top right corner of the screen. You will continue to receive messages from this number but won’t be notified anymore and the conversation will be archived.</p><h4>Apple iPhones</h4><p>With iOS, you can block contacts and phone numbers on your device. You can also filter iMessages from unknown senders and report iMessages that look like spam or junk. See here for further details on the same.</p>"
+    }],
+    "qna": [{
+        "id": "qna00",
+        "question": "When do you file a complaint?",
+        "answer": "<p>There is no minimum threshold, for the amount of abuse or harassment you should have suffered before filing a complaint. In the first instance, it may be useful to report such instances to the platform on which the abuse is taking place. In case that is ineffective, you can check whether the harassment is similar to any of the situations discussed above.</p>"
+    },{
+        "id": "qna01",
+        "question": "How much information do I need to file a complaint?",
+        "answer": "<p>Gather as much information as you can. Taking screenshots of relevant messages, conversations and comments can help your case. For online crimes, you can approach the cyber-crime branch of the police. Unlike other crimes, cyber-crimes are usually not limited by jurisdiction within a state. You can report to the cyber-cell of any city, even if the offence was committed when you were in a different city. A list of details of cyber-crime cells can be accessed <a href='https://rbidocs.rbi.org.in/rdocs/content/pdfs/LNA100112C.pdf' target='_blank'>here</a>.<p>In case you are unable to file a complaint in the cyber cell, you can file an FIR with the local police station.The women and child development ministry has also set-up a dedicated cyber cell to help women receiving online abuse.</p>"
+    }],
+    "glossary": [{
+        "id": "glos00",
+        "term": "FIR (First Information Report)",
+        "definition": "Written document prepared by police when they receive information about any criminal offense"
+    }]
   },
   "defamation": {
     "name": "Defamation",
-    "summary": "",
+    "summary": "Saying or writing something which is harmful to a person's reputation, is called defamation. It’s against the law to intentionally harm someone’s reputation, cause them to be hated or disgraced through text, image, cartoons, caricatures or effigies.",
     "image": "",
-    "explanations": [],
-    "qna": [],
-    "glossary": []
+    "explanations": [{
+      "id": "expo00",
+      "title": "Slander",
+      "content": "<p>Slander is a form of defamation that is spoken and heard. It is in a verbal form. For example, Rahul says bad things about the character of Seema which results in Seema losing her job. The act Rahul has committed is the crime of defamation in the form of slander.</p>"
+    }, {
+      "id": "expo01",
+      "title": "Libel",
+      "content": "<p>Libel is a form of defamation that can be seen. So for example anything that can be written, printed or something on an effigy, movie or statue can be defamation in the form of libel.  If Rahul writes about his wife Seema in a magazine in a derogatory manner, then Rahul has committed the crime of defamation in the form of libel.</p>"
+    }, {
+      "id": "expo02",
+      "title": "Protected against Defamation",
+      "content": "<p>You can be punished if you say or write something to insult the reputation of a company or a group of people (and not just of a single person). However, it is important that this class or group of people can be identified.</p><p>You can be punished even if the person whose reputation you harmed is dead. What the Court will look at is whether the person's reputation would have been hurt if they were alive. Another thing that the Court will consider is if your actions hurt the feelings of that person's family or relatives.</p>"
+    }, {
+      "id": "expo03",
+      "title": "Punishment for defamation",
+      "content": "<p>You can be punished with jail time up to 2 years and/or with a fine. By printing or engraving something you know is defamatory to a person's reputation, you can be punished with jail time of up to 2 years and/or with fine. Generally, printers of newspapers are prosecuted under this provision. Selling or trying to sell printed or engraved material which is defamatory can be punished with jail time of up to 2 years and/or with a fine.</p>"
+    }, {
+      "id": "expo04",
+      "title": "Proof of Defamation",
+      "content": "<p>To prove a defamation case, you have to show the following things:<ol><li>That the person who said or wrote things about you conveyed a defamatory message</li><li>That the material was published, meaning that it was conveyed to someone other than you.</li><li>That you could be identified as the person referred to in the defamatory material</li><li>That you suffered some injury to your reputation as a result of the communication.</li></ol></p>"
+    }, {
+      "id": "expo05",
+      "title": "Printing/Selling Defamatory Material",
+      "content": "<p>By printing or engraving something you know is defamatory to a person's reputation, you can be punished with jail time of up to 2 years and/or with fine. Generally, printers of newspapers are prosecuted under this provision.</p><p>Selling or trying to sell printed or engraved material which is defamatory can be punished with jail time of up to 2 years and/or with a fine.</p>"
+    }, {
+      "id": "expo06",
+      "title": "Reviews and Critiques",
+      "content": "<p>if the critique was made in good faith, there is an exception under this provision for publishing your critique on the merits of any public performance(Sixth Exception). The author of the performance should have subjected her performance to review by the public.</p><p>While it may be okay for you to critique Rushdie's latest novel as 'boring and dull', you can be punished for saying that &ldquo;Only a boring and dull novel can be expected out of a nincompoop like Rushdie&rdquo;</p>"
+    }],
+    "qna": [{
+      "id": "qna00",
+      "question": "Is saying the truth a crime?",
+      "answer": "<p>No. Saying or publishing the truth which is for public good is an exception under this provision (First Exception). The Court will look into the facts to decide if the statements you made was actually for a public good.<br /><b>Example:</b> If you as a journalist publish a government report about a famous soft drink containing pesticides, you cannot be punished because you published this report in order to inform people about the harmful effects of drinking the particular soft drink.</p>"
+    }, {
+      "id": "qna01",
+      "question": "Is tweeting about a corruption scandal involving the local politician a crime?",
+      "answer": "<p>No, it is not a crime if you have expressed your opinion about any public servant in good faith (Second Exception). So long as you expressed your opinion honestly and without misrepresenting the facts, you cannot be punished for defamation. If you did this out of hatred or vengeance in order to affect, you can be punished.</p>"
+    }, {
+      "id": "qna02",
+      "question": "Is it defamation to say that a doctor is being unprofessional by advertising her hospital in an academic journal?",
+      "answer": "<p>There is an exception under this provision for expressing your opinion in good faith on another person's conduct on a public question (Third Exception). In this situation, if the doctor was in her academic article trying to promote the hospital she works for, it would be okay for you to express the fact that such conduct was unprofessional.</p>"
+    }, {
+      "id": "qna03",
+      "question": "Can I be punished for reporting the outcome of a court case?",
+      "answer": "<p>There is an exception under this provision for publication of reports regarding court proceedings (Fourth Exception). The report should however be true for the most part at least.</p>"
+    }, {
+      "id": "qna04",
+      "question": "Can I be punished for publishing my opinion regarding a witnesses' conduct in court?",
+      "answer": "<p>There is an exception under this expression for expressing your opinion in good faith regarding the conduct of a party, witness or agent in a court case or regarding the merits of the case after it has been decided (Fifth Exception). However, you can be punished for maliciously attacking the character of a witness on grounds which are unconnected to her conduct during the trial.</p>"
+    }, {
+      "id": "qna05",
+      "question": "Can I be punished for scolding my student for making a ruckus in class?",
+      "answer": "<p>No, there is an exception under this provision for any person who has lawful authority over another to censure that person in good faith. However, if you publish statements about the student being naughty and uncultured in the school newsletter, you can be punished under this provision.</p>"
+    }, {
+      "id": "qna06",
+      "question": "Can I be punished for filing a complaint against my neighbour for evading taxes before the local municipality?",
+      "answer": "<p>There is an exception under this provision for making an accusation before a lawful authority in good faith. However, in this situation, the municipality is not the legal authority in charge of investigating tax evasion - therefore this exception will not apply and you can be punished for defaming your neighbour.</p>"
+    }, {
+      "id": "qna07",
+      "question": "Can I be punished for expressing my opinion about my friend's potential business partner in order to protect her from being duped?",
+      "answer": "<p>There are exceptions for expressing your opinion on another person's character or cautioning against another person so long as you did this in good faith and in order to protect either yours or another person's interests or for a public good (Ninth and Tenth Exceptions). </p>"
+    }, {
+      "id": "qna08",
+      "question": "Can I be punished if I said something indirectly but in good faith?",
+      "answer": "<p>If Imputation is made in good faith by person for protection of his or other’s interests or for public good is, it is not defamation. In this situation, for example, if you know based on your experience that the business partner who is your friend has a history of fudging accounts, you will be covered under the exception if you express this opinion to another friend of yours</p>"
+    }, {
+      "id": "qna09",
+      "question": "If I wrote an article cautioning a community about a problem, would it amount to defamation?",
+      "answer": "<p>It is not defamation to convey caution about a person against another, but make sure the caution be intended for the good of the person to whom it is conveyed, or of some person in whom that person is inter­ested, or for the public good.</p>"
+    }, {
+      "id": "qna10",
+      "question": "The imputation can also be expressed ironically. What does this mean?",
+      "answer": "<p>A statement can be expressed ironically but can still amount to defamation. For example, you publish a statement in the newspaper saying that Hari, the local politician is an honest man and has never taken a bribe of Rs. 5,00,000 for construction of a bridge. Your statement might be considered defamatory (if it isn't actually true) because it is a very specific fact about Hari taking bribes and readers are likely to interpret your statement to say Hari actually took the bribe.</p>"
+    }],
+    "glossary": [{
+      "id": "glos00",
+      "term": "Defamtory Material",
+      "definition": "Any piece of work that hurts someone's reputation"
+    }]
   },
   "check-bounce": {
     "name": "Check Bounce",
@@ -1265,11 +1669,128 @@
   },
   "online-bank-fraud": {
     "name": "Online Bank Fraud",
-    "summary": "",
+    "summary": "If you have lost money while performing an online transaction or have been a victim of online fraud, you have the right to take measures to recover your money. You can also file a criminal complaint against the offender.",
     "image": "",
-    "explanations": [],
-    "qna": [],
-    "glossary": []
+    "explanations": [
+      {
+        "id": "exp00",
+        "title": "Customer’s Right to be Protected",
+        "content":
+          "<p>As a customer of a bank, you have the following rights so as to be protected from online bank fraud:<ul><li>The right to register and receive SMS notification of all electronic banking transactions that take place through your account.</li><li>The right to register and receive email alerts for electronic banking transactions through your account.</li></ul></p>"
+      },
+      {
+        "id": "exp01",
+        "title": "Lodging a complaint with the bank",
+        "content":
+          "<p>Most banks have staff dedicated to matters like this. The relevant contact details are found on the backside of your card as well as the website of the bank. Telephone numbers of help desks are also displayed at every ATM machine.</p><p>If you have suffered a loss you must immediately contact the banks via phone (preferable) or email. Do not forget to note the complaint number and follow up your complaint using the same number. The bank should acknowledge your email.</p><p>The Code of Bank’s Commitment to Customers (CBCC) enacted by the Banking Codes and Standards Board of India (BCSBI) mandates each bank branch to display the name of the official at the bank branch responsible for addressing customer grievances.</p><p>If your complaint is unresolved at the branch level, you may approach the Regional or Zonal Manager, or the Principal Nodal Officer (PNO) at the address displayed at the branch.</p><p>Typically, within 30 days of receiving the complaint, the bank will send you a final response or explain why more time is needed to investigate. The Bank will also tell you the process to take the complaint forward in the event you are still unsatisfied after the final response from the bank.</p>"
+      },
+      {
+        "id": "exp02",
+        "title": "Filing a complaint with the Banking Ombudsman in your jurisdiction",
+        "content":
+          "<p>If you are not satisfied with the resolution provided by the bank and would like to escalate the matter, you can approach the Banking Ombudsman established by the Reserve Bank of India under the Banking Ombudsman Scheme, 2006. Each bank is required to display at its branch the details of the Banking Ombudsman under whose jurisdiction the branch falls. Complaints may be lodged with the respective Banking Ombudsman here.</p><p>You can only do this once you have tried to settle matters with the bank, and failed. If you file a case in Court, such as the Consumer Court, you cannot approach the Ombudsman while the case is going on.</p><p>If you are not satisfied with the decision of the Banking Ombudsman, you may approach the appellate authority against the Ombudsman’s decision – the Deputy Governor, Reserve Bank of India. This appeal must be made within 30 days of the Ombudsman’s decision.</p>"
+      },
+      {
+        "id": "exp03",
+        "title": "Filing a complaint with the nearest cyber crime cell/police station",
+        "content":
+          "<p>This may either be done in person, or in some states, through an online portal. Criminal proceedings usually take more time and result in jail or fine for the offender, not just compensation to you.</p>"
+      },
+      {
+        "id": "exp04",
+        "title": "Filing a case with the relevant consumer forum",
+        "content":
+          "<p>The Consumer Forum is present at the District, State and National Levels. You can file a case there depending on 2 factors:<ul><li>The amount of money you lost.<br />District Forum : Upto Rs. 20 Lakhs<br />State Commission : Rs. 20 Lakhs to Rs. 1 Crores<br />National Commission : Exceeding Rs. 1 Crores</li><li>Where the loss happened<br />You can file the complaint in the place where the money was lost, or where the opposite party (that is, the bank) carries on their business.</li></ul></p><p>You should approach consumer forums only when you feel that the bank has been negligent, and has not given you proper service. The forum does not prosecute the actual culprit.<p>Generally, cases cannot be simultaneously filed before the consumer courts as well as the Banking Ombudsman.</p>"
+      },
+      {
+        "id": "exp05",
+        "title": "Banks Responsibility to Prevent Online Bank Fraud",
+        "content":
+          "<p>Banks must ask their customers to mandatorily register for SMS alerts for electronic banking transactions.  Wherever available, they must ask their customers to register for e-mail alerts, for electronic banking transactions.</p><p>The SMS alerts shall mandatorily be sent to the customers, while email alerts may be sent, wherever registered in the event of an electronic banking transaction.To facilitate the customers to report any unauthorized use of their electronic banking services, banks must provide customers with 24x7 access through multiple channels (at a minimum, via website, phone banking, SMS, e-mail, IVR, a dedicated toll-free helpline, reporting to home branch, etc.) for reporting unauthorised transactions that have taken place and/ or loss or theft of payment instrument such as card, etc. Banks have to also enable customers to instantly respond by 'Reply' to the SMS and e-mail alerts so that the customers are not required to search for a web page or an e-mail address to notify the objection to an electronic transaction.</p><p>Banks have to also provide a direct link for lodging the complaints, with specific option to report unauthorised electronic transactions on the home page of their website. The loss/ fraud reporting system should ensure that immediate response (including auto response) is sent to the customers acknowledging the complaint along with the registered complaint number. The banks must record the time and date of delivery of the alerts and receipt of customer’s response, if any.</p><p>The banks can not offer facility of electronic transactions, other than ATM cash withdrawals, to customers who do not provide mobile numbers to the bank. On receipt of report of an unauthorised transaction from the customer, banks must take immediate steps to prevent further unauthorised transactions in the account</p>"
+      },
+      {
+        "id": "exp06",
+        "title": "Reversing an Unauthorized Transaction",
+        "content":
+          "<p>After receiving the notification from the customer of the unauthorized transaction, the bank will reverse the transaction and will credit the amount involved in the authorized electronic transaction. This should be done within 10 working days from the date of the receipt of notification from the customer. The banks should not wait for settlement of insurance claims to do this. The Bank will credit the money as as per the value as of the date of the unauthorised transaction.</p>"
+      },
+      {
+        "id": "exp07",
+        "title": "Customer’s Responsibility",
+        "content":
+          "<p>The customers must be advised to notify their bank of any unauthorised electronic banking transaction at the earliest after the occurrence of such transaction, and informed that the longer the time taken to notify the bank, the higher will be the risk of loss to the bank/ customer.</p><p>The Bank will note the time of the sms sent notifying the customer of the electronic banking transaction and the sms/response received by the customer. This is done to ascertain the extent of a customer’s liability.</p>"
+      },
+      {
+        "id": "exp08",
+        "title": "Customer Liability",
+        "content":
+          "<p>The customer must not reveal/share payment credentials with any third party. If a customer does this then the customer’s liability will increase because of his or her negligent actions. It is the bank’s responsibility to prove that the customer is liable (to whatever degree) in case of unauthorised electronic banking transactions. At their discretion Banks may also decide to waive off any customer liability in case of unauthorised electronic banking transactions. They can do this even in cases of customer negligence.</p><p>The customer will incur zero liability when:<ul><li>There is an unauthorized transaction due to contributory fraud or negligent behaviour or deficiency in the bank’s services. If you don’t report the unauthorized transaction to the bank, it does not matter because the zero liability occurs whether or not you report it.</li><li>There is a breach but it is not with the customer or bank, but somewhere else in the system. In this case, you should notify the bank within three working days of receiving communication about the unauthorized transaction.</li></ul></p><p>The customer will incur limited liability if there is a delay of four to seven working days after receiving the communication from the bank about the unauthorized transaction, in such a situation the per transaction liability of the customer will be limited to the transaction value or the amount mentioned in this Table below, whichever is lower.</p>"
+      },
+      {
+        "id": "exp09",
+        "title": "Maximum Liability of a Customer",
+        "content":
+          "<p>The maximum a customer of a Basic Savings Bank Deposit Account can be liable for is Rs 5,000.</p><p>All other Savings Bank Accounts, Pre-paid Payment Instruments and Gift Cards, Current/ Cash Credit/ Overdraft Accounts of Micro, Small and Medium Enterprises, Current Accounts/ Cash Credit/ Overdraft Accounts of Individuals with annual average balance (during 365 days preceding the incidence of fraud)/ limit up to Rs.25 lakh Credit cards with limit up to Rs.5 lakh, the maximum they are liable for is Rs. 10,000</p><p>For all other Current/ Cash Credit/ Overdraft Accounts and credit cards with limit above Rs.5 lakh, they can be liable up to Rs 25,000.</p><p>If the delay is for more than seven working days, the customer liability will be determined as per the Bank’s Board Policy:<ul><li>Banks should provide the details of their policy in regard to customers’ liability formulated at the time of opening the accounts. </li><li>Banks should also display their approved policy in public domain for wider circulation.</li><li>The existing customers must also be individually informed about the bank’s policy.</li></ul></p>"
+      }
+    ],
+    "qna": [{
+        "id": "qna00",
+        "question": "Will I recover the entire sum of money that I lost from my account?",
+        "answer": "<p>The Code of Bank’s Commitment to Customers says that you will have to be reimbursed by the bank, if you inform the bank promptly. Your maximum loss should never be more than Rs. 25,000 - for example, for a fraudulent withdrawal of INR 50,000 the bank will make good your loss of INR. 25,000, and you will only have bear the loss of INR 25,000. This limit will NOT apply if you have acted fraudulently or negligently or have contributed to the disclosure of/unauthorized access to information.</p>"
+      }],
+    "glossary": [{
+        "id": "glos00",
+        "term": "Electronic Banking Transaction",
+        "definition": "Electronic Banking Transaction, also known as internet banking, e-banking or virtual banking, or online banking is a payment system that enables customers of a bank or other financial institutions to conduct a range of transactions through electronic means. It can be understood in contrast to branch banking which was the traditional way customers accessed banking services."
+    }, {
+        "id": "glos01",
+        "term": "Customer’s Liability",
+        "definition": "A customer who has been subject to online bank fraud will have to bear the loss of the online bank fraud in certain circumstances. Please look at this section for more information on when the customer has to bear the loss of an unauthorized bank transaction."
+    }, {
+        "id": "glos02",
+        "term": "Unauthorized User",
+        "definition": "An unauthorized user is a person who is transacting online with your personal details without your permission. "
+    }, {
+      "id": "glos03",
+      "term": "Internet Banking",
+      "definition": "A method of banking in which transactions are conducted electronically via the Internet"
+    }, {
+      "id": "glos04",
+      "term": "Consumer Court",
+      "definition": "Consumer Court is the special purpose court, in India, that deals with cases regarding consumer disputes and grievances. These are judiciary hearings set up by the government to protect the consumer rights. Its main function is to maintain the fair practices by the sellers towards consumers"
+    }, {
+      "id": "glos05",
+      "term": "Basic Savings Bank Deposit Account",
+      "definition": "A Basic Savings Bank Deposit Account is an account which is a basic bank account without any minimum balance requirement. The services available in this account include deposit and withdrawal of cash at bank branch as well as ATMs; receipt/credit of money through electronic payment channels or by means of deposit/collection of cheques drawn by Central/State Government agencies and departments. To know more please look here."
+    }, {
+      "id": "glos06",
+      "term": "Prepaid Payment Instruments",
+      "definition": "Prepaid payment instruments are methods that facilitate purchase of goods and services against the value stored on such instruments. The value stored on such instruments represents the value paid for by the holder, by cash, by debit to a bank account, or by credit card"
+  }, {
+      "id": "glos07",
+      "term": "Gift Card",
+      "definition": "A gift card is a type of prepaid payment instrument."
+    }, {
+      "id": "glos08",
+      "term": "Current Account",
+      "definition": "The Current Account is a transactional non-interest bearing account wherein a deposit is placed with the Bank for an unspecified period of time and the depositor can withdraw or transfer the funds whenever required through different means."
+    }, {
+      "id": "glos09",
+      "term": "Cash Credit",
+      "definition": "A cash credit is a short-term cash loan to a company. A bank provides this type of funding, but only after the required security is given to secure the loan. Once a security for repayment has been given, the business that receives the loan can continuously draw from the bank up to a certain specified amount."
+    }, {
+      "id": "glos10",
+      "term": "Micro, Small and Medium Enterprises ",
+      "definition": "A micro enterprise is an enterprise where investment in plant and machinery does not exceed Rs. 25 lakh. A small enterprise is an enterprise where the investment in plant and machinery is more than Rs. 25 lakh but does not exceed Rs. 5 crore. A medium enterprise is an enterprise where the investment in plant and machinery is more than Rs.5 crore but does not exceed Rs.10 crore."
+    }, {
+      "id": "glos11",
+      "term": "Credit Cards",
+      "definition": "A small plastic card issued by a bank, building society, etc., allowing the holder to purchase goods or services on credit."
+    }, {
+      "id": "glos12",
+      "term": "Overdraft Accounts",
+      "definition": "It is a type of account in which you can withdraw money even if there are no funds in your account. The bank sanctions a specific limit and you can withdraw money up till limit."
+    }]
   },
   "will": {
     "name": "Will",
@@ -1278,55 +1799,55 @@
     "image": "",
     "explanations": [
       {
-        "id": "0001234",
+        "id": "exp00",
         "title": "Making a will",
         "content":
           "<p>You can make a will at any point during your lifetime if you are a<ul><li>person of sound mind, and</li><li>Over the age of 18</li></ul>The idea here is that a person making the will should be aware of what they are doing.</p><p>Illustratively, a person with mental disabilities can also make a will when they are aware of what they are doing. If a person is under the influence of alcohol and does not know what they are doing, then they cannot make a will.</p>"
       },
       {
-        "id": "0001235",
+        "id": "exp01",
         "title": "Valid Will",
         "content":
           "<p>For a will to be valid:<ul><li>It must have your signature (or your thumb impression)</li><li>The signing/fingerprinting should be done in the presence of two other people who will act as witnesses</li><li>Both witnesses sign the will or put their thumb-impression in your presence.</li></ul>You can also direct someone else to sign your will in your presence. There is no prescribed format or prescribed place for this signing. Anyone can be a witness to your will - including the executor.</p>"
       },
       {
-        "id": "0001236",
+        "id": "exp02",
         "title": "Contents of a Will",
         "content":
           "<p>You can give away all of your property over which you have complete ownership. You cannot give away property which you do not own. In some cases, you may have life interest in the property, i.e. when someone has given you the property under their will only to use for your lifetime, but you do not own it.</p><p>You may include any movable or immovable property which you have acquired by yourself. If you are a member of a Hindu joint family, you can only give away your portion of the ancestral property in a will.</p>"
       },
       {
-        "id": "0001237",
+        "id": "exp03",
         "title": "Appointing an executor for a Will",
         "content":
           "<p>The person to whom you give the duty of carrying out the instructions given in your will, after your death, is called the executor of the will.</p><p>You can appoint any person who is of sound mind and who is above 18 years of age to be your executor. You must choose a person in whom you have full confidence and who is willing and capable of acting as the executor.</p><p>Read our checklist on how to choose an executor. When you haven’t appointed an executor in your will, the court has the power to appoint an administrator who will execute your will.</p>"
       },
       {
-        "id": "0001238",
+        "id": "exp04",
         "title": "Administrator Appointed Executor for a Will",
         "content":
           "<p>The court has the power to appoint an administrator or an executor who will execute your will if<ul><li>you haven’t appointed an executor in your will</li><li>the executor you appointed is incapable of acting as an executor</li><li>The executor you appointed refuses to act as an executor</li></ul>If you are the beneficiary of a will which does not have an executor or if the person named does not want to perform the functions, you can apply to the court for appointment of an administrator.</p><p>When a person dies without naming an executor in his or her will, one of the beneficiaries in the will has to apply for grant of letters of administration. The process for the same is similar to that for the grant of probate</p>"
       },
       {
-        "id": "0001239",
+        "id": "exp05",
         "title": "Registering a Will",
         "content":
           "<p>Registering a will is not compulsory. In case you decide to register the will, you may do so personally or through an authorised agent. You have to deposit the will in a sealed cover with your name on it and of your agent (if any), along with a statement of the nature of document to the Registrar of Sub-Assurances of local division.Once the Registrar receives the cover and is satisfied, she will keep the sealed cover in his custody.</p><p>Generally, you do not have to pay stamp duty on wills. However, you will have to pay registration fees which will differ in different states. Procedures might also be different.</p><p>If you want to recover the will (say for changing it or for revoking it), you may apply either personally or through a duly authorised agent to the Registrar and if the Registrar is satisfied that either you or your agent have applied, she will return it. On your death, a person can make an application to the registrar to allow to get the will or see the contents of the will.</p><p>If you’ve made changes to the will through a codicil, you should ideally get it registered in the same manner. A codicil is a written statement which supplements or modifies an existing will.</p>"
       },
       {
-        "id": "0001240",
+        "id": "exp06",
         "title": "Probate Process",
         "content":
           "<p>In certain cases, it is necessary obtain a probate of the will in order to establish your right as a beneficiary of the will. You will have to apply to the court for a probate. It is a certification by the court with respect to the genuineness and validity of execution of the will. Getting a probate does not however mean that your title to the property has been established. This is essentially an official evidence of the executor’s right to administer the estate of the deceased. While there is no specific deadline by which you need to obtain the probate, you should avoid long delays.</p><p>A probate is compulsory for wills of Hindus, Buddhists, Jains and Sikhs in Chennai and Mumbai or if their property is in Chennai and Mumbai. It is also applicable to Christians outside Kerala and Parsis (who died after 1962) in Kolkata, Chennai and Mumbai. Please confirm with a lawyer if you should get a probate for the will.</p>"
       },
       {
-        "id": "0001241",
+        "id": "exp07",
         "title": "Changing a Will",
         "content":
           "<p>You can change your will as many times as you want. It is possible to make changes to your will even if it’s been registered.</p><p>Ideally, if you are making substantive changes to a will in order to convey your wishes properly, you should execute a codicil. A codicil is a written statement which supplements or modifies an existing will. It must be executed in the same manner as that of the original will.</p><p>You can also make changes by deleting, modifying or inserting new language in a will, you should sign and get the signature of the witnesses in the margins near the changes or at the end of the will by making a reference to the changes. No other changes can be made to an already executed will (unless it has been made to make it clear or legible).</p>"
       },
       {
-        "id": "0001242",
+        "id": "exp08",
         "title": "Undo or Cancel a Will",
         "content":
           "<p>You can undo or cancel your will in the following ways:<ul><li>By making another will or any document which is executed in the same way as a will</li><li>By burning, tearing or destroying the will</li><li>Directing another person to burn, tear or destroy the will in your presence.</li></ul></p>"
@@ -1334,6 +1855,7 @@
     ],
     "qna": [
       {
+        "id": "qna00",
         "question": "What happens if I die without a will?",
         "answer":
           "<p>Depending on your religion, there are different rules with respect to how your assets and property will be distributed after your death. However, if you make a will, your assets and property will be distributed among the people of your choosing and the specific religious rules do not generally apply.</p><p>As a Hindu person, the rules of inheritance under a law known as the Hindu Succession Act, 1956, are applicable.</p><p>Similarly as a Muslim, the rules applicable to inheritance will be according to Muslim personal law (unless you are married under the law on civil marriages). If Muslim personal law becomes applicable, you cannot distribute your entire property to people who are not your legal heirs. You can only will away one-third of your property to someone else and the remaining two-third has to be distributed among your legal heirs.</p>"
@@ -1344,19 +1866,127 @@
   },
   "rape": {
     "name": "Rape",
-    "summary": "",
+    "summary": "Indian law is very strict on rape which it sees as sexual intercourse or any other sexual penetration of the vagina, anus, or mouth of a woman by a man without her consent. Rape is a  non-bailable offence and the punishments for can range from 7 years imprisonment to lifetime.",
     "image": "",
-    "explanations": [],
-    "qna": [],
-    "glossary": []
-  },
-  "sexual-harassment": {
-    "name": "Sexual Harassment",
-    "summary": "",
-    "image": "",
-    "explanations": [],
-    "qna": [],
-    "glossary": []
+    "explanations": [{
+      "id": "exp00",
+      "title": "Actions considered as rape",
+      "content": "<p>The law sees rape as having occured when a man<ul><li>penetrates his penis or any object into the vagina, mouth, urethra, or anus of a woman or forces her to do this with him or another person.</li><li>manipulates any part of the body of a woman in order to cause penetration into the vagina, urethra, anus or any part of body of such woman or makes her do with him or any other person.</li><li>applies his mouth to the vagina, anus, urethra of a woman or makes her to do so with him or any other person.</li></ul></p><p>The extent of penetration does not matter and any slight penetration could also lead to rape.</p><p>Sex with a woman under any of these circumstances will be considered as rape:<ul><li>Sex without her consent<li>She agrees, but only because she, or someone she knows is in danger,</li><li>She agrees, but because she thinks the accused person is her husband</li><li>She agrees, but she is drugged, or drunk, or mentally ill,</li><li>She is under 18 - then it does not matter if she agreed or not,</li><li>She is in no position to indicate whether she agreed or not - for example, if she is unconscious.</li></ul></p><p>A medical procedure or intervention cannot be considered as rape.<br /><b>For example:</b> The doctors while examining the patients have to follow certain procedures which would require them to examine the private parts of the patient.</p>"
+    },{
+      "id": "exp01",
+      "title": "Punishment for rape",
+      "content": "<p>The punishment for rape is rigorous imprisonment of minimum seven years. The punishment may extend to imprisonment for life, and shall also be liable to fine.</p>"
+    },{
+      "id": "exp02",
+      "title": "Aggravated rape",
+      "content": "<p>Aggravated rape is rape when it takes place because of the special position of either the victim, or the criminal. There is punishment with rigorous imprisonment for minimum ten years and which might extend to imprisonment for life, and shall also be liable to fine.The following are aggravated crimes or the special circumstances:<ul><li>Police officer, who within the premises of the police station, commits rape on a woman who is in his custody or the custody of this subordinate.</li><li>Public servant rapes a woman in his custody or in the custody of a public servant subordinate to such public servant.</li><li>A member of the armed forces deployed in an area by the Central or a State Government</li><li>In the management or the staff of a jail, remand home or other place of custody established by or under any law for the</li><li>time being in force or of a women's or children's institution.</li><li>When the management or the staff of a hospital commits rape on a woman in that hospital.</li><li>A relative, guardian or teacher of, or a person in a position of trust or authority towards the woman</li><li>Someone who commits rape during communal or sectarian violence</li><li>Someone who commits rape on a woman knowing her to be pregnant.</li><li>Someone who commits rape on a woman when she is under 18 years of age</li><li>Someone  who commits rape on a woman incapable of giving consent</li><li>Someone being in a position of control or dominance over a woman, commits rape on such woman</li><li>Someone who commits rape on a woman suffering from mental or physical disability</li><li>Someone who while committing rape causes grievous bodily harm or maims or disfigures or endangers the life of a woman.</li><li>Someone who  commits rape repeatedly on the same woman.</li></ul></p>"
+    },{
+      "id": "exp03",
+      "title": "No means No",
+      "content": "<p>Consent has been clearly defined as a clear, voluntary communication that the woman agrees to the specific sex act, leaving no room for debate.It also makes it clear that absence of physical injuries is immaterial for deciding consent. For example, if a woman says that she is uncomfortable and that she does not want to have sex, yet the man has sex with her, it is after disregarding her consent.</p>"
+    },{
+      "id": "exp04",
+      "title": "Consent of a Minor",
+      "content": "<p>Sex with a girl who is below 18 years of age is rape even if the girl has given her consent to it. The consent of the girl does not matter if she is below 18 years of age.<br /><b>For example:</b> Vijay is a male of 30 years old. If he has sex with Shanti who is 17 years old, with her consent, it will still amount to rape.</p>"
+    },{
+      "id": "exp05",
+      "title": "Marital rape",
+      "content": "<p>Husbands who have sex with their wife who is above the age of 18 and lives with them, with or without her consent, is not seen as rape, in the eyes of the law. A husband having sex with with his wife who is under 18, is considered rape, irrespective of her consenting to it.If a couple is married, but living separately, then the husband can be convicted of rape if there is no consent. The punishment for the husband is jail time of between two and seven years along with a fine.</p>"
+    },{
+      "id": "exp06",
+      "title": "Abuse of position or authority",
+      "content": "<p>It is a crime if someone has some control over another person because of their job or position, and uses this control to make a woman have sex with them.This crime typically refers to situations in which the person is in a position of trust, or the man is a public servant or jail staff or on the management of the hospital. This crime is different from aggravated rape because in this the person uses his authority to take the consent of the woman and has sex with her. Here, what matters is whether the man abused his position of trust or authority to induce or seduce a woman to have sex with him.</p><p>The punishment is rigorous imprisonment of between five and ten years along with a fine.<br /><b>For Example:</b> Ashok, the jail superintendent where Tara is serving her sentence, tells her that he will support her release on parole if she has sex with him, to which Tara consents. Ashok abused his official position to induce Tara to have sex that did not amount to rape. In this case Ashok has not forced himself on Tara and commited rape, but convinced tara to have sex with him by using his position to get her out on parole.</p>"
+    },{
+      "id": "exp07",
+      "title": "Gang rape",
+      "content": "<p>If a woman is raped at the same time by a group of people, each of them will be punished for committing the crime. The punishment is rigorous imprisonment of between 20 years and life imprisonment.</p>"
+    },{
+      "id": "exp08",
+      "title": "Repeat Offenders",
+      "content": "<p>The law allows death sentence to be imposed where a person is convicted for a second time for rape, rape causing death or resulting in permanent vegetative state, or gang rape.</p>"
+    },{
+      "id": "exp09",
+      "title": "Death resulting from rape",
+      "content": "<p>During rape, if the accused injures the woman so badly that that she dies, or goes into a vegetative state, the accused can be given the death sentence, or jail of 20 years - life. While this provision is pretty clear, the law does not define what 'persistent vegetative state' means. In a Supreme Court decision the Court said that a person who is alive but does not show any evidence of being aware of one's environment is in a permanent vegetative state.</p>"
+    },{
+      "id": "exp10",
+      "title": "Reporting Rape",
+      "content": "<p>Anyone can register an FIR on behalf of the victim. In general, a woman cannot be forced to go to a police station to give her statement. The police will record her statement only at her house, or at a place that she chooses. You can request the police to come to your location to record your information. The police must make sure a woman police officer records the statement, and that some family member or social worker is present there.</p><p> If the survivor of such a crime is mentally or physically disabled, then the police have to make sure they record her statement in a place of her choice. They also must ensure that any special help that is needed is available.</p><p>If a police officer refuses to register a crime of this nature i.e. rape, acid attacks etc., in some cases he can be punished with imprisonment for a term between six months and two years, and will also be fined.</p>"
+    },{
+      "id": "exp11",
+      "title": "Protection of the identity of the Rape victim",
+      "content": "<p>The Indian Penal Code punishes people who print or publish the name or any matter which may make known the identity of the rape victim. The punishment if imprisonment for 2 years and fine. The identity can only be revealed in following circumstances:<ul><li>For the purpose of investigation under the order of the officer in charge of the police station or police officer.</li><li>By the victim herself or with the authorisation in writing of the victim</li><li>where the victim is dead or minor or of unsound mind, by, or with the authorisation in writing of, the next of kin of the victim.</li></ul></p><p>If the authorization is given by an outside body then it has to be from the   chairman or the secretary, by whatever name called, of any recognised welfare institution or organization”.</p><p><b>Note:</b>A person will need permission of the court even in publishing or printing any matter relating to a rape case in the court. If the person does it without permission then also he or she can be punished with an imprisonment of upto two years and a fine.</p>"
+    },{
+      "id": "exp12",
+      "title": "Seeking Medical Help",
+      "content": "<p>If you are the victim of an acid attack or rape, you have the right to get free first aid from any government or private hospital. If a hospital refuses treatment, the person in charge can be punished by up to 1 year in prison. The hospital is also supposed to immediately inform the police of the crime.</p><p>The medical examination of the survivor is supposed to happen within 24 hours of the filing of the FIR. However, it can only happen with the consent of the survivor. The doctor who examines the survivor is supposed to make a report with full details and conclusions, and also record the exact time at which the medical examination started and was completed. Recently, updated guidelines have been issued to hospitals on the way to conduct medical examination of survivors.This medical report is supposed to be sent to the police officer conducting the investigation. The officer is then supposed to send it to the Magistrate immediately.</p><p>If the crime has been committed against a child: If the child is less than 12 years old, the child's parents or guardian can give consent to medical examination. Between the ages of 12 and 15, a doctor can decide whether the child is mature enough to give consent</p>"
+    }, {
+      "id": "exp13",
+      "title": "Rape Trial",
+      "content": "<p>As far as possible, trials in rape cases are supposed to be held without any public in the Courtroom (in camera). Also, as far as possible a woman judge is to be preferred.</p><p>The survivor will probably have to appear in court to give evidence. She does not need a lawyer, but can get one to help the government lawyer, with the court's permission.</p><p>Legally, the court is supposed to assume that in certain cases of rape, the survivor did not consent. It will be up to the accused person's lawyer to prove, if he can, that the survivor actually consented.In cases of rape or sexual harassment, the previous sexual experiences of the survivor cannot be brought up in court to argue whether she consented or not.</p>"
+    }],
+    "qna": [{
+      "id": "qna00",
+      "question":
+        "I am a reporter, can I publish the name of the victim in my report?",
+      "answer":
+        "<p>No you cannot publish the name of the victim. The name and identity of the victims are protected by the law and it is an offence under Indian penal code to do so.</p>"
+    },
+    {
+      "id": "qna01",
+      "question":
+        "Can a Woman be charged with Rape?",
+      "answer":
+        "<p>No. Only a man can be charged with rape.</p>"
+    },
+    {
+      "id": "qna02",
+      "question":
+        "How can a woman believe a random man to be her husband and give consent?",
+      "answer":
+        "<p>Sometimes due to darkness or the woman not being in a good state of mind is duped by men to have sex with her making her believe that he is the husband. It is to protect women from such cheating by men. </p>"
+    },
+    {
+      "id": "qna03",
+      "question":
+        "I am an 18 year old guy and in a relationship with a girl who is 17 years old. Will it be rape if we have consensual sex?",
+      "answer":
+        "<p>Yes, it will be rape because she is below 18 years old.</p>"
+    },
+    {
+      "id": "qna04",
+      "question":
+        "I am married for 5 years and my wife is above 18 years old. If I force her to have sex with me, will it lead to rape?",
+      "answer":
+        "<p>No, since she is above 18 years old. The law doesn’t punish people who are of legal age. However, you can be prosecuted for other charges such as harassment and domestic violence.</p>"
+    }],
+    "glossary": [
+      {
+        "id": "glos00",
+        "term": "Persistent vegetative state",
+        "definition": "A situation when person is alive but does not show any evidence of being aware of one's environment."
+      },
+      {
+        "id": "glos01",
+        "term": "Imprisonment for life",
+        "definition": "It means the remaining days of ones life."
+      },
+      {
+        "id": "glos02",
+        "term": "Gang rape",
+        "definition": "Rape by one or more persons"
+      },
+      {
+        "id": "glos03",
+        "term": "Sectarian violence",
+        "definition": "clashes between two groups or sects."
+      },
+      {
+        "id": "glos04",
+        "term": "Non-bailable offence",
+        "definition": "Offences in which bail is not granted easily."
+      }
+    ]
   },
   "prostitution": {
     "name": "Prostitution",
@@ -1365,19 +1995,19 @@
     "image": "",
     "explanations": [
       {
-        "id": "",
+        "id": "exp00",
         "title": "Being a Prostitute",
         "content":
           "<p>The Immoral Traffic Prevention Act explains the meaning of prostitution as sexual exploitation or abuse of persons for commercial purposes or for money or in any other kind. The term prostitute is to be used against a person who carries out this activity.  While prostitution is not an offence, practicing it in a brothel or within 200m of any public place is illegal.</p>"
       },
       {
-        "id": "",
+        "id": "exp01",
         "title": "Visiting a brothel",
         "content":
           "<p>If you keep or manage or act or assist in keeping and managing a brothel, then you will be committing a crime. You can go to jail for a term of 3 years and be punished with a fine which may extend to ten thousand rupees. If you have been caught again for this crime, then you may have to go to jail for 7 years and pay a fine of two lakh rupees. If you fall under the following categories, you are liable to be punished:<ul><li>Any person who is the tenant, lessee, occupier or person in charge of a premises which is being used as a brothel</li><li>Any person who knowingly allows someone to use the premises as a brothel</li></ul></p>"
       },
       {
-        "id": "",
+        "id": "exp02",
         "title": "Rescuing someone from prostitution",
         "content":
           "<p>These are some methods used by most organizations while tackling prostitution with prevention and rescue mechanisms:<ol><li><b>Education:</b> An access for education to schools and households is very vital to spread awareness about sex work and trafficking. </li><li><b>Healthcare:</b> Provision of free medical checkups and first aid</li><li><b>Legal Work:</b> Pursuing cases with respect to prostitution and trafficking by providing free legal aids and through the legal services authorities in various states.</li><li><b>Advocacy:</b> Awareness support groups to raise awareness of human rights issues</li><li><b>Rescue:</b> Proper rescue operations carried out to protect women and children abused in the trade</li><li><b>Prevention:</b> Coming up with groups of local women and cooperative societies to tackle prostitution.</li><li><b>Sensitization:</b> Workshops, trainings and programmes for women in vulnerable areas</li><li><b>Networking:</b> Better partnerships with international bodies for more resources</li></ol></p>"
@@ -1385,29 +2015,34 @@
     ],
     "qna": [
       {
+        "id": "qna00",
         "question": "Is keeping a brothel a crime?",
         "answer":
           "<p>Yes. Any person who manages a brothel in any way will be punished with jail time for one year and a fine up to Rs 2,000. If he or she is found guilty a second time, the jail time can be between 2 to 5 years, and fine can be up to Rs. 2,000.</p>"
       },
       {
+        "id": "qna01",
         "question":
           "What if you are in charge of a space, and someone else uses it as a brothel?",
         "answer":
           "<p>You can be punished if you know it is being used as a brothel. The punishment is jail for up to 2 years and fine up to Rs 2,000. If found guilty a second time, punishment can go up to 5 years.</p>"
       },
       {
+        "id": "qna02",
         "question":
           "How will the authorities decide that you knew about the brothel?",
         "answer":
           "<p>If there is a newspaper report that says the premise is being used for prostitution, then after a search is conducted and a list of things found is given, then it is up to that person to prove that he or she did not know that the premises was being used as a brothel. Irrespective of what other laws say, if a person is found guilty under this section, any lease relating to the premises shall be cancelled from then onwards.</p>"
       },
       {
+        "id": "qna03",
         "question":
           "Is it a crime to depend on money made through prostitution?",
         "answer":
           "<p>Yes, if you are an adult, and you know the money is being made through prostitution. You can be jailed for up to 2 years or fined Rs 1000. If a child is being prostituted, the adult can be jailed for between 7 to 10 years. This will include, for example, 'pimps' or adult family members of sex workers.</p>"
       },
       {
+        "id": "qna04",
         "question":
           "What does the court consider when determining if you are living off money made by prostitution?",
         "answer":
@@ -1416,30 +2051,36 @@
     ],
     "glossary": [
       {
+        "id": "glos00",
         "term": "Prostitution",
         "definition": "A sexual act is carried out where money is received."
       },
       {
+        "id": "glos01",
         "term": "Brothel",
         "definition":
           "any place which is used for sexual exploitation or abuse for the gain of another person, or the gain of two or more sex workers"
       },
       {
+        "id": "glos02",
         "term": "Under trials",
         "definition":
           "people who have been arrested for a crime but have not been found guilty by any court, and whose trials are on-going."
       },
       {
+        "id": "glos03",
         "term": "Corrective Institution",
         "definition":
           "any institution where people in need of correction, such as sex workers found guilty of certain crimes under this law, are kept. It includes shelters where people currently undergoing trials are kept"
       },
       {
+        "id": "glos04",
         "term": "Protective home",
         "definition":
           "any institution where people in need of care and protection are kept. They must have certain equipment, facilities and technically qualified people. A shelter where under trials are kept is not a protective home. A corrective institution is not considered a protective home."
       },
       {
+        "id": "glos05",
         "term": "Solicitation",
         "definition":
           "Solicitation is defined as tempting or attracting a person towards prostitution, or loitering in an area and disturbing public decency, or harassing any person for prostitution."
@@ -1453,107 +2094,110 @@
     "image": "",
     "explanations": [
       {
-        "id": "0001243",
+        "id": "exp00",
         "title": "Victims recognized by the law",
         "content":
           "<p>Only women are protected from sexual harassment at the workplace. Men in India cannot file a case of sexual harassment at the workplace against another male or female employee. Any working woman is protected from being subjected to sexual harassment at the workplace if she is<ul><li>A full-time employee</li><li>A part-time employee</li><li>A contractual employee</li><li>working for compensation (cash or other)</li><li>A visitor to a workplace</li><li>A domestic help</li><li>hired through an agency</li><li>working on a short-term basis</li><li>working on a long-term basis</li><li>working on a daily basis</li><li>A volunteer</li><li>An intern</li></ul></p><p>If you are unsure whether you can be considered a victim of sexual harassment at the workplace, please contact  legal experts with details about your scenario.</p>"
       },
       {
-        "id": "0001244",
+        "id": "exp01",
         "title": "Accused of Sexual Harassment",
         "content":
           "<p>If you are facing allegations of sexual harassment, it is important to take them seriously and prepare your defences. If you do not appear for three consecutive hearings convened by the Committee set up by your employer to investigate the case, the Committee has the right to give a decision without your perspective. While women are protected from being sexually harassed at the workplace, the complaint of sexual harassment can be made against any person, irrespective of gender.</p><p>The law does guarantee you some rights, namely:<ul><li>You cannot be arrested without a warrant</li><li>You have the right to obtain a copy of the complaint within 7 working days of the complaint being filed with the Committee.</li><li>You have a right to file a reply and submit documents and list of witnesses to the contents stated in the complaint with the committee within 10 working days of receiving the documents of complainant.</li><li>You have the right to legal representation, however your lawyer can only represent you from the stage of the proceedings before the Complaints Committee.</li><li>You have the right to appeal a decision made by the Committee</li></ul></p><p>If the allegations of sexual harassment are found to be false by the Internal Complaints Committee then no action will be taken against you. However, if the sexual harassment allegation is found to be true by the Internal Complaints Committee then they can make several recommendations of actions to be taken against you to the employer or the District Officer.</p>"
       },
       {
-        "id": "0001245",
+        "id": "exp02",
         "title": "Actions/Behaviour seen as Sexual Harassment",
         "content":
           "<p>The law has a broad definition of Sexual Harassment. It could be:<ul><li>Unwelcome touching or other physical contact</li><li>Asking or demanding sex or any other sexual activity</li><li>Making remarks which are of a sexual nature</li><li>Showing pornographic material which may include videos, magazines, books etc</li></ul></p><p>Any other actions that are sexual in nature, which may be through speech, writing, touching etc. that are unwelcome can also be considered sexual harassment.</p><p>Please also see this government handbook on Sexual Harassment of Women at Workplace issued by the Ministry of Women and Child Development, Government of India to understand in detail different actions that can be considered sexual harassment.</p>"
       },
       {
-        "id": "0001247",
+        "id": "exp03",
         "title": "Filing a Complaint",
         "content":
           "<p>If you have been sexually harassed at the workplace, follow these steps to file a complaint. If there has been more than one incident then you should file the complaint within 3 months of the date of the last incident of sexual harassment. However, the Internal Complaints Committee or Local Complaints Committee (as applicable) can extend this time period to another 3 months (and not more) if they find that you could not have made the complaint earlier.</p><p>In case for some reason the victim cannot make the complaint in writing, the members of the Committee have to help the victim in writing down the complaint. A complaint can also be submitted on behalf of the victim under the certain circumstances.</p><p>It is important to take the complaint seriously and prepare accordingly. If you do not appear for three consecutive hearings without a good reason for your absence, then the Committee may terminate the inquiry or decide the matter in your absence.</p><p>If you do not want to formally complain you also have the option of conciliation.</p>"
       },
       {
-        "id": "0001248",
+        "id": "exp04",
         "title": "Work Environment After Filing a Complaint",
         "content":
           "<p>A victim of sexual harassment can write to the Complaints Committee for certain benefits to create a safe work environment for her, such as:<ul><li>stopping the accused from reporting on her work performance or writing her confidential report or even assigning it to someone else</li><li>Prevent the accused from supervising any academic activity of the victim in an educational institution</li></ul></p>"
       },
       {
-        "id": "0001249",
+        "id": "exp05",
         "title": "Taking Leave during Proceedings/Inquiry",
         "content":
           "<p>If you’re the victim of Sexual Harassment at the workplace and have filed a complaint with your employer, your employer should have set up an Internal Complaints Committee to review the case. In such an event, your employer cannot force you to continue working nor can they take away any sanctioned leave already promised. You may exercise your right to use your employer provided leave and request the committee for additional leave.</p>"
       },
       {
-        "id": "0001250",
+        "id": "exp06",
         "title": "Working during proceedings/inquiry",
         "content":
           "<p>If you are the victim of sexual harassment and you have filed a complaint, your employer should have set up an Internal Committee to handle the case. While the committee is looking into the case, your employer cannot ask you to leave work. You can, however, make a request to the Committee which can then recommend to the employer that:<ul><li>They transfer either your or the offender to another workplace, or</li><li>You be granted three months' leave.</li></ul></p>"
       },
       {
-        "id": "0001251",
+        "id": "exp07",
         "title": "Privacy of Complaint and Proceedings",
         "content":
           "<p>As a victim you have a right to keep the contents of your complaint and the happenings in the inquiry proceedings confidential. As per the law the following information is confidential:<ul><li>Your identity and address</li><li>Identity and address of the accused as well as the witnesses</li><li>Information about the conciliation or inquiry proceedings or</li><li>recommendations of the Internal Committee or the Local Committee</li><li>Action taken by the employer or District Officer</li></ul>All of the above information cannot be published, communicated or made known to the public, press or media in any way.</p>"
       },
       {
-        "id": "0001252",
+        "id": "exp08",
         "title": "Complaining on behalf of Victim",
         "content":
           "<p>When a victim is unable to file a complaint herself due to physical incapacity; a complaint can be filed on her behalf by <ul><li>A relative or friend,</li><li>A co-worker</li><li>Someone with knowledge of the incident, with written consent of the victim</li><li>An officer of the National Commission for Women or State Women's Commission.</li></ul></p><p>If the victim is unable to make a complaint herself because of mental incapacity then a complaint can be filed on her behalf by:<ul><li>A relative/friend,</li><li>A special educator</li><li>A qualified psychiatrist psychologist</li><li>The guardian/authority under whom she receives treatment or care</li><li>Any person with knowledge of the incident along with her relative or friend or a special educator or qualified psychiatrist psychologist or guardian/authority under whom she receives treatment or care</li></ul></p><p>When a victim is unable to make a complaint for any other reason other than physical or mental incapacity then a complaint can be filed on her behalf by anyone with knowledge of the incident with her written consent</p><p>When a victim is dead then anyone who has knowledge of the incident with the written consent of the legal heir can file on the victim's behalf.</p>"
       },
       {
-        "id": "0001253",
+        "id": "exp09",
         "title": "Appealing a decision",
         "content":
           "<p>Both the victim and the accused have a right of appeal from the decision of the Internal or Local Complaints Committee. You should appeal within 90 days of the decision of the Committee. A few cases in which there can be an appeal is when the Committee decides that:<ul><li>there has been no sexual harassment</li><li>the offender should be let off or punished in some way or</li>the offender should compensate the victim or</li><li>victim has made a wrong complaint on purpose or</li><li>witness has given wrong information or fake documents or</li><li>someone has made public the details of a sexual harassment complaint, or</li><li>the employer has not implemented the recommendations on time.</li></ul></p><p>The appeal can be made before the authority mentioned in the service rules of the workplace. If there are no service rules, they can appeal to specific industrial tribunal and labour courts. All of the recommendations with be implemented within 6 months by the District Officer who receives them from the Committee.</p>"
       },
       {
-        "id": "0001254",
+        "id": "exp10",
         "title": "Reaching a Settlement",
         "content":
           "<p>If you do not want to solve your matter through a formal complaint with the Internal Complaints Committee you can ask the Committee to help you settle the matter through Conciliation. Only the victim has a right to initiate a process of conciliation. On reaching a settlement through the conciliation process the settlement will be sent to the employer or District Officer so that action can be taken.</p><p>You have a right to a copy of the recorded settlement which will be provided to you by the Internal or Local Complaints Committee. The offender also has a right to a copy. The Internal Complaints Committee will not initiate an inquiry once a settlement is arrived at through conciliation. Monetary settlement cannot be made the basis of conciliation.</p>"
       },
       {
-        "id": "0001255",
+        "id": "exp11",
         "title": "Compensation",
         "content":
           "<p>The amount of money you will receive as compensation will be decided on the following factors:<ul><li>mental trauma and distress caused to the victim</li><li>lost job opportunities because of the sexual harassment</li><li>medical treatment (physical or psychiatric) and</li><li>victim's income and general financial status.</li></ul>The Committee can decide that such compensation be paid in instalments or at one go.</p>"
       },
       {
-        "id": "0001256",
+        "id": "exp12",
         "title": "Punishment",
         "content":
           "<p>The law does not set a specific punishment for Sexual Harassment at the workplace. Instead it leaves it to the investigating Committee that will recommend that the employer act according to the service rules if a workplace has them. If you have an employee handbook, please refer to that to see what your employer’s policy is. If the workplace does not have service rules, then the Committee will recommend that the District Officer take action. This can be by way of:<ul><li>Written apology</li><li>Denying a raise/promotion/increment</li><li>Community Service</li><li>Warning or censure</li><li>Termination of Employment</li><li>Undergo Counseling</li></ul></p><p>Irrespective of whether or not the workplace has service rules, the Committee can also recommend that the employer deduct a certain amount from your salary/wages so that compensation can be paid to the aggrieved woman. However, if the employer cannot deduct money because you are not going to work or have left work, the Committee can order you to pay the victim directly. If then you do not pay the compensation, then the Committee can ask the District Officer to recover the amount from you.</p>"
       },
       {
-        "id": "0001257",
+        "id": "exp13",
         "title": "False Complaint",
         "content":
           "<p>If the Committee finds that the woman (or her representative) made a wrong or malicious complaint or that she gave them fake documents, action can be taken against the woman or person according to the service rules of the workplace. If there are no service rules, action can be taken in any manner recommended by the Committee, such as:<ul><li>Written apology</li><li>Warning or censure</li><li>Not giving a promotion</li><li>Not giving an increment</li><li>Termination of employment</li><li>Undergoing counselling session</li><li>Community service</li></ul></p><p>If the victim is unable to provide enough proof to the Committee, it does not automatically make her complaint false. The Committee will have to conduct an inquiry to find out if she made a wrong complaint on purpose.</p><p>Example: If there is a complaint initiated by Isha against Rohit but there are no witnesses or documents or any indication whatsoever that there was sexual harassment, then this will not be regarded as a false complaint. However, if Isha wrote an email where she told a friend she was lying, this may be a malicious or false complaint.</p>"
       },
       {
-        "id": "0001258",
+        "id": "exp14",
         "title": "Employer’s Responsibility",
         "content":
           "<p>Under the law, an employer has a set of binding duties to create a safe work environment for women. </p><p>Women employees should feel safe from sexual harassment from co-workers as well as others who might just be visiting the workplace. It’s important for employers to visibly display the sexual harassment policy of the company along with the order setting up the Internal Complaints Committee so employees as well as visitors to the workplace can see it.</p><p>When as an employer you fail to<ul><li>Set  up an Internal Complaints Committee by an order in writing.<ul><li>Set up an Internal Complaints Committee for each office, unit or branch.</li><li>Organize training programs for the members of the Internal Complaints Committee</li><li>Provide facilities to the Internal Complaints Committee to conduct inquiries.</li><li>Ensure that all witnesses and the offender appear before the Internal Complaints Committee.</li><li>Make sure all information is available to the Internal Complaints Committee.</li><li>Support any woman who chooses to file a criminal case against the offender, whether the perpetrator is an employee or not. Further, support her if she chooses to file a complaint with the Internal Complaints Committee of the workplace where the incident took place.</li><li>Should treat sexual harassment as a misconduct under service rules</li><li>Ensure that the Annual Reports by the Internal Complaints Committee are submitted on time.</li><li>Pay the external member of the Internal Complaints Committee fees</li><li>Be responsible for getting a new member of the Internal Complaints Committee if a member is removed from office</li><li>Implement the settlement terms and take action as per the recommendations of the Internal Complaints Committee or the Local Complaints Committee.</li><li>Send a report back to the Internal Complaints Committee on how the recommendations of the Committee were implemented.</ul></li><li>Frame a comprehensive sexual harassment policy for the workplace. Visibly display the sexual harassment policy of the company along with the order setting up the Internal Complaints Committee at your workplace.</li><li>Organize regular workshops to educate the employees about issues of sexual harassment</li></ul>or does not follow or attempts to not follow or helps someone else is not following the above instructions, you may be fined with a maximum amount of Rupees Fifty Thousand.</b></p>"
       },
       {
+        "id": "exp15",
         "title":
           "Filing a Complaint as a victim of sexual harassment at the workplace",
         "content":
           "<ul><li>Draft a Complaint</li><li>Make Six Copies of the Complaint </li><li>Make sure to submit the supporting documents for the Complaint with the Complaint</li><li>Ensure you submit the names and addresses of any witnesses who are submitting your complaint</li><li>Submit your Complaint to the Internal Complaints Committee* within 3 months of the incident taking place.</li></ul><p>*If your workplace does not have an Internal Complaints Committee then approach the Local Complaints Committee of your district through nodal officers appointed by the District Officer.</p>"
       },
       {
+        "id": "exp16",
         "title": "Responsibilities of Higher Education Institutions",
         "content":
           "<ul><li>Modify its ordinances and rules in relation to the requirements of the Regulations. </li><li>Publicly notify the provisions against Sexual Harassment.</li><li>Must organise Training programs or workshops for the Officers, functionaries, faculty and Student, to ensure knowledge and awareness of the rights, entitlements and responsibilities enshrined in the act and the regulations. </li><li>Act decisively against all gender based violence perpetrated against employees and student of all sexes recognizing that primarily women employees and students and some male students and students of third gender are vulnerable to many forms of sexual harassment and humiliation. </li><li>Publicly commit itself to a zero tolerance policy towards sexual harassment. </li><li>Include in its Prospectus and display prominently on Notice boards the penalty and consequences of Sexual Harassment and make the Institutional community aware of the information for redressal of complaints, the contact details of ICC, the procedure for filing complaints etc. </li><li>Inform about the recourse available to the employees and students if they are the victim of Sexual Harassment. </li><li>Organise orientation programs for the members of ICC to deal with all kinds of complaints and sensitively come to a decision. </li><li>Must try to curb all forms of harassment of employees and students whether it is from someone in dominant power or from peers or from someone outside the geographical limits. </li><li>Bring into light all those who are guilty of Sexual harassment against the employees and students and initiate proceedings as required by the law. </li><li>Should treat Sexual Harassment as a misconduct under the service rules and initiate proceedings under misconduct if the perpetrator is an employee. </li><li>Treat sexual harassment as a violation of disciplinary rules resulting in Rustication or expulsion if the perpetrator is a student. </li><li>Ensure Compliance with the provisions within 60 days from the date of publication of these regulations. </li><li>Monitor timely submissions of reports by ICC. </li><li>Prepare annual status report with details, number of cases filed and their disposal and submit the same to the Commission. </li><li>Conduct a regular and half yearly review of the efficacy and implementation of  anti-sexual harassment policies. </li><li>Must ensure adequate lighting in the campus, well Trained Security system, and health facilities.</li></ul>"
       },
       {
+        "id": "exp17",
         "title": "Composition of Internal Complaints Committee",
         "content":
           "<ul><li>A presiding officer who shall be woman faculty member employed at senior level.</li><li>3 students if the matter involves students.</li><li>1 member from the NGO’s or associations committed to the cause of women or a person familiar with the issues relating to sexual harassment. And such member shall be paid fees or allowances for holding the proceedings of the internal committee.</li><li>At least one half of the total members should be women.</li><li>Person in senior administrative positions such as Vice chancellor, Registrar, Dean, HOD etc, shall not be member of ICC in order to ensure autonomy in their functioning.</li><li>The term of office for ICC shall be for 3 years. HEI’s may also employ a system where 1/3rd of the members change every year.</li><li>If the presiding officer acts in violation of his powers, he shall be removed from the position and a fresh nomination will take place.</li></ul><p>The ICC shall comply with the procedure prescribed in these regulations and the act, for making the complaint and the enquiry in the time bound manner. And the HEI must provide ICC with all the necessary facilities to conduct the enquiry.</p>"
@@ -1561,75 +2205,88 @@
     ],
     "qna": [
       {
+        "id": "qna00",
         "question": "Do only offices have to prevent sexual harassment?",
         "answer":
           "<p>If you are responsible for the management, supervision and control of the workplace then you will be understood as an employer under the law. (See section 2g of the Sexual Harassment Of Women At Workplace (Prevention, Prohibition And Redressal) Act, 2013. In the case of:<ul><li><b>Government offices:</b>An employer is usually the head of department. Sometimes, the government may decide that another person will be considered as the 'employer'.</li><li><b>Private offices:</b> An employer is any person who manages and is in charge of the office. This includes the board or committee making and implementing policies.</li><li><b>Any office:</b> A person who is an employer according to their contract.</li><li><b>Home:</b> The person or the house which hires a domestic worker. The nature of the work and the number of workers do not matter.</li></p>"
       },
       {
+        "id": "qna01",
         "question":
           "Can a member of the Internal Complaints Committee be removed?",
         "answer":
           "<p>A member of the Internal Complaints Committee has to be removed from office if he or she:<ul><li>leaks any information in relation to a sexual harassment case to the public, or</li><li>has been convicted of a crime or is currently the subject of an inquiry, or</li><li>is found guilty in any disciplinary proceeding, or has disciplinary proceedings pending against him or her, or</li><li>has abused their position in any way.</li><li>The employer will have to get a new member in his or her place.</li></ul></p>"
       },
       {
+        "id": "qna02",
         "question":
           "Can a committee make a decision about a sexual harassment case without the person being present?",
         "answer":
           "<p>The Complaints Committee has the right to end the inquiry or, if either parties are absent for three consecutive hearings, make a decision and give an order. The Committee can only do this if it has given a 15 day notice to the parties in writing.</p>"
       },
       {
+        "id": "qna03",
         "question":
           "Can a man file a case of sexual harassment against another man or woman at the workplace?",
         "answer":
           "<p>No, this Act is only for women who are sexually harassed in workplaces.</p>"
       },
       {
+        "id": "qna04",
         "question":
           "Do I have to be employed at the workplace where sexual harassment happened to be able to file a complaint?",
         "answer":
           "<p>No, you do not have to be employed at the workplace where sexual harassment happened to be able to file a complaint. If you visited another workplace where you are not an employee and were sexually harassed by someone at that workplace you can file a complaint with the Internal Complaints Committee of  that workplace.</p>"
       },
       {
+        "id": "qna05",
         "question":
           "Am I allowed to approach the police and courts even if I file a complaint under this  Act?",
         "answer":
           "<p>Yes, the Act gives you a choice between dealing with the offender within the office or approaching a court or both. If you wish, you can file a criminal complaint as well as approach your Internal/Local Complaints Committee or file either one of the complaints.</p>"
       },
       {
+        "id": "qna06",
         "question":
           "Can a woman teacher/professor file a case of sexual harassment against a student?",
         "answer":
           "<p>Yes, a woman teacher/professor can file a case of sexual harassment against a student. The University Grants Commission has regulations under the Prevention of Sexual Harassment at the Workplace Act, 2013 known as the University Grants Commission (Prevention, Prohibition and Redressal of Sexual Harassment of Women Employees and Students in Higher Educational Institutions) Regulations, 2015.</p>"
       },
       {
+        "id": "qna07",
         "question":
           "Can women customers/patrons of a store file a case of sexual harassment against store owner/manager?",
         "answer":
           "<p>Yes, women customers/patrons of a store can file a case of sexual harassment against a store owner/manager.</p>"
       },
       {
+        "id": "qna08",
         "question": "What's the difference between harassment and flirting?",
         "answer":
           "<p>If flirting is unwelcome and makes you uncomfortable then it can amount to sexual harassment. </p>"
       },
       {
+        "id": "qna09",
         "question":
           "Can a woman file a sexual harassment complaint against someone she was in a relationship with?",
         "answer":
           "<p>Yes, if a woman was in a relationship with a man and then they were no longer together and he subsequently sexually harassed at her workplace then she can file a complaint against him. </p>"
       },
       {
+        "id": "qna10",
         "question":
           "Is sexual harassment at a job interview sexual harassment at a workplace?",
         "answer":
           "<p>Yes, sexual harassment at a job interview would constitute sexual harassment at a   workplace.</p>"
       },
       {
+        "id": "qna11",
         "question": "Is gender based discrimination sexual harassment?",
         "answer":
           "<p>Sexual harassment is a form of gender based discrimination. Not all gender based discrimination at a workplace will be considered sexual harassment. To understand if your specific case of gender based discrimination at your workplace is sexual harassment please look at the explanations. For further clarification please contact a lawyer.</p>"
       },
       {
+        "id": "qna12",
         "question":
           "Is being asked about my sexual orientation sexual harassment?",
         "answer":
@@ -1638,51 +2295,61 @@
     ],
     "glossary": [
       {
+        "id": "glos00",
         "term": "Settlement",
         "definition":
           "An official agreement to resolve a dispute is known as a settlement"
       },
       {
+        "id": "glos01",
         "term": "Compensation",
         "definition":
           "Anything of value, usually money given by one person to another in for the loss caused by the person to the other person."
       },
       {
+        "id": "glos02",
         "term": "Inquiry",
         "definition":
           "An official investigation into an event after a complaint is filed. "
       },
       {
+        "id": "glos03",
         "term": "Proceedings",
         "definition":
           "Action or a series of events that take place according to the procedure in a court of law or any authority resolving a dispute. "
       },
       {
+        "id": "glos04",
         "term": "Appeal",
         "definition":
           "When someone is not satisfied with a decision of a lower court they can apply to a higher court  to change the decision of the lower court."
       },
       {
+        "id": "glos05",
         "term": "Gender Based Discrimination",
         "definition":
           "When someone shows a prejudice against you on the basis of you being a male or a female. "
       },
       {
+        "id": "glos06",
         "term": "Internal Complaints Committee",
         "definition":
           "A committee set up by an employer with more than 10 employees, specifically to handle cases of Sexual Harassment at the workplace consisting of a presiding officer who must be a woman (preferably a senior employee), two other employees and one person from a women’s issues NGO.  At least half the members of the Internal Complaints Committee should be women. Each member can hold their position for only three years. "
       },
       {
+        "id": "glos07",
         "term": "Local Complaints Committee",
         "definition":
           "A Committee set up by the district officer that will receive and hear complaints from establishments where the Internal Complaints Committee has not been constituted since it has less than 10 workers or if the complaint is against the employer himself. The District Officer has to appoint nodal officers which will forward complaints to Local Complaints Committees within seven days. "
       },
       {
+        "id": "glos08",
         "term": "Conciliation",
         "definition":
           "It is a mutual agreement between parties to settle a problem between themselves, peacefully."
       },
       {
+        "id": "glos09",
         "term": "Service rules",
         "definition":
           "Every service has rules and regulations to be followed by the employees. These are usually called as service rules."

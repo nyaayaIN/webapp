@@ -18,7 +18,6 @@
 
 .container {
   margin: 0 auto;
-  padding: 20px 0;
   max-width: var(--max-content-width);
 }
 
@@ -37,6 +36,7 @@
   text-align: left;
   font-size: 0.75em;
   font-weight: bold;
+  padding: 1.5em 0 2em;
 }
 
 .categoryLink {
@@ -51,17 +51,15 @@
 
 .topics {
   background: var(--lightest-colour);
-  border-left: solid 1px var(--neutral-medium-colour);
-  border-right: solid 1px var(--neutral-medium-colour);
-  border-bottom: solid 1px var(--neutral-medium-colour);
+  box-shadow:  0px 2px 2px 0 rgba(50, 50, 50, 0.25);
   display: none;
   position: absolute;
-  margin: 22px 0 0 -10px;
+  margin:1.5em 0 0 -1.6em;
   padding: 10px;
 }
 
 .category:last-child .topics {
-  margin: 22px 0 0 -95px;
+  margin: 1.5em 0 0 -95px;
 }
 
 .category:hover .topics {
@@ -109,11 +107,12 @@
   .category {
     font-size: 1em;
     padding: 0.5em 1em;
-    width: 100%;
+    width: 80%;
     height: auto;
   }
 
   .topics {
+    box-shadow: none;
     display: none;
     position: relative;
     margin: 0;
@@ -122,8 +121,13 @@
   }
 
   .topic {
-    max-width: 100%;
+    width: 75%;
+    max-width: 75%;
     padding: 0.25em 1em;
+  }
+
+  .topicLink {
+    max-width: 100%;
   }
 
   .category:last-child .topics {

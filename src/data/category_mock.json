@@ -49,14 +49,9 @@
         "url": "/topic/dowry"
       },
       {
-        "name": "Marriage",
+        "name": "Annulment",
         "image": "",
-        "url": "/topic/marriage"
-      },
-      {
-        "name": "Divorce and Separation",
-        "image": "",
-        "url": "/topic/divorce-and-separation"
+        "url": "/topic/annulment"
       },
       {
         "name": "Domestic Violence",
@@ -64,9 +59,9 @@
         "url": "/topic/domestic-violence"
       },
       {
-        "name": "Maintenance of Family",
+        "name": "Care for Parents and Elderly",
         "image": "",
-        "url": "/topic/maintenance-of-family"
+        "url": "/topic/care-for-parents-and-elderly"
       }
     ]
   },

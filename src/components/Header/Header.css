@@ -1,9 +1,5 @@
 @import '../variables.css';
 
-:root {
-  --brand-color: #61dafb;
-}
-
 .root {
   background-image: linear-gradient(to right, var(--primary-colour) 0%, var(--secondary-colour) 100%);
   color: #fff;
@@ -19,4 +15,10 @@
   color: color(var(--brand-color) lightness(+10%));
   text-decoration: none;
   font-size: 1.75em; /* ~28px */
+}
+
+@media screen and (width < 850px) {
+  .brand {
+    padding:0.5em;
+  }
 }
