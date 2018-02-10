@@ -23,28 +23,29 @@ class QnA extends React.Component {
   render() {
     return (
       <div className={s.root}>
-        <div className={s.title}>Questions and Answers</div>
-        <div className={s.subtitle}>Click on a question to view the answer</div>
-        {this.props.collection.map((qna, index) => (
-          <div className={s.couplet} key={qna.id}>
-            <button
-              className={s.question}
-              data-question={index}
-              onClick={this.handleClick}
-            >
-              {index+1}. {qna.question}
-              <span className={s.arrow}>&#10597;</span>
-            </button>
-            <div
-              className={s.answer}
-              data-answer={index}
-              // eslint-disable-next-line react/no-danger
-              dangerouslySetInnerHTML={{
-                __html: qna.answer,
-              }}
-            />
-          </div>
-        ))}
+        <div className={s.container}>
+          <div className={s.title}>Questions and Answers</div>
+          <div className={s.subtitle}>Click on a question to view the answer</div>
+          {this.props.collection.map((qna, index) => (
+            <div className={s.couplet} key={qna.id}>
+              <button
+                className={s.question}
+                data-question={index}
+                onClick={this.handleClick}
+              >
+                {index+1}. {qna.question}
+              </button>
+              <div
+                className={s.answer}
+                data-answer={index}
+                // eslint-disable-next-line react/no-danger
+                dangerouslySetInnerHTML={{
+                  __html: qna.answer,
+                }}
+              />
+            </div>
+          ))}
+        </div>
       </div>
     );
   }

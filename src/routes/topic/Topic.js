@@ -50,9 +50,9 @@ class Topic extends React.Component {
           collection={this.props.explanations}
           chosen={this.props.chosen.explanation}
         />
-        <div className={s.container}>
-          <QnA collection={this.props.qna} />
-        </div>
+        
+        <QnA collection={this.props.qna} />
+
         <Glossary
           collection={this.props.glossary}
         />

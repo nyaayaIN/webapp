@@ -63,6 +63,7 @@ class Explanations extends React.Component {
           ))}
         </div>
         <div className={s.menu}>
+          <div className={s.menuHeading}>Contents</div>
           {this.props.collection.map((explanation, index) => (
             <button
               className={s.item}

@@ -16,31 +16,17 @@ class Glossary extends React.Component {
 
   constructor(props) {
     super();
-    let classes = [];
-    props.collection.map((word, index) =>(
-      classes.push(index === 0 ?
-                    s.glossaryItemContainer + " " + s.active :
-                    s.glossaryItemContainer)
-    ));
     this.state = {
-      chosenIndex: 0,
-      classes : classes
+      chosen: props.collection[0]
     };
   }
 
   handleClick = event => {
     event.preventDefault();
-    let newClasses = this.state.classes;
-
-    const id = event.target.attributes.getNamedItem('data-id').value;
-
-    newClasses[this.state.chosenIndex] = s.glossaryItemContainer;
-    newClasses[id] = s.glossaryItemContainer + " " + s.active;
-
+    const index = event.target.attributes.getNamedItem('data-id').value;
     this.setState({
-      chosenIndex: id,
-      classes: newClasses
-    });
+      chosen: this.props.collection[index]
+    })
   };
 
   render() {
@@ -49,27 +35,23 @@ class Glossary extends React.Component {
         <div className={s.container}>
           <div className={s.title}>Glossary</div>
           <div className={s.glossarySection}>
-            <div className={s.terms}>
-              {this.props.collection.map((word, index) => (
-                <button
-                    key={word.id}
-                    className={s.termOption}
-                    data-id={index}
-                    onClick={this.handleClick} >
-                  {word.term}
-                </button>
-              ))}
-            </div>
             <div className={s.definedTerm}>
-              {this.props.collection.map((word, index) => (
-                <div className={this.state.classes[index]} key={word.id}>
-                  <div className={s.glossaryItem}>
-                    <div className={s.term} data-index={index}>{word.term}</div>
-                    <div className={s.definition}>{word.definition}</div>
-                  </div>
-                </div>
-              ))}
+              <div className={s.glossaryItem}>
+                <div className={s.term}>{this.state.chosen.term}</div>
+                <div className={s.definition}>{this.state.chosen.definition}</div>
+              </div>
             </div>
+              <div className={s.terms}>
+                {this.props.collection.map((word, index) => (
+                  <button
+                      key={word.id}
+                      data-id={index}
+                      className={s.termOption}
+                      onClick={this.handleClick} >
+                    {word.term}
+                  </button>
+                ))}
+              </div>
           </div>
         </div>
       </div>

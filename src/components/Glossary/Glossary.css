@@ -2,7 +2,6 @@
 
 .root {
   padding: 3em 0 0;
-  border-top: solid 1px var(--neutral-medium-colour);
 }
 
 .container {
@@ -19,30 +18,23 @@
 .glossarySection {
   margin: 0;
   padding: 2em 0;
-  display: flex;
-  flex-direction: row;
 }
 
-.terms {
-  width: 25%;
-}
-
+.terms,
 .definedTerm {
-  width: 75%;
   margin: 0;
   padding: 0;
 }
 
 .termOption {
   font-family: var(--font-family-base);
-  color: var(--tertiary-text-colour);
-  border: none;
+  color: var(--neutral-dark-colour);
+  border: solid 1px var(--neutral-medium-colour);
   background: none;
   text-align: left;
-  display: block;
-  width: 100%;
-  margin: 0;
-  padding: 0.25em 0;
+  display: inline-block;
+  margin: 0.25em;
+  padding: 0.5em 1em;
 }
 
 .glossaryItemContainer {
