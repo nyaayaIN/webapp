@@ -28,6 +28,18 @@ class Explanations extends React.Component {
     };
   }
 
+  componentDidUpdate() {
+    if(this.props.collection.length!=this.state.explanationClasses.length){
+      const newClasses = [];
+      this.props.collection.map((explanation, index) =>(
+        newClasses.push(index === this.props.chosen ? s.explanation + " " + s.active : s.explanation)
+      ));
+      this.setState({
+        explanationClasses: newClasses
+      });
+    }
+  }
+
   handleClick = event => {
     event.preventDefault();
     let newClasses = this.state.explanationClasses
