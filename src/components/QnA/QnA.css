@@ -48,9 +48,12 @@
 }
 
 .answer {
-  display: none;
   padding: 0.25em 1em;
   max-width: 800px;
+}
+
+.answer.hide {
+  display: none;
 }
 
 @media screen and (width < 850px) {

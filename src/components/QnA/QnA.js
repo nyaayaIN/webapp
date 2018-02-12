@@ -16,8 +16,7 @@ class QnA extends React.Component {
   handleClick = event => {
     event.preventDefault();
     const id = event.target.attributes.getNamedItem('data-question').value;
-    const answer = document.querySelector(`[data-answer="${id}"`);
-    answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+    document.getElementById('qna-'+id).classList.toggle(s.hide);
   };
 
   render() {
@@ -32,12 +31,11 @@ class QnA extends React.Component {
                 className={s.question}
                 data-question={index}
                 onClick={this.handleClick}
-              >
-                {index+1}. {qna.question}
+              >{index+1}. {qna.question}
               </button>
               <div
-                className={s.answer}
-                data-answer={index}
+                className={s.answer+" "+s.hide}
+                id={"qna-"+index}
                 // eslint-disable-next-line react/no-danger
                 dangerouslySetInnerHTML={{
                   __html: qna.answer,
