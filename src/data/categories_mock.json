@@ -155,11 +155,6 @@
       "url": "/category/wealth",
       "topics": [
         {
-          "id": "00034",
-          "name": "Check Bounce",
-          "url": "/topic/check-bounce"
-        },
-        {
           "id": "00035",
           "name": "Online Bank Fraud",
           "url": "/topic/online-bank-fraud"

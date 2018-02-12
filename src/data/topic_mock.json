@@ -327,7 +327,11 @@
           "<p>The children will  get admission in a nearby government school. </p>"
       }
     ],
-    "glossary": []
+    "glossary": [{
+      "id": "glos00",
+      "term": "",
+      "definition": ""
+    }]
   },
   "anti-corruption": {
     "name": "Anti-corruption",
@@ -575,14 +579,6 @@
       }
     ]
   },
-  "family": {
-    "name": "Family",
-    "summary": "",
-    "image": "",
-    "explanations": [],
-    "qna": [],
-    "glossary": []
-  },
   "dowry": {
     "name": "Dowry",
     "summary": "Dowry is anything of value, including cash and property, which is given by the bride’s family to the groom’s family as a condition of marriage. The law prohibits the practice of giving or taking dowry as well as demanding and advertising for dowry.",
@@ -662,19 +658,19 @@
       "term": "Dowry",
       "definition": "Dowry is anything of value, including money or property, given by the bride or groom, their parents or anyone else related to them or their families. It is given to the corresponding party, either directly or to their parents, or to their families. Dowry can be given any time in connection with the marriage. Dowry is given as a condition for marriage"
     }, {
-      "id": "glos00",
+      "id": "glos01",
       "term": "Mahr",
       "definition": "According to Muslim personal law, the wife is entitled to either money or property from her husband when she gets married. This is known as dower or Mahr and is not considered as dowry."
     }, {
-      "id": "glos00",
+      "id": "glos02",
       "term": "Streedhan",
       "definition": "Streedhan is the property given to the bride at the time of marriage. It is different from dowry because it is a voluntary gift given to the bride before or after her marriage. The bride has exclusive and absolute control over all her Streedhan. She has full freedom to sell, modify, use the Streedhan as she wishes. She can even decide to give it away, during or after her lifetime. Streedhan includes both movable and immovable property."
     }, {
-      "id": "glos00",
+      "id": "glos03",
       "term": "Illustration",
       "definition": "Resham, on her marriage receives two gold bangles from her mother. This is her Streedhan. However, if the gold bangles had been given under coercion by the groom’s family as a condition for marriage, it would be considered as dowry."
     }, {
-      "id": "glos00",
+      "id": "glos04",
       "term": "Dowry Prohibition Officers",
       "definition": "These are officers designated by different state governments for each state. They have some designated functions and may have additional functions assigned to them as per the decision of the state governments."
     }]
@@ -713,11 +709,35 @@
   },
   "domestic-violence": {
     "name": "Domestic Violence",
-    "summary": "",
+    "summary": "Domestic Violence laws in India have been put in place to protect women from being abused physically, psychologically, verbally, emotionally, sexually or monetarily by their husband/partner, anyone (male or female) from the family of their husband/partner, anyone (male or female) from their own family",
     "image": "",
-    "explanations": [],
-    "qna": [],
-    "glossary": []
+    "explanations": [{
+      "id": "exp00",
+      "title": "Acts of Domestic Violence",
+      "content": "<p>Domestic violence is more than just violent acts, in some cases, not doing something can also be a form of domestic violence. The law recognizes any of these as being a form of domestic violence:<ul><li>acts that harm you, your health or well-being.</li><li>harassing or hurting you or your relatives for dowry, money or property.</li><li>threatening to be abusive or threatening to hurt you or your relatives for dowry, money or property.</li><li>acts that causes physical or mental pain.</li><li>Neglecting basic needs</li></ul>Also see:  physical, sexual, verbal and emotional, as well as economic abuse. If you are still uncertain, it is best to check with a NGO which deals in Domestic Violence cases, a Protection Officer or a lawyer.</p>"
+    }, {
+      "id": "exp01",
+      "title": "Victim and Abuser",
+      "content": "<p>Any woman who has suffered domestic abuse from the hands of an offender will be considered a victim under this Act. Currently, men cannot be considered as victims of domestic abuse.</p><p>Any adult male who currently is in, or has been in a domestic relationship with the victim who has filed a complaint, can be an offender/abuser. Any relative of such male or any male or female family member of the victim can also be considered as abuser.</p>"
+    }, {
+      "id": "exp02",
+      "title": "Maintaining Privacy",
+      "content": "<p>Normally, court proceedings are open for anyone to attend. In domestic violence cases, since the issues are sensitive and can involve personal information that the victim may not want the general public to know the she can ask the Magistrate to not allow the general public into the courtroom when her case is being heard. The Magistrate can also decide to do this on her own.</p>"
+    }, {
+      "id": "exp00",
+      "title": "",
+      "content": "<p></p>"
+    }],
+    "qna": [{
+      "id": "qna00",
+      "question": "",
+      "answer": "<p></p>"
+    }],
+    "glossary": [{
+      "id": "glos00",
+      "term": "",
+      "definition": ""
+    }]
   },
   "care-for-parents-and-elderly": {
     "name": "Care for Parents and Elderly",
@@ -950,7 +970,11 @@
     "image": "",
     "explanations": [],
     "qna": [],
-    "glossary": []
+    "glossary": [{
+      "id": "glos00",
+      "term": "",
+      "definition": ""
+    }]
   },
   "manual-scavenging": {
     "name": "Manual Scavenging",
@@ -1211,7 +1235,11 @@
           "<p>The police need to present you before the Magistrate as soon as possible after you have been arrested. They cannot keep you under arrest for more than 24 hours – this excludes travel time to the court. The police officer will also need to provide a copy of the entries in the case diary to the Magistrate. The case diary is a daily diary kept by an officer detailing all that happens in an investigation. The Supreme Court has directed the police officers to provide the Magistrate a checklist of the reasons for your arrest along with all documents related to your arrest including the arrest memo.</p><p>After you've been presented before the Magistrate, the Magistrate can discharge you or grant you bail. Your lawyer should ask for your release if the police only needed to issue a 'notice of appearance' and not actually arrest you. The police can detain you beyond 24 hours only with permission of the Magistrate. They may seek 'police custody' or 'judicial custody'. Police custody can only last 15 days from the date of arrest. This means you will kept inside the lock-up at the police station for a maximum of fourteen more days.</p><p>If the police have not been able to file the charge-sheet and depending on the crime you have been suspected of, you can be in judicial custody for up to 90 days for crimes that you could possibly go to prison for more than 10 years, and up to 60 days for all other kinds of offences.</p><p>You cannot be sent to jail for more than fourteen days at a time even in judicial custody. You will be brought before the Magistrate after each fourteen day period. After the 60 or 90 day period, you have a right to be released on bail.</p>"
       }
     ],
-    "glossary": []
+    "glossary": [{
+      "id": "glos00",
+      "term": "",
+      "definition": ""
+    }]
   },
   "bail": {
     "name": "Bail",
@@ -1317,7 +1345,11 @@
           "<p>When a person applies for a bail, a person has to keep some money as security. This is ensure that the person does not run away.</p>"
       }
     ],
-    "glossary": []
+    "glossary": [{
+      "id": "glos00",
+      "term": "",
+      "definition": ""
+    }]
   },
   "traffic-fines": {
     "name": "Traffic Fines",
@@ -1325,7 +1357,11 @@
     "image": "",
     "explanations": [],
     "qna": [],
-    "glossary": []
+    "glossary": [{
+      "id": "glos00",
+      "term": "",
+      "definition": ""
+    }]
   },
   "first-information-report": {
     "name": "First Information Report (FIR)",
@@ -1665,7 +1701,11 @@
     "image": "",
     "explanations": [],
     "qna": [],
-    "glossary": []
+    "glossary": [{
+      "id": "glos00",
+      "term": "",
+      "definition": ""
+    }]
   },
   "online-bank-fraud": {
     "name": "Online Bank Fraud",
@@ -1862,7 +1902,11 @@
       }
     ],
 
-    "glossary": []
+    "glossary": [{
+      "id": "glos00",
+      "term": "",
+      "definition": ""
+    }]
   },
   "rape": {
     "name": "Rape",

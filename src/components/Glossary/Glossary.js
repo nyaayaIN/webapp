@@ -13,12 +13,19 @@ class Glossary extends React.Component {
     ).isRequired,
   };
 
-
   constructor(props) {
     super();
     this.state = {
       chosen: props.collection[0]
     };
+  }
+
+  componentDidUpdate() {
+    if(this.props.collection.indexOf(this.state.chosen) === -1){
+      this.setState({
+        chosen: this.props.collection[0]
+      });
+    }
   }
 
   handleClick = event => {

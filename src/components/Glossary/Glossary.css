@@ -68,6 +68,10 @@
 }
 
 @media screen and (width < 850px) {
+  .root {
+    padding: 1em;
+  }
+  
   .glossaryItem {
     display: block;
   }
