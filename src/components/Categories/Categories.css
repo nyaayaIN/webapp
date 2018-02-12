@@ -67,6 +67,7 @@
 }
 
 .topic {
+  cursor: pointer;
   list-style-type: none;
   margin: 0;
   width: 125px;
@@ -75,10 +76,10 @@
 }
 
 .topicLink {
+  cursor: pointer;
   color: #404040;
   font-size: 1.1em;
   font-weight: normal;
-  max-width: 100px;
   text-decoration: none;
 }
 
@@ -121,12 +122,14 @@
   }
 
   .topic {
+    cursor: pointer;
     width: 75%;
     max-width: 75%;
     padding: 0.25em 1em;
   }
 
   .topicLink {
+    cursor: pointer;
     max-width: 100%;
   }
 

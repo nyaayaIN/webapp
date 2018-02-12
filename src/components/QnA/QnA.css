@@ -52,3 +52,9 @@
   padding: 0.25em 1em;
   max-width: 800px;
 }
+
+@media screen and (width < 850px) {
+  .root {
+    padding: 1em;
+  }
+}

@@ -3,6 +3,7 @@ import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import PropTypes from 'prop-types';
 import s from './Categories.css';
 import Link from '../Link';
+import history from '../../history';
 
 const API = '/data/categories';
 
@@ -43,6 +44,15 @@ class Categories extends React.Component {
     });
   };
 
+  handleClick = event => {
+    event.preventDefault();
+    const url = event.target.attributes.getNamedItem('data-url').value;
+    this.setState({
+      menuClass: this.state.menuClass === "hidden" ? "show" : "hidden"
+    });
+    history.push(url);
+  };
+
   render() {
     if (this.state.error) {
       return (
@@ -72,9 +82,9 @@ class Categories extends React.Component {
                 <ul className={s.topics}>
                   {category.topics.map((topic) => (
                     <li className={s.topic} key={topic.id}>
-                      <Link className={s.topicLink} to={topic.url}>
+                      <div className={s.topicLink} data-url={topic.url} onClick={this.handleClick}>
                         {topic.name}
-                      </Link>
+                      </div>
                     </li>
                   ))}
                 </ul>
