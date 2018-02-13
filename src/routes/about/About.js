@@ -27,6 +27,8 @@ import mustafaImage from './images/mustafa.png';
 import shonottraImage from './images/shonottra.png';
 import sumeyshImage from './images/sumeysh.png';
 
+import Nilekani from './Nilekani.png';
+
 class About extends React.Component {
   render() {
     const teamMembers = [
@@ -48,12 +50,17 @@ class About extends React.Component {
     return (
       <div>
         <div className={s.aboutSection}>
-          <h1 className={s.aboutTitle}>{about.title}</h1>
-          <div
-            className={s.aboutContent}
-            // eslint-disable-next-line react/no-danger
-            dangerouslySetInnerHTML={{ __html: about.html }}
-          />
+          <div className={s.aboutUs}>
+            <div className={s.container}>
+              <img className={s.nilekaniLogo} src={Nilekani} />
+              <h1 className={s.aboutTitle}>{about.title}</h1>
+              <div
+                className={s.aboutContent}
+                // eslint-disable-next-line react/no-danger
+                dangerouslySetInnerHTML={{ __html: about.html }}
+              />
+            </div>
+          </div>
         </div>
         <div className={s.container}>
           <div className={s.teamSection}>
