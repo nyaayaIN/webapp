@@ -17,7 +17,8 @@ class Home extends React.Component {
     headings: PropTypes.shape({
       featured_topics: PropTypes.string.isRequired,
       what_we_do: PropTypes.string.isRequired,
-      short_explanation: PropTypes.string.isRequired
+      short_explanation: PropTypes.string.isRequired,
+      short_disclaimer: PropTypes.string.isRequired,
     }).isRequired,
     featured: PropTypes.shape({
       topics: PropTypes.arrayOf(
@@ -44,6 +45,7 @@ class Home extends React.Component {
             <h2 className={s.storyTitle}
               dangerouslySetInnerHTML={{ __html: this.props.headings.what_we_do }} />
             <div className={s.shortExplanation}>{this.props.headings.short_explanation}</div>
+            <div className={s.shortExplanation}>{this.props.headings.short_disclaimer}</div>
           </div>
         </div>
       </div>
