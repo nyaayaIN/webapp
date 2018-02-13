@@ -21,6 +21,7 @@ async function action({ fetch }) {
     featured_topics: i18n.featured_topics,
     what_we_do: i18n.what_we_do,
     short_explanation: i18n.short_explanation,
+    short_disclaimer: i18n.short_disclaimer
   };
 
   return {
