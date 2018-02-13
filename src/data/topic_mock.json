@@ -329,8 +329,32 @@
     ],
     "glossary": [{
       "id": "glos00",
-      "term": "",
-      "definition": ""
+      "term": "Guardian",
+      "definition": "A guardian is someone who looks after a child like a parent, but is not the child’s parent"
+    }, {
+      "id": "glos01",
+      "term": "Capitation fee",
+      "definition": "Capitation fee is any extra money or donation that a school asks for at the time of admission"
+    }, {
+      "id": "glos02",
+      "term": "Specified category schools",
+      "definition": "Specified category schools are special types of schools run by the government such as a Kendriya Vidyalaya, Navodaya Vidyalaya or Sainik School."
+    }, {
+      "id": "glos03",
+      "term": "Government School",
+      "definition": "A school which is run by the central, state or Ut Government, or by a municipal Corporation, Zila Parishad, Panchayat etc"
+    }, {
+      "id": "glos04",
+      "term": "Aided Schools",
+      "definition": "A school which is not run by any government, but which gets funds from the government."
+    }, {
+      "id": "glos05",
+      "term": "Special Category School",
+      "definition": "A special type of school run by the government. For example : Kendrya Vidyalas, Sainik Schools or Navodya Vidyalas."
+    }, {
+      "id": "glos06",
+      "term": "Unaided School",
+      "definition": "Private Schools which don’t take funds from the government."
     }]
   },
   "anti-corruption": {
@@ -1162,14 +1186,164 @@
   },
   "drugs-and-narcotics": {
     "name": "Drugs and Narcotics",
-    "summary": "",
+    "summary": "Indian Law is very strict on drugs and prohibits various activities associated with drugs such as growing, manufacturing, possessing, using, selling and trafficking drugs. The central as well as state governments are conferred with powers to control and regulate activities.",
     "image": "",
-    "explanations": [],
-    "qna": [],
+    "explanations": [{
+      "id": "exp00",
+      "title": "Banned Substances",
+      "content":
+        "<p>The use, production, manufacture, possession, sale, purchase, transportation, importing and exporting of various substances are regulated in India with many substances being banned. A full list of substances  can be found <a href='https://web.archive.org/web/20111118084845/http://narcoticsindia.nic.in/listofsubst.htm' target='_blank'>here</a>. Punishment regarding any activities involving these substances is based on the quantity of the banned substance.</p>"
+    }, {
+      "id": "exp01",
+      "title": "Cannabis",
+      "content":
+        "<p>As many different kinds of drugs are derived from a single source/plant, Indian law prescribes punishment for that main component, and classifies different quantities of the derivatives that are punishable.</p><p> Cannabis means charas, ganja or any other mixture, with or without any neutral material of either charas or ganja, or any drink prepared from it. They have been explained in detail below, along with the quantities of which warrant different punishments.</p>"
+    }, {
+      "id": "exp02",
+      "title": "Ganja",
+      "content":
+        "<p>Ganja is only the flowering part or the part that becomes the fruit, of the cannabis plant. The production, manufacture, possession, sale, purchase, transport, import and export of Ganja as well as using it are banned in India with the punishment for carrying them out proportional to the amount of the substance and not the type of activity.</p><p><ul><li><b>Small Amount (up to 1kg)</b>:  Rigorous imprisonment up to one year, and fine up to one lakh rupees.</li><li><b>Commercial Amount (greater than 20kg)</b>: Rigorous imprisonment between ten years and twenty years, and fine between one lakh rupees and two lakh rupees. (The Court may impose fine exceeding two lakh rupees by recording reasons in the judgment)</li><li><b>Greater than small amount but less than commercial</b>: Rigorous imprisonment up to ten years, and fine up to one lakh rupees.</li></ul></p>"
+    }, {
+      "id": "exp03",
+      "title": "Charas",
+      "content":
+        "<p>Charas, is the separated resin, in whatever form, whether crude or purified, obtained from the cannabis plant and also includes concentrated preparation and resin known as hashish oil or liquid hashish. The production, manufacture, possession, sale, purchase, transport, import inter-state, export inter-state or even its use has been in India with the punishment for carrying them out is proportional to the amount of the substance and not the type of activity.</p><p><ul><li><b>Small Amount (up to 100g)</b>:  Rigorous imprisonment up to one year, and fine up to one lakh rupees.</li><li><b>Commercial Amount (greater than 1kg)</b>: Rigorous imprisonment between ten years and twenty years, and fine between one lakh rupees and two lakh rupees. (The Court may impose fine exceeding two lakh rupees by recording reasons in the judgment)</li><li><b>Greater than small amount but less than commercial</b>: Rigorous imprisonment up to ten years, and fine up to one lakh rupees.</li></ul></p>"
+    }, {
+      "id": "exp04",
+      "title": "Coca Derivative",
+      "content":
+        "<p>Coca derivative, would be the coca leaf or the coca plant from which drugs like ecgonine and cocaine are derived from. The production, manufacture, possession, sale, purchase, transport, import and export of any coca derivative, as well as using it, are banned in India. Unlike other drugs where the punishment is in proportion its quantity, in this instance, the law punishes all quantities with rigorous imprisonment for a term which may extend to ten years, and fine which may extend to one lakh rupees.</p><p>The following are the drugs derived from coca plant and coca leaf:<ul><li>Crude cocaine (extract of coca leaf)</li><li>Ecgonine and all its derivatives</li><li>Cocaine (Methyl ester of benzoyl-ecognine) and its salts</li><li>All preparations containing more than 0.1 percent of cocaine.</li></p>"
+    }, {
+      "id": "exp05",
+      "title": "Opium",
+      "content":
+        "<p>Opium Poppy is the base plant from which opium is extracted. Opium is a white juice that is extracted from the poppy plant with the help of scalps in a very careful manner. Opium Poppy is the plant of the species Papaver somniferum L, and the plant of any other species of Papaver from which opium or any phenanthrene alkaloid can be extracted and which the Central Government may, by notification in the Official Gazette, declare to be opium poppy.</p><p>The derivatives of opium are:<ul><li><b>Medical Opium</b>: opium which has undergone the process necessary to adapt it for medical use in accordance with the requirements of the central government.</li><li><b>Morphine</b>: It is also known as Morf, Mud, Goma or Morpho etc. It is a refined version of opium which is formed by mixing opium gum with Lime water and a few organic solvents.</li><li><b>Heroine</b>: Heroine is also known as Brown Sugar, Crap, Smack, Horse, Mexican Mud, Big H and Junk etc. Heroine is made when morphine is further refined by treating it with acetylene anhydride (AC20).</li><li><b>Codeine</b>:  It is another derivative of opium which is very commonly found in cough syrups.</li><li><b>Poppy straw</b>: is the husk left after the opium is extracted from the pods. It contains small quantities of morphine and can be used as a drug.</li></ul></p><p>The production, manufacture, possession, sale, purchase, transport, import and export of any opium derivative as well as using it are banned in India with the punishment for carrying them out proportional to the amount of the substance and not the type of activity.<ul><li><b>Small Quantity (upto 1 kg)</b>: Rigorous imprisonment for up to one year, and/or fine  up to ten thousand rupees.</li><li><b>Commercial Quantity (greater than 50 kg)</b>: Rigorous imprisonment between ten years and twenty years, and fine between one lakh rupees and two lakh rupees. (The Court may impose fine exceeding two lakh rupees by recording reasons in the judgment)</li></ul></p>"
+    }, {
+      "id": "exp06",
+      "title": "Amphetamine",
+      "content":
+        "<p>Amphetamine is a psychotropic substance listed in the Schedule to the NDPS Act. The production, manufacture, possession, sale, purchase, transport, import and export of Amphetamine as well as using it are banned in India with the punishment for carrying them out proportional to the amount of the substance and not the type of activity.<ul><li><b>Small Quantity (up to 2g)</b>: Rigorous imprisonment for up to one year, and/or fine  up to ten thousand rupees.</li><li><b>Commercial Quantity (greater than 50 grams)</b>: Rigorous imprisonment between ten years and twenty years, and fine between one lakh rupees and two lakh rupees. (The Court may impose fine exceeding two lakh rupees by recording reasons in the judgment)</li><li><b>Greater than small amount but less than commercial</b>: Rigorous imprisonment for up to ten years, and with fine up to one lakh rupees.</li></ul></p>"
+    }, {
+      "id": "exp07",
+      "title": "Buprenorphine",
+      "content":
+        "<p>Buprenorphine is a psychotropic substance which has been added to the list of existing psychotropic substances by this <a href='http://www.cbn.nic.in/html/qtynotif.PDF' target='_blank'>notification</a>. The production, manufacture, possession, sale, purchase, transport, import and export of Buprenorphine as well as using it are banned in India with the punishment for carrying them out proportional to the amount of the substance and not the type of activity.<ul><li><b>Small Amount (up to 1 gram)</b>: Rigorous imprisonment for up to one year, and/or fine  up to ten thousand rupees.</li><li><b>Commercial Amount (greater than 20 grams)</b>: Rigorous imprisonment between ten years and twenty years, and fine between one lakh rupees and two lakh rupees. (The Court may impose fine exceeding two lakh rupees by recording reasons in the judgment)</li><li><b>Rigorous imprisonment for up to ten years, and with fine up to one lakh rupees.</li></ul></p>"
+    }, {
+      "id": "exp08",
+      "title": "Diazepam",
+      "content":
+        "<p>Diazepam is a psychotropic substance listed in the Schedule to the NDPS Act. The production, manufacture, possession, sale, purchase, transport, import and export of Amphetamine as well as using it are banned in India with the punishment for carrying them out proportional to the amount of the substance and not the type of activity.<ul><li><b>Small Amount (up to 20 grams)</b>: Rigorous imprisonment for up to one year, and/or fine  up to ten thousand rupees.</li><li><b>Commercial Amount (greater than 500 grams)</b>: Rigorous imprisonment between ten years and twenty years, and fine between one lakh rupees and two lakh rupees. (The Court may impose fine exceeding two lakh rupees by recording reasons in the judgment)</li><li><b>Rigorous imprisonment for up to ten years, and with fine up to one lakh rupees.</li></ul></p>"
+    }, {
+      "id": "exp09",
+      "title": "Drug Search",
+      "content":
+        "<p>Any officer from the Department of central excise, narcotics, customs, or revenue intelligence or any other Department of Central Government including para-military forces or armed forces and who has been authorized by the central law or a Special State Law can conduct a search.</p><p>The officer who is conducting the search must be superior in rank to a peon, constable, or sepoy of the concerned department. However, in cases of licensed manufacturer of drugs or psychotropic substances or controlled substances  the officer should not be below the rank of a sub-inspector.The search is conducted when<ul><li>An officer has reason to believe or has information given by any person that an offence is being committed regarding any narcotic drug, or psychotropic substance, or controlled substance.</li><li>There is information that any document or other article which may furnish evidence of the commission of such offence</li></ul>or any illegally acquired property or any document or other article which may furnish evidence of holding any illegally acquired property which is liable for seizure or freezing or forfeiture is kept or concealed in any building, vehicle, or enclosed place.</p><p>With a search warrant or an authorization by the Magistrate, an officer can <ul><li>Enter and search any such building, vehicle, or place</li><li>Break open any door and remove any obstacle to such entry, in case there is resistance </li><li>Seize such drug or substance, possession of which is punishable under the Act.</li><li>Seize any animal or vehicle that is being used to carry the illegal substance</li><li>Confiscate any document or other article which he has reason to believe may furnish evidence of the commission of any offence punishable under the Act and which can be used as evidence</li><li>Detain and search, and, if he thinks proper, arrest any person whom he has reason to believe to have committed any offence punishable under this Act</li></ul></p><p>However, in cases when the officers believe that a person will conceal evidence or escape, the officer may enter and search such building, vehicle, or enclosed place at any time between sunset and sunrise after recording the grounds of his belief.</p><p>The officer in such a case should send a copy of this writing to the immediate official superior within seventy-two hours.</p>"
+    }, {
+      "id": "exp10",
+      "title": "Stop and Search",
+      "content":
+        "<p>If an authorised officer suspects that any animal or conveyance is about to be used for the transport of any narcotic drug or psychotropic substance or controlled substance against the provisions of this Act, then the officer can:<ul><li>Examine and search any goods on the animal or in the conveyance</li><li>In case it is an aircraft, compel it to land and Rummage and search the conveyance</li></ul>If it becomes necessary to stop the animal or in the conveyance, he may use all lawful means for stopping it and where such means fail the animal, or the conveyance may be fired upon.</p>"
+    }, {
+      "id": "exp11",
+      "title": "Illegal actions pertaining to drugs",
+      "content":
+        "<p></p>"
+    }, {
+      "id": "exp12",
+      "title": "Drug Arrest",
+      "content":
+        "<p></p>"
+    }, {
+      "id": "exp13",
+      "title": "Government license to produce a drug",
+      "content":
+        "<p>If you are licence holder, you can also be punished for violating any of the conditions of the license. You will be punished under the relevant section for that drug or substance and based on the quantity. As a license holder, you can also be punished for:<ul><li>Not maintaining proper accounts or returns</li><li>Not showing the license to a government officer when she asks for it</li><li>Making false accounts or statements knowingly or</li><li>Purposely violating the conditions of a license, permit or authorization even if there is no specific penalty mentioned under the Act</li></ul>Please note that you can also be punished if you are employed by someone who has a license or are an agent of a person who has been granted a license.</p>"
+    }],
+    "qna": [{
+      "id": "qna00",
+      "question": "Can someone go to jail for smoking weed?",
+      "answer": "Yes, if an officer catches you smoking weed, you can be punished with imprisonment up to one year, or a fine of up to Rs. 20,000, or both."
+    }, {
+      "id": "qna01",
+      "question": "I’m a drug addict, and have been caught consuming drugs. Will I be punished or sent to a rehabilitation centre?",
+      "answer": "<p>If you are a drug addict who has been caught consuming small amount of drugs, you could voluntarily seek to undergo medical treatment for de-addiction. The Court will direct that you be released for undergoing such treatment for detoxification or de-addiction from a hospital or an institution maintained or recognised by the government.</p><p>But it is important to note this option is available only if/when you’ve been caught consuming a small quantity. For every other offence, the Act strictly does not allow commutation or reduction of sentence.</p>"
+    }, {
+      "id": "qna02",
+      "question": "What happens when the officers, on fake grounds, search and seize my property and arrest me in the process?",
+      "answer": "<p>The Act provides for punishment of officers who, without reasonable grounds of suspicion, enter or search and seize property and arrest people. Their punishment is of imprisonment up to six months, or fine or both.Any person who gives wrongful information to the officers, who further carry out the search, seizure and arrest on this information, are also punishable with imprisonment for up to two years, fine or both.</p>"
+    }, {
+      "id": "qna03",
+      "question": "Can a seizure of drugs happen in a public place?",
+      "answer": "<p>Yes, a seizure can happen in a public place. The authorised officer in this case, can seize in any public place or in transit and drugs or substances which he suspects is punishable under the Act. He can also seize any animal, conveyance or article, which can be confiscated under this Act. It is also important to note that the officer can detain and search any person who has any drugs or substances in his possession which appears to him as unlawful.</p>"
+    }, {
+      "id": "qna04",
+      "question": "If I’m running away with drugs, can the officer/s shoot at me?",
+      "answer": "<p>If the authorized officer has exhausted all lawful means to stop an animal or conveyance, where he has reason to believe that it is being used for transportation of drugs, only then he can fire upon that animal or conveyance.</p>"
+    }, {
+      "id": "qna05",
+      "question": "What is the difference between seizing order and freezing order?",
+      "answer": "<p>Seizing occurs when an authorized officer conducting an inquiry or investigation, has reason to believe that the property being investigated is likely to be concealed, transferred or dealt with in a manner that might hinder the proceedings relating to the forfeiture of property. Where it is not possible to seize the property, the officer may order to freeze it and it can only be transferred or dealt with, with his permission.</p>"
+    }, {
+      "id": "qna06",
+      "question": "Can I be punished under this law if all I have done is let my friend use my shop to temporarily store drugs?",
+      "answer": "<p>Yes, knowingly letting someone use your house or vehicle for storing or handling illegal drugs is punishable under this law. It is understood as committing of offence itself. You will be punishable with the punishment provided for that offence. Letting someone use your animal or conveyance knowing the purpose for which the animal or conveyance is going to be used is also an offence.</p>"
+    }, {
+      "id": "qna07",
+      "question": "If I have been arrested for a drug related crime, how do I get bail?",
+      "answer": "<p>If the crime you have been accused of involves a small or intermediate quantities of illegal drugs or substances, then you can apply for bail to the police officer. The police officer has to grant you bail if you are able to pay the bail amount and get sureties.</p><p>If the crime you have been accused of involves commercial quantities of illegal drugs or substances, then you cannot automatically get bail. The other types of crimes for which this procedure must be followed is when it involves stealing of opium, dealing drugs abroad, funding trafficking or sheltering someone who is trafficking.</p><p>The police are supposed to produce you before a Magistrate or Special Court within 24 hours after arresting you. You will have to make an application to the Magistrate or Special Court for bail. The public prosecutor (lawyer representing the government) will be given an opportunity to contest your bail. The court can then grant you bail if it is reasonably satisfied that you are innocent and that you are not likely to flee.</p>"
+    }],
     "glossary": [{
       "id": "glos00",
-      "term": "",
-      "definition": ""
+      "term": "Charas",
+      "definition": "The organic substance obtained from the cannabis plant and includes hashish oil or liquid hashish."
+    }, {
+      "id": "glos01",
+      "term": "Ganja",
+      "definition": "Flowering or fruiting tops of the cannabis plant (excludes the seeds and leaves)."
+    }, {
+      "id": "glos02",
+      "term": "Crude cocaine",
+      "definition": "Any extract of coca leaf which can be used for the manufacture of cocaine."
+    }, {
+      "id": "glos03",
+      "term": "Ecgonine",
+      "definition": "Organic chemical found naturally in coca leaves"
+    }, {
+      "id": "glos04",
+      "term": "Opium",
+      "definition": "Solidified juice of the opium poppy"
+    }, {
+      "id": "glos05",
+      "term": "Medicinal opium",
+      "definition": "Opium which has been adapted for medicinal use in accordance with the requirements of the Indian Pharmacopoeia/any other pharmacopoeia notified by the Central Government."
+    }, {
+      "id": "glos06",
+      "term": "Prepared opium",
+      "definition": "Any opium product designed to transform opium into an extract suitable for smoking, and the residue after opium is smoked."
+    }, {
+      "id": "glos07",
+      "term": "Phenanthrene alkaloids",
+      "definition": "Morphine, codeine, thebaine"
+    }, {
+      "id": "glos08",
+      "term": "Diacetylmorphine",
+      "definition": "Heroin"
+    }, {
+      "id": "glos09",
+      "term": "Poppy Straw",
+      "definition": "Any part of the opium poppy plant (not including seeds) after harvest which is usually cut, crushed or powdered. Usually the poppy husk, known as 'bhukki' in some parts."
+    }, {
+      "id": "glos10",
+      "term": "Manufactured drug",
+      "definition": "A manufactured drug is usually a drug where some process has made the drug more concentrated."
+    }, {
+      "id": "glos11",
+      "term": "Psychotropic Substances",
+      "definition": "A psychotropic substance is any substance, natural or synthetic, or any natural material or any salt, compound, mixture or preparation of such substance or material included in the list of psychotropic substances specified in the Schedule of the Narcotic Drugs and Psychotropic Substance Act"
+    }, {
+      "id": "glos12",
+      "term": "Trafficking",
+      "definition": "Dealing or trading in something illegal"
     }]
   },
   "manual-scavenging": {
@@ -1433,8 +1607,80 @@
     ],
     "glossary": [{
       "id": "glos00",
-      "term": "",
-      "definition": ""
+      "term": "Accused Person",
+      "definition": "Someone against whom the charges of crime lie"
+    }, {
+      "id": "glos01",
+      "term": "Arrested Person",
+      "definition": "Someone who is in physical custody of the concerned police officer."
+    }, {
+      "id": "glos02",
+      "term": "Police Officer",
+      "definition": "For the purpose of this law, police officer is the officer in charge of the police station. For example, the Station House Officer."
+    }, {
+      "id": "glos03",
+      "term": "Arrest",
+      "definition": "To capture or keep a person in custody by the authority of law."
+    }, {
+      "id": "glos04",
+      "term": "Arrest memo",
+      "definition": "A document filed by the police at the time of arrest containing details about the name of the arrested person, the time, date and place of arrest along with reasons for the arrest and what the suspected offence is."
+    }, {
+      "id": "glos05",
+      "term": "Inspection memo",
+      "definition": "A short description of an arrested individual’s physical condition when they are brought into custody. It records the general physical condition and major and minor injuries of the person."
+    }, {
+      "id": "glos06",
+      "term": "Summons",
+      "definition": "An official notice issued by the court ordering a person to appear before the court."
+    }, {
+      "id": "glos07",
+      "term": "Cognizable offence",
+      "definition": "An offence where police can arrest without a warrant. These are offences which are of higher degree and require immediate arrest. For example: Rape and Murder. In these cases, the police cannot wait for getting a warrant from the court and then arrest. The police therefore arrests the accused immediately."
+    }, {
+      "id": "glos08",
+      "term": "Non-cognizable offence",
+      "definition": "An offence for which a police officer has no authority to arrest the offender without a warrant. For example: Theft, cheating, defamation."
+    }, {
+      "id": "glos09",
+      "term": "Proclaimed offender",
+      "definition": "A person who fails to appear at the specified place and time as required by the proclamation for an absconding person may be declared as a proclaimed offender by the court."
+    }, {
+      "id": "glos10",
+      "term": "Police control room",
+      "definition": "The place where emergency calls are answered and where the information about arrests are noted. For example: When you call 100, it goes to the police control room."
+    }, {
+      "id": "glos11",
+      "term": "Witness",
+      "definition": "A person who testifies under oath in a trial."
+    }, {
+      "id": "glos12",
+      "term": "Convict",
+      "definition": "A person who has been declared guilty of committing a criminal offence."
+    }, {
+      "id": "glos13",
+      "term": "Warrant",
+      "definition": "An official document authorizing the police or another person to make an arrest, search premises, or carry out some other action."
+    }, {
+      "id": "glos14",
+      "term": "Notice of appearance",
+      "definition": "A notice issued by the police officer (where a person’s arrest is not required) directing a person against whom there is a complaint/information/suspicion to appear before the officer as specified in the notice."
+    }, {
+      "id": "glos15",
+      "term": "Police custody",
+      "definition": "Custody of the police where interrogation of the accused is permitted. Extends up to 15 days."
+    }, {
+      "id": "glos16",
+      "term": "Judicial custody",
+      "definition": "The accused is not in the custody of the police but in judicial custody where interrogation is generally not permitted. Extends up to 60 or 90 days."
+    }, {
+      "id": "glos17",
+      "term": "Charge-sheet",
+      "definition": "A report forwarded by the officer in charge of the police station after investigation, containing details about the parties and the offences."
+    }, {
+      "id": "glos18",
+      "term": "Habeas Corpus",
+      "definition": "It is a petition which can be filed against an illegal arrest or detention. A person can directly file a case against the illegal arrest in the High Court or the Supreme Court."
     }]
   },
   "bail": {
@@ -1543,8 +1789,28 @@
     ],
     "glossary": [{
       "id": "glos00",
-      "term": "",
-      "definition": ""
+      "term": "Bailable offence",
+      "definition": "An offence for which an accused arrested without a warrant or brought before a Court shall be released upon giving bail. Bail is a right of the accused in such offences"
+    }, {
+      "id": "glos01",
+      "term": "Non-bailable offence",
+      "definition": "All other offences where granting bail is the discretion of the court and an application is required to be made in court to grant bail."
+    }, {
+      "id": "glos02",
+      "term": "Bail",
+      "definition": "A person arrested without a warrant or brought before a court can be released on bail. Bail refers to obtaining a release by depositing a sum of money to guarantee that a person will be physically present at the required time before a legal authority."
+    }, {
+      "id": "glos03",
+      "term": "Bail bond",
+      "definition": "Bail bond is the money that a person must deposit with the court when he has gotten a bail to guarantee the presence of the person before the court."
+    }, {
+      "id": "glos04",
+      "term": "Surety",
+      "definition": "Someone who agrees to take responsibility for a person accused of a crime."
+    }, {
+      "id": "glos05",
+      "term": "Anticipatory bail",
+      "definition": "When any person anticipates that he may be arrested on an accusation of having committed a non-bailable offence and applies for bail, a court may direct that in case of such an arrest, he shall be released on bail."
     }]
   },
   "traffic-fines": {
@@ -2100,8 +2366,28 @@
 
     "glossary": [{
       "id": "glos00",
-      "term": "",
-      "definition": ""
+      "term": "Life Interest",
+      "definition": "When someone wills a property in your name which only you can use for your lifetime and limited only to its use and nothing else, you are said to have life interest in the property. For example, Raj passed away and left Hema to use his house for her during her lifetime. Hema is said to have life interest in Raj’s house. However, she does not have ownership rights of that house, she can only use it till she is alive. "
+    }, {
+      "id": "glos01",
+      "term": "Codicil",
+      "definition": "A codicil is a written statement which supplements or modifies an existing will."
+    }, {
+      "id": "glos02",
+      "term": "Testator",
+      "definition": "The person making a will"
+    }, {
+      "id": "glos03",
+      "term": "Will",
+      "definition": "A legal document that clearly sets out your wishes for the how your assets or property are to be distributed after your death"
+    }, {
+      "id": "glos04",
+      "term": "Executor",
+      "definition": "The person to whom you give the duty of carrying out the instructions given in your will, after your death, is called the executor of the will."
+    }, {
+      "id": "glos05",
+      "term": "Probate",
+      "definition": "Probate is the process of proving a will in a court and having it accepted as a valid public document that is the true last testament of the deceased."
     }]
   },
   "rape": {

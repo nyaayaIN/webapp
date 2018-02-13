@@ -7,22 +7,31 @@
 }
 
 .aboutSection {
-  background: #f9f9f9;
+  background: url('./background.svg') center center/cover no-repeat;
   margin: 0 auto;
-  padding: 8.5em 0;
-  text-align: center;
+  min-height: 28em;
+  display: flex;
+}
+
+.aboutUs {
+  width: 100%;
+  align-self: flex-end;
+}
+
+.nilekaniLogo {
+  width: 5em;
+  height: auto;
 }
 
 .aboutTitle {
-  color: #444;
+  color: var(--primary-text-colour);
   font-weight: 500;
 }
 
 .aboutContent {
-  color: #999;
+  color: var(--tertiary-text-colour);
   font-family: var(--font-family-secondary);
-  max-width: 675px;
-  margin: 0 auto;
+  padding-right: 15em;
 }
 
 .teamSection {
@@ -86,7 +95,12 @@
 
 
 @media screen and (width < 850px) {
-
+  .container {
+    padding: 0 1.5em;
+  }
+  .aboutContent {
+    padding-right: 0;
+  }
   .teamMemberImage,
   .teamMemberContent {
     float: none;
