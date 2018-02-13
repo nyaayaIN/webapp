@@ -12,7 +12,6 @@ import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './About.css';
 import about from './content/about.md';
 import team from './content/team.md';
-import mission from './content/mission.md';
 
 import adrija from './content/adrija.md';
 import archana from './content/archana.md';
