@@ -21,3 +21,9 @@
     padding:0.5em;
   }
 }
+
+@media screen and (width < 450px) {
+  .brand {
+    padding:0.25em;
+  }
+}
