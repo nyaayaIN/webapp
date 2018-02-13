@@ -1,12 +1,3 @@
-/**
- * React Starter Kit (https://www.reactstarterkit.com/)
- *
- * Copyright © 2014-present Kriasoft, LLC. All rights reserved.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE.txt file in the root directory of this source tree.
- */
-
 @import '../../components/variables.css';
 
 .container {
@@ -49,51 +40,58 @@
 }
 
 .teamMembers {
-  -ms-box-orient: horizontal;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-flow: wrap row;
-  flex-flow: wrap row;
+  margin: 0;
 }
 
 .teamMember {
-  padding: 15px;
-  width: 30%;
-  margin-top: 10px;
-  text-align: center;
+  margin: 2em 0;
+}
+
+.teamMemberImage {
+  width: 17%;
+  height: auto;
+  float: left;
+  padding: 1.5%;
+  margin: 1em;
+  background: var(--lightest-colour);
+  border: solid 1px var(--neutral-medium-colour);
+}
+
+.teamMember:nth-of-type(2n) .teamMemberImage{
+  float:right;
+}
+
+.teamMemberContent {
+  border: 2px solid transparent;
+  border-image: linear-gradient(190deg,  var(--primary-colour) 10%, var(--secondary-colour));
+  border-image-slice: 1;
+  width: 75%;
+  margin: 0 auto;
 }
 
 .teamMemberName {
-  color: #444;
-  font-weight: bold;
+  padding: 1em 0 0;
+  font-weight: normal;
+  font-size: 1.5em;
+  color: var(--primary-text-colour);
 }
 
 .teamMemberTitle {
-  color: #555;
-  font-weight: 500;
 }
 
 .teamMemberBio {
-  color: #999;
-  font-family: var(--font-family-secondary);
-  font-size: 14px;
+  padding: 1em 2em;
   text-align: justify;
 }
 
-.missionSection {
-  background: #f9f9f9;
-  padding: 5em 0;
-  text-align: center;
-}
 
-.missionContent {
-  color: #999;
-  display: block;
-  font-family: var(--font-family-secondary);
-  margin: 0 auto;
-  max-width: 750px;
+@media screen and (width < 850px) {
+
+  .teamMemberImage,
+  .teamMemberContent {
+    float: none;
+    width: 98%;
+    margin: 0;
+    padding: 0;
+  }
 }

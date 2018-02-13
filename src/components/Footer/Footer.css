@@ -96,3 +96,13 @@
     display: none;
   }
 }
+
+@media screen and (width < 450px) {
+  .company {
+    width: 40%;
+  }
+
+  .terms {
+    width: 60%;
+  }
+}

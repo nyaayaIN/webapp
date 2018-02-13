@@ -50,3 +50,10 @@
     padding: 0 1em;
   }
 }
+
+@media screen and (width < 450px) {
+  .link {
+    font-size: 0.7em;
+    padding:0 0.4em;
+  }
+}

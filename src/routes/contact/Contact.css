@@ -30,28 +30,6 @@
   color: #666;
   display: block;
   margin: 0 auto;
-  max-width: 700px;
+  max-width: 750px;
   text-align: center;
-}
-
-.contactMedia {
-  -ms-box-orient: horizontal;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  margin: 5em 0;
-}
-
-.contactMedium {
-  width: 100px;
-  height: 100px;
-  background: #f0f0f0;
-  text-align: center;
-  margin: 0 15px;
 }

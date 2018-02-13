@@ -45,22 +45,22 @@
     "topics": [
       {
         "name": "Dowry",
-        "image": "",
+        "image": "dowry-thumb.jpg",
         "url": "/topic/dowry"
       },
       {
         "name": "Annulment",
-        "image": "",
+        "image": "annulment-thumb.jpg",
         "url": "/topic/annulment"
       },
       {
         "name": "Domestic Violence",
-        "image": "",
+        "image": "domestic-violence-thumb.jpg",
         "url": "/topic/domestic-violence"
       },
       {
         "name": "Care for Parents and Elderly",
-        "image": "",
+        "image": "care-for-parents-and-elderly-thumb.jpg",
         "url": "/topic/care-for-parents-and-elderly"
       }
     ]
@@ -72,12 +72,12 @@
     "topics": [
       {
         "name": "Smoking",
-        "image": "",
+        "image": "smoking-thumb.jpg",
         "url": "/topic/smoking"
       },
       {
         "name": "Drugs and Narcotics",
-        "image": "",
+        "image": "drugs-and-narcotics-thumb.jpg",
         "url": "/topic/drugs-and-narcotics"
       }
     ]
@@ -89,12 +89,12 @@
     "topics": [
       {
         "name": "Manual Scavenging",
-        "image": "",
+        "image": "manual-scavenging-thumb.jpg",
         "url": "/topic/manual-scavenging"
       },
       {
         "name": "Scheduled Caste and Scheduled Tribes",
-        "image": "",
+        "image": "scheduled-castes-and-scheduled-tribes-thumb.jpg",
         "url": "/topic/scheduled-caste-and-scheduled-tribes"
       }
     ]
@@ -111,17 +111,17 @@
       },
       {
         "name": "Bail",
-        "image": "",
+        "image": "bail-thumb.jpg",
         "url": "/topic/bail"
       },
       {
         "name": "Traffic Fines",
-        "image": "",
+        "image": "traffic-fines-thumb.jpg",
         "url": "/topic/traffic-fines"
       },
       {
         "name": "First Information Report",
-        "image": "",
+        "image": "first-information-report-thumb.jpg",
         "url": "/topic/first-information-report"
       }
     ]
@@ -133,17 +133,17 @@
     "topics": [
       {
         "name": "Censorship",
-        "image": "",
+        "image": "censorship-thumb.jpg",
         "url": "/topic/censorship"
       },
       {
         "name": "Online Abuse",
-        "image": "",
+        "image": "online-abuse-thumb.jpg",
         "url": "/topic/online-abuse"
       },
       {
         "name": "Defamation",
-        "image": "",
+        "image": "defamation-thumb.jpg",
         "url": "/topic/defamation"
       }
     ]
@@ -155,7 +155,7 @@
     "topics": [
       {
         "name": "Online Bank Fraud",
-        "image": "",
+        "image": "online-bank-fraud-thumb.jpg",
         "url": "/topic/online-bank-fraud"
       },
       {
@@ -172,7 +172,7 @@
     "topics": [
       {
         "name": "Rape",
-        "image": "",
+        "image": "rape-thumb.jpg",
         "url": "/topic/rape"
       }
     ]

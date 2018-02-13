@@ -13,12 +13,20 @@ import s from './About.css';
 import about from './content/about.md';
 import team from './content/team.md';
 import mission from './content/mission.md';
+
 import adrija from './content/adrija.md';
 import archana from './content/archana.md';
 import malavika from './content/malavika.md';
 import mustafa from './content/mustafa.md';
 import shonottra from './content/shonottra.md';
 import sumeysh from './content/sumeysh.md';
+
+import adrijaImage from './images/adrija.png';
+import archanaImage from './images/archana.png';
+import malavikaImage from './images/malavika.png';
+import mustafaImage from './images/mustafa.png';
+import shonottraImage from './images/shonottra.png';
+import sumeyshImage from './images/sumeysh.png';
 
 class About extends React.Component {
   render() {
@@ -29,6 +37,14 @@ class About extends React.Component {
       mustafa,
       shonottra,
       sumeysh,
+    ];
+    const teamImages = [
+      adrijaImage,
+      archanaImage,
+      malavikaImage,
+      mustafaImage,
+      shonottraImage,
+      sumeyshImage,
     ];
     return (
       <div>
@@ -50,27 +66,22 @@ class About extends React.Component {
             />
 
             <div className={s.teamMembers}>
-              {teamMembers.map(member => (
-                <div className={s.teamMember}>
-                  <div className={s.teamMemberName}>{member.name}</div>
-                  <div className={s.teamMemberTitle}>{member.title}</div>
-                  <div
-                    className={s.teamMemberBio}
-                    // eslint-disable-next-line react/no-danger
-                    dangerouslySetInnerHTML={{ __html: member.html }}
-                  />
+              {teamMembers.map((member, index) => (
+                <div className={s.teamMember} key={index}>
+                  <img className={s.teamMemberImage} src={teamImages[index]} />
+                  <div className={s.teamMemberContent}>
+                    <div className={s.teamMemberName}>{member.name}</div>
+                    <div className={s.teamMemberTitle}>{member.title}</div>
+                    <div
+                      className={s.teamMemberBio}
+                      // eslint-disable-next-line react/no-danger
+                      dangerouslySetInnerHTML={{ __html: member.html }}
+                    />
+                  </div>
                 </div>
               ))}
             </div>
           </div>
-        </div>
-        <div className={s.missionSection}>
-          <h1 className={s.aboutTitle}>{mission.title}</h1>
-          <div
-            className={s.missionContent}
-            // eslint-disable-next-line react/no-danger
-            dangerouslySetInnerHTML={{ __html: mission.html }}
-          />
         </div>
       </div>
     );
