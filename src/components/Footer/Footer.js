@@ -88,8 +88,7 @@ class Footer extends React.Component {
                 <Link className={s.logo} to="/">
                   <img
                     src={logoUrl}
-                    width="120"
-                    height="95"
+                    width="100"
                     alt={this.state.i18n.slogan}
                   />
                 </Link>

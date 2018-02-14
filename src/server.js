@@ -89,6 +89,59 @@ app.get('/data/categories', (req, res) => {
   res.send(mockCategories.data || {});
 });
 
+
+//
+// Redirects
+// -----------------------------------------------------------------------------
+
+app.get('/law-explainers/making-a-will/', (req, res) => {
+  res.redirect('/topic/will');
+});
+app.get('/children-accused-of-crimes/', (req, res) => {
+  res.redirect('/topic/children-accused-of-crime');
+});
+app.get('/law-explainers/online-abuse/', (req, res) => {
+  res.redirect('/topic/online-abuse');
+});
+app.get('/law-explainers/special-law-on-maintenance-for-senior-citizens/', (req, res) => {
+  res.redirect('/topic/care-for-parents-and-elderly');
+});
+app.get('/law-explainers/film-tv-and-internet-censorship/', (req, res) => {
+  res.redirect('/topic/censorship');
+});
+app.get('/law-explainers/law-on-child-labour/', (req, res) => {
+  res.redirect('/topic/child-labour');
+});
+app.get('/law-explainers/online-bank-fraud/', (req, res) => {
+  res.redirect('/topic/online-bank-fraud');
+});
+app.get('/law-explainers/rape/', (req, res) => {
+  res.redirect('/topic/rape');
+});
+app.get('/law-explainers/manual-scavenging/', (req, res) => {
+  res.redirect('/topic/manual-scavenging');
+});
+app.get('/law-explainers/dowry-act/', (req, res) => {
+  res.redirect('/topic/dowry');
+});
+app.get('/law-explainers/smoking-tobacco/', (req, res) => {
+  res.redirect('/topic/smoking');
+});
+app.get('/law-explainers/anti-corruption/', (req, res) => {
+  res.redirect('/topic/anti-corruption');
+});
+app.get('/law-explainers/right-to-information/', (req, res) => {
+  res.redirect('/topic/right-to-information');
+});
+app.get('/law-explainers/right-to-education/', (req, res) => {
+  res.redirect('/topic/free-and-compulsory-education');
+});
+app.get('/law-explainers/domestic-violence/', (req, res) => {
+  res.redirect('/topic/domestic-violence');
+});
+
+
+
 //
 // Register server-side rendering middleware
 // -----------------------------------------------------------------------------
