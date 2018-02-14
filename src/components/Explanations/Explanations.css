@@ -39,6 +39,7 @@
   font-weight: normal;
   font-size: 0.9em;
   font-family: var(--font-family-secondary);
+  text-transform: capitalize;
 }
 
 .item:hover {
