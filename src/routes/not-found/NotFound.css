@@ -24,12 +24,13 @@
 }
 
 .description {
-
+  line-height: 150%;
 }
 
 .paths {
   display: flex;
 }
+
 .path {
   align-self: flex-start;
   padding: 1em;

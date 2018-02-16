@@ -9,7 +9,7 @@
 }
 
 .menu {
-  box-shadow:2px 0 2px -1px rgba(50, 50, 50, 0.25), -2px 0 2px -1px rgba(50, 50, 50, 0.25);
+  box-shadow: 2px 0 2px -1px var(--shadow-colour), -2px 0 2px -1px var(--shadow-colour);
   width: 27.75%;
   list-style-type: none;
   margin: 0;
@@ -47,11 +47,11 @@
 }
 
 .title {
-  color:var(--primary-text-colour);
+  color: var(--primary-text-colour);
   font-weight: 500;
   font-size: 1.5em;
   margin: 0;
-  padding: 1em 0.75em 0 ;
+  padding: 1em 0.75em 0;
 }
 
 .content {
@@ -69,19 +69,21 @@
   border-bottom: solid 1px var(--neutral-medium-colour);
 }
 
-
 @media screen and (width < 850px) {
   .root {
     flex-direction: column;
   }
+
   .menu,
   .explanation {
     width: 100%;
   }
+
   .menuHeading,
   .item {
     text-align: left;
   }
+
   .title,
   .content {
     padding: 0 1em;

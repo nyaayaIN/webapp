@@ -60,10 +60,12 @@
   .root {
     max-width: 178px;
   }
+
   .link {
     font-size: 0.7em;
-    padding:0 0.4em;
+    padding: 0 0.4em;
   }
+
   .secondary {
     display: none;
   }

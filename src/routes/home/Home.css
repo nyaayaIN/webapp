@@ -58,9 +58,8 @@
   margin: 1em 0;
 }
 
-
 @media screen and (width < 850px) {
   .story {
-    padding:0 1em;
+    padding: 0 1em;
   }
 }
