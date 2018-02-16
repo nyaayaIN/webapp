@@ -21,7 +21,7 @@ class QnA extends React.Component {
 
   render() {
     return (
-      <div className={s.root}>
+      <div className={s.root} id="qna">
         <div className={s.container}>
           <div className={s.title}>Questions and Answers</div>
           <div className={s.subtitle}>Click on a question to view the answer</div>

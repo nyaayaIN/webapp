@@ -1,12 +1,3 @@
-/**
- * React Starter Kit (https://www.reactstarterkit.com/)
- *
- * Copyright © 2014-present Kriasoft, LLC. All rights reserved.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE.txt file in the root directory of this source tree.
- */
-
 @import '../../components/variables.css';
 
 .root {
@@ -18,4 +9,28 @@
   margin: 0 auto;
   padding: 0 0 40px;
   max-width: var(--max-content-width);
+}
+
+.title {
+  font-weight: 100;
+  font-size: 3.5em;
+}
+
+.subtitle {
+  font-size: 1.75em;
+  font-weight: 300;
+  font-family: var(--font-family-base);
+  max-width: 650px;
+}
+
+.description {
+
+}
+
+.paths {
+  display: flex;
+}
+.path {
+  align-self: flex-start;
+  padding: 1em;
 }

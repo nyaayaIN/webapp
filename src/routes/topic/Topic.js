@@ -38,6 +38,12 @@ class Topic extends React.Component {
     }).isRequired,
   };
 
+  handleClick = event => {
+    event.preventDefault();
+    const sectionId = event.target.attributes.getNamedItem('data-scroll').value;
+    document.getElementById(sectionId).scrollIntoView(true);
+  };
+
   render() {
     const summary = {
       title: this.props.name,
@@ -46,11 +52,35 @@ class Topic extends React.Component {
     return (
       <div className={s.root}>
         <Hero content={summary} style="bottom" image={S3+this.props.hero} theme="dark"/>
+
+        <div className={s.topMenu}>
+          <div className={s.container}>
+            <button
+                className={s.menuItem}
+                data-scroll="explanations"
+                onClick={this.handleClick} >
+              Explanations
+            </button>
+            <button
+                className={s.menuItem}
+                data-scroll="qna"
+                onClick={this.handleClick} >
+              Questions
+            </button>
+            <button
+                className={s.menuItem}
+                data-scroll="glossary"
+                onClick={this.handleClick} >
+              Glossary
+            </button>
+          </div>
+        </div>
+
         <Explanations
           collection={this.props.explanations}
           chosen={this.props.chosen.explanation}
         />
-        
+
         <QnA collection={this.props.qna} />
 
         <Glossary

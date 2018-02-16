@@ -94,52 +94,114 @@ app.get('/data/categories', (req, res) => {
 // Redirects
 // -----------------------------------------------------------------------------
 
-app.get('/law-explainers/making-a-will/', (req, res) => {
-  res.redirect('/topic/will');
-});
+// Children accused of Crime
 app.get('/children-accused-of-crimes/', (req, res) => {
   res.redirect('/topic/children-accused-of-crime');
 });
-app.get('/law-explainers/online-abuse/', (req, res) => {
-  res.redirect('/topic/online-abuse');
-});
-app.get('/law-explainers/special-law-on-maintenance-for-senior-citizens/', (req, res) => {
-  res.redirect('/topic/care-for-parents-and-elderly');
-});
-app.get('/law-explainers/film-tv-and-internet-censorship/', (req, res) => {
-  res.redirect('/topic/censorship');
-});
+// Child Labour
 app.get('/law-explainers/law-on-child-labour/', (req, res) => {
   res.redirect('/topic/child-labour');
 });
-app.get('/law-explainers/online-bank-fraud/', (req, res) => {
-  res.redirect('/topic/online-bank-fraud');
-});
-app.get('/law-explainers/rape/', (req, res) => {
-  res.redirect('/topic/rape');
-});
-app.get('/law-explainers/manual-scavenging/', (req, res) => {
-  res.redirect('/topic/manual-scavenging');
-});
-app.get('/law-explainers/dowry-act/', (req, res) => {
-  res.redirect('/topic/dowry');
-});
-app.get('/law-explainers/smoking-tobacco/', (req, res) => {
-  res.redirect('/topic/smoking');
-});
-app.get('/law-explainers/anti-corruption/', (req, res) => {
-  res.redirect('/topic/anti-corruption');
-});
-app.get('/law-explainers/right-to-information/', (req, res) => {
-  res.redirect('/topic/right-to-information');
-});
+// Free and Compulsory Education
 app.get('/law-explainers/right-to-education/', (req, res) => {
   res.redirect('/topic/free-and-compulsory-education');
 });
+// Anti-corruption
+app.get('/law-explainers/anti-corruption/', (req, res) => {
+  res.redirect('/topic/anti-corruption');
+});
+// Right to Information
+app.get('/law-explainers/right-to-information/', (req, res) => {
+  res.redirect('/topic/right-to-information');
+});
+// Dowry
+app.get('/law-explainers/dowry-act/', (req, res) => {
+  res.redirect('/topic/dowry');
+});
+// Annulment
+app.get('/guide-to-marriage-divorce-and-maintenance/separation-and-divorce/hindu-law/nullity/', (req, res) => {
+  res.redirect('/topic/annulment');
+});
+app.get('/guide-to-marriage-divorce-and-maintenance/separation-and-divorce/christian-law/nullity/', (req, res) => {
+  res.redirect('/topic/annulment');
+});
+app.get('/guide-to-marriage-divorce-and-maintenance/separation-and-divorce/muslim-law/nullity/', (req, res) => {
+  res.redirect('/topic/annulment');
+});
+app.get('/guide-to-marriage-divorce-and-maintenance/separation-and-divorce/parsi-law/nullity/', (req, res) => {
+  res.redirect('/topic/annulment');
+});
+app.get('/guide-to-marriage-divorce-and-maintenance/separation-and-divorce/law-on-civil-marriages/nullity/', (req, res) => {
+  res.redirect('/topic/annulment');
+});
+// Domestic Violence
 app.get('/law-explainers/domestic-violence/', (req, res) => {
   res.redirect('/topic/domestic-violence');
 });
-
+// Care for Parents and Elderly
+app.get('/law-explainers/special-law-on-maintenance-for-senior-citizens/', (req, res) => {
+  res.redirect('/topic/care-for-parents-and-elderly');
+});
+// Smoking
+app.get('/law-explainers/smoking-tobacco/', (req, res) => {
+  res.redirect('/topic/smoking');
+});
+// Drugs and Narcotics
+// Manual Scavenging
+app.get('/law-explainers/manual-scavenging/', (req, res) => {
+  res.redirect('/topic/manual-scavenging');
+});
+// Scheduled Caste and Scheduled Tribes
+app.get('/law-explainers/28/atrocities-against-scheduled-castes-tribes/', (req, res) => {
+  res.redirect('/topic/scheduled-caste-and-scheduled-tribes');
+});
+// Arrest
+app.get('/crpc/accused/explainer/arrest', (req, res) => {
+  res.redirect('/topic/arrest');
+});
+app.get('/crpc/accused/explainer/arrest', (req, res) => {
+  res.redirect('/topic/arrest');
+});
+// Bail
+app.get('/crpc/accused/explainer/bail', (req, res) => {
+  res.redirect('/topic/bail');
+});
+// First Information Report
+app.get('/crpc/victim/explainer/about-firs', (req, res) => {
+  res.redirect('/topic/first-information-report');
+});
+// Censorship
+app.get('/law-explainers/film-tv-and-internet-censorship/', (req, res) => {
+  res.redirect('/topic/censorship');
+});
+// Online Abuse
+app.get('/law-explainers/online-abuse/', (req, res) => {
+  res.redirect('/topic/online-abuse');
+});
+// Defamation
+app.get('/law-explainers/defamation/', (req, res) => {
+  res.redirect('/topic/defamation');
+});
+// Online Bank Fraud
+app.get('/law-explainers/online-bank-fraud/', (req, res) => {
+  res.redirect('/topic/online-bank-fraud');
+});
+// Will
+app.get('/law-explainers/making-a-will/', (req, res) => {
+  res.redirect('/topic/will');
+});
+// Rape
+app.get('/law-explainers/rape/', (req, res) => {
+  res.redirect('/topic/rape');
+});
+// Prostitution
+app.get('/law-explainers/law-on-sex-work/', (req, res) => {
+  res.redirect('/topic/prostitution');
+});
+// Sexual Harassment at the Workplace
+app.get('/law-explainers/sexual-harassment/', (req, res) => {
+  res.redirect('/topic/sexual-harassment-at-the-workplace');
+});
 
 
 //

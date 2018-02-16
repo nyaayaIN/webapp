@@ -16,76 +16,53 @@ class Explanations extends React.Component {
 
   constructor(props) {
     super();
-    let explanationClasses = [];
-    props.collection.map((explanation, index) =>(
-      explanationClasses.push(index === props.chosen ?
-                                s.explanation + " " + s.active :
-                                s.explanation)
-    ));
+    const scrollToExplanation = false;
     this.state = {
-      chosenIndex: props.chosen,
-      explanationClasses : explanationClasses
+      chosenIndex: props.chosen || 0,
+      scrollToExplanation: props.chosen ? true : false
     };
   }
 
-  componentDidUpdate() {
-    if(this.props.collection.length!=this.state.explanationClasses.length){
-      const newClasses = [];
-      this.props.collection.map((explanation, index) =>(
-        newClasses.push(index === this.props.chosen ? s.explanation + " " + s.active : s.explanation)
-      ));
-      this.setState({
-        explanationClasses: newClasses
-      });
+  componentDidMount() {
+    if(this.state.scrollToExplanation) {
+      document.getElementById("explanation").scrollIntoView(true);
     }
   }
 
   handleClick = event => {
     event.preventDefault();
-    let newClasses = this.state.explanationClasses
-
-    const id = event.target.attributes.getNamedItem('data-id').value;
-
-    newClasses[this.state.chosenIndex] = s.explanation;
-    newClasses[id] = s.explanation + " " + s.active;
-
     this.setState({
-      chosenIndex: id,
-      explanationClasses: newClasses
+      chosenIndex: event.target.attributes.getNamedItem('data-id').value
     });
+    document.getElementById("explanation").scrollIntoView(true);
   };
 
   render() {
     return (
-      <div className={s.root}>
-        <div className={s.collection}>
-          {this.props.collection.map((explanation, index) => (
-            <div  className={this.state.explanationClasses[index]}
-                  data-explanation={index}
-                  key={explanation.id}>
-              <h2 className={s.title}>{explanation.title}</h2>
-              <div
-                className={s.content}
-                // eslint-disable-next-line react/no-danger
-                dangerouslySetInnerHTML={{
-                  __html: explanation.content,
-                }}
-              />
-            </div>
-          ))}
-        </div>
-        <div className={s.menu}>
-          <div className={s.menuHeading}>Contents</div>
-          {this.props.collection.map((explanation, index) => (
-            <button
-              className={s.item}
-              onClick={this.handleClick}
-              key={explanation.id}
-              data-id={index}
-            >
-              {explanation.title}
-            </button>
-          ))}
+      <div className={s.root} id="explanations">
+      <div className={s.menu}>
+        {this.props.collection.map((explanation, index) => (
+          <button
+            className={s.item}
+            onClick={this.handleClick}
+            key={explanation.id}
+            data-id={index}
+          >
+            {explanation.title}
+          </button>
+        ))}
+      </div>
+        <div className={s.explanation} id="explanation">
+            <h2 className={s.title}>
+                  {this.props.collection[this.state.chosenIndex].title}
+            </h2>
+            <div
+              className={s.content}
+              // eslint-disable-next-line react/no-danger
+              dangerouslySetInnerHTML={{
+                __html: this.props.collection[this.state.chosenIndex].content,
+              }}
+            />
         </div>
       </div>
     );
