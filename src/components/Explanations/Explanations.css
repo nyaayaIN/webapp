@@ -8,26 +8,16 @@
   flex-direction: row;
 }
 
-.collection {
-  width: 70%;
-}
-
 .menu {
-  box-shadow:3px 0 4px -1px rgba(50, 50, 50, 0.25), -3px 0 2px -1px rgba(50, 50, 50, 0.25);
-  width: 30%;
+  box-shadow:2px 0 2px -1px rgba(50, 50, 50, 0.25), -2px 0 2px -1px rgba(50, 50, 50, 0.25);
+  width: 27.75%;
   list-style-type: none;
   margin: 0;
   padding: 1.5em 0;
 }
 
-.menuHeading {
-  text-align: right;
-  font-weight: 500;
-  padding: 0 1em;
-}
-
 .item {
-  text-align: right;
+  text-align: left;
   cursor: pointer;
   color: var(--primary-text-colour);
   display: block;
@@ -36,9 +26,10 @@
   margin: 0;
   padding: 0.5em 1em;
   width: 100%;
+  line-height: 150%;
   font-weight: normal;
-  font-size: 0.9em;
-  font-family: var(--font-family-secondary);
+  font-size: 1em;
+  font-family: var(--font-family-base);
   text-transform: capitalize;
 }
 
@@ -52,12 +43,7 @@
 }
 
 .explanation {
-  display: none;
-  padding: 2em 1em 2em 0 ;
-}
-
-.explanation.active {
-  display: block;
+  width: 72.25%;
 }
 
 .title {
@@ -65,13 +51,13 @@
   font-weight: 500;
   font-size: 1.5em;
   margin: 0;
-  padding: 0;
+  padding: 1em 0.75em 0 ;
 }
 
 .content {
   line-height: 175%;
   font-family: var(--font-family-secondary);
-  padding: 0.5em 1em 0.5em 0;
+  padding: 0 1em 1em;
 }
 
 .content table {
@@ -86,10 +72,10 @@
 
 @media screen and (width < 850px) {
   .root {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
   .menu,
-  .collection {
+  .explanation {
     width: 100%;
   }
   .menuHeading,

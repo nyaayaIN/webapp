@@ -38,7 +38,7 @@ class Glossary extends React.Component {
 
   render() {
     return (
-      <div className={s.root}>
+      <div className={s.root} id="glossary">
         <div className={s.container}>
           <div className={s.title}>Glossary</div>
           <div className={s.glossarySection}>
