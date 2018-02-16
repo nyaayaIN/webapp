@@ -30,7 +30,7 @@
 .categoryLink {
   color: var(--lightest-colour);
   display: block;
-  font-size: 0.85em;
+  font-size: 0.75em;
   font-weight: normal;
   text-decoration: none;
   text-transform: capitalize;
@@ -39,12 +39,16 @@
 
 .topic {
   display: block;
-  color: var(--neutral-light-colour);
-  font-size: 0.75em;
+  color: var(--lighter-colour);
+  font-size: 0.65em;
   line-height: 1.25em;
   padding: 0.25em 0;
   font-weight: 100;
   text-decoration: none;
+}
+
+.topic:hover {
+  color: var(--lightest-colour);
 }
 
 .text {
