@@ -17,7 +17,7 @@
 }
 
 .menuItem {
-  border-left: solid 1px rgba(255,255,255,0.5);
+  border-left: solid 1px var(--lighter-colour);
   border-right: none;
   border-top: none;
   border-bottom: none;
@@ -31,7 +31,7 @@
 }
 
 .menuItem:last-child {
-  border-right: solid 1px rgba(255,255,255,0.5);
+  border-right: solid 1px var(--lighter-colour);
 }
 
 .menuItem:hover {

@@ -107,4 +107,6 @@
   --tertiary-text-colour: #444451;
   --lightest-colour: #fff;
   --darkest-colour: #444451;
+  --lighter-colour: rgba(255, 255, 255, 0.5);
+  --shadow-colour: rgba(50, 50, 50, 0.25);
 }
