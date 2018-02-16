@@ -1,21 +1,20 @@
 {
   "children-accused-of-crime": {
     "name": "Children Accused of Crime",
-    "summary":
-      "Indian law takes care of children who have committed crimes and ensures that they are dealt in a more friendly manner rather than the normal criminal procedure and have lesser punishments. The law also protects children who have been victims of various crimes by having special provisions from them.",
+    "summary":"Indian law deals with children who have committed crimes in a more friendly manner than how the normal criminal procedure does and has lesser punishments. The law also protects children who have been victims of various crimes by having special provisions from them.",
     "image": "",
     "explanations": [
       {
         "id": "exp00",
         "title": "Protection of Children",
         "content":
-          "<p> It is the responsibility of the Board to ensure that proceedings of a case where the accused is a child, are the least intimidating and as child-friendly as possible. So, the Board works to ensure informed consent and participation of the child and family at each stage. It has an interpreter or translator and assured legal aid for children in need. </p> <p> The Board can conduct jail visits to check if children are accidentally lodged there. It must inspect the facilities for children at least once a month to check on their upkeep. Similar to the magistrate, the Board can also order the lodging of an FIR for offences committed against children. </p> "
+          "<p> It is the responsibility of the Board to ensure that the proceedings of a case where the accused is a child, are the least intimidating and as child-friendly as possible. So, the Board works to ensure informed consent and participation of the child and family at each stage. It has an interpreter or translator and assured legal aid for children in need. </p> <p> The Board can conduct jail visits to check if children are accidentally lodged there. It must inspect the facilities for children at least once a month to check on their upkeep and well-being. Similar to the Magistrate, the Board can also order the lodging of an FIR for offences committed against children. </p> "
       },
       {
         "id": "exp01",
         "title": "Classification of crimes",
         "content":
-          "<p> Crimes committed by children are seen along the lines of three categories based on the seriousness of crime: <ul> <li> <b>Petty Offences:</b> Crimes for which maximum punishment is imprisonment up to 3 years. These include crimes such as assault, causing simple hurt, theft, forgery etc </li> <li> <b>Serious Offences:</b> Crimes for which punishment between 3 to 7 years’ imprisonment. These include crimes such as the attempt to commit culpable homicide, causing grievous hurt, cheating etc. </li> <li> <b>Heinous Offences:</b> Crimes for which punishment is imprisonment for 7 years or more. </li> </ul> <p> These include crimes such as murder, rape, dacoity etc. For a full list of such offences, <a href='https://www.nls.ac.in/ccl/jjdocuments/punishment7years.pdf' target='_blank' rel='noopener noreferrer'>read this chart</a> read this chart prepared by a university research centre. </p> "
+          "<p> Crimes committed by children are seen along the lines of three categories based on the seriousness of crime: <ul> <li> <b>Petty Offences:</b> Crimes for which maximum punishment is imprisonment up to 3 years. These include crimes such as assault, causing simple hurt, theft, forgery etc </li> <li> <b>Serious Offences:</b> Crimes for which punishment is between 3 to 7 years’ imprisonment. These include crimes such as the attempt to commit culpable homicide, causing grievous hurt, cheating etc. </li> <li> <b>Heinous Offences:</b> Crimes for which the punishment is imprisonment for 7 years or more. These include crimes such as murder, rape, dacoity etc. For a full list of such offences, <a href='https://www.nls.ac.in/ccl/jjdocuments/punishment7years.pdf' target='_blank' rel='noopener noreferrer'>read this chart</a> prepared by a university research centre. </li></ul> </p> "
       },
       {
         "id": "exp02",
@@ -27,7 +26,7 @@
         "id": "exp03",
         "title": "FIR Registration",
         "content":
-          "<p> Please see <a href='/topic/children-accused-of-crime?explanation=1'>our classification of crimes</a> to understand if an FIR needs to be registered<b>Petty Offences:</b> No registration of an FIR is required </p>  <p> <b>Serious Offences:</b> No registration of an FIR is required (They are supposed to record it in the general diary along with the social background report for these two types of offences) </p>  <p> <b>Heinous Offence:</b> An FIR needs to be filed against a child </p> "
+          "<p> Please see <a href='/topic/children-accused-of-crime?explanation=1'>our classification of crimes</a> to understand if an FIR needs to be registered.</p> <p><b>Petty Offences:</b> No registration of an FIR is required. </p>  <p> <b>Serious Offences:</b> No registration of an FIR is required (They are supposed to record it in the general diary along with the social background report for these two types of offences). </p>  <p> <b>Heinous Offence:</b> An FIR needs to be filed against a child. </p> "
       },
       {
         "id": "exp04",
@@ -39,13 +38,13 @@
         "id": "exp05",
         "title": "Children’s Court ",
         "content":
-          "<p> When the Board decides that a child should be tried as an adult after a Preliminary Assessment, it sends the case to a Children’s Court. The Children’s Court may be an existing Sessions Court that is dealing with child-specific laws, or a special court set up for the purpose of dealing with crimes under the Juvenile Justice Act. The Children’s Court may do one of two things:<ol><li>It may decide that the child must be treated like an adult for the trial, and then conduct a regular trial and pass final judgment. While the Children’s Court can generally pass the maximum sentence for a Heinous Offence (i.e., it can pass a sentence of more than 3 years), it cannot award the death penalty or life imprisonment without the possibility of release in such cases. </li> <li> It may decide that there is no need to conduct a trial as an adult and may conduct an inquiry like the Board, passing orders under Section 18 of the Juvenile Justice Act</li></ol> </p> <p> In all proceedings, the Children’s Court must ensure a child-friendly atmosphere is maintained. It must also ensure that the child is sent to a Place of Safety if detained during proceedings. If she is found guilty of a having committed the Heinous Offence, she will be sent to the Place of Safety until she becomes 21 years old, after which she can be sent to jail. The child should have access to reformative services (like education, skill development) when she is at the Place of Safety. </p> "
+          "<p> When the Board decides that a child should be tried as an adult after a Preliminary Assessment, it sends the case to a Children’s Court. The Children’s Court may be an existing Sessions Court that is dealing with child-specific laws, or a special court set up for the purpose of dealing with crimes under the Juvenile Justice Act. The Children’s Court may do one of two things:<ol><li>It may decide that the child must be treated like an adult for the trial, and then conduct a regular trial and pass final judgment. While the Children’s Court can generally pass the maximum sentence for a Heinous Offence (i.e., it can pass a sentence of more than 3 years), it cannot award the death penalty or life imprisonment without the possibility of release in such cases. </li> <li> It may decide that there is no need to conduct a trial as an adult and may conduct an inquiry like the Board, passing orders under Section 18 of the Juvenile Justice Act.</li></ol> </p> <p> In all proceedings, the Children’s Court must ensure a child-friendly atmosphere is maintained. It must also ensure that the child is sent to a Place of Safety if detained during proceedings. If she is found guilty of a having committed the Heinous Offence, she will be sent to the Place of Safety until she becomes 21 years old, after which she can be sent to jail. The child should have access to reformative services (like education, skill development) when she is at the Place of Safety. </p> "
       },
       {
         "id": "exp06",
         "title": "Punishment",
         "content":
-          "<p> The punishments that can be awarded by the Board for <a href='/topic/children-accused-of-crime?explanation=1'>Petty Offences and Serious Offences</a>: <ul> <li> Giving the child a firm warning, letting the child go home while simultaneously counselling the parents </li> <li> Ordering the child to attend group counselling sessions </li> <li> Ordering the child to perform supervised community service </li> <li> Ordering the parents or guardians to pay fine. </li> <li> Releasing the child on probation. The parents or guardians will have to execute a bond (up to 3 years) which may include surety and be responsible for the child’s behaviour. The responsibility can also be handed over to a ‘fit person’ or ‘fit facility’ which is a recognized person or government organization or NGO which is prepared to accept the child’s responsibility. </li> <li> Sending the child to a Special Home for up to three years. </li> </ul>  </p> <p> If the Board thinks that keeping the child in the Special Home would be against their best interests or other children in that home, then the child could be sent to a Place of Safety. The Board may also pass orders directing the child to attend school or vocational training, or preventing the child from going to a specified place. </p> <p> The law does focus on ensuring rehabilitation of children and The Board or the Children’s Court has to develop an Individual Care Plan and monitor its implementation. An Individual Care Plan are is an overall development plan addressing issues like health and nutrition needs, emotional and educational needs. </p> "
+          "<p> The punishments that can be awarded by the Board for <a href='/topic/children-accused-of-crime?explanation=1'>Petty Offences and Serious Offences</a>: <ul> <li> Giving the child a firm warning, letting the child go home while simultaneously counselling the parents </li> <li> Ordering the child to attend group counselling sessions </li> <li> Ordering the child to perform supervised community service </li> <li> Ordering the parents or guardians to pay a fine. </li> <li> Releasing the child on probation. The parents or guardians will have to execute a bond (up to 3 years) which may include surety and be responsible for the child’s behaviour. The responsibility can also be handed over to a ‘fit person’ or ‘fit facility’ which is a recognized person or government organization or NGO which is prepared to accept the child’s responsibility. </li> <li> Sending the child to a Special Home for up to three years. </li> </ul>  </p> <p> If the Board thinks that keeping the child in the Special Home would be against their best interests or other children in that home, then the child could be sent to a Place of Safety. The Board may also pass orders directing the child to attend school or vocational training, or preventing the child from going to a specified place. </p> <p> The law does focus on ensuring rehabilitation of children and The Board or the Children’s Court has to develop an Individual Care Plan and monitor its implementation. An Individual Care Plan is a development plan addressing issues like health, nutrition, emotional and educational needs. </p> "
       },
       {
         "id": "exp07",
@@ -59,7 +58,7 @@
         "id": "qna00",
         "question": "Can children be arrested?",
         "answer":
-          "<p> Yes, the police can arrest children if they believe they have committed a crime. Typically, police stations will have a child welfare protection officer and in each district and city, there will be at least one special juvenile police unit. When the police arrest a child on suspicion of committing a crime, this should normally be done by a Special Juvenile Police Unit. If a regular police officer arrests the child, then the child should immediately be placed under the care of the Juvenile Police Unit, or a designated Child Welfare Police Officer. </p> <p> The police can also arrest children who have run away from an institution where they were placed under the JJ Act, such as an Observation Home, Special Home or Place of Safety. </p> <p> In certain circumstances (for example, with respect to habitual thieves), the Magistrate can order that adults be detained in prison if they do not execute a bond for good behaviour or peace. Even though arrests of children are allowed, the Magistrate cannot order a similar detention with respect to children. </p> "
+          "<p> Yes, the police can arrest children if they believe they have committed a crime. Typically, police stations will have a child welfare protection officer and in each district and city, there will be at least one special juvenile police unit. When the police arrest a child on suspicion of committing a crime, this should normally be done by a Special Juvenile Police Unit. If a regular police officer arrests the child, then the child should immediately be placed under the care of the Juvenile Police Unit, or a designated Child Welfare Police Officer. </p> <p> The police can also arrest children who have run away from an institution where they were placed under the Juvenile Justice Act, such as an Observation Home, Special Home or Place of Safety. </p> <p> In certain circumstances (for example, with respect to habitual thieves), the Magistrate can order that adults be detained in prison if they do not execute a bond for good behaviour or peace. Even though arrests of children are allowed, the Magistrate cannot order a similar detention with respect to children. </p> "
       },
       {
         "id": "qna01",
@@ -71,7 +70,7 @@
         "id": "qna02",
         "question": "Can the police arrest me without telling my parents?",
         "answer":
-          "<p> The police have a duty to tell your parents or guardians why you have been arrested. They can ask the police for the charges under which you have been arrested. </p> <p> If the police have registered an FIR (or first information report), they have a duty to give your parents or guardians a copy of this FIR [Rule 8(3)(iii), Model Rules]. An FIR is the document prepared by the police when they get any information about a crime that has occurred. </p> "
+          "<p> The police have a duty to tell your parents or guardians why you have been arrested. They can ask the police for the charges under which you have been arrested. </p> <p> If the police have registered an FIR (or first information report), they have a duty to give your parents or guardians a copy of this FIR. An FIR is the document prepared by the police when they get any information about a crime that has occurred. </p> "
       },
       {
         "id": "qna03",
@@ -88,7 +87,7 @@
       {
         "id": "qna05",
         "question":
-          "If i was under 18 when I committed the crime but over 18 when I was arrested, how will I be tried?",
+          "If I was under 18 when I committed the crime but over 18 when I was arrested, how will I be tried?",
         "answer":
           "<p> You will be treated as a child who is 'in conflict with the law' and tried accordingly as you were under 18 when the crime happened. </p> "
       },
@@ -97,7 +96,7 @@
         "question":
           "Can my 5 or 6 year old child be seen as a criminal in the eyes of the law?",
         "answer":
-          "<p> Children under 7 years are completely excluded from criminal law, and children between ages 7 to 12 are excluded if the courts thought that they did not understand the consequence of their actions. The term used in such cases is ‘doli incapax’ which means a child is incapable of understanding the consequences of a crime and hence is considered under one of the general exceptions to treating someone as a criminal under Indian Penal Code. </p> "
+          "<p> Children under 7 years are completely excluded from criminal law, and children between ages 7 to 12 are excluded if the courts thought that they did not understand the consequence of their actions. The term used in such cases is ‘doli incapax’ which means a child is incapable of understanding the consequences of a crime. </p> "
       }
     ],
     "glossary": [
@@ -220,12 +219,12 @@
       {
         "id": "glos00",
         "term": "Adolescent",
-        "definition": "A child who falls under the age group 14 to 18"
+        "definition": "A child who falls under the age group 14 to 18."
       },
       {
         "id": "glos01",
         "term": "Child",
-        "definition": "A person who is below the age of 14"
+        "definition": "A person who is below the age of 14."
       },
       {
         "id": "glos02",
@@ -738,7 +737,7 @@
     }, {
       "id": "exp01",
       "title": "Victim of Domestic Abuse and Abuser",
-      "content": "<p> Any woman who has suffered domestic abuse at the hands of an offender will be considered a victim under this Act. Currently, men cannot be considered as victims of domestic abuse. </p> <p> Any adult male who currently is in, or has been in a domestic relationship with the victim who has filed a complaint, can be an offender/abuser. Any relative of such male or any male or female family member of the victim can also be considered an abuser. </p> "
+      "content": "<p> A woman should have been in a domestic relationship with the offender. She need not only be a married woman. A woman in a live-in-relationship can also file a case. She should have lived with the offender in a shared household. </p> <p> Any adult male who currently is in, or has been in a domestic relationship with the victim who has filed a complaint, can be an offender/abuser. Any relative of such male or any male or female family member of the victim can also be considered an abuser. </p> "
     }, {
       "id": "exp02",
       "title": "Maintaining Privacy",
