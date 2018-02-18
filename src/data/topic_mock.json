@@ -2003,7 +2003,7 @@
     "explanations": [{
         "id": "exp00",
         "title": "Stopping the Abuse",
-        "content": "<p> Online abuse happens on various platforms on the internet - social media, chat, forums etc. When faced with online abuse, your first step should see what the policy of the platform where the abuse is happening, is and what steps the platform recommends for you to stop it. We have compiled a list of steps you can take for responding to abuse on facebook, facebook messenger, twitter, instagram, snapchat, reddit, youtube, whatsapp and text messages on your phone. </p> <p>  If the administrators of theplatform are not being responsive or you are unhappy with the results, then you can also file a criminal complaint at the local police station or cyber investigation cell. When you file an FIR, the police has to file the FIR and note down the information provided by you. Read more here. There are different provisions in the general law on crimes (the Indian Penal Code, 1860) and the law on information technology (the Information Technology Act, 2000) which make posting private pictures without your permission a crime. </p> "
+        "content": "<p> Online abuse happens on various platforms on the internet - social media, chat, forums etc. When faced with online abuse, your first step should be to see what the policy of the platform where the abuse is happening is, and what steps the platform recommends for you to stop it. We have compiled a list of steps you can take for responding to abuse on facebook, facebook messenger, twitter, instagram, snapchat, reddit, youtube, whatsapp and text messages on your phone. </p> <p>  If the administrators of the platform are not being responsive or you are unhappy with the results, then you can also file a criminal complaint at the local police station or cyber investigation cell. When you go to the police station to file an FIR, the police has to note down the information provided by you. There are different provisions in the general law on crimes (the Indian Penal Code, 1860) and the law on Information Technology (the Information Technology Act, 2000) which make posting private pictures without your permission a crime. </p> "
     }, {
         "id": "exp01",
         "title": "Account Takeover or Unauthorized Access",
@@ -2011,7 +2011,7 @@
     }, {
         "id": "exp02",
         "title": "Personal photos/videos of you",
-        "content": "<p> Section 66E of the Information Technology Act deals with violation of privacy. It is a crime to take pictures of a person’s private area, share them or publish them without their consent. The punishment can be jail for up to three years or up to two lakh rupees in fine or both. </p> <p> It is a crime to circulate pictures view and/or capture the image of a woman going about her private acts, where she thinks that no one is watching her and this act is known as Voyeurism under Section 354C of the Indian Penal Code.  </p> "
+        "content": "<p> Section 66E of the Information Technology Act deals with violation of privacy. It is a crime to take pictures of a person’s private area, share them or publish them without their consent. The punishment can be jail for up to three years or up to two lakh rupees in fine or both. </p> <p> It is a crime to circulate pictures view and/or capture the image of a woman engaging in private acts, where she thinks that no one is watching her and this act is known as Voyeurism under Section 354C of the Indian Penal Code.  </p> "
     }, {
         "id": "exp03",
         "title": "Obscene Material and Sexual Harassment",
@@ -2023,7 +2023,7 @@
     }, {
         "id": "exp05",
         "title": "Identity Theft",
-        "content": "<p> You can file a criminal complaint because identity theft and impersonation using a computer are crimes under the information technology law. If the person has dishonestly stolen your password, electronic signature or other unique identifying feature, the person has committed a crime. The punishment for this can be jail for three years and a fine of a lakh rupees. </p> "
+        "content": "<p> You can file a criminal complaint because identity theft and impersonation using a computer are crimes under the Information Technology law. If the person has dishonestly stolen your password, electronic signature or other unique identifying feature, the person has committed a crime. The punishment for this can be jail for three years and a fine of a lakh rupees. </p> "
     }, {
         "id": "exp06",
         "title": "Impersonation",
@@ -2051,11 +2051,11 @@
     }, {
         "id": "exp12",
         "title": "Blocking users on phones",
-        "content": "<h4>Android Phones</h4><p> To block a calls on Android, go to call history and click on the contact for a few seconds. Tap on the option Add to Blacklist and all the calls from this number will be rejected. To block SMS’s on Android, Go to the SMS list and click on the SMS you want to block for 2-3 seconds and you will see the block option on the top right corner of the screen. You will continue to receive messages from this number but won’t be notified anymore and the conversation will be archived. </p> <h4>Apple iPhones</h4><p> With iOS, you can block contacts and phone numbers on your device. You can also filter iMessages from unknown senders and report iMessages that look like spam or junk. See here for further details on the same. </p> "
+        "content": "<h4>Android Phones</h4><p> To block a calls on Android, go to call history and click on the contact for a few seconds. Tap on the option Add to Blacklist and all the calls from this number will be rejected. To block SMS’s on Android, go to the SMS list and click on the SMS you want to block for 2-3 seconds and you will see the block option on the top right corner of the screen. You will continue to receive messages from this number but won’t be notified anymore and the conversation will be archived. </p> <h4>Apple iPhones</h4><p> With iOS, you can block contacts and phone numbers on your device. You can also filter iMessages from unknown senders and report iMessages that look like spam or junk. See here for further details on the same. </p> "
     }],
     "qna": [{
         "id": "qna00",
-        "question": "When do you file a complaint?",
+        "question": "When and how do you file a complaint?",
         "answer": "<p> There is no minimum threshold, for the amount of abuse or harassment you should have suffered before filing a complaint. In the first instance, it may be useful to report such instances to the platform on which the abuse is taking place. In case that is ineffective, you can check whether the harassment is similar to any of the situations discussed above. </p> "
     },{
         "id": "qna01",
