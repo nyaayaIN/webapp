@@ -2292,20 +2292,20 @@
   "will": {
     "name": "Will",
     "summary":
-      "A Will is a legal document that clearly sets out your wishes for the how your assets or property are to be distributed after your death. Having a clear, legally valid and up-to-date Will is the best way to help ensure that your assets are protected and distributed according to your wishes. You can make a will at any point during your lifetime if you are a person of sound mind and more than 18 years of age",
+      "A Will is a legal document that clearly sets out your wishes for how your assets or property are to be distributed after your death. Having a clear, legally valid and up-to-date Will is the best way to help ensure that your assets are protected and distributed according to your wishes. You can make a will at any point during your lifetime if you are a person of sound mind and more than 18 years of age",
     "image": "",
     "explanations": [
       {
         "id": "exp00",
         "title": "Making a will",
         "content":
-          "<p> You can make a will at any point during your lifetime if you are a <ul> <li> person of sound mind, and </li> <li> Over the age of 18 </li> </ul> The idea here is that a person making the will should be aware of what they are doing. </p> <p> Illustratively, a person with mental disabilities can also make a will when they are aware of what they are doing. If a person is under the influence of alcohol and does not know what they are doing, then they cannot make a will. </p> "
+          "<p> You can make a will at any point during your lifetime, if you are a <ul> <li> person of sound mind, and </li> <li> Over the age of 18 </li> </ul> The idea here is that a person making the will should be aware of what they are doing. </p> <p> Illustratively, a person with mental disabilities can also make a will when they are aware of what they are doing. If a person is under the influence of alcohol and does not know what they are doing, then they cannot make a will. </p> "
       },
       {
         "id": "exp01",
         "title": "Valid Will",
         "content":
-          "<p> For a will to be valid: <ul> <li> It must have your signature (or your thumb impression) </li> <li> The signing/fingerprinting should be done in the presence of two other people who will act as witnesses </li> <li> Both witnesses sign the will or put their thumb-impression in your presence. </li> </ul> You can also direct someone else to sign your will in your presence. There is no prescribed format or prescribed place for this signing. Anyone can be a witness to your will - including the executor. </p> "
+          "<p> For a will to be valid: <ul> <li> It must have your signature (or your thumb impression) </li> <li> The signing/fingerprinting should be done in the presence of two other people who will act as witnesses </li> <li> Both witnesses will sign the will or put their thumb-impression in your presence </li> </ul> You can also direct someone else to sign your will in your presence. There is no prescribed format or prescribed place for this signing. Anyone can be a witness to your will - including the executor. </p> "
       },
       {
         "id": "exp02",
@@ -2323,7 +2323,7 @@
         "id": "exp04",
         "title": "Administrator Appointed Executor for a Will",
         "content":
-          "<p> The court has the power to appoint an administrator or an executor who will execute your will if <ul> <li> you haven’t appointed an executor in your will </li> <li> the executor you appointed is incapable of acting as an executor </li> <li> The executor you appointed refuses to act as an executor </li> </ul> If you are the beneficiary of a will which does not have an executor or if the person named does not want to perform the functions, you can apply to the court for appointment of an administrator. </p> <p> When a person dies without naming an executor in his or her will, one of the beneficiaries in the will has to apply for a grant of letters of administration. The process for the same is similar to that for the grant of probate </p> "
+          "<p> The court has the power to appoint an administrator or an executor who will execute your will if <ul> <li> You haven’t appointed an executor in your will </li> <li> The executor you appointed is incapable of acting as an executor </li> <li> The executor you appointed refuses to act as an executor </li> </ul> If you are the beneficiary of a will which does not have an executor or if the person named does not want to perform the functions, you can apply to the court for appointment of an administrator. </p> <p> When a person dies without naming an executor in his or her will, one of the beneficiaries in the will has to apply for a grant of letters of administration. The process for the same is similar to that for the grant of probate. </p> "
       },
       {
         "id": "exp05",
@@ -2370,11 +2370,11 @@
     }, {
       "id": "glos02",
       "term": "Testator",
-      "definition": "The person making a will"
+      "definition": "The person making a will."
     }, {
       "id": "glos03",
       "term": "Will",
-      "definition": "A legal document that clearly sets out your wishes for the how your assets or property are to be distributed after your death"
+      "definition": "A legal document that clearly sets out your wishes for the how your assets or property are to be distributed after your death."
     }, {
       "id": "glos04",
       "term": "Executor",
@@ -2382,7 +2382,7 @@
     }, {
       "id": "glos05",
       "term": "Probate",
-      "definition": "Probate is the process of proving a will in a court and having it accepted as a valid public document that is the true last testament of the deceased."
+      "definition": "Probate is the process of proving a will in a court and having it accepted as a valid public document, that is the true last testament of the deceased."
     }]
   },
   "rape": {
