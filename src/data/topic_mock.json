@@ -696,7 +696,7 @@
   },
   "annulment": {
     "name": "Annulment",
-    "summary": "Annulment is a legal procedure for undoing a marriage of sorts by declaring it null and void. The main difference between annulment and divorce is that an annulment says that the marriage never really happened.",
+    "summary": "Annulment is a legal procedure for undoing a marriage by declaring it null and void. The main difference between annulment and divorce is that an annulment says that the marriage never really happened.",
     "image": "",
     "explanations": [{
       "id": "exp00",
@@ -705,15 +705,15 @@
     }, {
       "id": "exp01",
       "title": "Conditions for Annulment",
-      "content": "<p> A marriage is considered to be a void marriage: <ul> <li> If either you or your spouse was married to another person at the time of getting married to you. </li> <li> If you or your spouse was suffering from a serious mental illness </li> <li> If you or your spouse was below the minimum age (18 for women and 21 for men) </li> <li> If your spouse was a close relative (within the prohibited degrees of relationship) </li> <li> If a party was impotent at the time of marriage and when the case is presented to the Court </li> <li> If one of the parties refuse to to complete the union of a marriage by the first marital sexual intercourse (consummate the marriage). </li> <li> If one of the parties was at the time of the marriage pregnant by some other person other than the spouse. In these cases, the Court has to make sure that the allegations are true.  </li> <li> If the consent of either of the parties to the marriage were obtained by fraud or coercion. </li> </ul>  </p> "
+      "content": "<p> A marriage is considered to be a void marriage: <ul> <li> If either you or your spouse was married to another person at the time of getting married to you </li> <li> If you or your spouse was suffering from a serious mental illness </li> <li> If you or your spouse was below the minimum age (18 for women and 21 for men) </li> <li> If your spouse was a close relative (within the prohibited degrees of relationship) </li> <li> If either you or your spouse is impotent at the time of marriage and when the case is presented to the Court </li> <li> If either you or your spouse refuses to complete the union of a marriage by the first marital sexual intercourse (consummate the marriage) </li> <li> If one of the spouses was at the time of the marriage pregnant by some other person other than the spouse. In these cases, the Court has to make sure that the allegations are true </li> <li> If the consent of either of the spouses to the marriage were obtained by fraud or coercion </li> </ul>  </p> "
     }, {
       "id": "exp02",
       "title": "Batil and Fasid",
-      "content": "<p> Under Muslim personal laws, marriages in violation of rules are known as Batil marriages. Those marriages which are in violation of conditions of affinity, fosterage etc are examples of  batil marriages. Batil is another way of saying that your marriage is void. A marriage can be annulled if it is a void and it means that the marriage is not legally binding. </p> <p> In certain circumstances, your marriage may be considered as fasid or irregular. The prohibitions are temporary or a result of accidental circumstances - it is generally possible to rectify irregular marriages. An example of this is when no one has seen your marriage etc. </p> "
+      "content": "<p> Under Muslim personal laws, marriages in violation of rules are known as <i> Batil </i> marriages. Those marriages which are in violation of conditions of affinity, fosterage etc are examples of <i>Batil</i> marriages. <i>Batil</i> is another way of saying that your marriage is void. A marriage can be annulled if it is a void and it means that the marriage is not legally binding. </p> <p> In certain circumstances, your marriage may be considered as <i>Fasid</i> or irregular. The prohibitions are temporary or a result of accidental circumstances - it is generally possible to rectify irregular marriages. An example of this is when no one has seen your marriage etc. </p> "
     }, {
       "id": "exp03",
       "title": "Filing an Annulment",
-      "content": "<p> A petition is to be presented to the District Court which has jurisdiction. Jurisdiction is determined in the following manner: <ul> <li> Where the marriage was solemnized </li> <li> Where the respondent or the opposite party resides at the time of presentation </li> <li> Where the parties last resided together </li> <li> If the wife is the petitioner, then the place where she was residing when she filed the case </li> <li> Where one of the parties has not been heard of being alive for a period of seven years. </li> <li> If the wife is a resident in the territories which is covered by the Act and she has been resident for a period of three years before the petition has been presented in Court, then that area where she resides. </li> <li> The petition should have all the facts and reliefs required and should only be submitted after it has been made certain that everything written in it is true.  </li> <li> The Court has a duty to make sure that the proceedings go smoothly and that there is an instance to grant the relief that the party wants. They also have to try their best to make sure that there is a chance of reconciliation between the parties. This means that the parties have to try to resume their marital relationship.  </li> <li> You can also file an appeal after the decree has been granted and any decree or order which is passed will be enforced and will have to be followed. </li> </ul>  </p> "
+      "content": "<p> A petition is to be presented to the District Court which has jurisdiction. Jurisdiction is determined in the following manner: <ul> <li> Where the marriage was solemnized </li> <li> Where either of the spouses resides at the time of presentation </li> <li> Where the spouses last resided together </li> <li> If the wife is the petitioner, then the place where she was residing when she filed the case </li> <li> Where the spouses has not been heard of being alive for a period of seven years</li> <li> The petition should have all the facts and reliefs required and should only be submitted after it has been made certain that everything written in it is true </li> <li> The Court has a duty to make sure that the proceedings go smoothly. They also have to try their best to make sure that there is a chance of reconciliation between the parties. This means that the spouses have to try to resume their marital relationship </li> <li> You can also file an appeal after the decree has been granted and any decree or order which is passed will be enforced and will have to be followed</li> </ul>  </p> "
     }],
     "qna": [{
       "id": "qna00",
@@ -724,7 +724,31 @@
       "id": "glos00",
       "term": "Coercion",
       "definition": "The action or practice of persuading someone to do something by using force or threats."
-    }]
+    }, {
+      "id": "glos01",
+      "term": "Void",
+      "definition": "The legal definition for void is something that would have no legal effect. In this instance, a void marriage is a marriage that would be invalid from the beginning."
+    }, {
+      "id": "glos02",
+      "term": "Voidable",
+      "definition": "Voidable is something that is capable of being void. In this instance, a voidable marriage would be one where it could be declared void by either of the parties."
+    }, {
+      "id": "glos03",
+      "term": "Consummate",
+      "definition": "To complete a marriage legally through sexual intercourse."
+    }, {
+      "id": "glos04",
+      "term": "Decree",
+      "definition": "A husband or a wife, considered in relation to their partner."
+    }, {
+      "id": "glos05",
+      "term": "Jurisdiction",
+      "definition": "The extent of the power to make legal decisions and judgment. "
+    }, {
+      "id": "glos06",
+      "term": "Fasid",
+      "definition": "A fasid marriage is not a valid marriage to begin with, but it can be validated and made a fully valid marriage by one of the parties. It is also referred to as irregular marriage."
+    }],
   },
   "domestic-violence": {
     "name": "Domestic Violence",
