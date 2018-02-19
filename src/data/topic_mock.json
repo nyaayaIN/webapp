@@ -484,7 +484,7 @@
         "id": "exp03",
         "title": "Refused Application",
         "content":
-          "<p> When the PIO refuses your request for information, she has to tell you: <ul> <li> Why the request was refused </li> <li> Details of whom you can approach to appeal against this refusal, and </li> <li> How much time you have to file this appeal. </li> </ul>  </p> <p> If the PIO has not replied with information or has refused to give you the information unlawfully, you can appeal to an officer senior in rank to the PIO or file a complaint with the Central or State Information Commission, if the PIO has denied your request unlawfully (that is, not for the allowed reasons in Sections 8 and 9) or within time. </p> "
+          "<p> When the PIO refuses your request for information, she has to tell you: <ul> <li> Why the request was refused </li> <li> Details of whom you can approach to appeal against this refusal, and </li> <li> How much time you have to file this appeal. </li> </ul>  </p> <p> If the PIO has not replied with information or has refused to give you the information unlawfully, you can appeal to an officer senior in rank to the PIO or file a complaint with the Central or State Information Commission.</p> "
       },
       {
         "id": "exp04",
@@ -523,7 +523,7 @@
         "question":
           "If I live in Jammu and Kashmir, can I rely on the Right to Information act to get information about the government?",
         "answer":
-          "<p> No, this act does not apply to the state of Jammu and Kashmir, however Jammu and Kashmir has its own Right to information Act, 2009. You can file under it. It is the same as the RTI Act elsewhere. </p> "
+          "<p> No, this act does not apply to the state of Jammu and Kashmir. However Jammu and Kashmir has its own Right to information Act, 2009. You can file under it. It is the same as the RTI Act elsewhere. </p> "
       },
       {
         "id": "qna01",
@@ -2512,7 +2512,7 @@
   "prostitution": {
     "name": "Prostitution",
     "summary":
-      "Prostitution is the exchange of money for sex and is not by itself illegal in India. Carrying on prostitution in certain places, attempting to tempt a person towards engaging a prostitute,living off the earnings of a sex worker,Making a person work as a sex worker and owning a brothel are all illegal activities",
+      "Prostitution is the exchange of money for sex and is not by itself illegal in India. Carrying on prostitution in certain places, attempting to tempt a person towards engaging a prostitute, living off the earnings of a sex worker, making a person work as a sex worker and owning a brothel are all illegal activities.",
     "image": "",
     "explanations": [
       {
@@ -2702,7 +2702,7 @@
         "id": "exp14",
         "title": "Employer’s Responsibility",
         "content":
-          "<p> Under the law, an employer has a set of binding duties to create a safe work environment for women. </p> <p> Women employees should feel safe from sexual harassment from co-workers as well as others who might just be visiting the workplace. It’s important for employers to visibly display the sexual harassment policy of the company along with the order setting up the Internal Complaints Committee so employees, as well as visitors to the workplace, can see it. </p> <p> When as an employer you fail to <ul> <li> Set  up an Internal Complaints Committee by an order in writing <ul> <li> Set up an Internal Complaints Committee for each office, unit or branch </li> <li> Organize training programs for the members of the Internal Complaints Committee </li> <li> Provide facilities to the Internal Complaints Committee to conduct inquiries </li> <li> Ensure that all witnesses and the offender appear before the Internal Complaints Committee </li> <li> Make sure all information is available to the Internal Complaints Committee </li> <li> Support any woman who chooses to file a criminal case against the offender, whether the perpetrator is an employee or not. Further, support her if she chooses to file a complaint with the Internal Complaints Committee of the workplace where the incident took place </li> <li> Should treat sexual harassment as a misconduct under service rules </li> <li> Ensure that the Annual Reports by the Internal Complaints Committee are submitted on time </li> <li> Pay the external member of the Internal Complaints Committee fees </li> <li> Be responsible for getting a new member of the Internal Complaints Committee if a member is removed from office </li> <li> Implement the settlement terms and take action as per the recommendations of the Internal Complaints Committee or the Local Complaints Committee </li> <li> Send a report back to the Internal Complaints Committee on how the recommendations of the Committee were implemented</ul> </li> <li> Frame a comprehensive sexual harassment policy for the workplace. Visibly display the sexual harassment policy of the company along with the order setting up the Internal Complaints Committee at your workplace </li> <li> Organize regular workshops to educate the employees about issues of sexual harassment </li> </ul> or does not follow or attempts to not follow or helps someone else is not following the above instructions, you may be fined with a maximum amount of Rupees Fifty Thousand.</b> </p> "
+          "<p> Under the law, an employer has a set of binding duties to create a safe work environment for women. </p> <p> Women employees should feel safe from sexual harassment from co-workers as well as others who might just be visiting the workplace. It’s important for employers to visibly display the sexual harassment policy of the company along with the order setting up the Internal Complaints Committee so employees, as well as visitors to the workplace, can see it. </p> <p> When as an employer you fail to <ul> <li> Set  up an Internal Complaints Committee by an order in writing <ul> <li> Set up an Internal Complaints Committee for each office, unit or branch </li> <li> Organize training programs for the members of the Internal Complaints Committee </li> <li> Provide facilities to the Internal Complaints Committee to conduct inquiries </li> <li> Ensure that all witnesses and the offender appear before the Internal Complaints Committee </li> <li> Make sure all information is available to the Internal Complaints Committee </li> <li> Support any woman who chooses to file a criminal case against the offender, whether the perpetrator is an employee or not. Further, support her if she chooses to file a complaint with the Internal Complaints Committee of the workplace where the incident took place </li> <li> Should treat sexual harassment as a misconduct under service rules </li> <li> Ensure that the Annual Reports by the Internal Complaints Committee are submitted on time </li> <li> Pay the external member of the Internal Complaints Committee fees </li> <li> Be responsible for getting a new member of the Internal Complaints Committee if a member is removed from office </li> <li> Implement the settlement terms and take action as per the recommendations of the Internal Complaints Committee or the Local Complaints Committee </li> <li> Send a report back to the Internal Complaints Committee on how the recommendations of the Committee were implemented</ul> </li> <li> Frame a comprehensive sexual harassment policy for the workplace. Visibly display the sexual harassment policy of the company along with the order setting up the Internal Complaints Committee at your workplace </li> <li> Organize regular workshops to educate the employees about issues of sexual harassment </li> </ul> or does not follow or attempts to not follow or helps someone else in not following the above instructions, you may be fined with a maximum amount of Rupees Fifty Thousand.</b> </p> "
       },
       {
         "id": "exp15",
@@ -2795,19 +2795,12 @@
       },
       {
         "id": "qna10",
-        "question":
-          "Is sexual harassment at a job interview sexual harassment at a workplace?",
-        "answer":
-          "<p> Yes, sexual harassment at a job interview would constitute sexual harassment at a   workplace. </p> "
-      },
-      {
-        "id": "qna11",
         "question": "Is gender based discrimination sexual harassment?",
         "answer":
           "<p> Sexual harassment is a form of gender based discrimination. Not all gender based discrimination at a workplace will be considered sexual harassment. To understand if your specific case of gender based discrimination at your workplace is sexual harassment please look at the explanations. For further clarification please contact a lawyer. </p> "
       },
       {
-        "id": "qna12",
+        "id": "qna11",
         "question":
           "Is being asked about my sexual orientation sexual harassment?",
         "answer":
