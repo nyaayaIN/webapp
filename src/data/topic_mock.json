@@ -1527,13 +1527,13 @@
         "id": "exp01",
         "title": "Informing Friends/Family of Arrest",
         "content":
-          "<p> When you are being arrested, before taking you away, you can choose a person (friend or family member) whom the police must inform about your arrest. If the arrested person’s friends or family live in a different district or town, the police must notify them of <ul> <li> the time </li> <li> place of arrest </li> <li> Where the arrested person is being held </li> </ul> The police can notify the relative or friend through the Legal Aid Organisation in the district and the police station of that area within a period of 8 to 12 hours after the arrest. </p> "
+          "<p> When you are being arrested, before taking you away, you can choose a person (friend or family member) whom the police must inform about your arrest. If the arrested person’s friends or family live in a different district or town, the police must notify them of <ul> <li> the time; </li> <li> place of arrest; </li> <li> where the arrested person is being held. </li> </ul> The police can notify the relative or friend through the Legal Aid Organisation in the district and the police station of that area within a period of 8 to 12 hours after the arrest. </p> "
       },
       {
         "id": "exp02",
-        "title": "Being held in custody",
+        "title": "Being Held in Custody",
         "content":
-          "<p> When you are being held in custody, <ul> <li> You are entitled to have someone interested in your well-being (such as a friend or relative or any other person) know of your arrest and where you being held </li> <li> You can ask to be examined for major and minor injuries to your body and the police must comply. The &ldquo; Inspection Memo&rdquo; must be signed by you and the police officer conducting the arrest and a copy should be given to you. </li> <li> You should be subjected to medical examination by a trained doctor every 48 hours </li> </ul>  </p> "
+          "<p> When you are being held in custody, <ul> <li> You are entitled to have someone interested in your well-being (such as a friend or relative or any other person) know of your arrest and where you being held; </li> <li> You can ask to be examined for major and minor injuries to your body and the police must comply. The &ldquo; Inspection Memo&rdquo; must be signed by you and the police officer conducting the arrest and a copy should be given to you; </li> <li> You should be subjected to medical examination by a trained doctor every 48 hours. </li> </ul>  </p> "
       },
       {
         "id": "exp03",
@@ -1551,7 +1551,7 @@
         "id": "exp05",
         "title": "Unlawful Arrest",
         "content":
-          "<p> When the police arrest someone without following the procedure as laid down in the law, it is considered to be unlawful arrests. In such cases, the arrested person or the relative/s of such person can file a habeas corpus petition before a High Court. This petition requests the authority who has arrested the person without following the legal processs to produce the arrested person to determine the legality of their arrest. </p> "
+          "<p> When the police arrest someone without following the procedure as laid down in the law, it is considered to be unlawful arrests. In such cases, the arrested person or the relative/s of such person can file a <i> habeas corpus </i> petition before a High Court. This petition requests the authority who has arrested the person without following the legal process to produce the arrested person to determine the legality of their arrest. </p> "
       },
       {
         "id": "exp06",
@@ -1603,7 +1603,7 @@
     "glossary": [{
       "id": "glos00",
       "term": "Accused Person",
-      "definition": "Someone against whom the charges of crime lie"
+      "definition": "Someone against whom the charges of crime lie."
     }, {
       "id": "glos01",
       "term": "Arrested Person",
@@ -1619,7 +1619,7 @@
     }, {
       "id": "glos04",
       "term": "Arrest memo",
-      "definition": "A document filed by the police at the time of arrest containing details about the name of the arrested person, the time, date and place of arrest along with reasons for the arrest and what the suspected offence is."
+      "definition": "A document filed by the police at the time of arrest containing details such as the name of the arrested person, the time, date and place of arrest along with reasons for the arrest and the suspected offence."
     }, {
       "id": "glos05",
       "term": "Inspection Memo",
@@ -1635,7 +1635,7 @@
     }, {
       "id": "glos08",
       "term": "Non-cognizable offence",
-      "definition": "An offence for which a police officer has no authority to arrest the offender without a warrant. For example Theft, cheating, defamation."
+      "definition": "An offence for which a police officer has no authority to arrest the offender without a warrant. For example theft, cheating, defamation."
     }, {
       "id": "glos09",
       "term": "Proclaimed offender",
@@ -1655,7 +1655,7 @@
     }, {
       "id": "glos13",
       "term": "Warrant",
-      "definition": "An official document authorizing the police or another person to make an arrest, search premises, or carry out some other action."
+      "definition": "An official document authorising the police or another person to make an arrest, search premises, or carry out some other action."
     }, {
       "id": "glos14",
       "term": "Notice of appearance",
