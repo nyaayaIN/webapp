@@ -1688,19 +1688,19 @@
         "id": "exp00",
         "title": "Conditions of Bail",
         "content":
-          "<p> The conditions of grant of bail are: <ul> <li> Bail should be allowed for the crime when the crime committed is <a href='http://ecourts.gov.in/sites/default/files/classification_2.pdf' target='_blank' rel='noopener noreferrer'>a bailable offence.</a> </li> <li> The person who is applying for bail must execute a bond to be let out of jail. </li> <li> The court requires the accused to have surety sometimes </li> <li> The court may ask the person to not leave the territory of the country and report to the court whenever he/she is required to so. </li> <li> Sometimes bail is granted in non-bailable offences as well but that is done in special circumstances. The court discretion matters here. </li> </ul>  </p> "
+          "<p> The conditions of grant of bail are: <ul> <li> Bail should be allowed for the crime when the crime committed is <a href='http://ecourts.gov.in/sites/default/files/classification_2.pdf' target='_blank' rel='noopener noreferrer'>a bailable offence.</a> </li> <li> The person who is applying for bail must execute a bond to be let out of jail. </li> <li> The court requires the accused to have surety sometimes. </li> <li> The court may ask the person to not leave the territory of the country and report to the court whenever he/she is required to so. </li> <li> Sometimes bail is granted in non-bailable offences as well but that is done in special circumstances. The court discretion matters here. </li> </ul>  </p> "
       },
       {
         "id": "exp01",
         "title": "No Bail",
         "content":
-          "<p> Even though bail can sometimes be granted for non-bailable offenses, if any of the following apply to your judgement, then no bail will be granted: <ul> <li> death punishment, </li> <li> prison for life, or </li> <li> jail time of more than 7 years </li> <li> if the offence is cognizable </li> <li> has been convicted previously on two or more occasions of a cognizable offence punishable with imprisonment of three years or more but not less than seven years. </li> </ul>  </p> "
+          "<p> Even though bail can sometimes be granted for non-bailable offenses, if any of the following apply to your judgement, then no bail will be granted: <ul> <li> death punishment, </li> <li> prison for life, </li> <li> jail time of more than 7 years, </li> <li> if the offence is cognizable, </li> <li> has been convicted previously on two or more occasions of a cognizable offence punishable with imprisonment of three years or more but not less than seven years. </li> </ul>  </p> "
       },
       {
         "id": "exp02",
         "title": "Special Conditions for Bail",
         "content":
-          "<p> Some cases when you can be granted bail when charged with a non-bailable offense are: <ul> <li> If it appears to the officer or the court that at any stage of inquiry or trail, that there are no reasonable grounds for believing that the accused has committed a non-bailable offence then the accused can be granted bail. </li> <li> If a case where the trail of an accused person of any non bailable offence is not concluded within 60 days from the first day of trail, and the person has been in jail all this while, then the court can release him on bail. </li> <li> If an accused is in Jail after the conclusion of the offence and before the judgement is delivered, and the judge has reasonable grounds to think that the accused can be released then he is released. </li> </ul>  </p> "
+          "<p> Some cases when you can be granted bail when charged with a non-bailable offense are: <ul> <li> If it appears to the officer or the court that at any stage of inquiry or trail, that there are no reasonable grounds for believing that the accused has committed a non-bailable offence then the accused can be granted bail. </li> <li> If a case where the trail of an accused person of any non bailable offence is not concluded within 60 days from the first day of trail, and the person has been in jail all this while, then the court can release him on bail. </li> <li> If an accused is in jail after the conclusion of the offence and before the judgement is delivered, and the judge has reasonable grounds to think that the accused can be released then he is released. </li> </ul>  </p> "
       },
       {
         "id": "exp03",
@@ -1730,7 +1730,7 @@
         "id": "exp07",
         "title": "Anticipatory Bail",
         "content":
-          "<p> Many times, people file fake and frivolous cases against other persons. This leads to harming of reputation and time of other persons. To avoid from such problems, a person, if they have reasons to believe that they may be arrested for a non-bailable offence in the future, they can apply for a bail in the High Court or the Court of session even before they are arrested. </p> <p> If the court finds good reasons for this bail application, then the court may allow for bail. However, it should not be assumed that the person gets bail in advance. A person will get bail only when he or she is arrested. </p> <h4>Conditions for anticipatory bail</h4><p>  <ul> <li> the person shall make themself available for interrogation by a police officer when required </li> <li> the person shall not, directly, or indirectly make any inducement, threat or promise to any person acquainted with the facts of the case so as to dissuade them from disclosing such facts to the court or to any police officer. </li> <li> the person shall not leave India without the previous permission of the court </li> <li> And other conditions which are similar to that of normal bail </li> </ul>  </p> "
+          "<p> Many times, people file fake and frivolous cases against other persons. This leads to harming of reputation and time of other persons. To avoid from such problems, a person, if they have reasons to believe that they may be arrested for a non-bailable offence in the future, they can apply for a bail in the High Court or the Court of Session even before they are arrested. </p> <p> If the court finds good reasons for this bail application, then the court may allow for bail. However, it should not be assumed that the person gets bail in advance. A person will get bail only when he or she is arrested. </p> <h4>Conditions for anticipatory bail</h4><p>  <ul> <li> The person shall make themself available for interrogation by a police officer when required. </li> <li> The person shall not, directly, or indirectly make any inducement, threat or promise to any person acquainted with the facts of the case so as to dissuade them from disclosing such facts to the court or to any police officer. </li> <li> The person shall not leave India without the previous permission of the court. </li> <li> Other conditions which are similar to that of normal bail. </li> </ul>  </p> "
       }
     ],
     "qna": [
@@ -1752,7 +1752,7 @@
         "question":
           "I have been in jail for a long time and the trial is still going on. What are my options?",
         "answer":
-          "<p> Yes, your options are: <ul> <li>  You have a right to be considered for release if your crime was tried by a Magistrate and the trial has not concluded within 60 days from the first date on which evidence was supposed to have been taken. </li> <li> If you have spent the maximum jail time that could have been imposed on you. </li> <li> if you have been in jail for one half of the maximum jail time that could have been imposed on you. The court can still send you back to jail or release you on a personal bond (with or without sureties) . If you are sent back to jail, please note that you have the right to be released once you have served the maximum jail time. </li> </ul> However, neither of these rules apply if you are accused of a crime attracting death punishment. </p> "
+          "<p> Yes, your options are: <ul> <li>  You have a right to be considered for release if your crime was tried by a Magistrate and the trial has not concluded within 60 days from the first date on which evidence was supposed to have been taken. </li> <li> If you have spent the maximum jail time that could have been imposed on you. </li> <li> If you have been in jail for one half of the maximum jail time that could have been imposed on you. The court can still send you back to jail or release you on a personal bond (with or without sureties) . If you are sent back to jail, please note that you have the right to be released once you have served the maximum jail time. </li> </ul> However, neither of these rules apply if you are accused of a crime attracting death punishment. </p> "
       },
       {
         "id": "qna03",
@@ -1785,7 +1785,7 @@
     "glossary": [{
       "id": "glos00",
       "term": "Bailable offence",
-      "definition": "An offence for which an accused arrested without a warrant or brought before a Court shall be released upon giving bail. Bail is a right of the accused in such offences"
+      "definition": "An offence for which an accused arrested without a warrant or brought before a Court shall be released upon giving bail. Bail is a right of the accused in such offences."
     }, {
       "id": "glos01",
       "term": "Non-bailable offence",
