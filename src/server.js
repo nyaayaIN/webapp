@@ -16,7 +16,6 @@ import router from './router';
 import assets from './assets.json'; // eslint-disable-line import/no-unresolved
 import config from './config';
 
-
 import mockCategories from './data/categories_mock.json';
 import mockCategory from './data/category_mock.json';
 import mockFeatured from './data/featured_mock.json';
@@ -89,7 +88,6 @@ app.get('/data/categories', (req, res) => {
   res.send(mockCategories.data || {});
 });
 
-
 //
 // Redirects
 // -----------------------------------------------------------------------------
@@ -119,29 +117,47 @@ app.get('/law-explainers/dowry-act/', (req, res) => {
   res.redirect('/topic/dowry');
 });
 // Annulment
-app.get('/guide-to-marriage-divorce-and-maintenance/separation-and-divorce/hindu-law/nullity/', (req, res) => {
-  res.redirect('/topic/annulment');
-});
-app.get('/guide-to-marriage-divorce-and-maintenance/separation-and-divorce/christian-law/nullity/', (req, res) => {
-  res.redirect('/topic/annulment');
-});
-app.get('/guide-to-marriage-divorce-and-maintenance/separation-and-divorce/muslim-law/nullity/', (req, res) => {
-  res.redirect('/topic/annulment');
-});
-app.get('/guide-to-marriage-divorce-and-maintenance/separation-and-divorce/parsi-law/nullity/', (req, res) => {
-  res.redirect('/topic/annulment');
-});
-app.get('/guide-to-marriage-divorce-and-maintenance/separation-and-divorce/law-on-civil-marriages/nullity/', (req, res) => {
-  res.redirect('/topic/annulment');
-});
+app.get(
+  '/guide-to-marriage-divorce-and-maintenance/separation-and-divorce/hindu-law/nullity/',
+  (req, res) => {
+    res.redirect('/topic/annulment');
+  },
+);
+app.get(
+  '/guide-to-marriage-divorce-and-maintenance/separation-and-divorce/christian-law/nullity/',
+  (req, res) => {
+    res.redirect('/topic/annulment');
+  },
+);
+app.get(
+  '/guide-to-marriage-divorce-and-maintenance/separation-and-divorce/muslim-law/nullity/',
+  (req, res) => {
+    res.redirect('/topic/annulment');
+  },
+);
+app.get(
+  '/guide-to-marriage-divorce-and-maintenance/separation-and-divorce/parsi-law/nullity/',
+  (req, res) => {
+    res.redirect('/topic/annulment');
+  },
+);
+app.get(
+  '/guide-to-marriage-divorce-and-maintenance/separation-and-divorce/law-on-civil-marriages/nullity/',
+  (req, res) => {
+    res.redirect('/topic/annulment');
+  },
+);
 // Domestic Violence
 app.get('/law-explainers/domestic-violence/', (req, res) => {
   res.redirect('/topic/domestic-violence');
 });
 // Care for Parents and Elderly
-app.get('/law-explainers/special-law-on-maintenance-for-senior-citizens/', (req, res) => {
-  res.redirect('/topic/care-for-parents-and-elderly');
-});
+app.get(
+  '/law-explainers/special-law-on-maintenance-for-senior-citizens/',
+  (req, res) => {
+    res.redirect('/topic/care-for-parents-and-elderly');
+  },
+);
 // Smoking
 app.get('/law-explainers/smoking-tobacco/', (req, res) => {
   res.redirect('/topic/smoking');
@@ -152,9 +168,12 @@ app.get('/law-explainers/manual-scavenging/', (req, res) => {
   res.redirect('/topic/manual-scavenging');
 });
 // Scheduled Caste and Scheduled Tribes
-app.get('/law-explainers/28/atrocities-against-scheduled-castes-tribes/', (req, res) => {
-  res.redirect('/topic/scheduled-caste-and-scheduled-tribes');
-});
+app.get(
+  '/law-explainers/28/atrocities-against-scheduled-castes-tribes/',
+  (req, res) => {
+    res.redirect('/topic/scheduled-caste-and-scheduled-tribes');
+  },
+);
 // Arrest
 app.get('/crpc/accused/explainer/arrest', (req, res) => {
   res.redirect('/topic/arrest');
@@ -202,7 +221,6 @@ app.get('/law-explainers/law-on-sex-work/', (req, res) => {
 app.get('/law-explainers/sexual-harassment/', (req, res) => {
   res.redirect('/topic/sexual-harassment-at-the-workplace');
 });
-
 
 //
 // Register server-side rendering middleware

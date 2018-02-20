@@ -16,14 +16,14 @@ class Glossary extends React.Component {
   constructor(props) {
     super();
     this.state = {
-      chosen: props.collection[0]
+      chosen: props.collection[0],
     };
   }
 
   componentDidUpdate() {
-    if(this.props.collection.indexOf(this.state.chosen) === -1){
+    if (this.props.collection.indexOf(this.state.chosen) === -1) {
       this.setState({
-        chosen: this.props.collection[0]
+        chosen: this.props.collection[0],
       });
     }
   }
@@ -32,8 +32,8 @@ class Glossary extends React.Component {
     event.preventDefault();
     const index = event.target.attributes.getNamedItem('data-id').value;
     this.setState({
-      chosen: this.props.collection[index]
-    })
+      chosen: this.props.collection[index],
+    });
   };
 
   render() {
@@ -45,20 +45,23 @@ class Glossary extends React.Component {
             <div className={s.definedTerm}>
               <div className={s.glossaryItem}>
                 <div className={s.term}>{this.state.chosen.term}</div>
-                <div className={s.definition}>{this.state.chosen.definition}</div>
+                <div className={s.definition}>
+                  {this.state.chosen.definition}
+                </div>
               </div>
             </div>
-              <div className={s.terms}>
-                {this.props.collection.map((word, index) => (
-                  <button
-                      key={word.id}
-                      data-id={index}
-                      className={s.termOption}
-                      onClick={this.handleClick} >
-                    {word.term}
-                  </button>
-                ))}
-              </div>
+            <div className={s.terms}>
+              {this.props.collection.map((word, index) => (
+                <button
+                  key={word.id}
+                  data-id={index}
+                  className={s.termOption}
+                  onClick={this.handleClick}
+                >
+                  {word.term}
+                </button>
+              ))}
+            </div>
           </div>
         </div>
       </div>

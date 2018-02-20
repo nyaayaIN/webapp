@@ -6,7 +6,6 @@
   margin: 0;
   padding: 0;
   background: var(--lightest-colour) center center/cover no-repeat;
-  z-index: -1;
 }
 
 .container {
@@ -53,7 +52,7 @@
   color: var(--lightest-colour);
 }
 
-@media screen and (width < 1000px) {
+@media (--medium-viewport) {
   .root {
     background-position: top right;
   }

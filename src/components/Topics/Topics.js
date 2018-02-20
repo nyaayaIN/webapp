@@ -11,6 +11,7 @@ class Topics extends React.Component {
     collection: PropTypes.arrayOf(
       PropTypes.shape({
         name: PropTypes.string.isRequired,
+        id: PropTypes.string.isRequired,
         image: PropTypes.string.isRequired,
         url: PropTypes.string.isRequired,
       }),
@@ -20,10 +21,14 @@ class Topics extends React.Component {
   render() {
     return (
       <div className={s.topics}>
-        {this.props.collection.map((topic, index) => (
-          <Link className={s.topic} to={topic.url} key={index}>
+        {this.props.collection.map(topic => (
+          <Link className={s.topic} to={topic.url} key={topic.id}>
             <div className={s.tile}>
-              <img className={s.thumbnail} src={S3+topic.image} alt={topic.name}/>
+              <img
+                className={s.thumbnail}
+                src={S3 + topic.image}
+                alt={topic.name}
+              />
               <div className={s.title}>{topic.name}</div>
             </div>
           </Link>

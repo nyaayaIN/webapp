@@ -43,24 +43,52 @@ class Follow extends React.Component {
           </div>
 
           <div className={s.socialMedia}>
-            <a className={s.link} href="mailto:contact@nyaaya.in" target="_blank" rel="noopener noreferrer">
+            <a
+              href="mailto:contact@nyaaya.in"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <div className={s.iconContainer}>
-                <img src={mail} alt={this.state.i18n.mail} className={s.icon}/>
+                <img src={mail} alt={this.state.i18n.mail} className={s.icon} />
               </div>
             </a>
-            <a className={s.link} href="https://facebook.com/nyaayain/" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://facebook.com/nyaayain/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <div className={s.iconContainer}>
-                <img src={facebook} alt={this.state.i18n.facebook} className={s.facebookIcon}/>
+                <img
+                  src={facebook}
+                  alt={this.state.i18n.facebook}
+                  className={s.facebookIcon}
+                />
               </div>
             </a>
-            <a className={s.link} href="https://twitter.com/NyaayaIN" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://twitter.com/NyaayaIN"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <div className={s.iconContainer}>
-                <img src={twitter} alt={this.state.i18n.twitter} className={s.icon}/>
+                <img
+                  src={twitter}
+                  alt={this.state.i18n.twitter}
+                  className={s.icon}
+                />
               </div>
             </a>
-            <a className={s.link} href="https://www.linkedin.com/company/nyaaya/" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.linkedin.com/company/nyaaya/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <div className={s.iconContainer}>
-                <img src={linkedin} alt={this.state.i18n.linkedin} className={s.icon}/>
+                <img
+                  src={linkedin}
+                  alt={this.state.i18n.linkedin}
+                  className={s.icon}
+                />
               </div>
             </a>
           </div>

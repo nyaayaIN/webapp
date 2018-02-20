@@ -18,7 +18,7 @@ class Header extends React.Component {
       blog: 'Blog',
       logo: 'Nyaaya',
       view: 'View Categories',
-      credit: ''
+      credit: '',
     };
   }
 
@@ -32,7 +32,7 @@ class Header extends React.Component {
           blog: data.blog_title,
           logo: data.logo_text,
           view: data.view_categories,
-          credit: data.credit
+          credit: data.credit,
         });
       });
   }
@@ -57,7 +57,7 @@ class Header extends React.Component {
             />
           </Link>
         </div>
-        <Categories view={this.state.view}/>
+        <Categories view={this.state.view} />
       </div>
     );
   }

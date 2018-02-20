@@ -94,7 +94,7 @@
   text-align: justify;
 }
 
-@media screen and (width < 850px) {
+@media (--medium-viewport)  {
   .container {
     padding: 0 1.5em;
   }

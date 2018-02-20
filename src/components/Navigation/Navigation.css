@@ -1,3 +1,5 @@
+@import '../variables.css';
+
 .root {
   float: right;
   margin: 6px 0 0;
@@ -49,14 +51,14 @@
   height: auto;
 }
 
-@media screen and (width < 850px) {
+@media (--medium-viewport)  {
   .root {
     margin: 0;
     padding: 0 1em;
   }
 }
 
-@media screen and (width < 450px) {
+@media (--small-viewport) {
   .root {
     max-width: 178px;
   }
