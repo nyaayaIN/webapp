@@ -1712,7 +1712,7 @@
         "id": "exp00",
         "title": "Conditions of Bail",
         "content":
-          "<p> The conditions of grant of bail are: <ul> <li> Bail should be allowed for the crime when the crime committed is <a href='http://ecourts.gov.in/sites/default/files/classification_2.pdf' target='_blank' rel='noopener noreferrer'>a bailable offence.</a> </li> <li> The person who is applying for bail must execute a bond to be let out of jail. </li> <li> The court requires the accused to have surety sometimes. </li> <li> The court may ask the person to not leave the territory of the country and report to the court whenever he/she is required to so. </li> <li> Sometimes bail is granted in non-bailable offences as well but that is done in special circumstances. The court discretion matters here. </li> </ul>  </p> "
+          "<p> The conditions of grant of bail are: <ul> <li> Bail should be allowed for the crime when the crime committed is <a href='http://ecourts.gov.in/sites/default/files/classification_2.pdf' target='_blank' rel='noopener noreferrer'>a bailable offence.</a> </li> <li> The person who is applying for bail must execute a bond to be let out of jail. </li> <li> The court requires the accused to have surety sometimes. </li> <li> The court may ask the person to not leave the territory of the country and report to the court whenever he/she is required to so. </li> <li> Sometimes bail is granted in non-bailable offences as well but that is done in special circumstances. However, it mainly depends on the discretion of the Court.</li> </ul>  </p> "
       },
       {
         "id": "exp01",
@@ -1724,7 +1724,7 @@
         "id": "exp02",
         "title": "Special Conditions for Bail",
         "content":
-          "<p> Some cases when you can be granted bail when charged with a non-bailable offense are: <ul> <li> If it appears to the officer or the court that at any stage of inquiry or trail, that there are no reasonable grounds for believing that the accused has committed a non-bailable offence then the accused can be granted bail. </li> <li> If a case where the trail of an accused person of any non bailable offence is not concluded within 60 days from the first day of trail, and the person has been in jail all this while, then the court can release him on bail. </li> <li> If an accused is in jail after the conclusion of the offence and before the judgement is delivered, and the judge has reasonable grounds to think that the accused can be released then he is released. </li> </ul>  </p> "
+          "<p> Some cases when you can be granted bail when charged with a non-bailable offense are: <ul> <li> If it appears to the officer or the court that at any stage of inquiry or trail, that there are no reasonable grounds for believing that the accused has committed a non-bailable offence then the accused can be granted bail. </li> <li> If a case where the trail of an accused person of any non bailable offence is not concluded within 60 days from the first day of trail, and the person has been in jail all this while, then the court can release him on bail. </li></ul>  </p> "
       },
       {
         "id": "exp03",
@@ -1736,7 +1736,7 @@
         "id": "exp04",
         "title": "Special Exceptions for Women and Children",
         "content":
-          "<p> If you are a woman or child below 16 and have committed any crime, the court cannot deny you bail. </p> "
+          "<p> If you are a woman or child below 16 and have committed any crime, the courts generally do not deny you bail. However, it depends on the nature of cases. </p> "
       },
       {
         "id": "exp05",
@@ -1748,7 +1748,7 @@
         "id": "exp06",
         "title": "Bail Bond",
         "content":
-          "<p> Bail bond is the money that a person must deposit with the court, when they have been granted bail. It is to make sure that the person does not run away. Usually this amount is Rs. 15,000-20,000. It might be less or more, depending upon the nature of crime. You can get bail in non-bailable offences even before you are arrested. It is a special kind of bail  called anticipatory bail. </p> "
+          "<p> Bail bond is the money that a person must deposit with the court, when they have been granted bail. It is to make sure that the person does not run away. Usually this amount is Rs. 15,000-20,000. It might be less or more, depending upon the nature of crime.</p> "
       },
       {
         "id": "exp07",
@@ -1776,7 +1776,7 @@
         "question":
           "I have been in jail for a long time and the trial is still going on. What are my options?",
         "answer":
-          "<p> Yes, your options are: <ul> <li>  You have a right to be considered for release if your crime was tried by a Magistrate and the trial has not concluded within 60 days from the first date on which evidence was supposed to have been taken. </li> <li> If you have spent the maximum jail time that could have been imposed on you. </li> <li> If you have been in jail for one half of the maximum jail time that could have been imposed on you. The court can still send you back to jail or release you on a personal bond (with or without sureties) . If you are sent back to jail, please note that you have the right to be released once you have served the maximum jail time. </li> </ul> However, neither of these rules apply if you are accused of a crime attracting death punishment. </p> "
+          "<p> If you have been jail for too long and not been released on bail, your options are:<ul> <li>  You have a right to be considered for release if your crime was tried by a Magistrate and the trial has not concluded within 60 days from the first date on which evidence was supposed to have been taken. </li> <li> If you have spent the maximum jail time that could have been imposed on you. </li> <li> If you have been in jail for one half of the maximum jail time that could have been imposed on you. The court can still send you back to jail or release you on a personal bond (with or without sureties) . If you are sent back to jail, please note that you have the right to be released once you have served the maximum jail time. </li> </ul> However, neither of these rules apply if you are accused of a crime attracting death punishment. </p> "
       },
       {
         "id": "qna03",
@@ -2341,7 +2341,7 @@
         "id": "exp03",
         "title": "Appointing an executor for a Will",
         "content":
-          "<p> The person to whom you give the duty of carrying out the instructions given in your will, after your death, is called the executor of the will. </p> <p> You can appoint any person who is of sound mind and who is above 18 years of age to be your executor. You must choose a person with whom you have full confidence and who is willing and capable of acting as the executor. </p> <p> Read our checklist on how to choose an executor. When you haven’t appointed an executor in your will, the court has the power to appoint an administrator who will execute your will. </p> "
+          "<p> The person to whom you give the duty of carrying out the instructions given in your will, after your death, is called the executor of the will. </p> <p> You can appoint any person who is of sound mind and who is above 18 years of age to be your executor. You must choose a person with whom you have full confidence and who is willing and capable of acting as the executor. </p> <p>When you haven’t appointed an executor in your will, the court has the power to appoint an administrator who will execute your will. </p> "
       },
       {
         "id": "exp04",
@@ -2452,7 +2452,7 @@
     },{
       "id": "exp09",
       "title": "Death resulting from rape",
-      "content": "<p> During rape, if the accused injures the woman so badly that that she dies, or goes into a vegetative state, the accused can be given the death sentence, or jail of 20 years - life. While this provision is pretty clear, the law does not define what 'persistent vegetative state' means. In a Supreme Court decision the Court said that a person who is alive but does not show any evidence of being aware of one's environment is in a permanent vegetative state. </p> "
+      "content": "<p> During rape, if the accused injures the woman so badly that that she dies, or goes into a vegetative state, the accused can be given the death sentence, or jail for 20 years to life. While this provision is pretty clear, the law does not define what 'persistent vegetative state' means. In a Supreme Court decision the Court said that a person who is alive but does not show any evidence of being aware of one's environment is in a permanent vegetative state. </p> "
     },{
       "id": "exp10",
       "title": "Reporting Rape",
