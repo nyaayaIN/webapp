@@ -993,16 +993,16 @@
     "image": "",
     "explanations": [{
       "id": "exp00",
-      "title": "Children taking care of Parents",
-      "content": "<p> Indian law requires all persons to maintain and support their parents - biological, step-parents as well as adoptive depending on the circumstances. There is also a special law. The Maintenance And Welfare Of Parents And Senior Citizens Act, 2007, under which a senior citizen (above 60 years) can apply to a tribunal for maintenance from his adult children or legal heir. Under both these laws, you can apply for maintenance if you are unable to take care of yourself. </p> "
+      "title": "Children Taking Care of Parents",
+      "content": "<p> Indian law requires all persons to maintain and support their parents - biological, step-parents as well as adoptive depending on the circumstances. There is also a special law. The Maintenance and Welfare Of Parents And Senior Citizens Act, 2007, under which a senior citizen (above 60 years) can apply to a tribunal for maintenance from his adult children or legal heir. Under both these laws, you can apply for maintenance if you are unable to take care of yourself. </p> "
     },{
       "id": "exp01",
       "title": "Maintenance under Hindu Law",
-      "content": "<p> Biological/Adoptive parents who are Hindu, Buddhist, Jain or Sikh and are aged or infirmed can seek maintenance from their grown children under the Hindu Adoptions and Maintenance Act if they are unable to support themselves from their own earning or property. In addition, even when the son or daughter is no more, parents can still claim maintenance from the wealth and properties of the deceased. </p> "
+      "content": "<p> Biological/Adoptive parents who are Hindu, Buddhist, Jain or Sikh and are aged or infirmed can seek maintenance from their grown children under the Hindu Adoptions and Maintenance Act, 1956 if they are unable to support themselves from their own earning or property. In addition, even when the son or daughter is no more, parents can still claim maintenance from the wealth and properties of the deceased child. </p> "
     },{
       "id": "exp02",
       "title": "Maintenance under Code of Criminal Procedure",
-      "content": "<p> Under Section 125 of the Code of Criminal Procedure, If any person with sufficient resources refuses or ignores to maintain the following set of persons, then the Magistrate of the First Class may order such person to give monthly allowance for maintenance. The following are the set of persons: <ul> <li> His wife who is not able to maintain hersel </li> <li> His legitimate or illegitimate minor child who is unmarried or not and cannot maintain himself/hersel </li> <li> His legitimate or illegitimate child (who is not a married daughter) and has attained majority, is of unsound mind or his handicapped and is unable to maintain himself or hersel </li> <li> His parents who are unable to maintain themselves </li> </ul>  </p> "
+      "content": "<p> Under Section 125 of the Code of Criminal Procedure, if any person with sufficient resources refuses or ignores to maintain parents who are unable to maintain themselves then the Magistrate of the First Class may order such person to give monthly allowance for maintenance. </p> "
     },{
       "id": "exp03",
       "title": "Amount of Maintenance",
@@ -1014,15 +1014,15 @@
     },{
       "id": "exp05",
       "title": "Claiming Maintenance from Tribunal",
-      "content": "<p> You can file an application in a maintenance tribunal under the The Maintenance And Welfare Of Parents And Senior Citizens Act, 2007. You can file an application in the maintenance tribunal in the area where you live currently or have lived in the past or where your children or relatives live. Once you file an application to the Tribunal under The Maintenance And Welfare Of Parents And Senior Citizens Act, 2007, you cannot file an application for maintenance under Section 125 of the Code of Criminal Procedure, 1973 (which also gives you the right). Please remember that there is no cap on the amount of monthly maintenance you can seek under the Code. However, it could be a lengthier process. </p> <h4>Process</h4><p> After you have filed an application (formats will vary from state to state), the court will first notify your children and tell them that you have filed such an application. Then, the court can decide to refer the case to a Conciliation Officer who will then try to get the parties to agree to a friendly settlement. If the court does not refer the case, it will listen to both parties (the parents and the children or relatives). </p> <p> The court will conduct an inquiry to figure out how much maintenance you need to be paid. An inquiry is not a full blown legal proceeding. Even though the law does not allow for representation by lawyers in these courts, there are high court judgments which have held that this right of lawyers cannot be restricted. Even though this court is slightly informal in nature, it has the powers of a civil court and can order attendance of witnesses, take evidence on oath etc. </p> <p> If the court finds that the children or relatives are neglecting to take care of the parents, they can pass an order directing them to pay a monthly maintenance. The court can also order that interest (between 5% and 8%) be paid on the maintenance amount from the date of the application.If your children or parents are not paying the maintenance even after the court order, you can go to any similar court (maintenance tribunal) and ask for help in enforcing the order. </p> "
+      "content": "<p> You can file an application in a maintenance tribunal under the Maintenance And Welfare Of Parents And Senior Citizens Act, 2007. You can file an application in the maintenance tribunal in the area where you live currently or have lived in the past or where your children or relatives live. Once you file an application to the tribunal under the Maintenance And Welfare Of Parents And Senior Citizens Act, 2007, you cannot file an application for maintenance under Section 125 of the Code of Criminal Procedure, 1973 (which also gives you the right). Please remember that there is no cap on the amount of monthly maintenance you can seek under the Code. However, it could be a lengthier process. </p> <h4>Process</h4><p> After you have filed an application (formats will vary from state to state), the court will first notify your children and tell them that you have filed such an application. Then, the court can decide to refer the case to a Conciliation Officer who will then try to get the parties to agree to a friendly settlement. If the court does not refer the case, it will listen to both parties (the parents and the children or relatives). </p> <p> The court will conduct an inquiry to figure out how much maintenance you need to be paid. An inquiry is not a full fledged legal proceeding. Even though the law does not allow for representation by lawyers in these courts, there are high court judgments which have held that this right of lawyers cannot be restricted. This court is slightly informal in nature but it has the powers of a civil court and can order attendance of witnesses, take evidence on oath, etc. </p> <p> If the court finds that the children or relatives are neglecting to take care of the parents, they can pass an order directing them to pay a monthly maintenance. The court can also order that interest (between 5% and 8%) be paid on the maintenance amount from the date of the application. If your children or parents are not paying the maintenance even after the court order, you can go to any similar court (maintenance tribunal) and ask for help in enforcing the order. </p> "
     },{
       "id": "exp06",
-      "title": "Temporary maintenance",
-      "content": "<p> You can make an application to the court to order your children or relatives to pay you temporary maintenance (on a monthly basis). The court has to decide on whether you can get temporary maintenance within 90 days of informing your children or relatives of your application. In special circumstances, they can delay this for some more time (i.e. 30 days).This is not the final maintenance you can expect to get. The court may decide not to give you maintenance at all, or may decide to increase or decrease the amount of maintenance in the final order. </p> "
+      "title": "Temporary Maintenance",
+      "content": "<p> You can make an application to the court to order your children or relatives to pay you temporary maintenance (on a monthly basis). The court has to decide on whether you can get temporary maintenance within 90 days of informing your children or relatives of your application. In special circumstances, they can delay this for some more time (i.e. 30 days). This is not the final maintenance you can expect to get. The court may decide not to give you maintenance at all, or may decide to increase or decrease the amount of maintenance in the final order. </p> "
     },{
       "id": "exp07",
-      "title": "Punishment for abandoning and neglecting senior citizen",
-      "content": "<p> If you leave a senior citizen at some place with the intention of abandoning them and not taking care of them, you can be punished with jail time of up to three months and/or a fine of up to Rupees five thousand. The police can make an arrest without the permission of a court. However, this is a bailable crime. If you are able to pay the bail bond, you will be released. </p> "
+      "title": "Punishment for Abandoning and Neglecting Senior Citizen",
+      "content": "<p> If you leave a senior citizen at some place with the intention of abandoning them and not taking care of them, you can be punished with jail time of up to three months and/or a fine of up to Rs 5000. The police can make an arrest without the permission of a court. However, this is a bailable crime. If you are able to pay the bail bond, you will be released. </p> "
     }],
     "qna": [{
       "id": "qna00",
@@ -1031,7 +1031,7 @@
     }, {
       "id": "qna01",
       "question": "Can the amount of maintenance provided change at a later time?",
-      "answer": "<p> Yes. If there is a major change in your situation that changes your needs and requirements, the amount of maintenance can be altered by approaching the court.However, do remember that the amount can also be decreased depending on whether you now have an additional source of income or your requirements have decreased. It can also be cancelled – for example, if you have converted to another religion and are no longer a Hindu, the judge may cancel payments as you are no longer eligible to receive maintenance under Hindu law. </p> "
+      "answer": "<p> Yes. If there is a major change in your situation that changes your needs and requirements, the amount of maintenance can be altered by approaching the court. However, do remember that the amount can also be decreased depending on whether you now have an additional source of income or your requirements have decreased. It can also be cancelled, for example, if you have converted to another religion and are no longer a Hindu, the judge may cancel payments as you are no longer eligible to receive maintenance under Hindu law. </p> "
     }, {
       "id": "qna02",
       "question": "Do the parents have to be biological parents to ask for maintenance? Can adoptive and step-parents also ask for support?",
@@ -1039,7 +1039,7 @@
     }, {
       "id": "qna03",
       "question": "I am an old man and I got diagnosed with arthritis. The costs of treatments have gone up. Can I increase the amount of maintenance? Can the amount of maintenance provided change at a later time?",
-      "answer": "<p> Yes. If there is a major change in your situation that changes your needs and requirements, the amount of maintenance can be altered by approaching the court. However, do remember that the amount can also be decreased depending on whether you now have an additional source of income or your requirements have decreased. It can also be cancelled – for example, if you have converted to another religion and are no longer a Hindu, the judge may cancel payments as you are no longer eligible to receive maintenance under Hindu law. </p> "
+      "answer": "<p> Yes. This cost of treatment would be considered a major change in your situation and therefore the amount of maintenance can be altered/increased by approaching the court. However, do remember that the amount can also be decreased depending on whether you now have an additional source of income or your requirements have decreased. It can also be cancelled – for example, if you have converted to another religion and are no longer a Hindu, the judge may cancel payments as you are no longer eligible to receive maintenance under Hindu law. </p> "
     }, {
       "id": "qna04",
       "question": "Can I also ask my mother to pay me maintenance?",
@@ -1060,7 +1060,7 @@
     },{
       "id": "glos01",
       "term": "Children",
-      "definition": "Includes son, daughter, grandson and granddaughter but does not include a minor"
+      "definition": "Includes son, daughter, grandson and granddaughter but does not include a minor."
     },{
       "id": "glos01",
       "term": "Parent",
@@ -1068,7 +1068,7 @@
     },{
       "id": "glos01",
       "term": "Senior citizen",
-      "definition": "Means any person being a citizen of India , who has attained the age of sixty years or above."
+      "definition": "Any person being a citizen of India who has attained the age of sixty years or above."
     },{
       "id": "glos01",
       "term": "Welfare",
