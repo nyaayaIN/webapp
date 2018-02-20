@@ -16,17 +16,23 @@ class Hero extends React.Component {
 
   render() {
     const heroStyle = {
-      backgroundImage: "url("+this.props.image+")"
+      backgroundImage: `url(${this.props.image})`,
     };
     return (
       <div className={s.root} style={heroStyle}>
         <div className={s.container}>
-          <div className={s.content+" "+s[this.props.style]+" "+s[this.props.theme]}>
+          <div
+            className={`${s.content} ${s[this.props.style]} ${
+              s[this.props.theme]
+            }`}
+          >
             <h1 className={s.title}>{this.props.content.title}</h1>
             <div
               className={s.description}
               // eslint-disable-next-line react/no-danger
-              dangerouslySetInnerHTML={{ __html: this.props.content.description }}
+              dangerouslySetInnerHTML={{
+                __html: this.props.content.description,
+              }}
             />
           </div>
         </div>

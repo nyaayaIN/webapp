@@ -14,14 +14,14 @@ async function action({ fetch }) {
 
   const hero = {
     title: i18n.hero_title,
-    description: i18n.hero_description
+    description: i18n.hero_description,
   };
 
   const headings = {
     featured_topics: i18n.featured_topics,
     what_we_do: i18n.what_we_do,
     short_explanation: i18n.short_explanation,
-    short_disclaimer: i18n.short_disclaimer
+    short_disclaimer: i18n.short_disclaimer,
   };
 
   return {

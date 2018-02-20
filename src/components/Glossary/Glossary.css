@@ -67,7 +67,7 @@
   padding: 1em 0;
 }
 
-@media screen and (width < 850px) {
+@media (--medium-viewport)  {
   .root {
     padding: 1em;
   }

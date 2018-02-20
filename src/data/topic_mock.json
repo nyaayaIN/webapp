@@ -1,6 +1,7 @@
 {
   "children-accused-of-crime": {
     "name": "Children Accused of Crime",
+    "id": "topic00",
     "summary":"Indian law deals with children who have committed crimes in a more friendly manner than how the normal criminal procedure does and has lesser punishments. The law also protects children who have been victims of various crimes by having special provisions from them.",
     "image": "",
     "explanations": [
@@ -170,6 +171,7 @@
   },
   "child-labour": {
     "name": "Child Labour",
+    "id": "topic01",
     "summary":
       "<p> Indian law prohibits employing children under the age of 14 in all occupations as well as employing children between 14 and 18 in hazardous occupations and processes. They can, however, work in the family businesses, work after school and during vacations as well as act in movies, advertisements and be involved in sport activities </p> ",
     "image": "",
@@ -236,6 +238,7 @@
   },
   "free-and-compulsory-education": {
     "name": "Free and Compulsory Education",
+    "id": "topic02",
     "summary":
       "Free and compulsory education of children is a fundamental right under the constitution of India.The law ensures that all children get free education from class 1 to class 8. Children who are older than 14 but have not been able to attend school till class 8, can also get free education till class 8.",
     "image": "",
@@ -358,6 +361,7 @@
   },
   "anti-corruption": {
     "name": "Anti-corruption",
+    "id": "topic03",
     "summary":
       "Corruption is the abuse of power by people in power for their own gain in a dishonest or unethical way. In India, it is illegal for public servants to accept money/gifts over and above their salary, in return for doing their duty, favoring a person or for not doing their duty. Any person helping the public servant commit these crimes can also be punished.",
     "image": "",
@@ -458,6 +462,7 @@
   },
   "right-to-information": {
     "name": "Right to Information",
+    "id": "topic04",
     "summary":
       "With transparency and good governance in mind, Indian law provides citizens with the right to ask for information from public bodies. Any citizen can make an application for information and can access information such as details of project budgets, implementation status, the status of any complaint/application they have made to any government body. Such an application is commonly referred to as an RTI or RTI application.",
     "image": "",
@@ -604,6 +609,7 @@
   },
   "dowry": {
     "name": "Dowry",
+    "id": "topic05",
     "summary": "Dowry is anything of value, including cash and property, which is given by the bride’s family to the groom’s family as a condition of marriage. The law prohibits the practice of giving or taking dowry as well as demanding and advertising for dowry.",
     "image": "",
     "explanations": [{
@@ -696,6 +702,7 @@
   },
   "annulment": {
     "name": "Annulment",
+    "id": "topic06",
     "summary": "Annulment is a legal procedure for undoing a marriage by declaring it null and void. The main difference between annulment and divorce is that an annulment says that the marriage never really happened.",
     "image": "",
     "explanations": [{
@@ -752,6 +759,7 @@
   },
   "domestic-violence": {
     "name": "Domestic Violence",
+    "id": "topic07",
     "summary": "Women in India are protected from being abused physically, psychologically, verbally, emotionally, sexually or monetarily by their family. The law not only protects them from their husband/partner, but anyone (male or female) in their family or their husband's family.",
     "image": "",
     "explanations": [{
@@ -980,6 +988,7 @@
   },
   "care-for-parents-and-elderly": {
     "name": "Care for Parents and Elderly",
+    "id": "topic08",
     "summary": "Maintenance is ordered by a court order where either daughter or son is asked to give certain amount to the parents or elderly persons to fulfill their basic needs. It is also known as alimony. The amount for maintenance depends on various circumstances. Maintenance means providing ‘dependents’ with basic needs such as food, clothing, shelter and amenities. It also includes access to essential services such as hospitals, etc.. The extent of duties depend upon which law is applicable to them, as we will explain.",
     "image": "",
     "explanations": [{
@@ -1076,6 +1085,7 @@
   },
   "smoking": {
     "name": "Smoking",
+    "id": "topic09",
     "summary":
       "Smoking in public places like restaurants, public transport, or places of education is illegal in India. It’s okay to smoke in completely open spaces like roads, and also in private places like your own house.  The law also bans selling tobacco and cigarettes to people under 18 as well as advertising tobacco and cigarettes.  It is also illegal to sell cigarettes that do not comply with the rules and regulations of warnings on labels.",
     "image": "",
@@ -1205,6 +1215,7 @@
   },
   "drugs-and-narcotics": {
     "name": "Drugs and Narcotics",
+    "id": "topic10",
     "summary": "Indian Law is very strict on drugs and prohibits various activities associated with drugs such as growing, manufacturing, possessing, using, selling and trafficking drugs. The central, as well as state governments, are conferred with powers to control and regulate activities.",
     "image": "",
     "explanations": [{
@@ -1367,6 +1378,7 @@
   },
   "manual-scavenging": {
     "name": "Manual Scavenging",
+    "id": "topic11",
     "summary":
       "In India, it is illegal to employ people as manual scavengers to clean insanitary latrines as well as to clean sewers and septic tanks without protective gear or construct insanitary latrines. It is also illegal to not demolish or convert insanitary latrines within a certain period of The Prohibition Of Employment As Manual Scavengers And Their Rehabilitation Act of 2013 coming into force.",
     "image": "",
@@ -1485,6 +1497,7 @@
   },
   "scheduled-caste-and-scheduled-tribes": {
     "name": "Scheduled Caste & Scheduled Tribes",
+    "id": "topic12",
     "summary": "Indian law  punishes cruel and degrading crimes committed against people belonging to Scheduled Castes and Tribes, gives special protections and rights to victims belonging to Scheduled Castes and Tribes and sets up courts for fast completion of cases.",
     "image": "",
     "explanations": [{
@@ -1537,6 +1550,7 @@
   },
   "arrest": {
     "name": "Arrest",
+    "id": "topic13",
     "summary":
       "Arrests are carried out by the police when they have information about somebody (i.e. accused) committing a crime. Arrests have to be allowed by the concerned Magistrate. In certain situations, the Magistrate can also ask anyone else apart from the police to arrest a person suspected of committing a crime.",
     "image": "",
@@ -1704,6 +1718,7 @@
   },
   "bail": {
     "name": "Bail",
+    "id": "topic14",
     "summary":
       "Bail is money or some property given to the court by someone who is arrested for a crime to guarantee that someone will go to court later.",
     "image": "",
@@ -1834,6 +1849,7 @@
   },
   "traffic-fines": {
     "name": "Traffic Fines",
+    "id": "topic15",
     "summary": "",
     "image": "",
     "explanations": [],
@@ -1846,6 +1862,7 @@
   },
   "first-information-report": {
     "name": "First Information Report (FIR)",
+    "id": "topic16",
     "summary":
       "First Information Report(FIR) is written document prepared by police when they receive information about any criminal offense. It’s generally a complaint lodged by the victim of a cognizable offense or by someone on their behalf and sets the the process of criminal justice in motion.",
     "image": "",
@@ -1967,6 +1984,7 @@
   },
   "censorship": {
     "name": "Censorship",
+    "id": "topic17",
     "summary":
       "Censorship is when an authority (such as the government) cuts out or suppresses communication. The official stance of the Government has been that it does not censor films, it only certifies them.",
     "image": "",
@@ -2022,6 +2040,7 @@
   },
   "online-abuse": {
     "name": "Online Abuse",
+    "id": "topic18",
     "summary": "Online abuse is any type of abuse that happens on the internet, whether it’s over chat, posting on message boards and forums, through social networks, playing online games or using mobile phones.There is no specific law in India to deal with online abuse.When faced with online abuse, your first step should be to approach the administrators of the website/platform/application. If you’re not able to resolve the issue through them, you can collect proof of the abuse and file a criminal complaint at the local police station or cyber investigation cell.",
     "image": "",
     "explanations": [{
@@ -2094,6 +2113,7 @@
   },
   "defamation": {
     "name": "Defamation",
+    "id": "topic19",
     "summary": "Saying or writing something which is harmful to a person's reputation, is called defamation. It’s against the law to intentionally harm someone’s reputation, cause them to be hated or disgraced through text, image, cartoons, caricatures or effigies.",
     "image": "",
     "explanations": [{
@@ -2178,6 +2198,7 @@
   },
   "check-bounce": {
     "name": "Check Bounce",
+    "id": "topic20",
     "summary": "",
     "image": "",
     "explanations": [],
@@ -2190,6 +2211,7 @@
   },
   "online-bank-fraud": {
     "name": "Online Bank Fraud",
+    "id": "topic21",
     "summary": "If you have lost money while performing an online transaction or have been a victim of online fraud, you have the right to take measures to recover your money. You can also file a criminal complaint against the offender.",
     "image": "",
     "explanations": [
@@ -2315,6 +2337,7 @@
   },
   "will": {
     "name": "Will",
+    "id": "topic22",
     "summary":
       "A Will is a legal document that clearly sets out your wishes for how your assets or property are to be distributed after your death. Having a clear, legally valid and up-to-date Will is the best way to help ensure that your assets are protected and distributed according to your wishes. You can make a will at any point during your lifetime if you are a person of sound mind and more than 18 years of age",
     "image": "",
@@ -2411,6 +2434,7 @@
   },
   "rape": {
     "name": "Rape",
+    "id": "topic23",
     "summary": "Indian law is very strict on rape which it sees as sexual intercourse or any other sexual penetration of the vagina, anus, or mouth of a woman by a man without her consent. Rape is a  non-bailable offence and the punishments for can range from 7 years imprisonment to lifetime.",
     "image": "",
     "explanations": [{
@@ -2535,6 +2559,7 @@
   },
   "prostitution": {
     "name": "Prostitution",
+    "id": "topic24",
     "summary":
       "Prostitution is the exchange of money for sex and is not by itself illegal in India. Carrying on prostitution in certain places, attempting to tempt a person towards engaging a prostitute, living off the earnings of a sex worker, making a person work as a sex worker and owning a brothel are all illegal activities.",
     "image": "",
@@ -2634,6 +2659,7 @@
   },
   "sexual-harassment-at-the-workplace": {
     "name": "Sexual Harassment at the Workplace",
+    "id": "topic25",
     "summary":
       "Sexual harassment is unwelcome sexual behaviour at your workplace that makes you feel offended, humiliated or intimidated. Indian law protects women from men and women who ask for or demand sex or any other sexual activity at a place of work. All employers are obligated to make sure that the workplace is safe for all women and take any accusations of sexual harassment very seriously.",
     "image": "",
