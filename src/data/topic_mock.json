@@ -484,7 +484,7 @@
         "id": "exp03",
         "title": "Refused Application",
         "content":
-          "<p> When the PIO refuses your request for information, she has to tell you: <ul> <li> Why the request was refused </li> <li> Details of whom you can approach to appeal against this refusal, and </li> <li> How much time you have to file this appeal. </li> </ul>  </p> <p> If the PIO has not replied with information or has refused to give you the information unlawfully, you can appeal to an officer senior in rank to the PIO or file a complaint with the Central or State Information Commission, if the PIO has denied your request unlawfully (that is, not for the allowed reasons in Sections 8 and 9) or within time. </p> "
+          "<p> When the PIO refuses your request for information, she has to tell you: <ul> <li> Why the request was refused </li> <li> Details of whom you can approach to appeal against this refusal, and </li> <li> How much time you have to file this appeal. </li> </ul>  </p> <p> If the PIO has not replied with information or has refused to give you the information unlawfully, you can appeal to an officer senior in rank to the PIO or file a complaint with the Central or State Information Commission.</p> "
       },
       {
         "id": "exp04",
@@ -523,7 +523,7 @@
         "question":
           "If I live in Jammu and Kashmir, can I rely on the Right to Information act to get information about the government?",
         "answer":
-          "<p> No, this act does not apply to the state of Jammu and Kashmir, however Jammu and Kashmir has its own Right to information Act, 2009. You can file under it. It is the same as the RTI Act elsewhere. </p> "
+          "<p> No, this act does not apply to the state of Jammu and Kashmir. However Jammu and Kashmir has its own Right to information Act, 2009. You can file under it. It is the same as the RTI Act elsewhere. </p> "
       },
       {
         "id": "qna01",
@@ -696,7 +696,7 @@
   },
   "annulment": {
     "name": "Annulment",
-    "summary": "Annulment is a legal procedure for undoing a marriage of sorts by declaring it null and void. The main difference between annulment and divorce is that an annulment says that the marriage never really happened.",
+    "summary": "Annulment is a legal procedure for undoing a marriage by declaring it null and void. The main difference between annulment and divorce is that an annulment says that the marriage never really happened.",
     "image": "",
     "explanations": [{
       "id": "exp00",
@@ -705,15 +705,15 @@
     }, {
       "id": "exp01",
       "title": "Conditions for Annulment",
-      "content": "<p> A marriage is considered to be a void marriage: <ul> <li> If either you or your spouse was married to another person at the time of getting married to you. </li> <li> If you or your spouse was suffering from a serious mental illness </li> <li> If you or your spouse was below the minimum age (18 for women and 21 for men) </li> <li> If your spouse was a close relative (within the prohibited degrees of relationship) </li> <li> If a party was impotent at the time of marriage and when the case is presented to the Court </li> <li> If one of the parties refuse to to complete the union of a marriage by the first marital sexual intercourse (consummate the marriage). </li> <li> If one of the parties was at the time of the marriage pregnant by some other person other than the spouse. In these cases, the Court has to make sure that the allegations are true.  </li> <li> If the consent of either of the parties to the marriage were obtained by fraud or coercion. </li> </ul>  </p> "
+      "content": "<p> A marriage is considered to be a void marriage: <ul> <li> If either you or your spouse was married to another person at the time of getting married to you </li> <li> If you or your spouse was suffering from a serious mental illness </li> <li> If you or your spouse was below the minimum age (18 for women and 21 for men) </li> <li> If your spouse was a close relative (within the prohibited degrees of relationship) </li> <li> If either you or your spouse is impotent at the time of marriage and when the case is presented to the Court </li> <li> If either you or your spouse refuses to complete the union of a marriage by the first marital sexual intercourse (consummate the marriage) </li> <li> If one of the spouses was at the time of the marriage pregnant by some other person other than the spouse. In these cases, the Court has to make sure that the allegations are true </li> <li> If the consent of either of the spouses to the marriage were obtained by fraud or coercion </li> </ul>  </p> "
     }, {
       "id": "exp02",
       "title": "Batil and Fasid",
-      "content": "<p> Under Muslim personal laws, marriages in violation of rules are known as Batil marriages. Those marriages which are in violation of conditions of affinity, fosterage etc are examples of  batil marriages. Batil is another way of saying that your marriage is void. A marriage can be annulled if it is a void and it means that the marriage is not legally binding. </p> <p> In certain circumstances, your marriage may be considered as fasid or irregular. The prohibitions are temporary or a result of accidental circumstances - it is generally possible to rectify irregular marriages. An example of this is when no one has seen your marriage etc. </p> "
+      "content": "<p> Under Muslim personal laws, marriages in violation of rules are known as <i> Batil </i> marriages. Those marriages which are in violation of conditions of affinity, fosterage etc are examples of <i>Batil</i> marriages. <i>Batil</i> is another way of saying that your marriage is void. A marriage can be annulled if it is a void and it means that the marriage is not legally binding. </p> <p> In certain circumstances, your marriage may be considered as <i>Fasid</i> or irregular. The prohibitions are temporary or a result of accidental circumstances - it is generally possible to rectify irregular marriages. An example of this is when no one has seen your marriage etc. </p> "
     }, {
       "id": "exp03",
       "title": "Filing an Annulment",
-      "content": "<p> A petition is to be presented to the District Court which has jurisdiction. Jurisdiction is determined in the following manner: <ul> <li> Where the marriage was solemnized </li> <li> Where the respondent or the opposite party resides at the time of presentation </li> <li> Where the parties last resided together </li> <li> If the wife is the petitioner, then the place where she was residing when she filed the case </li> <li> Where one of the parties has not been heard of being alive for a period of seven years. </li> <li> If the wife is a resident in the territories which is covered by the Act and she has been resident for a period of three years before the petition has been presented in Court, then that area where she resides. </li> <li> The petition should have all the facts and reliefs required and should only be submitted after it has been made certain that everything written in it is true.  </li> <li> The Court has a duty to make sure that the proceedings go smoothly and that there is an instance to grant the relief that the party wants. They also have to try their best to make sure that there is a chance of reconciliation between the parties. This means that the parties have to try to resume their marital relationship.  </li> <li> You can also file an appeal after the decree has been granted and any decree or order which is passed will be enforced and will have to be followed. </li> </ul>  </p> "
+      "content": "<p> A petition is to be presented to the District Court which has jurisdiction. Jurisdiction is determined in the following manner: <ul> <li> Where the marriage was solemnized </li> <li> Where either of the spouses resides at the time of presentation </li> <li> Where the spouses last resided together </li> <li> If the wife is the petitioner, then the place where she was residing when she filed the case </li> <li> Where the spouses has not been heard of being alive for a period of seven years</li> <li> The petition should have all the facts and reliefs required and should only be submitted after it has been made certain that everything written in it is true </li> <li> The Court has a duty to make sure that the proceedings go smoothly. They also have to try their best to make sure that there is a chance of reconciliation between the parties. This means that the spouses have to try to resume their marital relationship </li> <li> You can also file an appeal after the decree has been granted and any decree or order which is passed will be enforced and will have to be followed</li> </ul>  </p> "
     }],
     "qna": [{
       "id": "qna00",
@@ -724,7 +724,31 @@
       "id": "glos00",
       "term": "Coercion",
       "definition": "The action or practice of persuading someone to do something by using force or threats."
-    }]
+    }, {
+      "id": "glos01",
+      "term": "Void",
+      "definition": "The legal definition for void is something that would have no legal effect. In this instance, a void marriage is a marriage that would be invalid from the beginning."
+    }, {
+      "id": "glos02",
+      "term": "Voidable",
+      "definition": "Voidable is something that is capable of being void. In this instance, a voidable marriage would be one where it could be declared void by either of the parties."
+    }, {
+      "id": "glos03",
+      "term": "Consummate",
+      "definition": "To complete a marriage legally through sexual intercourse."
+    }, {
+      "id": "glos04",
+      "term": "Decree",
+      "definition": "A husband or a wife, considered in relation to their partner."
+    }, {
+      "id": "glos05",
+      "term": "Jurisdiction",
+      "definition": "The extent of the power to make legal decisions and judgment. "
+    }, {
+      "id": "glos06",
+      "term": "Fasid",
+      "definition": "A fasid marriage is not a valid marriage to begin with, but it can be validated and made a fully valid marriage by one of the parties. It is also referred to as irregular marriage."
+    }],
   },
   "domestic-violence": {
     "name": "Domestic Violence",
@@ -1527,13 +1551,13 @@
         "id": "exp01",
         "title": "Informing Friends/Family of Arrest",
         "content":
-          "<p> When you are being arrested, before taking you away, you can choose a person (friend or family member) whom the police must inform about your arrest. If the arrested person’s friends or family live in a different district or town, the police must notify them of <ul> <li> the time </li> <li> place of arrest </li> <li> Where the arrested person is being held </li> </ul> The police can notify the relative or friend through the Legal Aid Organisation in the district and the police station of that area within a period of 8 to 12 hours after the arrest. </p> "
+          "<p> When you are being arrested, before taking you away, you can choose a person (friend or family member) whom the police must inform about your arrest. If the arrested person’s friends or family live in a different district or town, the police must notify them of <ul> <li> the time; </li> <li> place of arrest; </li> <li> where the arrested person is being held. </li> </ul> The police can notify the relative or friend through the Legal Aid Organisation in the district and the police station of that area within a period of 8 to 12 hours after the arrest. </p> "
       },
       {
         "id": "exp02",
-        "title": "Being held in custody",
+        "title": "Being Held in Custody",
         "content":
-          "<p> When you are being held in custody, <ul> <li> You are entitled to have someone interested in your well-being (such as a friend or relative or any other person) know of your arrest and where you being held </li> <li> You can ask to be examined for major and minor injuries to your body and the police must comply. The &ldquo; Inspection Memo&rdquo; must be signed by you and the police officer conducting the arrest and a copy should be given to you. </li> <li> You should be subjected to medical examination by a trained doctor every 48 hours </li> </ul>  </p> "
+          "<p> When you are being held in custody, <ul> <li> You are entitled to have someone interested in your well-being (such as a friend or relative or any other person) know of your arrest and where you being held; </li> <li> You can ask to be examined for major and minor injuries to your body and the police must comply. The &ldquo; Inspection Memo&rdquo; must be signed by you and the police officer conducting the arrest and a copy should be given to you; </li> <li> You should be subjected to medical examination by a trained doctor every 48 hours. </li> </ul>  </p> "
       },
       {
         "id": "exp03",
@@ -1551,7 +1575,7 @@
         "id": "exp05",
         "title": "Unlawful Arrest",
         "content":
-          "<p> When the police arrest someone without following the procedure as laid down in the law, it is considered to be unlawful arrests. In such cases, the arrested person or the relative/s of such person can file a habeas corpus petition before a High Court. This petition requests the authority who has arrested the person without following the legal processs to produce the arrested person to determine the legality of their arrest. </p> "
+          "<p> When the police arrest someone without following the procedure as laid down in the law, it is considered to be unlawful arrests. In such cases, the arrested person or the relative/s of such person can file a <i> habeas corpus </i> petition before a High Court. This petition requests the authority who has arrested the person without following the legal process to produce the arrested person to determine the legality of their arrest. </p> "
       },
       {
         "id": "exp06",
@@ -1603,7 +1627,7 @@
     "glossary": [{
       "id": "glos00",
       "term": "Accused Person",
-      "definition": "Someone against whom the charges of crime lie"
+      "definition": "Someone against whom the charges of crime lie."
     }, {
       "id": "glos01",
       "term": "Arrested Person",
@@ -1619,7 +1643,7 @@
     }, {
       "id": "glos04",
       "term": "Arrest memo",
-      "definition": "A document filed by the police at the time of arrest containing details about the name of the arrested person, the time, date and place of arrest along with reasons for the arrest and what the suspected offence is."
+      "definition": "A document filed by the police at the time of arrest containing details such as the name of the arrested person, the time, date and place of arrest along with reasons for the arrest and the suspected offence."
     }, {
       "id": "glos05",
       "term": "Inspection Memo",
@@ -1635,7 +1659,7 @@
     }, {
       "id": "glos08",
       "term": "Non-cognizable offence",
-      "definition": "An offence for which a police officer has no authority to arrest the offender without a warrant. For example Theft, cheating, defamation."
+      "definition": "An offence for which a police officer has no authority to arrest the offender without a warrant. For example theft, cheating, defamation."
     }, {
       "id": "glos09",
       "term": "Proclaimed offender",
@@ -1655,7 +1679,7 @@
     }, {
       "id": "glos13",
       "term": "Warrant",
-      "definition": "An official document authorizing the police or another person to make an arrest, search premises, or carry out some other action."
+      "definition": "An official document authorising the police or another person to make an arrest, search premises, or carry out some other action."
     }, {
       "id": "glos14",
       "term": "Notice of appearance",
@@ -1688,19 +1712,19 @@
         "id": "exp00",
         "title": "Conditions of Bail",
         "content":
-          "<p> The conditions of grant of bail are: <ul> <li> Bail should be allowed for the crime when the crime committed is <a href='http://ecourts.gov.in/sites/default/files/classification_2.pdf' target='_blank' rel='noopener noreferrer'>a bailable offence.</a> </li> <li> The person who is applying for bail must execute a bond to be let out of jail. </li> <li> The court requires the accused to have surety sometimes </li> <li> The court may ask the person to not leave the territory of the country and report to the court whenever he/she is required to so. </li> <li> Sometimes bail is granted in non-bailable offences as well but that is done in special circumstances. The court discretion matters here. </li> </ul>  </p> "
+          "<p> The conditions of grant of bail are: <ul> <li> Bail should be allowed for the crime when the crime committed is <a href='http://ecourts.gov.in/sites/default/files/classification_2.pdf' target='_blank' rel='noopener noreferrer'>a bailable offence.</a> </li> <li> The person who is applying for bail must execute a bond to be let out of jail. </li> <li> The court requires the accused to have surety sometimes. </li> <li> The court may ask the person to not leave the territory of the country and report to the court whenever he/she is required to so. </li> <li> Sometimes bail is granted in non-bailable offences as well but that is done in special circumstances. The court discretion matters here. </li> </ul>  </p> "
       },
       {
         "id": "exp01",
         "title": "No Bail",
         "content":
-          "<p> Even though bail can sometimes be granted for non-bailable offenses, if any of the following apply to your judgement, then no bail will be granted: <ul> <li> death punishment, </li> <li> prison for life, or </li> <li> jail time of more than 7 years </li> <li> if the offence is cognizable </li> <li> has been convicted previously on two or more occasions of a cognizable offence punishable with imprisonment of three years or more but not less than seven years. </li> </ul>  </p> "
+          "<p> Even though bail can sometimes be granted for non-bailable offenses, if any of the following apply to your judgement, then no bail will be granted: <ul> <li> death punishment, </li> <li> prison for life, </li> <li> jail time of more than 7 years, </li> <li> if the offence is cognizable, </li> <li> has been convicted previously on two or more occasions of a cognizable offence punishable with imprisonment of three years or more but not less than seven years. </li> </ul>  </p> "
       },
       {
         "id": "exp02",
         "title": "Special Conditions for Bail",
         "content":
-          "<p> Some cases when you can be granted bail when charged with a non-bailable offense are: <ul> <li> If it appears to the officer or the court that at any stage of inquiry or trail, that there are no reasonable grounds for believing that the accused has committed a non-bailable offence then the accused can be granted bail. </li> <li> If a case where the trail of an accused person of any non bailable offence is not concluded within 60 days from the first day of trail, and the person has been in jail all this while, then the court can release him on bail. </li> <li> If an accused is in Jail after the conclusion of the offence and before the judgement is delivered, and the judge has reasonable grounds to think that the accused can be released then he is released. </li> </ul>  </p> "
+          "<p> Some cases when you can be granted bail when charged with a non-bailable offense are: <ul> <li> If it appears to the officer or the court that at any stage of inquiry or trail, that there are no reasonable grounds for believing that the accused has committed a non-bailable offence then the accused can be granted bail. </li> <li> If a case where the trail of an accused person of any non bailable offence is not concluded within 60 days from the first day of trail, and the person has been in jail all this while, then the court can release him on bail. </li> <li> If an accused is in jail after the conclusion of the offence and before the judgement is delivered, and the judge has reasonable grounds to think that the accused can be released then he is released. </li> </ul>  </p> "
       },
       {
         "id": "exp03",
@@ -1730,7 +1754,7 @@
         "id": "exp07",
         "title": "Anticipatory Bail",
         "content":
-          "<p> Many times, people file fake and frivolous cases against other persons. This leads to harming of reputation and time of other persons. To avoid from such problems, a person, if they have reasons to believe that they may be arrested for a non-bailable offence in the future, they can apply for a bail in the High Court or the Court of session even before they are arrested. </p> <p> If the court finds good reasons for this bail application, then the court may allow for bail. However, it should not be assumed that the person gets bail in advance. A person will get bail only when he or she is arrested. </p> <h4>Conditions for anticipatory bail</h4><p>  <ul> <li> the person shall make themself available for interrogation by a police officer when required </li> <li> the person shall not, directly, or indirectly make any inducement, threat or promise to any person acquainted with the facts of the case so as to dissuade them from disclosing such facts to the court or to any police officer. </li> <li> the person shall not leave India without the previous permission of the court </li> <li> And other conditions which are similar to that of normal bail </li> </ul>  </p> "
+          "<p> Many times, people file fake and frivolous cases against other persons. This leads to harming of reputation and time of other persons. To avoid from such problems, a person, if they have reasons to believe that they may be arrested for a non-bailable offence in the future, they can apply for a bail in the High Court or the Court of Session even before they are arrested. </p> <p> If the court finds good reasons for this bail application, then the court may allow for bail. However, it should not be assumed that the person gets bail in advance. A person will get bail only when he or she is arrested. </p> <h4>Conditions for anticipatory bail</h4><p>  <ul> <li> The person shall make themself available for interrogation by a police officer when required. </li> <li> The person shall not, directly, or indirectly make any inducement, threat or promise to any person acquainted with the facts of the case so as to dissuade them from disclosing such facts to the court or to any police officer. </li> <li> The person shall not leave India without the previous permission of the court. </li> <li> Other conditions which are similar to that of normal bail. </li> </ul>  </p> "
       }
     ],
     "qna": [
@@ -1752,7 +1776,7 @@
         "question":
           "I have been in jail for a long time and the trial is still going on. What are my options?",
         "answer":
-          "<p> Yes, your options are: <ul> <li>  You have a right to be considered for release if your crime was tried by a Magistrate and the trial has not concluded within 60 days from the first date on which evidence was supposed to have been taken. </li> <li> If you have spent the maximum jail time that could have been imposed on you. </li> <li> if you have been in jail for one half of the maximum jail time that could have been imposed on you. The court can still send you back to jail or release you on a personal bond (with or without sureties) . If you are sent back to jail, please note that you have the right to be released once you have served the maximum jail time. </li> </ul> However, neither of these rules apply if you are accused of a crime attracting death punishment. </p> "
+          "<p> Yes, your options are: <ul> <li>  You have a right to be considered for release if your crime was tried by a Magistrate and the trial has not concluded within 60 days from the first date on which evidence was supposed to have been taken. </li> <li> If you have spent the maximum jail time that could have been imposed on you. </li> <li> If you have been in jail for one half of the maximum jail time that could have been imposed on you. The court can still send you back to jail or release you on a personal bond (with or without sureties) . If you are sent back to jail, please note that you have the right to be released once you have served the maximum jail time. </li> </ul> However, neither of these rules apply if you are accused of a crime attracting death punishment. </p> "
       },
       {
         "id": "qna03",
@@ -1785,7 +1809,7 @@
     "glossary": [{
       "id": "glos00",
       "term": "Bailable offence",
-      "definition": "An offence for which an accused arrested without a warrant or brought before a Court shall be released upon giving bail. Bail is a right of the accused in such offences"
+      "definition": "An offence for which an accused arrested without a warrant or brought before a Court shall be released upon giving bail. Bail is a right of the accused in such offences."
     }, {
       "id": "glos01",
       "term": "Non-bailable offence",
@@ -1848,7 +1872,7 @@
         "id": "exp03",
         "title": "Physically or Mentally Disabled",
         "content":
-          "<p> Where a person who is mentally or physically disable, wants to report certain crimes committed against him, instead of coming a police station, the police can go to their residence or any such place convenient to the informant, for recording the information. Such information may even be videographed. </p> "
+          "<p> Where a person who is mentally or physically disabled, wants to report certain crimes committed against him, instead of coming a police station, the police can go to their residence or any such place convenient to the informant, for recording the information. Such information may even be videographed. </p> "
       },
       {
         "id": "exp04",
@@ -1881,7 +1905,7 @@
         "question":
           "I am not able to go to the police station. Is there any other way I can file an FIR?",
         "answer":
-          "<p> Yes, you can call 100 and register an FIR with them. Some States even allow registering an FIR online. </p> "
+          "<p> Yes, you can call 100 and register an FIR with them.<a href='https://www.thebetterindia.com/45845/e-fir-india-complaint-delhi-police-bengaluru-madhya-pradesh-tamil-nadu-karnataka-himachal-pradesh/' target='_blank'>Some</a> states even allow registering an FIR online. </p> "
       },
       {
         "id": "qna03",
@@ -1969,7 +1993,7 @@
         "id": "exp03",
         "title": "Censorship of TV Content",
         "content":
-          "<p> A different set of laws deal with content on TV. The main law (﻿The Cable Television Networks (Regulation) Act, 1995) allows the Government to ban channels, or even entire cable operators (say Star TV as a whole). Any content can be blocked by the Government if it feels that the content is encouraging hatred between groups, or it can cause public unrest. </p> <p> Content can also be blocked if it violates the Programme Code and Advertising Code put out by the Government that all cable channels must follow. As with the film guidelines, you should read them yourself. They have a widely worded set of conditions, such as: <ul> <li> Content should not 'offend good taste or decency' </li> <li> Should not encourage superstition. </li> <li> Should not be derogatory to women.</li> </p> "
+          "<p> A different set of laws deal with content on TV. The main law (﻿The Cable Television Networks (Regulation) Act, 1995) allows the Government to ban channels, or even entire cable operators (say Star TV as a whole). Any content can be blocked by the Government if it feels that the content is encouraging hatred between groups, or it can cause public unrest. </p> <p> Content can also be blocked if it violates the Programme Code and Advertising Code put out by the Government that all cable channels must follow. As with the film guidelines, you should read them yourself. They have a widely worded set of conditions, such as: <ul> <li> Content should not 'offend good taste or decency' </li> <li> Should not encourage superstition</li> <li> Should not be derogatory to women</li> </p> "
       },
       {
         "id": "exp04",
@@ -2299,7 +2323,7 @@
         "id": "exp00",
         "title": "Making a will",
         "content":
-          "<p> You can make a will at any point during your lifetime, if you are a <ul> <li> person of sound mind, and </li> <li> Over the age of 18 </li> </ul> The idea here is that a person making the will should be aware of what they are doing. </p> <p> Illustratively, a person with mental disabilities can also make a will when they are aware of what they are doing. If a person is under the influence of alcohol and does not know what they are doing, then they cannot make a will. </p> "
+          "<p> You can make a will at any point during your lifetime, if you are a <ul> <li> person of sound mind, and </li> <li> over the age of 18 </li> </ul> The idea here is that a person making the will should be aware of what they are doing. </p> <p> Illustratively, a person with mental disabilities can also make a will when they are aware of what they are doing. If a person is under the influence of alcohol and does not know what they are doing, then they cannot make a will. </p> "
       },
       {
         "id": "exp01",
@@ -2512,7 +2536,7 @@
   "prostitution": {
     "name": "Prostitution",
     "summary":
-      "Prostitution is the exchange of money for sex and is not by itself illegal in India. Carrying on prostitution in certain places, attempting to tempt a person towards engaging a prostitute,living off the earnings of a sex worker,Making a person work as a sex worker and owning a brothel are all illegal activities",
+      "Prostitution is the exchange of money for sex and is not by itself illegal in India. Carrying on prostitution in certain places, attempting to tempt a person towards engaging a prostitute, living off the earnings of a sex worker, making a person work as a sex worker and owning a brothel are all illegal activities.",
     "image": "",
     "explanations": [
       {
@@ -2648,7 +2672,7 @@
         "id": "exp05",
         "title": "Taking Leave during Proceedings/Inquiry",
         "content":
-          "<p> If you’re the victim of Sexual Harassment at the workplace and have filed a complaint with your employer, your employer should have set up an Internal Complaints Committee to review the case. In such an event, your employer cannot force you to continue working nor can they take away any sanctioned leave already promised. You may exercise your right to use your employer-provided leave and request the committee for additional leave. </p> "
+          "<p> If you’re the victim of Sexual Harassment at the workplace and have filed a complaint with your employer, your employer should have set up an Internal Complaints Committee to review the case. In such an event, your employer cannot force you to continue working nor can they take away any sanctioned leave already promised. You may exercise your right to use leaves provided by the employer and request the committee for additional leave.</p> "
       },
       {
         "id": "exp06",
@@ -2702,7 +2726,7 @@
         "id": "exp14",
         "title": "Employer’s Responsibility",
         "content":
-          "<p> Under the law, an employer has a set of binding duties to create a safe work environment for women. </p> <p> Women employees should feel safe from sexual harassment from co-workers as well as others who might just be visiting the workplace. It’s important for employers to visibly display the sexual harassment policy of the company along with the order setting up the Internal Complaints Committee so employees, as well as visitors to the workplace, can see it. </p> <p> When as an employer you fail to <ul> <li> Set  up an Internal Complaints Committee by an order in writing <ul> <li> Set up an Internal Complaints Committee for each office, unit or branch </li> <li> Organize training programs for the members of the Internal Complaints Committee </li> <li> Provide facilities to the Internal Complaints Committee to conduct inquiries </li> <li> Ensure that all witnesses and the offender appear before the Internal Complaints Committee </li> <li> Make sure all information is available to the Internal Complaints Committee </li> <li> Support any woman who chooses to file a criminal case against the offender, whether the perpetrator is an employee or not. Further, support her if she chooses to file a complaint with the Internal Complaints Committee of the workplace where the incident took place </li> <li> Should treat sexual harassment as a misconduct under service rules </li> <li> Ensure that the Annual Reports by the Internal Complaints Committee are submitted on time </li> <li> Pay the external member of the Internal Complaints Committee fees </li> <li> Be responsible for getting a new member of the Internal Complaints Committee if a member is removed from office </li> <li> Implement the settlement terms and take action as per the recommendations of the Internal Complaints Committee or the Local Complaints Committee </li> <li> Send a report back to the Internal Complaints Committee on how the recommendations of the Committee were implemented</ul> </li> <li> Frame a comprehensive sexual harassment policy for the workplace. Visibly display the sexual harassment policy of the company along with the order setting up the Internal Complaints Committee at your workplace </li> <li> Organize regular workshops to educate the employees about issues of sexual harassment </li> </ul> or does not follow or attempts to not follow or helps someone else is not following the above instructions, you may be fined with a maximum amount of Rupees Fifty Thousand.</b> </p> "
+          "<p> Under the law, an employer has a set of binding duties to create a safe work environment for women. </p> <p> Women employees should feel safe from sexual harassment from co-workers as well as others who might just be visiting the workplace. It’s important for employers to visibly display the sexual harassment policy of the company along with the order setting up the Internal Complaints Committee so employees, as well as visitors to the workplace, can see it. </p> <p> When as an employer you fail to <ul> <li> Set  up an Internal Complaints Committee by an order in writing <ul> <li> Set up an Internal Complaints Committee for each office, unit or branch </li> <li> Organize training programs for the members of the Internal Complaints Committee </li> <li> Provide facilities to the Internal Complaints Committee to conduct inquiries </li> <li> Ensure that all witnesses and the offender appear before the Internal Complaints Committee </li> <li> Make sure all information is available to the Internal Complaints Committee </li> <li> Support any woman who chooses to file a criminal case against the offender, whether the perpetrator is an employee or not. Further, support her if she chooses to file a complaint with the Internal Complaints Committee of the workplace where the incident took place </li> <li> Should treat sexual harassment as a misconduct under service rules </li> <li> Ensure that the Annual Reports by the Internal Complaints Committee are submitted on time </li> <li> Pay the external member of the Internal Complaints Committee fees </li> <li> Be responsible for getting a new member of the Internal Complaints Committee if a member is removed from office </li> <li> Implement the settlement terms and take action as per the recommendations of the Internal Complaints Committee or the Local Complaints Committee </li> <li> Send a report back to the Internal Complaints Committee on how the recommendations of the Committee were implemented</ul> </li> <li> Frame a comprehensive sexual harassment policy for the workplace. Visibly display the sexual harassment policy of the company along with the order setting up the Internal Complaints Committee at your workplace </li> <li> Organize regular workshops to educate the employees about issues of sexual harassment </li> </ul> or does not follow or attempts to not follow or helps someone else in not following the above instructions, you may be fined with a maximum amount of Rupees Fifty Thousand.</b> </p> "
       },
       {
         "id": "exp15",
@@ -2715,7 +2739,7 @@
         "id": "exp16",
         "title": "Responsibilities of Higher Education Institutions",
         "content":
-          " <ul> <li> Modify its ordinances and rules in relation to the requirements of the Regulations.  </li> <li> Publicly notify the provisions against Sexual Harassment. </li> <li> Must organise Training programs or workshops for the Officers, functionaries, faculty and Student, to ensure knowledge and awareness of the rights, entitlements and responsibilities enshrined in the act and the regulations.  </li> <li> Act decisively against all gender-based violence perpetrated against employees and student of all sexes recognizing that primarily women employees and students and some male students and students of the third gender are vulnerable to many forms of sexual harassment and humiliation.  </li> <li> Publicly commit itself to a zero-tolerance policy towards sexual harassment.  </li> <li> Include in its Prospectus and display prominently on Notice boards the penalty and consequences of Sexual Harassment and make the Institutional community aware of the information for redressal of complaints, the contact details of ICC, the procedure for filing complaints etc.  </li> <li> Inform about the recourse available to the employees and students if they are the victim of Sexual Harassment.  </li> <li> Organise orientation programs for the members of ICC to deal with all kinds of complaints and sensitively come to a decision.  </li> <li> Must try to curb all forms of harassment of employees and students whether it is from someone in dominant power or from peers or from someone outside the geographical limits.  </li> <li> Bring to light all those who are guilty of Sexual harassment against the employees and students and initiate proceedings as required by the law.  </li> <li> Should treat Sexual Harassment as a misconduct under the service rules and initiate proceedings under misconduct if the perpetrator is an employee.  </li> <li> Treat sexual harassment as a violation of disciplinary rules resulting in Rustication or expulsion if the perpetrator is a student.  </li> <li> Ensure Compliance with the provisions within 60 days from the date of publication of these regulations.  </li> <li> Monitor timely submissions of reports by ICC.  </li> <li> Prepare an annual status report with details, number of cases filed and their disposal and submit the same to the Commission.  </li> <li> Conduct a regular and half-yearly review of the efficacy and implementation of anti-sexual harassment policies.  </li> <li> Must ensure adequate lighting in the campus, well Trained Security system, and health facilities. </li> </ul> "
+          " <ul> <li> Modify its ordinances and rules in relation to the requirements of the Regulations.  </li> <li> Publicly notify the provisions against Sexual Harassment. </li> <li> Must organise training programs or workshops for the officers, functionaries, faculty and students, to ensure knowledge and awareness of the rights, entitlements and responsibilities enshrined in the act and the regulations.  </li> <li> Act decisively against all gender-based violence perpetrated against employees and students of all sexes recognizing that primarily women employees and students and some male students and students of the third gender are vulnerable to many forms of sexual harassment and humiliation.  </li> <li> Publicly commit itself to a zero-tolerance policy towards sexual harassment.  </li> <li> Include in its Prospectus and display prominently on Notice boards the penalty and consequences of Sexual Harassment and make the Institutional community aware of the information for redressal of complaints, the contact details of ICC, the procedure for filing complaints etc.  </li> <li> Inform about the recourse available to the employees and students if they are the victim of Sexual Harassment.  </li> <li> Organise orientation programs for the members of ICC to deal with all kinds of complaints and sensitively come to a decision.  </li> <li> Must try to curb all forms of harassment of employees and students whether it is from someone in dominant power or from peers or from someone outside the geographical limits.  </li> <li> Bring to light all those who are guilty of Sexual harassment against the employees and students and initiate proceedings as required by the law.  </li> <li> Should treat Sexual Harassment as a misconduct under the service rules and initiate proceedings under misconduct if the perpetrator is an employee.  </li> <li> Treat sexual harassment as a violation of disciplinary rules resulting in Rustication or expulsion if the perpetrator is a student.  </li> <li> Ensure Compliance with the provisions within 60 days from the date of publication of these regulations.  </li> <li> Monitor timely submissions of reports by ICC.  </li> <li> Prepare an annual status report with details, number of cases filed and their disposal and submit the same to the Commission.  </li> <li> Conduct a regular and half-yearly review of the efficacy and implementation of anti-sexual harassment policies.  </li> <li> Must ensure adequate lighting in the campus, well Trained Security system, and health facilities. </li> </ul> "
       },
       {
         "id": "exp17",
@@ -2795,19 +2819,12 @@
       },
       {
         "id": "qna10",
-        "question":
-          "Is sexual harassment at a job interview sexual harassment at a workplace?",
-        "answer":
-          "<p> Yes, sexual harassment at a job interview would constitute sexual harassment at a   workplace. </p> "
-      },
-      {
-        "id": "qna11",
         "question": "Is gender based discrimination sexual harassment?",
         "answer":
           "<p> Sexual harassment is a form of gender based discrimination. Not all gender based discrimination at a workplace will be considered sexual harassment. To understand if your specific case of gender based discrimination at your workplace is sexual harassment please look at the explanations. For further clarification please contact a lawyer. </p> "
       },
       {
-        "id": "qna12",
+        "id": "qna11",
         "question":
           "Is being asked about my sexual orientation sexual harassment?",
         "answer":
