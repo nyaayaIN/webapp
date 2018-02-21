@@ -464,7 +464,7 @@
     "explanations": [
       {
         "id": "exp00",
-        "title": "Request to obtaining information",
+        "title": "Request to Obtain Information",
         "content":
           "<p> The application can be in either English, Hindi or the official language of the area. The application should be in writing. It can be submitted personally, through post, e-mail or through online portals. For public authorities under the Central Government, there is an online forum where RTI applications can be made directly. You can also access step-by-step guidelines on how to send an application through the online portal. A useful compilation for states is available <a href='http://www.rti.gov.in/rti/states.asp' target='_blank'>here</a>. </p> <p> If someone cannot make the request because they are illiterate or unable to write, the Public Information Office has a duty to help the person so that they can take down the request and put it in writing. If the application is sent to the wrong public authority by mistake, the PIO who receives this application has a duty to transfer it within five days. </p> "
       },
@@ -502,7 +502,7 @@
         "id": "exp06",
         "title": "Appealing a decision on an application",
         "content":
-          "<p> If you do not receive a decision from the PIO within 30 days, you can file an appeal against the decision of the PIO before an officer who is senior to the PIO. You need to file this appeal within 30 days. This time period can be extended, if the officer feels that the delay is justified. </p> <p> Usually the public authority will state who the appellate authority is on its website or at its office. This will be an officer who is senior in rank to the PIO. A third party can also file an appeal within 30 days of the date of the order by the PIO. </p> <p> If you are not satisfied with the first appeal decision, you can make a second appeal within 90 days to Central Information Commission or the State Information Commission by following the suggested format for the second appeal. </p> <p> The responsibility of proving that the refusal to provide information was justified, lies squarely on the PIO which refused this information. The Information Commission should finish the appeal in 30 days. This can be extended to forty-five days with reasons being recorded for the extension. </p> <p> In order to make a decision, the Information Commission can ask the public authority to: <ul> <li> provide information in a particular manner </li> <li> appoint a PIO </li> <li> publish relevant information </li> <li> manage records properly </li> <li> conduct training programmes for officials </li> <li> provide an annual report </li> <li> provide compensation to any complainant </li> </ul> It can also impose penalties and reject specific applications. </p> "
+          "<p> If you do not receive a decision from the PIO within 30 days, you can file an appeal against the decision of the PIO before an officer who is senior to the PIO. You need to file this appeal within 30 days. This time period may be extended, if the officer feels that the delay is justified. </p> <p> Usually the public authority will state who the appellate authority is on its website or at its office. This will be an officer who is senior in rank to the PIO. A third party can also file an appeal within 30 days of the date of the order by the PIO. </p> <p> If you are not satisfied with the first appeal decision, you can make a second appeal within 90 days to Central Information Commission or the State Information Commission by following the suggested format for the second appeal. </p> <p> The responsibility of proving that the refusal to provide information was justified, lies squarely on the PIO who refused this information. The Information Commission should finish the appeal in 30 days. This can be extended to forty-five days with reasons being recorded for the extension. </p> <p> In order to make a decision, the Information Commission can ask the public authority to: <ul> <li> provide information in a particular manner </li> <li> appoint a PIO </li> <li> publish relevant information </li> <li> manage records properly </li> <li> conduct training programmes for officials </li> <li> provide an annual report </li> <li> provide compensation to any complainant </li> </ul> It can also impose penalties and reject specific applications. </p> "
       },
       {
         "id": "exp07",
@@ -898,7 +898,7 @@
   }, {
     "id": "qna23",
     "question": "Are women of all religious faiths protected from Domestic Violence?",
-    "answer": "<p> Yes, women of all religious faiths can claim reliefs under this Act. However, the local laws of the particular religion will also have to be considered. </p> "
+    "answer": "<p> Yes, women of all religious faiths can claim reliefs under this Act.</p> "
   }],
     "glossary": [{
       "id": "glos01",
@@ -2753,7 +2753,7 @@
         "id": "qna00",
         "question": "Do only offices have to prevent sexual harassment?",
         "answer":
-          "<p> If you are responsible for the management, supervision and control of the workplace then you will be understood as an employer under the law. (See section 2g of the Sexual Harassment Of Women At Workplace (Prevention, Prohibition And Redressal) Act, 2013. In the case of: <ul> <li> <b>Government offices:</b>An employer is usually the head of department. Sometimes, the government may decide that another person will be considered as the 'employer'. </li> <li> <b>Private offices:</b> An employer is any person who manages and is in charge of the office. This includes the board or committee making and implementing policies. </li> <li> <b>Any office:</b> A person who is an employer according to their contract. </li> <li> <b>Home:</b> The person or the house which hires a domestic worker. The nature of the work and the number of workers do not matter.</li> </p> "
+          "<p> If you are responsible for the management, supervision and control of the workplace then you will be understood as an employer under the law. (See section 2g of the Sexual Harassment Of Women At Workplace (Prevention, Prohibition And Redressal) Act, 2013. In the case of: <ul> <li> <b>Government offices: </b>An employer is usually the head of department. Sometimes, the government may decide that another person will be considered as the 'employer'. </li> <li> <b>Private offices:</b> An employer is any person who manages and is in charge of the office. This includes the board or committee making and implementing policies. </li> <li> <b>Any office:</b> A person who is an employer according to their contract. </li> <li> <b>Home:</b> The person or the house which hires a domestic worker. The nature of the work and the number of workers do not matter.</li> </p> "
       },
       {
         "id": "qna01",
