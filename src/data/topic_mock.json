@@ -765,11 +765,11 @@
     "explanations": [{
       "id": "exp00",
       "title": "Acts of Domestic Violence",
-      "content": "<p> Domestic violence is more than just violent acts, in some cases, not doing something can also be a form of domestic violence. The law recognizes any of these as being a form of domestic violence: <ul> <li> acts that harm you, your health or well-being. </li> <li> harassing or hurting you or your relatives for dowry, money or property. </li> <li> threatening to be abusive or threatening to hurt you or your relatives for dowry, money or property. </li> <li> acts that cause physical or mental pain. </li> <li> Neglecting basic needs </li> <li> physical, sexual, verbal and emotional, as well as economic abuse </li> </ul> If you are still uncertain, it is best to check with an NGO which deals in Domestic Violence cases, a Protection Officer or a lawyer. </p> "
+      "content": "<p> Domestic violence is more than just violent acts, in some cases, not doing something can also be a form of domestic violence. The law recognizes any of these as being a form of domestic violence: <ul> <li> acts that harm you, your health or well-being; </li> <li> harassing or hurting you or your relatives for dowry, money or property; </li> <li> threatening to be abusive or threatening to hurt you or your relatives for dowry, money or property; </li> <li> acts that cause physical or mental pain; </li> <li> Neglecting basic needs; </li> <li> physical, sexual, verbal and emotional, as well as economic abuse. </li> </ul> If you are still uncertain, it is best to check with an NGO which deals in Domestic Violence cases, a Protection Officer or a lawyer. </p> "
     }, {
       "id": "exp01",
       "title": "Victim of Domestic Abuse and Abuser",
-      "content": "<p> A woman should have been in a domestic relationship with the offender. She need not only be a married woman. A woman in a live-in-relationship can also file a case. She should have lived with the offender in a shared household. </p> <p> Any adult male who currently is in, or has been in a domestic relationship with the victim who has filed a complaint, can be an offender/abuser. Any relative of such male or any male or female family member of the victim can also be considered an abuser. </p> "
+      "content": "<p> A woman should have been in a domestic relationship with the offender. She need not only be a married woman. A woman in a live-in-relationship can also file a case. She should have lived with the offender in a shared household. </p> <p> Any adult male who currently is in, or has been in a domestic relationship with the victim who has filed a complaint or any relative of such adult male or female family member can be an offender/abuser.</p> "
     }, {
       "id": "exp02",
       "title": "Maintaining Privacy",
@@ -777,7 +777,7 @@
     }, {
       "id": "exp03",
       "title": "Immediate Protection",
-      "content": "<p> Given the harm being caused to victims in the case of domestic violence, even before the final decision is made, the victim can ask, the Magistrate to pass a 'protection order' that  commands the offender: <ul> <li> not to commit or help commit domestic violence. </li> <li> not to disturb the victim at her office, or in the case of a child, not to disturb her at her school. </li> <li> not to contact the victim personally or through email, telephone or similar means. </li> <li> not to do the following without her permission: </li> <li> sell or give away their things, including victim’s stridhan(wedding gifts) </li> <li> use their single/joint bank account, or </li> <li> use their single/joint ban </li> <li> not to harm anyone who depends on the victim, her relatives and anyone else who has helped her. </li> </ul> The law allows the Magistrate to pass an order in the absence of the offender if there is an immediate threat of violence. </p> <p> Further, the protection order is valid: <ul> <li> Until the victim feels comfortable without it </li> <li> The magistrate can also change the conditions of the order if there is a need to do so if there is an application by either the victim or the offender.  </li> </ul> The victim also has the option of initiating criminal proceedings under S. 498A of the Indian Penal Code. Read more about that here. Please note that filing a criminal complaint can put the offenders in jail for up to three years. The victim must have suffered a graver degree of abuse (i.e. cruelty) to be able to file a complaint. </p> "
+      "content": "<p> Given the harm being caused to victims in the case of domestic violence, even before the final decision is made, the victim can ask, the Magistrate to pass a 'protection order' that  commands the offender: <ul> <li> not to commit or help commit domestic violence; </li> <li> not to disturb the victim at her office, or in the case of a child, not to disturb her at her school; </li> <li> not to contact the victim personally or through email, telephone or similar means; </li> <li> not to do the following without her permission: </li> <li> sell or give away their things, including victim’s stridhan(wedding gifts); </li> <li> use their single/joint bank account. </li> </ul> The law allows the Magistrate to pass an order in the absence of the offender if there is an immediate threat of violence. </p> <p> Further, the protection order is valid: <ul> <li> Until the victim feels comfortable without it </li> <li> The magistrate can also change the conditions of the order if there is a need to do so if there is an application by either the victim or the offender.  </li> </ul> The victim also has the option of initiating criminal proceedings under S. 498A of the Indian Penal Code. Read more about that here. Please note that filing a criminal complaint can put the offenders in jail for up to three years. The victim must have suffered a graver degree of abuse (i.e. cruelty) to be able to file a complaint. </p> "
     }, {
       "id": "exp04",
       "title": "Staying in the house",
@@ -993,16 +993,16 @@
     "image": "",
     "explanations": [{
       "id": "exp00",
-      "title": "Children taking care of Parents",
-      "content": "<p> Indian law requires all persons to maintain and support their parents - biological, step-parents as well as adoptive depending on the circumstances. There is also a special law. The Maintenance And Welfare Of Parents And Senior Citizens Act, 2007, under which a senior citizen (above 60 years) can apply to a tribunal for maintenance from his adult children or legal heir. Under both these laws, you can apply for maintenance if you are unable to take care of yourself. </p> "
+      "title": "Children Taking Care of Parents",
+      "content": "<p> Indian law requires all persons to maintain and support their parents - biological, step-parents as well as adoptive depending on the circumstances. There is also a special law. The Maintenance and Welfare Of Parents And Senior Citizens Act, 2007, under which a senior citizen (above 60 years) can apply to a tribunal for maintenance from his adult children or legal heir. Under both these laws, you can apply for maintenance if you are unable to take care of yourself. </p> "
     },{
       "id": "exp01",
       "title": "Maintenance under Hindu Law",
-      "content": "<p> Biological/Adoptive parents who are Hindu, Buddhist, Jain or Sikh and are aged or infirmed can seek maintenance from their grown children under the Hindu Adoptions and Maintenance Act if they are unable to support themselves from their own earning or property. In addition, even when the son or daughter is no more, parents can still claim maintenance from the wealth and properties of the deceased. </p> "
+      "content": "<p> Biological/Adoptive parents who are Hindu, Buddhist, Jain or Sikh and are aged or infirmed can seek maintenance from their grown children under the Hindu Adoptions and Maintenance Act, 1956 if they are unable to support themselves from their own earning or property. In addition, even when the son or daughter is no more, parents can still claim maintenance from the wealth and properties of the deceased child. </p> "
     },{
       "id": "exp02",
       "title": "Maintenance under Code of Criminal Procedure",
-      "content": "<p> Under Section 125 of the Code of Criminal Procedure, If any person with sufficient resources refuses or ignores to maintain the following set of persons, then the Magistrate of the First Class may order such person to give monthly allowance for maintenance. The following are the set of persons: <ul> <li> His wife who is not able to maintain hersel </li> <li> His legitimate or illegitimate minor child who is unmarried or not and cannot maintain himself/hersel </li> <li> His legitimate or illegitimate child (who is not a married daughter) and has attained majority, is of unsound mind or his handicapped and is unable to maintain himself or hersel </li> <li> His parents who are unable to maintain themselves </li> </ul>  </p> "
+      "content": "<p> Under Section 125 of the Code of Criminal Procedure, if any person with sufficient resources refuses or ignores to maintain parents who are unable to maintain themselves then the Magistrate of the First Class may order such person to give monthly allowance for maintenance. </p> "
     },{
       "id": "exp03",
       "title": "Amount of Maintenance",
@@ -1014,15 +1014,15 @@
     },{
       "id": "exp05",
       "title": "Claiming Maintenance from Tribunal",
-      "content": "<p> You can file an application in a maintenance tribunal under the The Maintenance And Welfare Of Parents And Senior Citizens Act, 2007. You can file an application in the maintenance tribunal in the area where you live currently or have lived in the past or where your children or relatives live. Once you file an application to the Tribunal under The Maintenance And Welfare Of Parents And Senior Citizens Act, 2007, you cannot file an application for maintenance under Section 125 of the Code of Criminal Procedure, 1973 (which also gives you the right). Please remember that there is no cap on the amount of monthly maintenance you can seek under the Code. However, it could be a lengthier process. </p> <h4>Process</h4><p> After you have filed an application (formats will vary from state to state), the court will first notify your children and tell them that you have filed such an application. Then, the court can decide to refer the case to a Conciliation Officer who will then try to get the parties to agree to a friendly settlement. If the court does not refer the case, it will listen to both parties (the parents and the children or relatives). </p> <p> The court will conduct an inquiry to figure out how much maintenance you need to be paid. An inquiry is not a full blown legal proceeding. Even though the law does not allow for representation by lawyers in these courts, there are high court judgments which have held that this right of lawyers cannot be restricted. Even though this court is slightly informal in nature, it has the powers of a civil court and can order attendance of witnesses, take evidence on oath etc. </p> <p> If the court finds that the children or relatives are neglecting to take care of the parents, they can pass an order directing them to pay a monthly maintenance. The court can also order that interest (between 5% and 8%) be paid on the maintenance amount from the date of the application.If your children or parents are not paying the maintenance even after the court order, you can go to any similar court (maintenance tribunal) and ask for help in enforcing the order. </p> "
+      "content": "<p> You can file an application in a maintenance tribunal under the Maintenance And Welfare Of Parents And Senior Citizens Act, 2007. You can file an application in the maintenance tribunal in the area where you live currently or have lived in the past or where your children or relatives live. Once you file an application to the tribunal under the Maintenance And Welfare Of Parents And Senior Citizens Act, 2007, you cannot file an application for maintenance under Section 125 of the Code of Criminal Procedure, 1973 (which also gives you the right). Please remember that there is no cap on the amount of monthly maintenance you can seek under the Code. However, it could be a lengthier process. </p> <h4>Process</h4><p> After you have filed an application (formats will vary from state to state), the court will first notify your children and tell them that you have filed such an application. Then, the court can decide to refer the case to a Conciliation Officer who will then try to get the parties to agree to a friendly settlement. If the court does not refer the case, it will listen to both parties (the parents and the children or relatives). </p> <p> The court will conduct an inquiry to figure out how much maintenance you need to be paid. An inquiry is not a full fledged legal proceeding. Even though the law does not allow for representation by lawyers in these courts, there are high court judgments which have held that this right of lawyers cannot be restricted. This court is slightly informal in nature but it has the powers of a civil court and can order attendance of witnesses, take evidence on oath, etc. </p> <p> If the court finds that the children or relatives are neglecting to take care of the parents, they can pass an order directing them to pay a monthly maintenance. The court can also order that interest (between 5% and 8%) be paid on the maintenance amount from the date of the application. If your children or parents are not paying the maintenance even after the court order, you can go to any similar court (maintenance tribunal) and ask for help in enforcing the order. </p> "
     },{
       "id": "exp06",
-      "title": "Temporary maintenance",
-      "content": "<p> You can make an application to the court to order your children or relatives to pay you temporary maintenance (on a monthly basis). The court has to decide on whether you can get temporary maintenance within 90 days of informing your children or relatives of your application. In special circumstances, they can delay this for some more time (i.e. 30 days).This is not the final maintenance you can expect to get. The court may decide not to give you maintenance at all, or may decide to increase or decrease the amount of maintenance in the final order. </p> "
+      "title": "Temporary Maintenance",
+      "content": "<p> You can make an application to the court to order your children or relatives to pay you temporary maintenance (on a monthly basis). The court has to decide on whether you can get temporary maintenance within 90 days of informing your children or relatives of your application. In special circumstances, they can delay this for some more time (i.e. 30 days). This is not the final maintenance you can expect to get. The court may decide not to give you maintenance at all, or may decide to increase or decrease the amount of maintenance in the final order. </p> "
     },{
       "id": "exp07",
-      "title": "Punishment for abandoning and neglecting senior citizen",
-      "content": "<p> If you leave a senior citizen at some place with the intention of abandoning them and not taking care of them, you can be punished with jail time of up to three months and/or a fine of up to Rupees five thousand. The police can make an arrest without the permission of a court. However, this is a bailable crime. If you are able to pay the bail bond, you will be released. </p> "
+      "title": "Punishment for Abandoning and Neglecting Senior Citizen",
+      "content": "<p> If you leave a senior citizen at some place with the intention of abandoning them and not taking care of them, you can be punished with jail time of up to three months and/or a fine of up to Rs 5000. The police can make an arrest without the permission of a court. However, this is a bailable crime. If you are able to pay the bail bond, you will be released. </p> "
     }],
     "qna": [{
       "id": "qna00",
@@ -1031,7 +1031,7 @@
     }, {
       "id": "qna01",
       "question": "Can the amount of maintenance provided change at a later time?",
-      "answer": "<p> Yes. If there is a major change in your situation that changes your needs and requirements, the amount of maintenance can be altered by approaching the court.However, do remember that the amount can also be decreased depending on whether you now have an additional source of income or your requirements have decreased. It can also be cancelled – for example, if you have converted to another religion and are no longer a Hindu, the judge may cancel payments as you are no longer eligible to receive maintenance under Hindu law. </p> "
+      "answer": "<p> Yes. If there is a major change in your situation that changes your needs and requirements, the amount of maintenance can be altered by approaching the court. However, do remember that the amount can also be decreased depending on whether you now have an additional source of income or your requirements have decreased. It can also be cancelled, for example, if you have converted to another religion and are no longer a Hindu, the judge may cancel payments as you are no longer eligible to receive maintenance under Hindu law. </p> "
     }, {
       "id": "qna02",
       "question": "Do the parents have to be biological parents to ask for maintenance? Can adoptive and step-parents also ask for support?",
@@ -1039,7 +1039,7 @@
     }, {
       "id": "qna03",
       "question": "I am an old man and I got diagnosed with arthritis. The costs of treatments have gone up. Can I increase the amount of maintenance? Can the amount of maintenance provided change at a later time?",
-      "answer": "<p> Yes. If there is a major change in your situation that changes your needs and requirements, the amount of maintenance can be altered by approaching the court. However, do remember that the amount can also be decreased depending on whether you now have an additional source of income or your requirements have decreased. It can also be cancelled – for example, if you have converted to another religion and are no longer a Hindu, the judge may cancel payments as you are no longer eligible to receive maintenance under Hindu law. </p> "
+      "answer": "<p> Yes. This cost of treatment would be considered a major change in your situation and therefore the amount of maintenance can be altered/increased by approaching the court. However, do remember that the amount can also be decreased depending on whether you now have an additional source of income or your requirements have decreased. It can also be cancelled – for example, if you have converted to another religion and are no longer a Hindu, the judge may cancel payments as you are no longer eligible to receive maintenance under Hindu law. </p> "
     }, {
       "id": "qna04",
       "question": "Can I also ask my mother to pay me maintenance?",
@@ -1060,7 +1060,7 @@
     },{
       "id": "glos01",
       "term": "Children",
-      "definition": "Includes son, daughter, grandson and granddaughter but does not include a minor"
+      "definition": "Includes son, daughter, grandson and granddaughter but does not include a minor."
     },{
       "id": "glos01",
       "term": "Parent",
@@ -1068,7 +1068,7 @@
     },{
       "id": "glos01",
       "term": "Senior citizen",
-      "definition": "Means any person being a citizen of India , who has attained the age of sixty years or above."
+      "definition": "Any person being a citizen of India who has attained the age of sixty years or above."
     },{
       "id": "glos01",
       "term": "Welfare",
@@ -1098,9 +1098,9 @@
       },
       {
         "id": "exp01",
-        "title": "Smoking in a public place",
+        "title": "Smoking in a Public Place",
         "content":
-          "<p> Smoking in public buildings like a restaurant, theatre, healthcare institutions or public transport is not allowed and is a crime. You are allowed to smoke in completely open spaces like roads or parks, however it is still illegal to smoke in places like bus stops, railway stations or open auditoriums. You can smoke in designated smoking areas. Under this law, hotels (with more than 30 rooms), airports, or restaurants (which can seat more than 30 people) can create a separate smoking area where smokers can smoke. </p> <p> If you are caught smoking in a public place, a police officer can detain you for smoking in a public place. You will be punished with a maximum fine of Rs. 200 </p> "
+          "<p> Smoking in public buildings like a restaurant, theatre, healthcare institutions or public transport is not allowed and is a crime. You are allowed to smoke in completely open spaces like roads or parks, however it is still illegal to smoke in places like bus stops, railway stations or open auditoriums. You can smoke in designated smoking areas. Under this law, hotels (with more than 30 rooms), airports, or restaurants (which can seat more than 30 people) can create a separate smoking area where smokers can smoke. </p> <p> If you are caught smoking in a public place, a police officer can detain you. You will be punished with a maximum fine of Rs. 200. </p> "
       },
       {
         "id": "exp02",
@@ -1110,19 +1110,19 @@
       },
       {
         "id": "exp03",
-        "title": "Advertising Cigarettes and Tobacco products",
+        "title": "Advertising Cigarettes and Tobacco Products",
         "content":
-          "<p> You must not advertise cigarettes or other tobacco products, even if you are offered money to do so. This also means that you must not advertise the brand name of companies selling cigarettes and tobacco products for sponsorship. The first time you are caught advertising cigarettes or tobacco products, you will be imprisoned upto 2 years and/or will pay fine upto Rs. 1000. After the first time, you will be imprisoned upto 5 years and will pay fine upto Rs. 5000 </p> <p> Where tobacco products are sold, a warning board containing 'Tobacco Causes Cancer' or 'Tobacco Kills' must be displayed. No brand promotion is allowed on such board.This does not apply if the advertisement is on: <ul> <li> The package selling tobacco or cigarettes </li> <li> The shop where tobacco or cigarettes are available. </li> </ul>  </p> "
+          "<p> You must not advertise cigarettes or other tobacco products, even if you are offered money to do so. This also means that you must not advertise the brand name of companies selling cigarettes and tobacco products for sponsorship. The first time you are caught advertising cigarettes or tobacco products, you will be imprisoned upto 2 years and/or will pay fine upto Rs. 1000. After the first time, you will be imprisoned upto 5 years and will pay fine upto Rs. 5000 </p> <p> Where tobacco products are sold, a warning board containing 'Tobacco Causes Cancer' or 'Tobacco Kills' must be displayed. No brand promotion is allowed on such board. This does not apply if the advertisement is on: <ul> <li> The package selling tobacco or cigarettes; </li> <li> The shop where tobacco or cigarettes are available. </li> </ul>  </p> "
       },
       {
         "id": "exp04",
-        "title": "Warning Labels on Cigarettes and Tobacco products",
+        "title": "Warning Labels on Cigarettes and Tobacco Products",
         "content":
-          "<p> All cigarette and tobacco products must: <ul> <li> Have a warning on their label, which may include a photographic warning. The details of the size of warnings in the labels are found in the rules, <a href='https://www.tobaccocontrollaws.org/legislation/country/india/pl-health-warnings' target='_blank'>which are summarised here.</a> </li> <li> This warning must be on the biggest side of the package </li> <li> The nicotine and tar contents of the product is visible on the package </li> <li> The maximum limit of nicotine and tar allowed is visible on the package and the nicotine and tar amount in the tobacco must not exceed the allowed amount </li> <li> The warning on the tobacco product should be Readable and clear as well as bold and visible </li> <li> The warning on the package must be in all the languages used on the packaging. Where a foreign language is used on the package, the warning must be in English. </li> <li> The details of the size of warnings in the labels are found in the rules, <a href='https://www.tobaccocontrollaws.org/legislation/country/india/pl-health-warnings' target='_blank'>which are summarised here.</a> </li> </ul> If you produce the products without warnings, then you can go to jail for upto 2 years or will have to pay fine of Rs. 5,000. When caught a second time, you can go to jail for 5 years or will have to pay fine of Rs. 10,000. If you sell cigarettes without warnings, you can be sent to jail for upto 1 year, or you may have to pay fine upto Rs.1,000 if it was your first offence. When caught a second time, you may go to jail for 2 years, or will pay fine upto Rs. 3,000. </p> "
+          "<p> All cigarette and tobacco products must: <ul> <li> Have a warning on their label, which may include a photographic warning. The details of the size of warnings in the labels are found in the rules, <a href='https://www.tobaccocontrollaws.org/legislation/country/india/pl-health-warnings' target='_blank'>which are summarised here.</a> </li> <li> This warning must be on the biggest side of the package. </li> <li> The nicotine and tar contents of the product is visible on the package. </li> <li> The maximum limit of nicotine and tar allowed is visible on the package and the nicotine and tar amount in the tobacco must not exceed the allowed amount. </li> <li> The warning on the tobacco product should be Readable and clear as well as bold and visible. </li> <li> The warning on the package must be in all the languages used on the packaging. Where a foreign language is used on the package, the warning must be in English. </li> <li> The details of the size of warnings in the labels are found in the rules, <a href='https://www.tobaccocontrollaws.org/legislation/country/india/pl-health-warnings' target='_blank'>which are summarised here.</a> </li> </ul> If you produce the products without warnings, then you can go to jail for upto 2 years or will have to pay fine of Rs. 5,000. When caught a second time, you can go to jail for 5 years or will have to pay fine of Rs. 10,000. If you sell cigarettes without warnings, you can be sent to jail for upto 1 year, or you may have to pay fine upto Rs.1,000 if it was your first offence. When caught a second time, you may go to jail for 2 years, or will pay fine upto Rs. 3,000. </p> "
       },
       {
         "id": "exp05",
-        "title": "Seizure of cigarettes and tobacco products",
+        "title": "Seizure of Cigarettes and Tobacco Products",
         "content":
           "<p>Any police officer or officer of State Food and Drug Administration or any officer authorised by the Central Government who is above the Sub-Inspector rank may enter and search the premises of any location where the advertisement of cigarettes and tobacco products takes place or where buying and selling of cigarettes and tobacco products are happening.</p> "
       },
@@ -1136,7 +1136,7 @@
         "id": "exp07",
         "title": "Appeal",
         "content":
-          "<p> You can always appeal any decision made by a court regarding violations of The Cigarettes And Other Tobacco Products Act. Additional evidence may be taken when the Appeal is heard. When an Appeal is made, the fine amount cannot be increased unless you have been heard in person or by a representative.You can only appeal once. </p> "
+          "<p> You can always appeal any decision made by a court regarding violations of The Cigarettes And Other Tobacco Products Act. Additional evidence may be taken when the Appeal is heard. When an Appeal is made, the fine amount cannot be increased unless you have been heard in person or by a representative. It is important to note that you can only appeal once. </p> "
       }
     ],
     "qna": [
@@ -1151,7 +1151,7 @@
         "id": "exp09",
         "question": "Can police officers seize cigarette or tobacco products?",
         "answer":
-          "<p> Yes, police officers can seize cigarettes/tobacco products when they believe that provisions of the The Cigarettes And Other Tobacco Products (Prohibition Of Advertisement And Regulation Of Trade And Commerce, Production, Supply And Distribution) Act, 2003 are violated. However, they may not hold the cigarettes/tobacco for more than 90 days without approval of the District Judge. </p> "
+          "<p> Yes, police officers can seize cigarettes/tobacco products when they believe that provisions of the The Cigarettes And Other Tobacco Products (Prohibition of Advertisement And Regulation Of Trade And Commerce, Production, Supply And Distribution) Act, 2003 are violated. However, they may not hold the cigarettes/tobacco for more than 90 days without approval of the District Judge. </p> "
       },
       {
         "id": "exp10",
@@ -1393,7 +1393,7 @@
         "id": "exp01",
         "title": "Build an Insanitary Latrine",
         "content":
-          "<p> It is unlawful and an offence under this Act for any person, municipality, panchayat or agency to build an insanitary latrine that requires human waste to be removed manually by a person before the waste has properly decomposed.  </p> <p> Local authorities are required to carry out a survey of insanitary latrines in its area and publish a list of all such latrines which were identified during the survey. The local authorities are responsible for the building and maintenance of these community sanitary latrines and must make sure that they are functional and hygienic. </p> <p> First-time offenders constructing an insanitary latrine can face jail time up to one year as well as a fine for up to Rs. 50,000. Second-time offenders can face jail time up to two years and a fine of up to Rs. 1,00,000. </p> "
+          "<p> It is unlawful and an offence under this Act for any person, municipality, panchayat or agency to build an insanitary latrine that requires human waste to be removed manually by a person before the waste has properly decomposed.  </p> <p> Local authorities are required to carry out a survey of insanitary latrines in its area and publish a list of all such latrines which were identified during the survey. The local authorities are responsible for the building and maintenance of these community sanitary latrines and must make sure that they are functional and hygienic. </p> <p> First-time offenders constructing or engaging or employing someone to construct an insanitary latrine can face jail time up to one year as well as a fine for up to Rs. 50,000. Second-time offenders can face jail time up to two years and a fine of up to Rs. 1,00,000. </p> "
       },
       {
         "id": "exp02",
@@ -1429,7 +1429,7 @@
         "id": "exp07",
         "title": "Rehabilitation",
         "content":
-          "<p> Both in an urban and rural area, if the officers of the Municipality or the Panchayat believe that Manual Scavenging may be taking place in their area of control. In such a case, a survey is done and a list of manual scavengers is created. The Municipality and the Panchayat have a duty to rehabilitate the people included in the list of manual scavengers. The District Magistrate is responsible for ensuring that manual scavengers in that district are rehabilitated in accordance with this law. The District Magistrate or the State Government may assign responsibilities to subordinate officers and officers in the Municipality. The rehabilitation will happen in the following manner: <ul> <li> Immediate help - Within 1 month they must be given a photo ID and some cash. </li> <li> Children's education - Her children can get a government scholarship. </li> <li> Property - The government must put in place schemes under which the person is allotted land and money to build a house or money for a built house. </li> <li> Training for other jobs - The government has to help train either the person or another adult member of her family in other skills. The person should also be paid Rs. 3000 during the time she is undergoing training. </li> <li> Loan - The government must put in place schemes under which the person (or another adult family member) has the option of getting a subsidy or loan with lower interest rates to help them get into another field or occupation. </li> <li> Other Help - The government can choose to give them any other kind of legal or other help. </li> <li> Government Schemes - The Central Government has put in place a scheme called the 'Self Employment Scheme for Rehabilitation' of Manual Scavengers. Read more about the scheme <a href='http://nskfdc.nic.in/content/revised-srms/self-employment-scheme-rehabilitation-manual-scavengers-srms' target='_blank'>here</a>. There are numerous loan schemes put in place by the National Safai Karamcharis Finance & Development Corporation which are offered through state <a href='http://nskfdc.nic.in/content/home/list-channelizing-agencies' target='_blank'> channelling agencies </a>. Read more about how to avail such schemes <a href='http://nskfdc.nic.in/content/lending-policies-and-guidelines' target='_blank'>here</a>. </li> </ul>  </p> "
+          "<p> Both in an urban and rural area, if the officers of the Municipality or the Panchayat believe that Manual Scavenging may be taking place in their area of control, in such a case, a survey is done and a list of manual scavengers is created. The Municipality and the Panchayat have a duty to rehabilitate the people included in the list of manual scavengers. The District Magistrate is responsible for ensuring that manual scavengers in that district are rehabilitated in accordance with this law. The District Magistrate or the State Government may assign responsibilities to subordinate officers and officers in the Municipality. The rehabilitation will happen in the following manner: <ul> <li> Immediate help - Within 1 month they must be given a photo ID and some cash. </li> <li> Children's education - Her children can get a government scholarship. </li> <li> Property - The government must put in place schemes under which the person is allotted land and money to build a house or money for a built house. </li> <li> Training for other jobs - The government has to help train either the person or another adult member of her family in other skills. The person should also be paid Rs. 3000 during the time she is undergoing training. </li> <li> Loan - The government must put in place schemes under which the person (or another adult family member) has the option of getting a subsidy or loan with lower interest rates to help them get into another field or occupation. </li> <li> Other Help - The government can choose to give them any other kind of legal or other help. </li> <li> Government Schemes - The Central Government has put in place a scheme called the 'Self Employment Scheme for Rehabilitation' of Manual Scavengers. Read more about the scheme <a href='http://nskfdc.nic.in/content/revised-srms/self-employment-scheme-rehabilitation-manual-scavengers-srms' target='_blank'>here</a>. There are numerous loan schemes put in place by the National Safai Karamcharis Finance & Development Corporation which are offered through state <a href='http://nskfdc.nic.in/content/home/list-channelizing-agencies' target='_blank'> channelling agencies </a>. Read more about how to avail such schemes <a href='http://nskfdc.nic.in/content/lending-policies-and-guidelines' target='_blank'>here</a>. </li> </ul>  </p> "
       }
     ],
     "qna": [
@@ -1727,7 +1727,7 @@
         "id": "exp00",
         "title": "Conditions of Bail",
         "content":
-          "<p> The conditions of grant of bail are: <ul> <li> Bail should be allowed for the crime when the crime committed is <a href='http://ecourts.gov.in/sites/default/files/classification_2.pdf' target='_blank' rel='noopener noreferrer'>a bailable offence.</a> </li> <li> The person who is applying for bail must execute a bond to be let out of jail. </li> <li> The court requires the accused to have surety sometimes. </li> <li> The court may ask the person to not leave the territory of the country and report to the court whenever he/she is required to so. </li> <li> Sometimes bail is granted in non-bailable offences as well but that is done in special circumstances. The court discretion matters here. </li> </ul>  </p> "
+          "<p> The conditions of grant of bail are: <ul> <li> Bail should be allowed for the crime when the crime committed is <a href='http://ecourts.gov.in/sites/default/files/classification_2.pdf' target='_blank' rel='noopener noreferrer'>a bailable offence.</a> </li> <li> The person who is applying for bail must execute a bond to be let out of jail. </li> <li> The court requires the accused to have surety sometimes. </li> <li> The court may ask the person to not leave the territory of the country and report to the court whenever he/she is required to so. </li> <li> Sometimes bail is granted in non-bailable offences as well but that is done in special circumstances. However, it mainly depends on the discretion of the Court.</li> </ul>  </p> "
       },
       {
         "id": "exp01",
@@ -1739,31 +1739,31 @@
         "id": "exp02",
         "title": "Special Conditions for Bail",
         "content":
-          "<p> Some cases when you can be granted bail when charged with a non-bailable offense are: <ul> <li> If it appears to the officer or the court that at any stage of inquiry or trail, that there are no reasonable grounds for believing that the accused has committed a non-bailable offence then the accused can be granted bail. </li> <li> If a case where the trail of an accused person of any non bailable offence is not concluded within 60 days from the first day of trail, and the person has been in jail all this while, then the court can release him on bail. </li> <li> If an accused is in jail after the conclusion of the offence and before the judgement is delivered, and the judge has reasonable grounds to think that the accused can be released then he is released. </li> </ul>  </p> "
+          "<p> Some cases when you can be granted bail when charged with a non-bailable offense are: <ul> <li> If it appears to the officer or the court that at any stage of inquiry or trail, that there are no reasonable grounds for believing that the accused has committed a non-bailable offence then the accused can be granted bail. </li> <li> If a case where the trail of an accused person of any non bailable offence is not concluded within 60 days from the first day of trail, and the person has been in jail all this while, then the court can release him on bail. </li></ul>  </p> "
       },
       {
         "id": "exp03",
         "title": "Released on Bail",
         "content":
-          "<p> When the accused is let out on bail, they will have to sign a bond saying that they will appear before the court as and when they are required to come.A person who has been released on bail can be arrested again if the court considers it necessary to do so. </p> "
+          "<p> When the accused is let out on bail, they will have to sign a bond saying that they will appear before the court as and when they are required to come. A person who has been released on bail can be arrested again if the court considers it necessary to do so. </p> "
       },
       {
         "id": "exp04",
         "title": "Special Exceptions for Women and Children",
         "content":
-          "<p> If you are a woman or child below 16 and have committed any crime, the court cannot deny you bail. </p> "
+          "<p> If you are a woman or child below 16 and have committed any crime, the courts generally do not deny you bail. However, it depends on the nature of cases. </p> "
       },
       {
         "id": "exp05",
         "title": "Sureties for Bail",
         "content":
-          "<p> When you approach court for bail, the court wants sufficient guarantees to ensure you won't run away. The court may ask you to get some people to take this responsibility. These persons are known as 'sureties'. Your surety should be someone known to you like your friends or family and ideally be from the same place. You don't always need a surety to be released.A surety does not have to always remain a surety. A person can apply to be 'discharged' as a surety - you will need to replace the surety. If you can't replace the surety, you will be taken into custody. </p> "
+          "<p> When you approach court for bail, the court wants sufficient guarantees to ensure you won't run away. The court may ask you to get some people to take this responsibility. You don't always need a surety to be released. A surety does not have to always remain a surety. A person can apply to be 'discharged' as a surety - you will need to replace the surety. If you can't replace the surety, you will be taken into custody.</p> "
       },
       {
         "id": "exp06",
         "title": "Bail Bond",
         "content":
-          "<p> Bail bond is the money that a person must deposit with the court, when they have been granted bail. It is to make sure that the person does not run away. Usually this amount is Rs. 15,000-20,000. It might be less or more, depending upon the nature of crime. You can get bail in non-bailable offences even before you are arrested. It is a special kind of bail  called anticipatory bail. </p> "
+          "<p> Bail bond is the money that a person must deposit with the court, when they have been granted bail. It is to make sure that the person does not run away. Usually this amount is Rs. 15,000-20,000. It might be less or more, depending upon the nature of crime.</p> "
       },
       {
         "id": "exp07",
@@ -1791,7 +1791,7 @@
         "question":
           "I have been in jail for a long time and the trial is still going on. What are my options?",
         "answer":
-          "<p> Yes, your options are: <ul> <li>  You have a right to be considered for release if your crime was tried by a Magistrate and the trial has not concluded within 60 days from the first date on which evidence was supposed to have been taken. </li> <li> If you have spent the maximum jail time that could have been imposed on you. </li> <li> If you have been in jail for one half of the maximum jail time that could have been imposed on you. The court can still send you back to jail or release you on a personal bond (with or without sureties) . If you are sent back to jail, please note that you have the right to be released once you have served the maximum jail time. </li> </ul> However, neither of these rules apply if you are accused of a crime attracting death punishment. </p> "
+          "<p> If you have been jail for too long and not been released on bail, your options are:<ul> <li>  You have a right to be considered for release if your crime was tried by a Magistrate and the trial has not concluded within 60 days from the first date on which evidence was supposed to have been taken. </li> <li> If you have spent the maximum jail time that could have been imposed on you. </li> <li> If you have been in jail for one half of the maximum jail time that could have been imposed on you. The court can still send you back to jail or release you on a personal bond (with or without sureties) . If you are sent back to jail, please note that you have the right to be released once you have served the maximum jail time. </li> </ul> However, neither of these rules apply if you are accused of a crime attracting death punishment. </p> "
       },
       {
         "id": "qna03",
@@ -1993,7 +1993,7 @@
         "id": "exp00",
         "title": "Censorship of Films/Movies",
         "content":
-          "<p> For films/movies to be shown to the general public, they must be certified. Many films are certified only if certain conditions are met and certain changes are made to the film – this amounts to censoring which is generally understood as blocking or hiding content from its intended audience. </p> <p> The law says that the Board can refuse to certify a film if any part, or the whole goes against the sovereignty of India, or affects its relations with other countries. The Censor Board can also take action if it thinks the film is indecent, against morality or if it is likely to cause public unrest or defame anyone. This is similar to language in the Constitution, which lists situations in which our fundamental right of free speech can be regulated. </p> <p> In addition, however, the Central Government has also been given the power to issue more 'guidelines' to help the Censor Board decide how to proceed. You should read them for yourself. </p> <p> Some of the things the guidelines say are - <ul> <li> Films should provide a 'clean and healthy environment' </li> <li> Anti-social activities, or drinking/drug use can't be glorified. </li> <li> There should not be needless violence </li> <li> Films shouldn't cater to the 'baser instinct', or be 'vulgar'. </li> <li> It should not degrade women and sexual violence against women should be shown 'to the minimum' </li> <li> Anti-national or communal attitudes can't be promoted </li> </ul>  </p> "
+          "<p> For films/movies to be shown to the general public, they must be certified. Many films are certified only if certain conditions are met and certain changes are made to the film – this amounts to censoring which is generally understood as blocking or hiding content from its intended audience. </p> <p> The law says that the Board can refuse to certify a film if any part, or the whole goes against the sovereignty of India, or affects its relations with other countries. The Censor Board can also take action if it thinks the film is indecent, against morality or if it is likely to cause public unrest or defame anyone. This is similar to language in the Constitution, which lists situations in which our fundamental right of free speech can be regulated. </p> <p> In addition, however, the Central Government has also been given the power to issue more 'guidelines' to help the Censor Board decide how to proceed. You should read them for yourself. </p> <p> Some of the things the guidelines say are - <ul> <li> Films should provide a 'clean and healthy environment'. </li> <li> Anti-social activities, or drinking/drug use can't be glorified. </li> <li> There should not be needless violence. </li> <li> Films shouldn't cater to the 'baser instinct', or be 'vulgar'. </li> <li> It should not degrade women and sexual violence against women should be shown 'to the minimum'. </li> <li> Anti-national or communal attitudes can't be promoted. </li> </ul>  </p> "
       },
       {
         "id": "exp01",
@@ -2005,7 +2005,7 @@
         "id": "exp02",
         "title": "Public showing of a film without a certificate",
         "content":
-          "<p> The law lays down punishments in the following ways - <br /><b>For showing an uncertified film:</b> The punishment is a minimum prison of 3 months and maximum of three years, and also fine between Rupees 20,000 and one lakh.If the person continues to break the law after getting notice, he can be fined up to rupees 20,000 per day. A judge however can reduce this punishment if he has good reasons. By the order of the Court under Section 7 of the Cinematograph Act, 1952, the film can also be forfeited to the Government.<br /><b>For showing an adult or special film to children or people it is not certified for:</b>Minimum 3 years prison, and also can be fined up to Rupees One lakh.If the person continues to break the law after getting notice, he can be fined up to Rupees 20,000 per day. The film can also be forfeited to the Government.<br /><b>For making changes to the film after its been certified:</b>Minimum 3 years prison, and also can be fined up to 1 lakh rupees.If the person continues to break the law after getting notice, he can be fined up to rupees 20 thousand per day. The film can also be forfeited to the Government. </p> "
+          "<p> The law lays down punishments in the following ways - <br /><b>For showing an uncertified film: </b> The punishment is a minimum prison of 3 months and maximum of three years, and also fine between Rupees 20,000 and one lakh.If the person continues to break the law after getting notice, he can be fined up to rupees 20,000 per day. A judge however can reduce this punishment if he has good reasons. By the order of the Court under Section 7 of the Cinematograph Act, 1952, the film can also be forfeited to the Government.<br /><b>For showing an adult or special film to children or people it is not certified for:</b>Minimum 3 years prison, and also can be fined up to Rupees One lakh.If the person continues to break the law after getting notice, he can be fined up to Rupees 20,000 per day. The film can also be forfeited to the Government.<br /><b>For making changes to the film after its been certified:</b>Minimum 3 years prison, and also can be fined up to 1 lakh rupees.If the person continues to break the law after getting notice, he can be fined up to rupees 20 thousand per day. The film can also be forfeited to the Government. </p> "
       },
       {
         "id": "exp03",
@@ -2127,15 +2127,15 @@
     }, {
       "id": "expo02",
       "title": "Protected against Defamation",
-      "content": "<p> You can be punished if you say or write something to insult the reputation of a company or a group of people (and not just of a single person). However, it is important that this class or group of people can be identified. </p> <p> You can be punished even if the person whose reputation you harmed is dead. What the Court will look at is whether the person's reputation would have been hurt if they were alive. Another thing that the Court will consider is if your actions hurt the feelings of that person's family or relatives. </p> "
+      "content": "<p> You can be punished if you say or write something to insult the reputation of a company or a group of people (and not just of a single person). However, it is important that this class or group of people can be identified. </p> <p> You can be punished even if the person whose reputation you harmed is dead. What the Court will look at is whether the person's reputation would have been hurt if they were alive. Another thing that the Court will consider is if your actions hurt the feelings of that person's family or relatives. The legal representatives or the relatives can file the case for defamation on behalf of the deceased person</p> "
     }, {
       "id": "expo03",
       "title": "Punishment for defamation",
-      "content": "<p> You can be punished with jail time up to 2 years and/or with a fine. By printing or engraving something you know is defamatory to a person's reputation, you can be punished with jail time of up to 2 years and/or with fine. Generally, printers of newspapers are prosecuted under this provision. Selling or trying to sell printed or engraved material which is defamatory can be punished with jail time of up to 2 years and/or with a fine. </p> "
+      "content": "<p> By printing or engraving something you know is defamatory to a person's reputation, you can be punished with jail time of up to 2 years and/or with fine.  </p> "
     }, {
       "id": "expo04",
       "title": "Proof of Defamation",
-      "content": "<p> To prove a defamation case, you have to show the following things:<ol><li>That the person who said or wrote things about you conveyed a defamatory message </li> <li> That the material was published, meaning that it was conveyed to someone other than you. </li> <li> That you could be identified as the person referred to in the defamatory material </li> <li> That you suffered some injury to your reputation as a result of the communication.</li></ol> </p> "
+      "content": "<p> To prove a defamation case, you have to show the following things:<ol><li>That the person who said or wrote things about you conveyed a defamatory message. </li> <li> That the material was published, meaning that it was conveyed to someone other than you. </li> <li> That you could be identified as the person referred to in the defamatory material. </li> <li> That you suffered some injury to your reputation as a result of the communication.</li></ol> </p> "
     }, {
       "id": "expo05",
       "title": "Printing/Selling Defamatory Material",
@@ -2143,7 +2143,7 @@
     }, {
       "id": "expo06",
       "title": "Reviews and Critiques",
-      "content": "<p> if the critique was made in good faith, there is an exception under this provision for publishing your critique on the merits of any public performance(Sixth Exception). The author of the performance should have subjected her performance to review by the public. </p> <p> While it may be okay for you to critique Rushdie's latest novel as 'boring and dull', you can be punished for saying that &ldquo;Only a boring and dull novel can be expected out of a nincompoop like Rushdie&rdquo; </p> "
+      "content": "<p> If the critique was made in good faith, there is an exception under this provision for publishing your critique on the merits of any public performance(Sixth Exception). The author of the performance should have subjected her performance to review by the public. </p> <p> While it may be okay for you to critique Rushdie's latest novel as 'boring and dull', you can be punished for saying that &ldquo;Only a boring and dull novel can be expected out of a nincompoop like Rushdie&rdquo; </p> "
     }],
     "qna": [{
       "id": "qna00",
@@ -2156,7 +2156,7 @@
     }, {
       "id": "qna02",
       "question": "Is it defamation to say that a doctor is being unprofessional by advertising her hospital in an academic journal?",
-      "answer": "<p> There is an exception under this provision for expressing your opinion in good faith on another person's conduct on a public question (Third Exception). In this situation, if the doctor was in her academic article trying to promote the hospital she works for, it would be okay for you to express the fact that such conduct was unprofessional. </p> "
+      "answer": "<p> There is an exception under this provision for expressing your opinion in good faith on another person's conduct on a public question (Third Exception). In this situation, if the doctor was in her academic article, was trying to promote the hospital she works for, it would be okay for you to express the fact that such conduct was unprofessional. </p> "
     }, {
       "id": "qna03",
       "question": "Can I be punished for reporting the outcome of a court case?",
@@ -2364,7 +2364,7 @@
         "id": "exp03",
         "title": "Appointing an executor for a Will",
         "content":
-          "<p> The person to whom you give the duty of carrying out the instructions given in your will, after your death, is called the executor of the will. </p> <p> You can appoint any person who is of sound mind and who is above 18 years of age to be your executor. You must choose a person with whom you have full confidence and who is willing and capable of acting as the executor. </p> <p> Read our checklist on how to choose an executor. When you haven’t appointed an executor in your will, the court has the power to appoint an administrator who will execute your will. </p> "
+          "<p> The person to whom you give the duty of carrying out the instructions given in your will, after your death, is called the executor of the will. </p> <p> You can appoint any person who is of sound mind and who is above 18 years of age to be your executor. You must choose a person with whom you have full confidence and who is willing and capable of acting as the executor. </p> <p>When you haven’t appointed an executor in your will, the court has the power to appoint an administrator who will execute your will. </p> "
       },
       {
         "id": "exp04",
@@ -2448,7 +2448,7 @@
     },{
       "id": "exp02",
       "title": "Aggravated rape",
-      "content": "<p> Aggravated rape is rape when it takes place because of the special position of either the victim, or the criminal. There is punishment with rigorous imprisonment for minimum ten years and which might extend to imprisonment for life, and shall also be liable to fine.The following are aggravated crimes or the special circumstances: <ul> <li> Police officer, who within the premises of the police station, commits rape on a woman who is in his custody or the custody of this subordinate. </li> <li> Public servant rapes a woman in his custody or in the custody of a public servant subordinate to such public servant. </li> <li> A member of the armed forces deployed in an area by the Central or a State Government </li> <li> In the management or the staff of a jail, remand home or other place of custody established by or under any law for the </li> <li> time being in force or of a women's or children's institution. </li> <li> When the management or the staff of a hospital commits rape on a woman in that hospital. </li> <li> A relative, guardian or teacher of, or a person in a position of trust or authority towards the woman </li> <li> Someone who commits rape during communal or sectarian violence </li> <li> Someone who commits rape on a woman knowing her to be pregnant. </li> <li> Someone who commits rape on a woman when she is under 18 years of age </li> <li> Someone  who commits rape on a woman incapable of giving consent </li> <li> Someone being in a position of control or dominance over a woman, commits rape on such woman </li> <li> Someone who commits rape on a woman suffering from mental or physical disability </li> <li> Someone who while committing rape causes grievous bodily harm or maims or disfigures or endangers the life of a woman. </li> <li> Someone who  commits rape repeatedly on the same woman. </li> </ul>  </p> "
+      "content": "<p> Aggravated rape is rape when it takes place because of the special position of either the victim, or the criminal. There is punishment with rigorous imprisonment for minimum ten years and which might extend to imprisonment for life, and shall also be liable to fine.The following are aggravated crimes or the special circumstances: <ul> <li> Police officer, who within the premises of the police station, commits rape on a woman who is in his custody or the custody of this subordinate. </li> <li> Public servant rapes a woman in his custody or in the custody of a public servant subordinate to such public servant. </li> <li> A member of the armed forces deployed in an area by the Central or a State Government. </li> <li> In the management or the staff of a jail, remand home or other place of custody established by or under any law for the time being in force or of a women's or children's institution. </li> <li> When the management or the staff of a hospital commits rape on a woman in that hospital. </li> <li> A relative, guardian or teacher of, or a person in a position of trust or authority towards the woman. </li> <li> Someone who commits rape during communal or sectarian violence. </li> <li> Someone who commits rape on a woman knowing her to be pregnant. </li> <li> Someone who commits rape on a woman when she is under 18 years of age. </li> <li> Someone  who commits rape on a woman incapable of giving consent. </li> <li> Someone being in a position of control or dominance over a woman, commits rape on such woman. </li> <li> Someone who commits rape on a woman suffering from mental or physical disability. </li> <li> Someone who while committing rape causes grievous bodily harm or maims or disfigures or endangers the life of a woman. </li> <li> Someone who commits rape repeatedly on the same woman. </li> </ul>  </p> "
     },{
       "id": "exp03",
       "title": "No means No",
@@ -2476,7 +2476,7 @@
     },{
       "id": "exp09",
       "title": "Death resulting from rape",
-      "content": "<p> During rape, if the accused injures the woman so badly that that she dies, or goes into a vegetative state, the accused can be given the death sentence, or jail of 20 years - life. While this provision is pretty clear, the law does not define what 'persistent vegetative state' means. In a Supreme Court decision the Court said that a person who is alive but does not show any evidence of being aware of one's environment is in a permanent vegetative state. </p> "
+      "content": "<p> During rape, if the accused injures the woman so badly that that she dies, or goes into a vegetative state, the accused can be given the death sentence, or jail for 20 years to life. While this provision is pretty clear, the law does not define what 'persistent vegetative state' means. In a Supreme Court decision the Court said that a person who is alive but does not show any evidence of being aware of one's environment is in a permanent vegetative state. </p> "
     },{
       "id": "exp10",
       "title": "Reporting Rape",
@@ -2533,7 +2533,7 @@
       {
         "id": "glos00",
         "term": "Persistent vegetative state",
-        "definition": "A situation when person is alive but does not show any evidence of being aware of one's environment."
+        "definition": "A situation when person is alive but does not show any signs of being aware of one's environment."
       },
       {
         "id": "glos01",
