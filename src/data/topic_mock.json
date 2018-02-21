@@ -757,11 +757,11 @@
     "explanations": [{
       "id": "exp00",
       "title": "Acts of Domestic Violence",
-      "content": "<p> Domestic violence is more than just violent acts, in some cases, not doing something can also be a form of domestic violence. The law recognizes any of these as being a form of domestic violence: <ul> <li> acts that harm you, your health or well-being. </li> <li> harassing or hurting you or your relatives for dowry, money or property. </li> <li> threatening to be abusive or threatening to hurt you or your relatives for dowry, money or property. </li> <li> acts that cause physical or mental pain. </li> <li> Neglecting basic needs </li> <li> physical, sexual, verbal and emotional, as well as economic abuse </li> </ul> If you are still uncertain, it is best to check with an NGO which deals in Domestic Violence cases, a Protection Officer or a lawyer. </p> "
+      "content": "<p> Domestic violence is more than just violent acts, in some cases, not doing something can also be a form of domestic violence. The law recognizes any of these as being a form of domestic violence: <ul> <li> acts that harm you, your health or well-being; </li> <li> harassing or hurting you or your relatives for dowry, money or property; </li> <li> threatening to be abusive or threatening to hurt you or your relatives for dowry, money or property; </li> <li> acts that cause physical or mental pain; </li> <li> Neglecting basic needs; </li> <li> physical, sexual, verbal and emotional, as well as economic abuse. </li> </ul> If you are still uncertain, it is best to check with an NGO which deals in Domestic Violence cases, a Protection Officer or a lawyer. </p> "
     }, {
       "id": "exp01",
       "title": "Victim of Domestic Abuse and Abuser",
-      "content": "<p> A woman should have been in a domestic relationship with the offender. She need not only be a married woman. A woman in a live-in-relationship can also file a case. She should have lived with the offender in a shared household. </p> <p> Any adult male who currently is in, or has been in a domestic relationship with the victim who has filed a complaint, can be an offender/abuser. Any relative of such male or any male or female family member of the victim can also be considered an abuser. </p> "
+      "content": "<p> A woman should have been in a domestic relationship with the offender. She need not only be a married woman. A woman in a live-in-relationship can also file a case. She should have lived with the offender in a shared household. </p> <p> Any adult male who currently is in, or has been in a domestic relationship with the victim who has filed a complaint or any relative of such adult male or female family member can be an offender/abuser.</p> "
     }, {
       "id": "exp02",
       "title": "Maintaining Privacy",
@@ -769,7 +769,7 @@
     }, {
       "id": "exp03",
       "title": "Immediate Protection",
-      "content": "<p> Given the harm being caused to victims in the case of domestic violence, even before the final decision is made, the victim can ask, the Magistrate to pass a 'protection order' that  commands the offender: <ul> <li> not to commit or help commit domestic violence. </li> <li> not to disturb the victim at her office, or in the case of a child, not to disturb her at her school. </li> <li> not to contact the victim personally or through email, telephone or similar means. </li> <li> not to do the following without her permission: </li> <li> sell or give away their things, including victim’s stridhan(wedding gifts) </li> <li> use their single/joint bank account, or </li> <li> use their single/joint ban </li> <li> not to harm anyone who depends on the victim, her relatives and anyone else who has helped her. </li> </ul> The law allows the Magistrate to pass an order in the absence of the offender if there is an immediate threat of violence. </p> <p> Further, the protection order is valid: <ul> <li> Until the victim feels comfortable without it </li> <li> The magistrate can also change the conditions of the order if there is a need to do so if there is an application by either the victim or the offender.  </li> </ul> The victim also has the option of initiating criminal proceedings under S. 498A of the Indian Penal Code. Read more about that here. Please note that filing a criminal complaint can put the offenders in jail for up to three years. The victim must have suffered a graver degree of abuse (i.e. cruelty) to be able to file a complaint. </p> "
+      "content": "<p> Given the harm being caused to victims in the case of domestic violence, even before the final decision is made, the victim can ask, the Magistrate to pass a 'protection order' that  commands the offender: <ul> <li> not to commit or help commit domestic violence; </li> <li> not to disturb the victim at her office, or in the case of a child, not to disturb her at her school; </li> <li> not to contact the victim personally or through email, telephone or similar means; </li> <li> not to do the following without her permission: </li> <li> sell or give away their things, including victim’s stridhan(wedding gifts); </li> <li> use their single/joint bank account. </li> </ul> The law allows the Magistrate to pass an order in the absence of the offender if there is an immediate threat of violence. </p> <p> Further, the protection order is valid: <ul> <li> Until the victim feels comfortable without it </li> <li> The magistrate can also change the conditions of the order if there is a need to do so if there is an application by either the victim or the offender.  </li> </ul> The victim also has the option of initiating criminal proceedings under S. 498A of the Indian Penal Code. Read more about that here. Please note that filing a criminal complaint can put the offenders in jail for up to three years. The victim must have suffered a graver degree of abuse (i.e. cruelty) to be able to file a complaint. </p> "
     }, {
       "id": "exp04",
       "title": "Staying in the house",
@@ -1730,7 +1730,7 @@
         "id": "exp03",
         "title": "Released on Bail",
         "content":
-          "<p> When the accused is let out on bail, they will have to sign a bond saying that they will appear before the court as and when they are required to come.A person who has been released on bail can be arrested again if the court considers it necessary to do so. </p> "
+          "<p> When the accused is let out on bail, they will have to sign a bond saying that they will appear before the court as and when they are required to come. A person who has been released on bail can be arrested again if the court considers it necessary to do so. </p> "
       },
       {
         "id": "exp04",
@@ -1742,7 +1742,7 @@
         "id": "exp05",
         "title": "Sureties for Bail",
         "content":
-          "<p> When you approach court for bail, the court wants sufficient guarantees to ensure you won't run away. The court may ask you to get some people to take this responsibility. These persons are known as 'sureties'. Your surety should be someone known to you like your friends or family and ideally be from the same place. You don't always need a surety to be released.A surety does not have to always remain a surety. A person can apply to be 'discharged' as a surety - you will need to replace the surety. If you can't replace the surety, you will be taken into custody. </p> "
+          "<p> When you approach court for bail, the court wants sufficient guarantees to ensure you won't run away. The court may ask you to get some people to take this responsibility. You don't always need a surety to be released. A surety does not have to always remain a surety. A person can apply to be 'discharged' as a surety - you will need to replace the surety. If you can't replace the surety, you will be taken into custody.</p> "
       },
       {
         "id": "exp06",
@@ -2107,15 +2107,15 @@
     }, {
       "id": "expo02",
       "title": "Protected against Defamation",
-      "content": "<p> You can be punished if you say or write something to insult the reputation of a company or a group of people (and not just of a single person). However, it is important that this class or group of people can be identified. </p> <p> You can be punished even if the person whose reputation you harmed is dead. What the Court will look at is whether the person's reputation would have been hurt if they were alive. Another thing that the Court will consider is if your actions hurt the feelings of that person's family or relatives. </p> "
+      "content": "<p> You can be punished if you say or write something to insult the reputation of a company or a group of people (and not just of a single person). However, it is important that this class or group of people can be identified. </p> <p> You can be punished even if the person whose reputation you harmed is dead. What the Court will look at is whether the person's reputation would have been hurt if they were alive. Another thing that the Court will consider is if your actions hurt the feelings of that person's family or relatives. The legal representatives or the relatives can file the case for defamation on behalf of the deceased person</p> "
     }, {
       "id": "expo03",
       "title": "Punishment for defamation",
-      "content": "<p> You can be punished with jail time up to 2 years and/or with a fine. By printing or engraving something you know is defamatory to a person's reputation, you can be punished with jail time of up to 2 years and/or with fine. Generally, printers of newspapers are prosecuted under this provision. Selling or trying to sell printed or engraved material which is defamatory can be punished with jail time of up to 2 years and/or with a fine. </p> "
+      "content": "<p> By printing or engraving something you know is defamatory to a person's reputation, you can be punished with jail time of up to 2 years and/or with fine.  </p> "
     }, {
       "id": "expo04",
       "title": "Proof of Defamation",
-      "content": "<p> To prove a defamation case, you have to show the following things:<ol><li>That the person who said or wrote things about you conveyed a defamatory message </li> <li> That the material was published, meaning that it was conveyed to someone other than you. </li> <li> That you could be identified as the person referred to in the defamatory material </li> <li> That you suffered some injury to your reputation as a result of the communication.</li></ol> </p> "
+      "content": "<p> To prove a defamation case, you have to show the following things:<ol><li>That the person who said or wrote things about you conveyed a defamatory message. </li> <li> That the material was published, meaning that it was conveyed to someone other than you. </li> <li> That you could be identified as the person referred to in the defamatory material. </li> <li> That you suffered some injury to your reputation as a result of the communication.</li></ol> </p> "
     }, {
       "id": "expo05",
       "title": "Printing/Selling Defamatory Material",
@@ -2123,7 +2123,7 @@
     }, {
       "id": "expo06",
       "title": "Reviews and Critiques",
-      "content": "<p> if the critique was made in good faith, there is an exception under this provision for publishing your critique on the merits of any public performance(Sixth Exception). The author of the performance should have subjected her performance to review by the public. </p> <p> While it may be okay for you to critique Rushdie's latest novel as 'boring and dull', you can be punished for saying that &ldquo;Only a boring and dull novel can be expected out of a nincompoop like Rushdie&rdquo; </p> "
+      "content": "<p> If the critique was made in good faith, there is an exception under this provision for publishing your critique on the merits of any public performance(Sixth Exception). The author of the performance should have subjected her performance to review by the public. </p> <p> While it may be okay for you to critique Rushdie's latest novel as 'boring and dull', you can be punished for saying that &ldquo;Only a boring and dull novel can be expected out of a nincompoop like Rushdie&rdquo; </p> "
     }],
     "qna": [{
       "id": "qna00",
@@ -2136,7 +2136,7 @@
     }, {
       "id": "qna02",
       "question": "Is it defamation to say that a doctor is being unprofessional by advertising her hospital in an academic journal?",
-      "answer": "<p> There is an exception under this provision for expressing your opinion in good faith on another person's conduct on a public question (Third Exception). In this situation, if the doctor was in her academic article trying to promote the hospital she works for, it would be okay for you to express the fact that such conduct was unprofessional. </p> "
+      "answer": "<p> There is an exception under this provision for expressing your opinion in good faith on another person's conduct on a public question (Third Exception). In this situation, if the doctor was in her academic article, was trying to promote the hospital she works for, it would be okay for you to express the fact that such conduct was unprofessional. </p> "
     }, {
       "id": "qna03",
       "question": "Can I be punished for reporting the outcome of a court case?",
