@@ -9,7 +9,7 @@
         "id": "exp00",
         "title": "Protection of Children",
         "content":
-          "<p> It is the responsibility of the Board to ensure that the proceedings of a case where the accused is a child, are the least intimidating and as child-friendly as possible. So, the Board works to ensure informed consent and participation of the child and family at each stage. It has an interpreter or translator and assured legal aid for children in need. </p> <p> The Board can conduct jail visits to check if children are accidentally lodged there. It must inspect the facilities for children at least once a month to check on their upkeep and well-being. Similar to the Magistrate, the Board can also order the lodging of an FIR for offences committed against children. </p> "
+          "<p> In the case where the accused is a child, the proceedings are held in the least intimidating and as child-friendly manner as possible. This responsibility is of the Juvenile Justice Board set up under this law, and to ensure informed consent and participation of the child and family at each stage. These proceedings also have an interpreter or translator and assured legal aid for children in need. </p> <p> The Board can conduct jail visits to check if children are accidentally lodged there. It must inspect the facilities for children at least once a month to check on their upkeep and well-being. Similar to the powers of a Magistrate, the Board can also order the lodging of an FIR for offences committed against children. </p> "
       },
       {
         "id": "exp01",
@@ -214,7 +214,7 @@
         "question":
           "How will the government know if there are adolescents working at a particular workplace?",
         "answer":
-          "<p> The person in-charge has a duty to maintain a register which must be made open for checking by the government inspector during office hours. The register should contain the following details of all adolescent employees: <ul> <li> name and date of birth </li> <li> working hours and periods of work as well as the periods of rest </li> <li> the type of work. </li> </ul>  </p> "
+          "<p>The employer has a duty to maintain a register which must be made open for checking by the government inspector during office hours. The register should contain the following details of all adolescent employees: <ul> <li> name and date of birth </li> <li> working hours and periods of work as well as the periods of rest </li> <li> the type of work. </li> </ul>  </p> "
       }
     ],
     "glossary": [
@@ -344,7 +344,7 @@
     }, {
       "id": "glos03",
       "term": "Government School",
-      "definition": "A school which is run by the central, state or Ut Government, or by a municipal Corporation, Zila Parishad, Panchayat etc"
+      "definition": "A school which is run by the Central, State or Union Territory Government, or by a Municipal Corporation, Zila Parishad, Panchayat etc."
     }, {
       "id": "glos04",
       "term": "Aided Schools",
