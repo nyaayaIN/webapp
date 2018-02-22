@@ -1,0 +1,59 @@
+@import '../variables.css';
+
+.topics {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: safe center;
+}
+
+.topic {
+  border: solid 1px var(--neutral-medium-colour);
+  color: var(--lightest-colour);
+  width: 22.5%;
+  margin: 1.5% 0.5%;
+  text-decoration: none;
+}
+
+.tile {
+  height: 100%;
+}
+
+.thumbnail {
+  width: 100%;
+  height: auto;
+  filter: grayscale(100%);
+}
+
+.title {
+  background: var(--lightest-colour);
+  color: var(--darkest-colour);
+  font-size: 1em;
+  font-weight: normal;
+  padding: 0.5em 1em;
+  height: 2.5em;
+}
+
+.topic:hover .thumbnail {
+  filter: none;
+}
+
+.topic:hover .title {
+  background: var(--primary-text-colour);
+  color: var(--neutral-light-colour);
+}
+
+@media (--medium-viewport) {
+  .topic {
+    width: 47.5%;
+  }
+}
+
+@media (--small-viewport) {
+  .topic {
+    width: 98.5%;
+  }
+}

@@ -1,15 +1,7 @@
 @import '../variables.css';
 
-:root {
-  --brand-color: #61dafb;
-}
-
 .root {
-  background-image: -ms-linear-gradient(left, #00ea54 0%, #00a2e1 100%);
-  background-image: -moz-linear-gradient(left, #00ea54 0%, #00a2e1 100%);
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #00ea54), color-stop(100, #00a2e1));
-  background-image: -webkit-linear-gradient(left, #00ea54 0%, #00a2e1 100%);
-  background-image: linear-gradient(to right, #00ea54 0%, #00a2e1 100%);
+  background-image: linear-gradient(to right, var(--primary-colour) 0%, var(--secondary-colour) 100%);
   color: #fff;
 }
 
@@ -20,7 +12,18 @@
 }
 
 .brand {
-  color: color(var(--brand-color) lightness(+10%));
   text-decoration: none;
   font-size: 1.75em; /* ~28px */
+}
+
+@media (--medium-viewport)  {
+  .brand {
+    padding: 0.5em;
+  }
+}
+
+@media (--small-viewport) {
+  .brand {
+    padding: 0.25em;
+  }
 }

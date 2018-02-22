@@ -10,12 +10,56 @@
 @import '../../components/variables.css';
 
 .root {
-  padding-left: 20px;
-  padding-right: 20px;
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+
+.root div {
+  flex: 1 100%;
 }
 
 .container {
-  margin: 0 auto;
-  padding: 0 0 40px;
+  margin: 2em auto;
   max-width: var(--max-content-width);
+  width: 100%;
+}
+
+.heading {
+  color: var(--primary-text-colour);
+  text-align: center;
+  font-size: 1.75em;
+  font-weight: normal;
+}
+
+.featuredTopics {
+  background: var(--neutral-light-colour);
+  border-bottom: solid 1px var(--neutral-medium-colour);
+}
+
+.story {
+  padding: 5em 0;
+}
+
+.storyTitle {
+  background-image: linear-gradient(to right, var(--primary-colour) 0%, var(--secondary-colour) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3em;
+  font-weight: 500;
+  line-height: 1em;
+}
+
+.shortExplanation {
+  max-width: 850px;
+  margin: 1em 0;
+}
+
+@media (--medium-viewport)  {
+  .story {
+    padding: 0 1em;
+  }
 }

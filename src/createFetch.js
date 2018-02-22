@@ -16,7 +16,7 @@ type Options = {
 function createFetch(fetch: Fetch, { baseUrl, cookie }: Options) {
   // NOTE: Tweak the default options to suite your application needs
   const defaults = {
-    method: 'POST', // handy with GraphQL backends
+    method: 'GET', // handy with GraphQL backends
     mode: baseUrl ? 'cors' : 'same-origin',
     credentials: baseUrl ? 'include' : 'same-origin',
     headers: {
@@ -27,7 +27,7 @@ function createFetch(fetch: Fetch, { baseUrl, cookie }: Options) {
   };
 
   return (url: string, options: any) =>
-    url.startsWith('/graphql') || url.startsWith('/api')
+    url.startsWith('/data') || url.startsWith('/api')
       ? fetch(`${baseUrl}${url}`, {
           ...defaults,
           ...options,

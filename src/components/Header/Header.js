@@ -7,7 +7,7 @@ import Categories from '../Categories';
 import logoUrl from './logo.png';
 import logoUrl2x from './logo@2x.png';
 
-const API = '/data/static_pages';
+const API = '/data/static_pages/header';
 
 class Header extends React.Component {
   constructor(props) {
@@ -17,6 +17,8 @@ class Header extends React.Component {
       contact: 'Contact Us',
       blog: 'Blog',
       logo: 'Nyaaya',
+      view: 'View Categories',
+      credit: '',
     };
   }
 
@@ -25,10 +27,12 @@ class Header extends React.Component {
       .then(response => response.json())
       .then(data => {
         this.setState({
-          about: data.header.about_title,
-          contact: data.header.contact_title,
-          blog: data.header.blog_title,
-          logo: data.header.logo_text,
+          about: data.about_title,
+          contact: data.contact_title,
+          blog: data.blog_title,
+          logo: data.logo_text,
+          view: data.view_categories,
+          credit: data.credit,
         });
       });
   }
@@ -41,6 +45,7 @@ class Header extends React.Component {
             about={this.state.about}
             contact={this.state.contact}
             blog={this.state.blog}
+            credit={this.state.credit}
           />
           <Link className={s.brand} to="/">
             <img
@@ -52,7 +57,7 @@ class Header extends React.Component {
             />
           </Link>
         </div>
-        <Categories />
+        <Categories view={this.state.view} />
       </div>
     );
   }

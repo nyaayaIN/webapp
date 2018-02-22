@@ -1,0 +1,45 @@
+{
+  "header": {
+    "logo_text": "Nyaaya - India's laws explained",
+    "about_title": "About Us",
+    "contact_title": "Contact Us",
+    "blog_title": "Blog",
+    "view_categories": "View Categories",
+    "credit": "An initiative of Vidhi Centre for Legal Policy, conceived of and supported by Rohini Nilekani"
+  },
+  "home": {
+    "page_title": "Nyaaya - India’s Laws Explained",
+    "hero_title": "India’s Laws Explained",
+    "hero_description":
+      "<p>Nyaaya is committed to providing you with clear, actionable information about Indian laws in simple language so you can protect yourself, assert your rights and seek justice. Subscribe to our newsletter to stay up to date with us</p><form action='https://nyaaya.createsend.com/t/d/s/fjrjil/' method='post'><input style='padding:1em' placeholder='Your Email Address' name='cm-fjrjil-fjrjil' type='email' required /><button style='background:#00754b;color: white;padding: 1em;border: solid 1px #00754b;text-transform: uppercase;letter-spacing: 0.1em;' type='submit'>Subscribe</button></form>",
+    "featured_topics": "Featured Topics",
+    "what_we_do":
+      "We help you understand the law,<br />so you can seek justice",
+    "short_explanation":
+      "We don't provide legal advice but we want to help you understand the law by explaining what rights are given to people, what the law expects of people, companies, the government, police etc and pointing out what steps people can take to use the law to their advantage and protect themselves. We strive to explain the law without bias and simplify the law's perspective on religion, caste, gender, socio-economic status, education and location. A lot of times the perspective of the law may sometimes sit not so well with our readers, but we hope this will encourage them to take an active part in the law-making and democratic processes to change what they think is unfair.",
+    "short_disclaimer": "We are aware of the range of factors that affect access to information - the ability to access the internet, use it to find us and the ability to read and understand English at this level are some of the privileges we recognize you, our reader posses. We are working hard to expand our readership into other languages, offline access as well as our speed and deliverability. Even the smallest impact we have helping someone understand the laws that affect them and navigate the legal system is a big step towards solving some of the problems inflicting the legal system."
+  },
+  "follow": {
+    "title": "You can reach us by email or social media",
+    "cta":
+      "Send us an email, message us on facebook, tweet at us or drop us a note on linkedin",
+    "email": "Email",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "linkedin": "LinkedIn"
+  },
+  "subscribe": {
+    "cta":
+      "Sign up to get updates on new information published, answers to popular questions and more",
+    "email": "Your Email Address",
+    "action": "Subscribe"
+  },
+  "footer": {
+    "slogan": "India's Laws Explained",
+    "about": "About Us",
+    "contact": "Contact Us",
+    "blog": "Blog",
+    "terms":
+      "Except where otherwise noted, content on this site is licensed under <a href='https://creativecommons.org/licenses/by-nc-sa/2.5/in/' target='_blank' rel='noopener noreferrer'>Attribution-NonCommercial-ShareAlike 2.5 India</a> (CC BY-NC-SA 2.5 IN) license. Icons by <a href='http://thenounproject.com/' target='_blank' rel='noopener noreferrer'>The Noun Project.</a>"
+  }
+}

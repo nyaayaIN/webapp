@@ -1,0 +1,113 @@
+@import '../../components/variables.css';
+
+.container {
+  margin: 0 auto;
+  padding: 0 0 40px;
+  max-width: var(--max-content-width);
+}
+
+.aboutSection {
+  background: url('./background.svg') center center/cover no-repeat;
+  margin: 0 auto;
+  min-height: 28em;
+  display: flex;
+}
+
+.aboutUs {
+  width: 100%;
+  align-self: flex-end;
+}
+
+.nilekaniLogo {
+  width: 5em;
+  height: auto;
+}
+
+.aboutTitle {
+  color: var(--primary-text-colour);
+  font-weight: 500;
+}
+
+.aboutContent {
+  color: var(--tertiary-text-colour);
+  font-family: var(--font-family-secondary);
+  padding-right: 15em;
+}
+
+.teamSection {
+  padding: 2.5em 0;
+  text-align: center;
+}
+
+.teamContent {
+  color: #999;
+  display: block;
+  font-family: var(--font-family-secondary);
+  max-width: 650px;
+  margin: 0 auto 5em;
+  text-align: center;
+}
+
+.teamMembers {
+  margin: 0;
+}
+
+.teamMember {
+  margin: 2em 0;
+}
+
+.teamMemberImage {
+  width: 17%;
+  height: auto;
+  float: left;
+  padding: 1.5%;
+  margin: 1em;
+  background: var(--lightest-colour);
+  border: solid 1px var(--neutral-medium-colour);
+}
+
+.teamMember:nth-of-type(2n) .teamMemberImage {
+  float: right;
+}
+
+.teamMemberContent {
+  border: 2px solid transparent;
+  border-image: linear-gradient(190deg, var(--primary-colour) 10%, var(--secondary-colour));
+  border-image-slice: 1;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.teamMemberName {
+  padding: 1em 0 0;
+  font-weight: normal;
+  font-size: 1.5em;
+  color: var(--primary-text-colour);
+}
+
+.teamMemberTitle {
+  font-weight: 500;
+}
+
+.teamMemberBio {
+  padding: 1em 2em;
+  text-align: justify;
+}
+
+@media (--medium-viewport)  {
+  .container {
+    padding: 0 1.5em;
+  }
+
+  .aboutContent {
+    padding-right: 0;
+  }
+
+  .teamMemberImage,
+  .teamMemberContent {
+    float: none;
+    width: 98%;
+    margin: 0;
+    padding: 0;
+  }
+}

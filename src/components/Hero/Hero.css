@@ -1,0 +1,56 @@
+@import '../variables.css';
+
+.root {
+  border-bottom: solid 1px var(--neutral-medium-colour);
+  display: block;
+  margin: 0;
+  padding: 0;
+  background: var(--lightest-colour) center center/cover no-repeat;
+}
+
+.container {
+  margin: 0 auto;
+  padding-bottom: 2em;
+  height: 25em;
+  max-width: var(--max-content-width);
+  width: 100%;
+  display: flex;
+}
+
+.content {
+  font-size: 0.95em;
+  padding: 1em;
+  width: 100%;
+  max-width: 28em;
+}
+
+.title {
+  color: var(--primary-text-colour);
+  font-weight: 500;
+  margin: 0;
+  padding-bottom: 0.25em;
+}
+
+.dark {
+  background-image: linear-gradient(to right, rgba(41, 209, 107, 0.75), rgba(0, 154, 236, 0.75));
+  color: var(--lightest-colour);
+}
+
+.dark .title {
+  color: var(--lightest-colour);
+}
+
+@media (--medium-viewport) {
+  .root {
+    background-position: top right;
+  }
+
+  .container {
+    height: 30em;
+    padding-bottom: 0;
+  }
+
+  .content {
+    margin: 8em 1em 0;
+  }
+}

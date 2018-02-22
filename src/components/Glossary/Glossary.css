@@ -1,0 +1,80 @@
+@import '../variables.css';
+
+.root {
+  padding: 3em 0 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: var(--max-content-width);
+}
+
+.title {
+  font-weight: 500;
+  font-size: 1.5em;
+  color: var(--primary-text-colour);
+}
+
+.glossarySection {
+  margin: 0;
+  padding: 2em 0;
+}
+
+.terms,
+.definedTerm {
+  margin: 0;
+  padding: 0;
+}
+
+.definedTerm {
+  display: none;
+}
+
+.termOption {
+  font-family: var(--font-family-base);
+  color: var(--neutral-dark-colour);
+  border: solid 1px var(--neutral-medium-colour);
+  background: none;
+  text-align: left;
+  display: inline-block;
+  margin: 0.25em;
+  padding: 0.5em 1em;
+}
+
+.glossaryItem {
+  background: var(--lightest-colour);
+  border: solid 1px var(--secondary-colour);
+  height: 100%;
+  padding: 1.5em;
+  border-radius: 1em;
+  margin: 0.5em 0;
+}
+
+.term {
+  display: inline;
+  border-bottom: solid 1px var(--neutral-medium-colour);
+  color: var(--secondary-colour);
+  font-size: 2em;
+  line-height: 125%;
+  font-weight: 500;
+}
+
+.definition {
+  padding: 1em 0;
+}
+
+@media (--medium-viewport) {
+  .root {
+    padding: 1em;
+  }
+
+  .glossaryItem {
+    display: block;
+  }
+
+  .term,
+  .definition {
+    width: 100%;
+    border: none;
+  }
+}

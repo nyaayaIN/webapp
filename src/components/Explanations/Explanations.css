@@ -1,0 +1,94 @@
+@import '../variables.css';
+
+.root {
+  margin: 0 auto;
+  max-width: var(--max-content-width);
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.menu {
+  box-shadow: 2px 0 2px -1px var(--shadow-colour), -2px 0 2px -1px var(--shadow-colour);
+  width: 27.75%;
+  list-style-type: none;
+  margin: 0;
+  padding: 1.5em 0;
+}
+
+.item {
+  text-align: left;
+  cursor: pointer;
+  color: var(--primary-text-colour);
+  display: block;
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0.5em 1em;
+  width: 100%;
+  line-height: 150%;
+  font-weight: normal;
+  font-size: 1em;
+  font-family: var(--font-family-base);
+  text-transform: capitalize;
+}
+
+.item:hover {
+  color: var(--primary-colour);
+}
+
+.item:focus {
+  outline: none;
+  font-weight: 500;
+}
+
+.explanationContainer {
+  width: 72.25%;
+}
+
+.explanation {
+  display: none;
+}
+
+.title {
+  color: var(--primary-text-colour);
+  font-weight: 500;
+  font-size: 1.5em;
+  margin: 0;
+  padding: 1em 0.75em 0;
+}
+
+.content {
+  line-height: 175%;
+  font-family: var(--font-family-secondary);
+  padding: 0 1em 1em;
+}
+
+.content table {
+  border: solid 1px var(--neutral-medium-colour);
+}
+
+.content table th {
+  font-weight: 500;
+  border-bottom: solid 1px var(--neutral-medium-colour);
+}
+
+@media (--medium-viewport) {
+  .root {
+    flex-direction: column;
+  }
+
+  .menu,
+  .explanationContainer {
+    width: 100%;
+  }
+
+  .item {
+    text-align: left;
+  }
+
+  .title,
+  .content {
+    padding: 0 1em;
+  }
+}

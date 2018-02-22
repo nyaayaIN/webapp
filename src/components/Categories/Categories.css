@@ -1,12 +1,22 @@
 @import '../variables.css';
 
 .root {
-  background: rgb(237, 237, 237);
+  background: var(--lightest-colour);
+  border-bottom: solid 1px var(--neutral-medium-colour);
+}
+
+.mobileMenu {
+  border: none;
+  display: none;
+  color: var(--primary-text-colour);
+  text-align: center;
+  padding: 1em 0;
+  font-weight: normal;
+  width: 100%;
 }
 
 .container {
   margin: 0 auto;
-  padding: 20px 0;
   max-width: var(--max-content-width);
 }
 
@@ -20,45 +30,112 @@
 }
 
 .category {
-  width: 10%;
   height: 1em;
   list-style-type: none;
-  color: rgb(74, 74, 74);
   text-align: left;
   font-size: 0.75em;
   font-weight: bold;
+  padding: 1.5em 0 2em;
 }
 
 .categoryLink {
+  color: var(--primary-text-colour);
   display: block;
+  font-size: 1.15em;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: capitalize;
   width: 100%;
 }
 
 .topics {
-  background: rgb(237, 237, 237);
-  opacity: 0;
+  background: var(--lightest-colour);
+  box-shadow: 0 2px 2px 0 var(--shadow-colour);
+  display: none;
   position: absolute;
-  margin: 0;
+  margin: 1.5em 0 0 -1.6em;
   padding: 10px;
 }
 
+.category:last-child .topics {
+  margin: 1.5em 0 0 -95px;
+}
+
 .category:hover .topics {
-  opacity: 100;
+  display: block;
 }
 
 .topic {
+  cursor: pointer;
   list-style-type: none;
-  line-height: 150%;
   margin: 0;
-  padding: 0;
+  width: 125px;
+  padding: 7px 0;
   text-align: left;
 }
 
 .topicLink {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #404040;
+  font-size: 1.1em;
+  font-weight: normal;
   text-decoration: none;
+  text-align: left;
 }
 
 .errorText {
   color: red;
   text-align: center;
+}
+
+@media (--medium-viewport) {
+  .mobileMenu {
+    display: block;
+  }
+
+  .container.hidden {
+    display: none;
+  }
+
+  .container.show {
+    display: block;
+  }
+
+  .categories {
+    display: block;
+  }
+
+  .category {
+    font-size: 1em;
+    padding: 0.5em 1em;
+    width: 80%;
+    height: auto;
+  }
+
+  .topics {
+    box-shadow: none;
+    display: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+
+  .topic {
+    cursor: pointer;
+    width: 75%;
+    max-width: 75%;
+    padding: 0.25em 1em;
+  }
+
+  .topicLink {
+    cursor: pointer;
+    max-width: 100%;
+  }
+
+  .category:last-child .topics {
+    margin: 0;
+  }
 }

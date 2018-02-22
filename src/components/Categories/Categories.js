@@ -1,14 +1,22 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
-import s from './Categories.css';
 import Link from '../Link';
+import history from '../../history';
+import s from './Categories.css';
 
 const API = '/data/categories';
 
 class Categories extends React.Component {
+  static propTypes = {
+    view: PropTypes.string.isRequired,
+  };
+
   constructor(props) {
     super(props);
     this.state = {
+      view: props.view,
+      menuClass: s.hidden,
       categories: [],
       error: false,
     };
@@ -29,6 +37,22 @@ class Categories extends React.Component {
       });
   }
 
+  toggleMenu = event => {
+    event.preventDefault();
+    this.setState({
+      menuClass: this.state.menuClass === s.hidden ? s.show : s.hidden,
+    });
+  };
+
+  handleClick = event => {
+    event.preventDefault();
+    const url = event.target.attributes.getNamedItem('data-url').value;
+    this.setState({
+      menuClass: this.state.menuClass === s.hidden ? s.show : s.hidden,
+    });
+    history.push(url);
+  };
+
   render() {
     if (this.state.error) {
       return (
@@ -43,7 +67,10 @@ class Categories extends React.Component {
     }
     return (
       <div className={s.root}>
-        <div className={s.container}>
+        <button className={s.mobileMenu} onClick={this.toggleMenu}>
+          {this.state.view}
+        </button>
+        <div className={`${s.container} ${this.state.menuClass}`}>
           <ul className={s.categories}>
             {this.state.categories.map(category => (
               <li className={s.category} key={category.id}>
@@ -53,9 +80,13 @@ class Categories extends React.Component {
                 <ul className={s.topics}>
                   {category.topics.map(topic => (
                     <li className={s.topic} key={topic.id}>
-                      <Link className={s.topicLink} to={topic.url}>
+                      <button
+                        className={s.topicLink}
+                        data-url={topic.url}
+                        onClick={this.handleClick}
+                      >
                         {topic.name}
-                      </Link>
+                      </button>
                     </li>
                   ))}
                 </ul>
