@@ -95,13 +95,13 @@
   color: var(--neutral-light-colour);
 }
 
-@media screen and (width < 850px) {
+@media (--medium-viewport)  {
   .categories {
     display: none;
   }
 }
 
-@media screen and (width < 450px) {
+@media (--small-viewport) {
   .company {
     width: 40%;
   }

@@ -69,12 +69,12 @@ class Footer extends React.Component {
         <Subscribe />
         <div className={s.container}>
           <ul className={s.categories}>
-            {this.state.categories.map((category) => (
+            {this.state.categories.map(category => (
               <li className={s.category} key={category.id}>
                 <Link className={s.categoryLink} to={category.url}>
                   {category.name}
                 </Link>
-                {category.topics.map((topic) => (
+                {category.topics.map(topic => (
                   <Link className={s.topic} to={topic.url} key={topic.id}>
                     {topic.name}
                   </Link>
@@ -86,11 +86,7 @@ class Footer extends React.Component {
             <div className={s.company}>
               <div className={s.brand}>
                 <Link className={s.logo} to="/">
-                  <img
-                    src={logoUrl}
-                    width="100"
-                    alt={this.state.i18n.slogan}
-                  />
+                  <img src={logoUrl} width="100" alt={this.state.i18n.slogan} />
                 </Link>
               </div>
               <div className={s.slogan}>{this.state.i18n.slogan}</div>
@@ -102,7 +98,8 @@ class Footer extends React.Component {
                 <img src={ncUrl} width="30" height="30" />
                 <img src={saUrl} width="30" height="30" />
               </div>
-              <div className={s.termsText}
+              <div
+                className={s.termsText}
                 // eslint-disable-next-line react/no-danger
                 dangerouslySetInnerHTML={{
                   __html: this.state.i18n.terms,

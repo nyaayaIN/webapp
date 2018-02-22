@@ -3,7 +3,6 @@
 .root {
   background: var(--lightest-colour);
   border-bottom: solid 1px var(--neutral-medium-colour);
-  box-shadow: 0 2px 6px 0 rgba(50, 50, 50, 0.25);
 }
 
 .mobileMenu {
@@ -87,8 +86,7 @@
   color: red;
   text-align: center;
 }
-
-@media screen and (width < 850px) {
+@media (--medium-viewport) {
   .mobileMenu {
     display: block;
   }

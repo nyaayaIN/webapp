@@ -69,7 +69,7 @@
   border-bottom: solid 1px var(--neutral-medium-colour);
 }
 
-@media screen and (width < 850px) {
+@media (--medium-viewport)  {
   .root {
     flex-direction: column;
   }
@@ -79,7 +79,6 @@
     width: 100%;
   }
 
-  .menuHeading,
   .item {
     text-align: left;
   }

@@ -46,13 +46,13 @@
   color: var(--neutral-light-colour);
 }
 
-@media screen and (width >= 500px) and (width <= 1000px) {
+@media (--medium-viewport) {
   .topic {
     width: 47.5%;
   }
 }
 
-@media screen and (width < 500px) {
+@media (--small-viewport) {
   .topic {
     width: 98.5%;
   }

@@ -16,13 +16,13 @@
   font-size: 1.75em; /* ~28px */
 }
 
-@media screen and (width < 850px) {
+@media (--medium-viewport)  {
   .brand {
     padding: 0.5em;
   }
 }
 
-@media screen and (width < 450px) {
+@media (--small-viewport) {
   .brand {
     padding: 0.25em;
   }

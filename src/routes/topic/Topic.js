@@ -47,30 +47,38 @@ class Topic extends React.Component {
   render() {
     const summary = {
       title: this.props.name,
-      description: this.props.summary
+      description: this.props.summary,
     };
     return (
       <div className={s.root}>
-        <Hero content={summary} style="bottom" image={S3+this.props.hero} theme="dark"/>
+        <Hero
+          content={summary}
+          style="bottom"
+          image={S3 + this.props.hero}
+          theme="dark"
+        />
 
         <div className={s.topMenu}>
           <div className={s.container}>
             <button
-                className={s.menuItem}
-                data-scroll="explanations"
-                onClick={this.handleClick} >
+              className={s.menuItem}
+              data-scroll="explanations"
+              onClick={this.handleClick}
+            >
               Explanations
             </button>
             <button
-                className={s.menuItem}
-                data-scroll="qna"
-                onClick={this.handleClick} >
+              className={s.menuItem}
+              data-scroll="qna"
+              onClick={this.handleClick}
+            >
               Questions
             </button>
             <button
-                className={s.menuItem}
-                data-scroll="glossary"
-                onClick={this.handleClick} >
+              className={s.menuItem}
+              data-scroll="glossary"
+              onClick={this.handleClick}
+            >
               Glossary
             </button>
           </div>
@@ -83,9 +91,7 @@ class Topic extends React.Component {
 
         <QnA collection={this.props.qna} />
 
-        <Glossary
-          collection={this.props.glossary}
-        />
+        <Glossary collection={this.props.glossary} />
       </div>
     );
   }
