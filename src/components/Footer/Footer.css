@@ -51,12 +51,6 @@
   color: var(--lightest-colour);
 }
 
-.text {
-  color: rgba(255, 255, 255, 0.5);
-  padding: 2px 5px;
-  font-size: 1em;
-}
-
 .bottom {
   margin: 1em 0;
   display: flex;
@@ -67,6 +61,16 @@
 .company {
   width: 50%;
   text-align: left;
+}
+
+.brand {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1em;
 }
 
 .terms {
@@ -95,7 +99,7 @@
   color: var(--neutral-light-colour);
 }
 
-@media (--medium-viewport)  {
+@media (--medium-viewport) {
   .categories {
     display: none;
   }

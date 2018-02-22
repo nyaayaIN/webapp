@@ -12,6 +12,11 @@
   text-align: center;
 }
 
+.content {
+  margin: 0;
+  padding: 0;
+}
+
 .title {
   color: var(--primary-text-colour);
   font-weight: 500;

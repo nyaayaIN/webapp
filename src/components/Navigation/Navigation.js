@@ -43,7 +43,7 @@ class Navigation extends React.Component {
               rel="noopener noreferrer"
             >
               <div className={s.iconContainer}>
-                <img src={facebook} className={s.icon} />
+                <img src={facebook} className={s.icon} alt="Facebook icon" />
               </div>
             </a>
             <a
@@ -53,7 +53,7 @@ class Navigation extends React.Component {
               rel="noopener noreferrer"
             >
               <div className={s.iconContainer}>
-                <img src={twitter} className={s.icon} />
+                <img src={twitter} className={s.icon} alt="Twitter icon" />
               </div>
             </a>
             <a
@@ -63,7 +63,7 @@ class Navigation extends React.Component {
               rel="noopener noreferrer"
             >
               <div className={s.iconContainer}>
-                <img src={linkedin} className={s.icon} />
+                <img src={linkedin} className={s.icon} alt="LinkedIn Icon" />
               </div>
             </a>
           </div>

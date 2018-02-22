@@ -24,18 +24,6 @@
   max-width: 28em;
 }
 
-.bottom {
-  align-self: flex-end;
-}
-
-.top {
-  align-self: flex-start;
-}
-
-.center {
-  align-self: center;
-}
-
 .title {
   color: var(--primary-text-colour);
   font-weight: 500;
@@ -62,7 +50,7 @@
     padding-bottom: 0;
   }
 
-  .center {
-    align-self: flex-end;
+  .content {
+    margin: 8em 1em 0;
   }
 }

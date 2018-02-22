@@ -9,7 +9,7 @@
   text-align: right;
 }
 
-.secondary {
+.credit {
   font-size: 0.75em;
   opacity: 0.65;
 }
@@ -51,7 +51,7 @@
   height: auto;
 }
 
-@media (--medium-viewport)  {
+@media (--medium-viewport) {
   .root {
     margin: 0;
     padding: 0 1em;

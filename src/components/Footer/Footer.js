@@ -56,9 +56,8 @@ class Footer extends React.Component {
       return (
         <div className={s.root}>
           <div className={s.container}>
-            <div className={s.errorText}>
-              Whoops! Something went wrong getting categories
-            </div>
+            <Follow />
+            <Subscribe />
           </div>
         </div>
       );
@@ -93,10 +92,30 @@ class Footer extends React.Component {
             </div>
             <div className={s.terms}>
               <div className={s.licenseIcons}>
-                <img src={ccUrl} width="30" height="30" />
-                <img src={attributionUrl} width="30" height="30" />
-                <img src={ncUrl} width="30" height="30" />
-                <img src={saUrl} width="30" height="30" />
+                <img
+                  src={ccUrl}
+                  width="30"
+                  height="30"
+                  alt="Creative Commons Icon"
+                />
+                <img
+                  src={attributionUrl}
+                  width="30"
+                  height="30"
+                  alt="Attribution Icon"
+                />
+                <img
+                  src={ncUrl}
+                  width="30"
+                  height="30"
+                  alt="Non-Commercial Icon"
+                />
+                <img
+                  src={saUrl}
+                  width="30"
+                  height="30"
+                  alt="Share Adapt Icon"
+                />
               </div>
               <div
                 className={s.termsText}

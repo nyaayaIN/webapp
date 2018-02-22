@@ -52,7 +52,11 @@ class About extends React.Component {
         <div className={s.aboutSection}>
           <div className={s.aboutUs}>
             <div className={s.container}>
-              <img className={s.nilekaniLogo} src={Nilekani} />
+              <img
+                alt="Rohini Nilekani Philanthropies"
+                className={s.nilekaniLogo}
+                src={Nilekani}
+              />
               <h1 className={s.aboutTitle}>{about.title}</h1>
               <div
                 className={s.aboutContent}
@@ -73,8 +77,12 @@ class About extends React.Component {
 
             <div className={s.teamMembers}>
               {teamMembers.map((member, index) => (
-                <div className={s.teamMember} key={index}>
-                  <img className={s.teamMemberImage} src={teamImages[index]} />
+                <div className={s.teamMember} key={member.id}>
+                  <img
+                    className={s.teamMemberImage}
+                    src={teamImages[index]}
+                    alt={member.name}
+                  />
                   <div className={s.teamMemberContent}>
                     <div className={s.teamMemberName}>{member.name}</div>
                     <div className={s.teamMemberTitle}>{member.title}</div>

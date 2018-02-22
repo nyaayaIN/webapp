@@ -26,6 +26,10 @@
   padding: 0;
 }
 
+.definedTerm {
+  display: none;
+}
+
 .termOption {
   font-family: var(--font-family-base);
   color: var(--neutral-dark-colour);
@@ -35,14 +39,6 @@
   display: inline-block;
   margin: 0.25em;
   padding: 0.5em 1em;
-}
-
-.glossaryItemContainer {
-  display: none;
-}
-
-.glossaryItemContainer.active {
-  display: block;
 }
 
 .glossaryItem {
@@ -67,7 +63,7 @@
   padding: 1em 0;
 }
 
-@media (--medium-viewport)  {
+@media (--medium-viewport) {
   .root {
     padding: 1em;
   }

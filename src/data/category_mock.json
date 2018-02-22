@@ -1,21 +1,25 @@
 {
   "children": {
     "name": "Children",
+    "id": "cat00",
     "description":
       "Children are dealt with in a special manner for crimes, work or family. Laws have been specifically made for children to ensure that they have a right to education. This section is relevant for you if you are looking for how the law deals with children in various aspects such as education, family, crimes and work.",
     "topics": [
       {
         "name": "Children Accused of Crime",
+        "id": "cat00topic01",
         "image": "children-accused-of-crime-thumb.jpg",
         "url": "/topic/children-accused-of-crime"
       },
       {
         "name": "Child Labour",
+        "id": "cat00topic02",
         "image": "child-labour-thumb.jpg",
         "url": "/topic/child-labour"
       },
       {
         "name": "Free and Compulsory Education",
+        "id": "cat00topic03",
         "image": "free-and-compulsory-education-thumb.jpg",
         "url": "/topic/free-and-compulsory-education"
       }
@@ -23,16 +27,19 @@
   },
   "citizens-rights": {
     "name": "Citizen's Rights",
+    "id": "cat01",
     "description":
       "These topics relate to citizen's rights to hold their government accountable as well as the guarantees and the assurances that the government provides in how the country is run.",
     "topics": [
       {
         "name": "Anti-Corruption",
+        "id": "cat01topic01",
         "image": "anti-corruption-thumb.jpg",
         "url": "/topic/anti-corruption"
       },
       {
         "name": "Right to Information",
+        "id": "cat01topic02",
         "image": "right-to-information-thumb.jpg",
         "url": "/topic/right-to-information"
       }
@@ -40,26 +47,31 @@
   },
   "family": {
     "name": "Family",
+    "id": "cat02",
     "description":
       "The law has a lot to say on various realms of family. The topics in these section cover family matters and how the law sees them.",
     "topics": [
       {
         "name": "Dowry",
+        "id": "cat02topic01",
         "image": "dowry-thumb.jpg",
         "url": "/topic/dowry"
       },
       {
         "name": "Annulment",
+        "id": "cat02topic02",
         "image": "annulment-thumb.jpg",
         "url": "/topic/annulment"
       },
       {
         "name": "Domestic Violence",
+        "id": "cat02topic03",
         "image": "domestic-violence-thumb.jpg",
         "url": "/topic/domestic-violence"
       },
       {
         "name": "Care for Parents and Elderly",
+        "id": "cat02topic04",
         "image": "care-for-parents-and-elderly-thumb.jpg",
         "url": "/topic/care-for-parents-and-elderly"
       }
@@ -67,16 +79,19 @@
   },
   "health": {
     "name": "Health",
+    "id": "cat03",
     "description":
       "This section is relevant for you if you are looking for where the law stands on various matters that affect your health.",
     "topics": [
       {
         "name": "Smoking",
+        "id": "cat03topic01",
         "image": "smoking-thumb.jpg",
         "url": "/topic/smoking"
       },
       {
         "name": "Drugs and Narcotics",
+        "id": "cat03topic02",
         "image": "drugs-and-narcotics-thumb.jpg",
         "url": "/topic/drugs-and-narcotics"
       }
@@ -84,16 +99,19 @@
   },
   "human-rights": {
     "name": "Human Rights",
+    "id": "cat04",
     "description":
       "Laws have been enacted in India to ensure that every person has basic fundamental rights of life, liberty and equality. The topics in this category pertain to these fundamental rights as well as human dignity.",
     "topics": [
       {
         "name": "Manual Scavenging",
+        "id": "cat04topic01",
         "image": "manual-scavenging-thumb.jpg",
         "url": "/topic/manual-scavenging"
       },
       {
         "name": "Scheduled Caste and Scheduled Tribes",
+        "id": "cat04topic02",
         "image": "scheduled-castes-and-scheduled-tribes-thumb.jpg",
         "url": "/topic/scheduled-caste-and-scheduled-tribes"
       }
@@ -101,21 +119,25 @@
   },
   "legal-process": {
     "name": "Legal Process",
+    "id": "cat05",
     "description":
       "Legal processes in India can be very daunting and convoluted. These topics will help you navigate the legal system better and understand how the justice system sees you.",
     "topics": [
       {
         "name": "Arrest",
+        "id": "cat05topic01",
         "image": "arrest-thumb.jpg",
         "url": "/topic/arrest"
       },
       {
         "name": "Bail",
+        "id": "cat05topic02",
         "image": "bail-thumb.jpg",
         "url": "/topic/bail"
       },
       {
         "name": "First Information Report",
+        "id": "cat05topic03",
         "image": "first-information-report-thumb.jpg",
         "url": "/topic/first-information-report"
       }
@@ -123,21 +145,25 @@
   },
   "media-and-tech": {
     "name": "Media & Tech",
+    "id": "cat06",
     "description":
       "Here you will find information about how the law deals with matters related to media in all forms - print, television and broadcast - as well as behaviours and actions to do with technology in general.",
     "topics": [
       {
         "name": "Censorship",
+        "id": "cat06topic01",
         "image": "censorship-thumb.jpg",
         "url": "/topic/censorship"
       },
       {
         "name": "Online Abuse",
+        "id": "cat06topic02",
         "image": "online-abuse-thumb.jpg",
         "url": "/topic/online-abuse"
       },
       {
         "name": "Defamation",
+        "id": "cat06topic03",
         "image": "defamation-thumb.jpg",
         "url": "/topic/defamation"
       }
@@ -145,16 +171,19 @@
   },
   "wealth": {
     "name": "Wealth",
+    "id": "cat07",
     "description":
       "This section is relevant to you if you are looking for where the law stands on matters related to money both cash and non-cash, banks and property and property rights such as selling, transferring, leasing and mortgaging.",
     "topics": [
       {
         "name": "Online Bank Fraud",
+        "id": "cat07topic01",
         "image": "online-bank-fraud-thumb.jpg",
         "url": "/topic/online-bank-fraud"
       },
       {
         "name": "Will",
+        "id": "cat07topic02",
         "image": "will-thumb.jpg",
         "url": "/topic/will"
       }
@@ -162,11 +191,13 @@
   },
   "women": {
     "name": "Women",
+    "id": "cat08",
     "description":
       "The legal system in India has many special provisions for women to protect them from circumstances that leave them particularly vulnerable.",
     "topics": [
       {
         "name": "Rape",
+        "id": "cat08topic01",
         "image": "rape-thumb.jpg",
         "url": "/topic/rape"
       }
@@ -174,16 +205,19 @@
   },
   "work": {
     "name": "Work",
+    "id": "cat09",
     "description":
       "The law recognizes that work is a significant portion of our life and has a lot to say about matters relating to the workplace conditions, employers duties, employees rights and more.",
     "topics": [
       {
         "name": "Prostitution",
+        "id": "cat09topic01",
         "image": "prostitution-thumb.jpg",
         "url": "/topic/prostitution"
       },
       {
         "name": "Sexual Harassment at the Workplace",
+        "id": "cat09topic02",
         "image": "sexual-harassment-at-the-workplace-thumb.jpg",
         "url": "/topic/sexual-harassment-at-the-workplace"
       }

@@ -13,27 +13,29 @@ class Glossary extends React.Component {
     ).isRequired,
   };
 
-  constructor(props) {
+  constructor() {
     super();
-    this.state = {
-      chosen: props.collection[0],
-    };
+    this.chosen = 0;
   }
 
-  componentDidUpdate() {
-    if (this.props.collection.indexOf(this.state.chosen) === -1) {
-      this.setState({
-        chosen: this.props.collection[0],
-      });
+  componentDidUpdate(prev) {
+    if (prev.collection[0].term !== this.props.collection[0].term) {
+      document.getElementById(`term${this.chosen}`).style.display = 'none';
+      this.chosen = 0;
+      document.getElementById('term0').style.display = 'block';
     }
   }
 
   handleClick = event => {
     event.preventDefault();
-    const index = event.target.attributes.getNamedItem('data-id').value;
-    this.setState({
-      chosen: this.props.collection[index],
-    });
+
+    const oldTerm = document.getElementById(`term${this.chosen}`);
+    const newIndex = event.target.attributes.getNamedItem('data-id').value;
+    const newTerm = document.getElementById(`term${newIndex}`);
+
+    oldTerm.style.display = 'none';
+    this.chosen = newIndex;
+    newTerm.style.display = 'block';
   };
 
   render() {
@@ -42,14 +44,19 @@ class Glossary extends React.Component {
         <div className={s.container}>
           <div className={s.title}>Glossary</div>
           <div className={s.glossarySection}>
-            <div className={s.definedTerm}>
-              <div className={s.glossaryItem}>
-                <div className={s.term}>{this.state.chosen.term}</div>
-                <div className={s.definition}>
-                  {this.state.chosen.definition}
+            {this.props.collection.map((word, index) => (
+              <div
+                className={s.definedTerm}
+                id={`term${index}`}
+                key={word.id}
+                style={index === this.chosen ? { display: 'block' } : {}}
+              >
+                <div className={s.glossaryItem}>
+                  <div className={s.term}>{word.term}</div>
+                  <div className={s.definition}>{word.definition}</div>
                 </div>
               </div>
-            </div>
+            ))}
             <div className={s.terms}>
               {this.props.collection.map((word, index) => (
                 <button

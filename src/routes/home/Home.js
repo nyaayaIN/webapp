@@ -34,7 +34,7 @@ class Home extends React.Component {
       <div className={s.root}>
         <Hero
           content={this.props.hero}
-          style="center"
+          type="center"
           image={heroUrl}
           theme="light"
         />

@@ -75,17 +75,21 @@
 }
 
 .topicLink {
+  background: none;
+  border: none;
   cursor: pointer;
   color: #404040;
   font-size: 1.1em;
   font-weight: normal;
   text-decoration: none;
+  text-align: left;
 }
 
 .errorText {
   color: red;
   text-align: center;
 }
+
 @media (--medium-viewport) {
   .mobileMenu {
     display: block;

@@ -16,7 +16,7 @@ class Categories extends React.Component {
     super(props);
     this.state = {
       view: props.view,
-      menuClass: 'hidden',
+      menuClass: s.hidden,
       categories: [],
       error: false,
     };
@@ -40,7 +40,7 @@ class Categories extends React.Component {
   toggleMenu = event => {
     event.preventDefault();
     this.setState({
-      menuClass: this.state.menuClass === 'hidden' ? 'show' : 'hidden',
+      menuClass: this.state.menuClass === s.hidden ? s.show : s.hidden,
     });
   };
 
@@ -48,7 +48,7 @@ class Categories extends React.Component {
     event.preventDefault();
     const url = event.target.attributes.getNamedItem('data-url').value;
     this.setState({
-      menuClass: this.state.menuClass === 'hidden' ? 'show' : 'hidden',
+      menuClass: this.state.menuClass === s.hidden ? s.show : s.hidden,
     });
     history.push(url);
   };
@@ -70,7 +70,7 @@ class Categories extends React.Component {
         <button className={s.mobileMenu} onClick={this.toggleMenu}>
           {this.state.view}
         </button>
-        <div className={`${s.container} ${s[this.state.menuClass]}`}>
+        <div className={`${s.container} ${this.state.menuClass}`}>
           <ul className={s.categories}>
             {this.state.categories.map(category => (
               <li className={s.category} key={category.id}>
@@ -80,13 +80,13 @@ class Categories extends React.Component {
                 <ul className={s.topics}>
                   {category.topics.map(topic => (
                     <li className={s.topic} key={topic.id}>
-                      <div
+                      <button
                         className={s.topicLink}
                         data-url={topic.url}
                         onClick={this.handleClick}
                       >
                         {topic.name}
-                      </div>
+                      </button>
                     </li>
                   ))}
                 </ul>

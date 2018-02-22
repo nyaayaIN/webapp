@@ -53,7 +53,7 @@ class Topic extends React.Component {
       <div className={s.root}>
         <Hero
           content={summary}
-          style="bottom"
+          type="bottom"
           image={S3 + this.props.hero}
           theme="dark"
         />

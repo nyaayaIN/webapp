@@ -14,7 +14,6 @@ class Follow extends React.Component {
     super();
     this.state = {
       i18n: {},
-      error: false,
     };
   }
 
@@ -28,9 +27,7 @@ class Follow extends React.Component {
       })
       .then(response => response.json())
       .then(data => this.setState({ i18n: data }))
-      .catch(error => {
-        this.setState({ error: { i18n: error.message } });
-      });
+      .catch(() => {});
   }
 
   render() {
