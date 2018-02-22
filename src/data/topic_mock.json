@@ -220,7 +220,7 @@
         "question":
           "Can parents be punished for allowing their children to work?",
         "answer":
-          "<p> The parents or guardians of the children who are working in violation of this law will generally not be punished for allowing their children to work. However, this immunity does not apply if they make their child (who is under 14) work for commercial purposes or the child (between 14 and 18) work in a hazardous occupation or process. The law does give them a chance to correct their wrong – when they are caught doing this the first time, they can settle it. However, if they make their child work again in violation of the law, they can be punished with a fine of up to Rs. 10,000. </p> "
+          "<p> The parents or guardians of the children who are working in violation of this law will generally not be punished for allowing their children to work. However, this immunity does not apply if they make their child (who is under 14) work for commercial purposes or make their child (between 14 and 18) work in a hazardous occupation or process. The law does give them a chance to correct their wrong – when they are caught doing this the first time, they can settle it. However, if they make their child work again in violation of the law, they can be punished with a fine of up to Rs. 10,000. </p> "
       },
       {
         "id": "qna01",
@@ -407,7 +407,7 @@
         "id": "exp04",
         "title": "Abetment",
         "content":
-          "<p> You are breaking the law if you help, suggest or encourage a public servant to commit the crimes of accepting money or gifts in addition to their salary or property from business associates, even if the crime was not successfully committed. You can be sent to jail for a period of 3 to 7 years and will also have to pay fine. </p> <p> Example: Rajesh, Ravi's cousin offers Mukesh (a public servant) a new house in return for appointing Ravi to the post of junior Railway officer. Even if Ravi does not get the post, Rajesh has &#8220;abetted&#8221; or helped Mukesh break the law. </p> "
+          "<p> You are breaking the law if you help, suggest or encourage a public servant to commit the crimes of accepting money or gifts in addition to their salary or property from business associates, even if the crime was not successfully committed. You can be sent to jail for a period of 3 to 7 years and will also have to pay a fine. </p> <p> Example: Rajesh, Ravi's cousin offers Mukesh (a public servant) a new house in return for appointing Ravi to the post of junior Railway officer. Even if Ravi does not get the post, Rajesh has &#8220;abetted&#8221; or helped Mukesh break the law. </p> "
       }
     ],
     "qna": [
@@ -496,7 +496,7 @@
         "id": "exp02",
         "title": "Processing of an Application",
         "content":
-          "<p> The PIO can take 30 days to provide the information that is requested. If the application is made to an APIO, the information must be provided in 35 days. If the information has some serious consequences on a person's life and is needed urgently, the PIO should give the information within 48 hours. </p> <p> Under this law, the PIO can refuse to answer certain applications. Please read Section 8 and 9 of this Act to figure out information which is generally exempt from this Act. </p> <p> If the information is not given within 30/35 days, you have to assume that the PIO/APIO denied your request for information. Further, the PIO cannot charge anything other than the application fee for the information.</p> "
+          "<p> The PIO can take 30 days to provide the information that is requested. If the application is made to an APIO, the information must be provided in 35 days. If the information has some serious consequences on a person's life and is needed urgently, the PIO should give the information within 48 hours. </p> <p> Under this law, the PIO can refuse to answer certain applications. Please read Section 8 and 9 of this Act to figure out which information would be generally exempted from this Act. </p> <p> If the information is not given within 30/35 days, you have to assume that the PIO/APIO denied your request for information. Further, the PIO cannot charge anything other than the application fee for the information.</p> "
       },
       {
         "id": "exp03",
@@ -541,7 +541,7 @@
         "question":
           "If I live in Jammu and Kashmir, can I rely on the Right to Information act to get information about the government?",
         "answer":
-          "<p> No, this act does not apply to the state of Jammu and Kashmir. However Jammu and Kashmir has its own Right to information Act, 2009. You can file under it. It is the same as the RTI Act elsewhere. </p> "
+          "<p> No, this act does not apply to the state of Jammu and Kashmir. However, Jammu and Kashmir has its own Right to information Act, 2009. You can file under it. It is the same as the RTI Act elsewhere. </p> "
       },
       {
         "id": "qna01",
@@ -693,7 +693,7 @@
     }, {
       "id": "qna05",
       "question": "If a complaint is made against someone for demanding dowry, will they be arrested immediately?",
-      "answer": "<p> No, while investigation in the case can start immediately, accused can only be arrested after warrant is given by the magistrate. Practically, police is instructed to make sure that all possible efforts should be made, before recommending registration of any FIR, for reconciliation and in case it is found that there is no possibility of settlement, then necessary steps in the first instance be taken to ensure return of stridhan and dowry articles etc. by the accused party to the complainant </p> "
+      "answer": "<p> No, while the investigation in the case can start immediately, accused can only be arrested after a warrant is given by the magistrate. Practically, police is instructed to make sure that all possible efforts should be made, before recommending registration of any complaint, for reconciliation and in case it is found that there is no possibility of settlement, then necessary steps in the first instance be taken to ensure return of <i>stridhan</i> and dowry articles etc. by the accused party to the complainant </p> "
     }],
     "glossary": [{
       "id": "glos00",
@@ -794,7 +794,7 @@
     }, {
       "id": "exp04",
       "title": "Staying in the house",
-      "content": "<p> The victim can request the Magistrate pass a ‘residence order’ which commands the offender <ul> <li> not to throw the victim out of their shared home. </li> <li> to leave the shared home. (This doesn’t apply to any female relatives of the offender). </li> <li> not enter the victim’s portion of the shared home. </li> <li> This can also be applied to his relatives not to sell, lease or mortgage the shared home, not to leave the shared home without the Magistrate’s permission. </li> <li> to pay for or buy another house for the victim if need be.additional conditions that the Magistrate believes will protect the victim and her children. </li> </ul> Sometimes the Magistrate can order the offender to sign a bond with the court to ensure that he does not commit acts of domestic violence. The Magistrate can choose to require the offender to get sureties (other people who will take up responsibility for his behaviour). </p> "
+      "content": "<p> The victim can request the Magistrate pass a ‘residence order’ which commands the offender <ul> <li> not to throw the victim out of their shared home; </li> <li> to leave the shared home (This doesn’t apply to any female relatives of the offender); </li> <li> not enter the victim’s portion of the shared home; </li> <li> This can also be applied to his relatives not to sell, lease or mortgage the shared home, not to leave the shared home without the Magistrate’s permission; </li> <li> to pay for or buy another house for the victim if need be.additional conditions that the Magistrate believes will protect the victim and her children. </li> </ul> Sometimes the Magistrate can order the offender to sign a bond with the court to ensure that he does not commit acts of domestic violence. The Magistrate can choose to require the offender to get sureties (other people who will take up responsibility for his behaviour). </p> "
     }, {
       "id": "exp05",
       "title": "Custody of Children",
@@ -1131,7 +1131,7 @@
         "id": "exp04",
         "title": "Warning Labels on Cigarettes and Tobacco Products",
         "content":
-          "<p> All cigarette and tobacco products must: <ul> <li> Have a warning on their label, which may include a photographic warning. The details of the size of warnings in the labels are found in the rules, <a href='https://www.tobaccocontrollaws.org/legislation/country/india/pl-health-warnings' target='_blank'>which are summarised here.</a> </li> <li> This warning must be on the biggest side of the package. </li> <li> The nicotine and tar contents of the product is visible on the package. </li> <li> The maximum limit of nicotine and tar allowed is visible on the package and the nicotine and tar amount in the tobacco must not exceed the allowed amount. </li> <li> The warning on the tobacco product should be readable and clear as well as bold and visible. </li> <li> The warning on the package must be in all the languages used on the packaging. Where a foreign language is used on the package, the warning must be in English. </li> <li> The details of the size of warnings in the labels are found in the rules, <a href='https://www.tobaccocontrollaws.org/legislation/country/india/pl-health-warnings' target='_blank'>which are summarised here.</a> </li> </ul> If you produce the products without warnings, then you can go to jail for upto 2 years or will have to pay fine of Rs. 5,000. When caught a second time, you can go to jail for 5 years or will have to pay fine of Rs. 10,000. If you sell cigarettes without warnings, you can be sent to jail for upto 1 year, or you may have to pay fine upto Rs.1,000 if it was your first offence. When caught a second time, you may go to jail for 2 years, or will pay fine upto Rs. 3,000. </p> "
+          "<p> All cigarette and tobacco products must: <ul> <li> Have a warning on their label, which may include a photographic warning. The details of the size of warnings in the labels are found in the rules, <a href='https://www.tobaccocontrollaws.org/legislation/country/india/pl-health-warnings' target='_blank'>which are summarised here.</a> </li> <li> This warning must be on the biggest side of the package. </li> <li> The nicotine and tar contents of the product is visible on the package. </li> <li> The maximum limit of nicotine and tar allowed is visible on the package and the nicotine and tar amount in the tobacco must not exceed the allowed amount. </li> <li> The warning on the tobacco product should be readable and clear as well as bold and visible. </li> <li> The warning on the package must be in all the languages used on the packaging. Where a foreign language is used on the package, the warning must be in English. </li> </ul> If you produce the products without warnings, then you can go to jail for upto 2 years or will have to pay fine of Rs. 5,000. When caught a second time, you can go to jail for 5 years or will have to pay fine of Rs. 10,000. If you sell cigarettes without warnings, you can be sent to jail for upto 1 year, or you may have to pay fine upto Rs.1,000 if it was your first offence. When caught a second time, you may go to jail for 2 years, or will pay fine upto Rs. 3,000. </p> "
       },
       {
         "id": "exp05",
@@ -1563,20 +1563,15 @@
     "summary":
       "Indian law  punishes cruel and degrading crimes committed against people belonging to Scheduled Castes and Tribes, gives special protections and rights to victims belonging to Scheduled Castes and Tribes and sets up courts for fast completion of cases.",
     "image": "",
-    "explanations": [
-      {
+    "explanations": [{
         "id": "exp00",
         "title": "Cruel and Degrading Atrocities",
-        "content":
-          "<p> The following actions are considered as crimes and have a minimum punishment of 6 months and a maximum of 5 years, plus fine. <ul> <li> Hurting or boycotting an SC/ST member  </li> <li> force-feeding an SC/ST member with any disgusting substance that is not fit for humans to eat, such as cow dung, human excreta etc. </li> <li> Dumping any disgusting substances (such as the bodies of dead animals, or excreta) inside or at the gate of a place where SC/ST members live, or in a neighbourhood of an SC/ST member, but only if it is done to insult or annoy her in some way. </li> <li> Making an SC/ST member wear a garland of chappals, or making them walk around naked or semi-naked. </li> <li> Forcing an SC/ST member to do anything which is insulting to the dignity of a human being, such as making them undress, forcing them to shave his head or his moustache or forcing them to paint his face. </li> <li> Making an SC/ST member do bonded labour. The exception will be if the government makes some kind of public service compulsory – in that case it will not be a crime. </li> <li> Forcing a SC/ST member to carry or dispose of a human or animal dead body. </li> <li> Forcing an SC/ST member to do manual scavenging, or employ an SC/ST member to do manual scavenging. </li> <li> Insulting and humiliating an SC/ST member on purpose, if it is done in a place visible to the public. </li> <li> Abusing an SC/ST member using her caste name if it is done in a place visible to the public. </li> <li> Damage any object, such as a statue or picture of Dr. Ambedkar, which is important to members of SCs/STs. </li> <li> Say or publish anything that encourages hatred of SC/ST communities. </li> <li> Say or write anything that insults any late person who is important to the SC/ST community, such as a leader. </li> <li> Spoiling any water source that is usually used by SC/ST members. </li> <li> Blocking an SC/ST member from a public place where she has a right to go. </li> <li> Blocking an SC/ST member from: <ul> <li> Using any common public area or resource such as water bodies, taps, wells, cremation grounds etc. </li> <li> Riding a horse or a vehicle or carrying out a procession. </li> <li> Entering into a religious place or participating in a religious ceremony, that is open to the public. </li> <li> Entering a public place like a school, hospital or cinema hall. </li> <li> Carrying on any business or job. </li> </ul>  </li> <li> Accusing an SC/ST member of practicing witchcraft, and hurting them physically or mentally. </li> <li> Making a threat, or to actually practice social or economic boycott. </li> </ul>  </p> "
-      },
-      {
+        "content": "<p> The following actions are considered as crimes and have a minimum punishment of 6 months and a maximum of 5 years, plus fine. <ul> <li> Hurting or boycotting an SC/ST member  </li> <li> Force-feeding an SC/ST member with any disgusting substance that is not fit for humans to eat, such as cow dung, human excreta etc. </li> <li> Dumping any disgusting substances (such as the bodies of dead animals, or excreta) inside or at the gate of a place where SC/ST members live, or in a neighbourhood of an SC/ST member, but only if it is done to insult or annoy her in some way. </li> <li> Making an SC/ST member wear a garland of chappals, or making them walk around naked or semi-naked. </li> <li> Forcing an SC/ST member to do anything which is insulting to the dignity of a human being, such as making them undress, forcing them to shave his head or his moustache or forcing them to paint his face. </li> <li> Making an SC/ST member do bonded labour. The exception will be if the government makes some kind of public service compulsory – in that case it will not be a crime. </li> <li> Forcing a SC/ST member to carry or dispose of a human or animal dead body. </li> <li> Forcing an SC/ST member to do manual scavenging, or employ an SC/ST member to do manual scavenging. </li> <li> Insulting and humiliating an SC/ST member on purpose, if it is done in a place visible to the public. </li> <li> Abusing an SC/ST member using her caste name if it is done in a place visible to the public. </li> <li> Damage any object, such as a statue or picture of Dr. Ambedkar, which is important to members of SCs/STs. </li> <li> Say or publish anything that encourages hatred of SC/ST communities. </li> <li> Say or write anything that insults any late person who is important to the SC/ST community, such as a leader. </li> <li> Spoiling any water source that is usually used by SC/ST members. </li> <li> Blocking an SC/ST member from a public place where she has a right to go. </li> <li> Blocking an SC/ST member from: <ul> <li> Using any common public area or resource such as water bodies, taps, wells, cremation grounds etc. </li> <li> Riding a horse or a vehicle or carrying out a procession. </li> <li> Entering into a religious place or participating in a religious ceremony, that is open to the public. </li> <li> Entering a public place like a school, hospital or cinema hall. </li> <li> Carrying on any business or job. </li> </ul>  </li> <li> Accusing an SC/ST member of practicing witchcraft, and hurting them physically or mentally. </li> <li> Making a threat, or to actually practice social or economic boycott. </li> </ul>  </p> "
+    }, {
         "id": "exp01",
         "title": "Land and Property",
-        "content":
-          "<p> It is illegal take over any land that is owned or controlled by, or allotted to any SC/ST member as well as forcing an SC/ST member to leave her home, unless it is done legally. The takeover of the property is considered illegal if it is done <ul> <li> without the agreement of the victim, or </li> <li> by threatening him or someone connected to him, or </li> <li> by making false records. </li> </ul> It is also a crime to similarly illegally deprive an SC/ST member of his property, or to prevent him from exercising his rights over any land. This includes: <ul> <li> Blocking an SC/ST member from accessing any forest rights under the Forest Rights Act. </li> <li> Blocking rights to any water source or irrigation source. </li> <li> Destroying or taking away crops. </li> </ul> You can face imprisonment of a term of 6 months to 7 years for using fire or bombs to damage homes, religious places and/or property belonging to SC/ST members </p> "
-      },
-      {
+        "content": "<p> It is illegal take over any land that is owned or controlled by, or allotted to any SC/ST member as well as forcing an SC/ST member to leave her home, unless it is done legally. The takeover of the property is considered illegal if it is done <ul> <li> without the agreement of the victim, or </li> <li> by threatening her or someone connected to her, or </li> <li> by making false records. </li> </ul> It is also a crime to similarly illegally deprive an SC/ST member of his property, or to prevent him from exercising his rights over any land. This includes: <ul> <li> Blocking an SC/ST member from accessing any forest rights under the Forest Rights Act. </li> <li> Blocking rights to any water source or irrigation source. </li> <li> Destroying or taking away crops. </li> </ul> You can face imprisonment of a term of 6 months to 7 years for using fire or bombs to damage homes, religious places and/or property belonging to SC/ST members </p> "
+    }, {
         "id": "exp02",
         "title": "Voting and Elections",
         "content":
@@ -1614,10 +1609,8 @@
       {
         "id": "glos01",
         "term": "Common Intention",
-        "definition":
-          "Common Intention is mentioned in S.34 of the Indian Penal Code. This provision says that if a lot of people get together and do something illegal with the common intention of doing it, they would all be liable for the crime, individually. Basically, this means that each of them would be liable as if she/he would have done it alone, by themselves. For this section to apply, it has to be shown that people got together to do something illegal, and acted together towards achieving."
-      },
-      {
+        "definition": "Common Intention is mentioned in Section 34 of the Indian Penal Code. This provision says that if a lot of people get together and do something illegal with the common intention of doing it, they would all be liable for the crime, individually. Basically, this means that each of them would be liable as if she/he would have done it alone, by themselves. For this section to apply, it has to be shown that people got together to do something illegal, and acted together towards achieving."
+    }, {
         "id": "glos02",
         "term": "Economic Boycott",
         "definition":
@@ -2378,7 +2371,7 @@
     }, {
         "id": "glos01",
         "term": "Customer’s Liability",
-        "definition": "A customer who has been subject to online bank fraud will have to bear the loss of the online bank fraud in certain circumstances. Please look at this section for more information on when the customer has to bear the loss of an unauthorized bank transaction."
+        "definition": "A customer who has been subject to online bank fraud will have to bear the loss of the online bank fraud in certain circumstances. Please look at <a href='http://nyaaya.in/topic/online-bank-fraud' target='_blank' rel='noopener noreferrer'>this</a> section for more information on when the customer has to bear the loss of an unauthorized bank transaction."
     }, {
         "id": "glos02",
         "term": "Unauthorized User",
@@ -2390,7 +2383,7 @@
     }, {
       "id": "glos04",
       "term": "Consumer Court",
-      "definition": "Consumer Court is the special purpose court, in India, that deals with cases regarding consumer disputes and grievances. These are judiciary hearings set up by the government to protect the consumer rights. Its main function is to maintain the fair practices by the sellers towards consumers"
+      "definition": "Consumer Court is the special purpose court, in India, that deals with cases regarding consumer disputes and grievances. These are judiciary hearings set up by the government to protect the consumer rights. Its main function is to maintain the fair practices by the sellers towards consumers."
     }, {
       "id": "glos05",
       "term": "Basic Savings Bank Deposit Account",
@@ -2398,7 +2391,7 @@
     }, {
       "id": "glos06",
       "term": "Prepaid Payment Instruments",
-      "definition": "Prepaid payment instruments are methods that facilitate purchase of goods and services against the value stored on such instruments. The value stored on such instruments represents the value paid for by the holder, by cash, by debit to a bank account, or by credit card"
+      "definition": "Prepaid payment instruments are methods that facilitate purchase of goods and services against the value stored on such instruments. The value stored on such instruments represents the value paid for by the holder, by cash, by debit to a bank account, or by credit card."
   }, {
       "id": "glos07",
       "term": "Gift Card",
@@ -2543,7 +2536,7 @@
     },{
       "id": "exp03",
       "title": "No means No",
-      "content": "<p> Consent has been clearly defined as a clear, voluntary communication that the woman agrees to the specific sex act, leaving no room for debate.It also makes it clear that absence of physical injuries is immaterial for deciding consent. For example, if a woman says that she is uncomfortable and that she does not want to have sex, yet the man has sex with her, it is after disregarding her consent. </p> "
+      "content": "<p> Consent has been clearly defined as a clear, voluntary communication that the woman agrees to the specific sex act, leaving no room for debate. It also makes it clear that absence of physical injuries is immaterial for deciding consent. For example, if a woman says that she is uncomfortable and that she does not want to have sex, yet the man has sex with her, it is after disregarding her consent. </p> "
     },{
       "id": "exp04",
       "title": "Consent of a Minor",
@@ -2551,7 +2544,7 @@
     },{
       "id": "exp05",
       "title": "Marital rape",
-      "content": "<p> Husbands who have sex with their wife who is above the age of 18 and lives with them, with or without her consent, is not seen as rape, in the eyes of the law. A husband having sex with with his wife who is under 18, is considered rape, irrespective of her consenting to it.If a couple is married, but living separately, then the husband can be convicted of rape if there is no consent. The punishment for the husband is jail time of between two and seven years along with a fine. </p> "
+      "content": "<p> Husbands who have sex with their wife who is above the age of 18 and lives with them, with or without her consent, is not seen as rape, in the eyes of the law. A husband having sex with with his wife who is under 18, is considered rape, irrespective of her consenting to it. If a couple is married, but living separately, then the husband can be convicted of rape if there is no consent. The punishment for the husband is jail time of between two and seven years along with a fine. </p> "
     },{
       "id": "exp06",
       "title": "Abuse of position or authority",
@@ -2579,11 +2572,11 @@
     },{
       "id": "exp12",
       "title": "Seeking Medical Help",
-      "content": "<p> If you are the victim of an acid attack or rape, you have the right to get free first aid from any government or private hospital. If a hospital refuses treatment, the person in charge can be punished by up to 1 year in prison. The hospital is also supposed to immediately inform the police of the crime. </p> <p> The medical examination of the survivor is supposed to happen within 24 hours of the filing of the FIR. However, it can only happen with the consent of the survivor. The doctor who examines the survivor is supposed to make a report with full details and conclusions, and also record the exact time at which the medical examination started and was completed. Recently, updated guidelines have been issued to hospitals on the way to conduct medical examination of survivors.This medical report is supposed to be sent to the police officer conducting the investigation. The officer is then supposed to send it to the Magistrate immediately. </p> <p> If the crime has been committed against a child: If the child is less than 12 years old, the child's parents or guardian can give consent to medical examination. Between the ages of 12 and 15, a doctor can decide whether the child is mature enough to give consent </p> "
+      "content": "<p> If you are the victim of an acid attack or rape, you have the right to get free first aid from any government or private hospital. If a hospital refuses treatment, the person in charge can be punished by up to 1 year in prison. The hospital is also supposed to immediately inform the police of the crime. </p> <p> The medical examination of the survivor is supposed to happen within 24 hours of the filing of the FIR. However, it can only happen with the consent of the survivor. The doctor who examines the survivor is supposed to make a report with full details and conclusions, and also record the exact time at which the medical examination started and was completed. Recently, updated guidelines have been issued to hospitals on the way to conduct medical examination of survivors. This medical report is supposed to be sent to the police officer conducting the investigation. The officer is then supposed to send it to the Magistrate immediately. </p> <p> If the crime has been committed against a child: If the child is less than 12 years old, the child's parents or guardian can give consent to medical examination. Between the ages of 12 and 15, a doctor can decide whether the child is mature enough to give consent. </p> "
     }, {
       "id": "exp13",
       "title": "Rape Trial",
-      "content": "<p> As far as possible, trials in rape cases are supposed to be held without any public in the Courtroom (in camera). Also, as far as possible a woman judge is to be preferred. </p> <p> The survivor will probably have to appear in court to give evidence. She does not need a lawyer, but can get one to help the government lawyer, with the court's permission. </p> <p> Legally, the court is supposed to assume that in certain cases of rape, the survivor did not consent. It will be up to the accused person's lawyer to prove, if he can, that the survivor actually consented.In cases of rape or sexual harassment, the previous sexual experiences of the survivor cannot be brought up in court to argue whether she consented or not. </p> "
+      "content": "<p> As far as possible, trials in rape cases are supposed to be held without any public in the Courtroom (in camera). Also, as far as possible a woman judge is to be preferred. </p> <p> The survivor will probably have to appear in court to give evidence. She does not need a lawyer, but can get one to help the government lawyer, with the court's permission. </p> <p> Legally, the court is supposed to assume that in certain cases of rape, the survivor did not consent. It will be up to the accused person's lawyer to prove, if he can, that the survivor actually consented. In cases of rape or sexual harassment, the previous sexual experiences of the survivor cannot be brought up in court to argue whether she consented or not. </p> "
     }],
     "qna": [{
       "id": "qna00",
