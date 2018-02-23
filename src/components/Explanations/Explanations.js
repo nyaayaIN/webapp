@@ -30,8 +30,6 @@ class Explanations extends React.Component {
 
   componentDidUpdate(prev) {
     if (prev.collection[0].title !== this.props.collection[0].title) {
-      document.getElementById(`explanation${this.chosen}`).style.display =
-        'none';
       this.chosen = 0;
       document.getElementById('explanation0').style.display = 'block';
     }
