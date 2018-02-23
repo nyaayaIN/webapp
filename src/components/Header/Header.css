@@ -16,7 +16,7 @@
   font-size: 1.75em; /* ~28px */
 }
 
-@media (--medium-viewport)  {
+@media (--medium-viewport) {
   .brand {
     padding: 0.5em;
   }

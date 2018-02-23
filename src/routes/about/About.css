@@ -94,7 +94,7 @@
   text-align: justify;
 }
 
-@media (--medium-viewport)  {
+@media (--medium-viewport) {
   .container {
     padding: 0 1.5em;
   }

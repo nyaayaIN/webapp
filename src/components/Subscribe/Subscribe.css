@@ -42,7 +42,7 @@
   padding: 1em;
 }
 
-@media (--medium-viewport)  {
+@media (--medium-viewport) {
   .container {
     padding: 1em;
   }

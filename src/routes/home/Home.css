@@ -58,7 +58,7 @@
   margin: 1em 0;
 }
 
-@media (--medium-viewport)  {
+@media (--medium-viewport) {
   .story {
     padding: 0 1em;
   }

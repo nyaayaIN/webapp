@@ -87,8 +87,6 @@
   /*
    * Media queries breakpoints
    * ======================================================================== */
-  @custom-media --medium-viewport (max-width: 850px);
-  @custom-media --small-viewport (max-width: 450px);
 
   --screen-xs-min: 480px;  /* Extra small screen / phone */
   --screen-sm-min: 768px;  /* Small screen / tablet */
@@ -111,4 +109,7 @@
   --darkest-colour: #444451;
   --lighter-colour: rgba(255, 255, 255, 0.5);
   --shadow-colour: rgba(50, 50, 50, 0.25);
+
+  @custom-media --medium-viewport (max-width: 850px);
+  @custom-media --small-viewport (max-width: 450px);
 }
