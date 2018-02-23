@@ -20,6 +20,9 @@ class Glossary extends React.Component {
 
   componentDidUpdate(prev) {
     if (prev.collection[0].term !== this.props.collection[0].term) {
+      if (document.getElementById(`term${this.chosen}`)) {
+        document.getElementById(`term${this.chosen}`).style.display = 'none';
+      }
       this.chosen = 0;
       document.getElementById('term0').style.display = 'block';
     }
