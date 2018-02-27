@@ -1,6 +1,7 @@
 import path from 'path';
 import express from 'express';
 import cookieParser from 'cookie-parser';
+import mongodb from 'mongodb';
 import bodyParser from 'body-parser';
 import expressJwt, { UnauthorizedError as Jwt401Error } from 'express-jwt';
 import fetch from 'node-fetch';
@@ -68,10 +69,6 @@ if (__DEV__) {
 // Register API middleware
 // -----------------------------------------------------------------------------
 
-app.get('/data/category/:slug', (req, res) => {
-  res.send(mockCategory[req.params.slug] || {});
-});
-
 app.get('/data/topic/:slug', (req, res) => {
   res.send(mockTopic[req.params.slug] || {});
 });
@@ -85,7 +82,86 @@ app.get('/data/featured', (req, res) => {
 });
 
 app.get('/data/categories', (req, res) => {
-  res.send(mockCategories.data || {});
+  mongodb.MongoClient.connect(config.databaseUrl, (err, client) => {
+    if (err) {
+      res.send(mockCategories.data || {});
+    }
+
+    client
+      .db('nyaaya')
+      .collection('categories')
+      .find({})
+      .toArray()
+      .then(categories => {
+        const formattedCategories = categories.map(cat => ({
+          id: cat._id,
+          name: cat.name.EN,
+          url: `/category/${cat.slug}`,
+          topics: [],
+        }));
+        client.close();
+        res.send(formattedCategories);
+      })
+      .catch(error => {
+        console.error(error);
+        res.send(mockCategories.data || {});
+      });
+    client.close();
+  });
+});
+
+app.get('/data/category/:slug', (req, res) => {
+  mongodb.MongoClient.connect(config.databaseUrl, (err, client) => {
+    if (err) {
+      res.send(mockCategory[req.params.slug] || {});
+    }
+    client
+      .db('nyaaya')
+      .collection('categories')
+      .findOne({ slug: req.params.slug })
+      .then(cat => {
+        const formattedCategory = {
+          id: cat._id,
+          name: cat.name.EN,
+          description: cat.description.EN.html,
+          topics: [],
+        };
+        client.close();
+        res.send(formattedCategory);
+      })
+      .catch(error => {
+        console.error(error);
+        res.send(mockCategory[req.params.slug] || {});
+      });
+    client.close();
+  });
+});
+
+app.get('/data/category/:id/topics', (req, res) => {
+  mongodb.MongoClient.connect(config.databaseUrl, (err, client) => {
+    if (err) {
+      res.send([]);
+    }
+    const categoryId = new mongodb.ObjectID(req.params.id);
+    client
+      .db('nyaaya')
+      .collection('topics')
+      .find({ category: categoryId })
+      .toArray()
+      .then(topics => {
+        const formattedTopics = topics.map(topic => ({
+          id: topic._id,
+          name: topic.name.EN,
+          url: `/topic/${topic.slug}`,
+        }));
+        client.close();
+        res.send(formattedTopics);
+      })
+      .catch(error => {
+        console.error(error);
+      });
+    client.close();
+  });
 });
 
 //
