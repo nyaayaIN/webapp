@@ -68,7 +68,28 @@ if (__DEV__) {
 // -----------------------------------------------------------------------------
 
 app.get('/data/static_pages/:page', (req, res) => {
-  res.send(mockStatic[req.params.page] || {});
+  mongodb.MongoClient.connect(config.databaseUrl, (err, client) => {
+    if (err) {
+      res.send(mockStatic[req.params.page]);
+    }
+    client
+      .db('nyaaya')
+      .collection('staticpages')
+      .findOne({ slug: req.params.page })
+      .then(page => {
+        const data = {};
+        page.keys.forEach((key, i) => {
+          data[key] = page.content.EN[i];
+        });
+        client.close();
+        res.send(data);
+      })
+      .catch(error => {
+        console.error(error);
+        res.send(mockStatic[req.params.page] || {});
+      });
+    client.close();
+  });
 });
 
 app.get('/data/topics/featured', (req, res) => {
