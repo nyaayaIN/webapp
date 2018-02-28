@@ -8,35 +8,74 @@ import Explanations from '../../components/Explanations';
 import Glossary from '../../components/Glossary';
 import QnA from '../../components/QnA';
 
-const S3 = 'https://s3.ap-south-1.amazonaws.com/staging-image-test/images/';
+const CLOUDINARY = `https://res.cloudinary.com/nyaaya-testing/image/upload/`;
 
 class Topic extends React.Component {
   static propTypes = {
     hero: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
     summary: PropTypes.string.isRequired,
-    explanations: PropTypes.arrayOf(
-      PropTypes.shape({
-        title: PropTypes.string.isRequired,
-        content: PropTypes.string.isRequired,
-      }),
-    ).isRequired,
-    qna: PropTypes.arrayOf(
-      PropTypes.shape({
-        question: PropTypes.string.isRequired,
-        answer: PropTypes.string.isRequired,
-      }),
-    ).isRequired,
-    glossary: PropTypes.arrayOf(
-      PropTypes.shape({
-        term: PropTypes.string.isRequired,
-        definition: PropTypes.string.isRequired,
-      }),
-    ).isRequired,
     chosen: PropTypes.shape({
       explanation: PropTypes.number.isRequired,
     }).isRequired,
   };
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      explanations: [{ id: '', title: '', content: '' }],
+      qna: [{ id: '', question: '', answer: '' }],
+      glossary: [{ id: '', term: '', definition: '' }],
+      error: false,
+    };
+  }
+
+  componentDidMount() {
+    fetch('/data/topic/5a94b5acdc1d0e95301fb706/glossary')
+      .then(response => {
+        if (!response || !response.ok) {
+          throw new Error(response.statusText || 'No Response');
+        }
+        return response;
+      })
+      .then(response => response.json())
+      .then(data => {
+        this.setState({ glossary: data });
+      })
+      .catch(error => {
+        this.setState({ error: error.message });
+      });
+
+    fetch('/data/topic/5a94b5acdc1d0e95301fb706/explanations')
+      .then(response => {
+        if (!response || !response.ok) {
+          throw new Error(response.statusText || 'No Response');
+        }
+        return response;
+      })
+      .then(response => response.json())
+      .then(data => {
+        this.setState({ explanations: data });
+      })
+      .catch(error => {
+        this.setState({ error: error.message });
+      });
+
+    fetch('/data/topic/5a94b5acdc1d0e95301fb706/qna')
+      .then(response => {
+        if (!response || !response.ok) {
+          throw new Error(response.statusText || 'No Response');
+        }
+        return response;
+      })
+      .then(response => response.json())
+      .then(data => {
+        this.setState({ qna: data });
+      })
+      .catch(error => {
+        this.setState({ error: error.message });
+      });
+  }
 
   handleClick = event => {
     event.preventDefault();
@@ -54,7 +93,7 @@ class Topic extends React.Component {
         <Hero
           content={summary}
           type="bottom"
-          image={S3 + this.props.hero}
+          image={`${CLOUDINARY + this.props.hero}.jpg`}
           theme="dark"
         />
 
@@ -81,17 +120,18 @@ class Topic extends React.Component {
             >
               Glossary
             </button>
+            <p>{this.state.error}</p>
           </div>
         </div>
 
         <Explanations
-          collection={this.props.explanations}
+          collection={this.state.explanations}
           chosen={this.props.chosen.explanation}
         />
 
-        <QnA collection={this.props.qna} />
+        <QnA collection={this.state.qna} />
 
-        <Glossary collection={this.props.glossary} />
+        <Glossary collection={this.state.glossary} />
       </div>
     );
   }
