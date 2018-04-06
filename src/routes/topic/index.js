@@ -2,25 +2,42 @@ import React from 'react';
 import Topic from './Topic';
 import Layout from '../../components/Layout';
 
-async function action({ fetch, params, query }) {
+async function action({ fetch, params }) {
   const topicResponse = await fetch(`/data/topic/${params[0]}`, {});
   const topicData = await topicResponse.json();
 
-  if (!topicData) throw new Error('Failed to load topic information');
+  const explanationsResponse = await fetch(
+    `/data/topic/${topicData.id}/explanations`,
+    {},
+  );
+  const qnaResponse = await fetch(`/data/topic/${topicData.id}/qna`, {});
+  const glossaryResponse = await fetch(
+    `/data/topic/${topicData.id}/glossary`,
+    {},
+  );
 
-  const chosen = {
-    explanation: parseInt(query.explanation, 10) || 0,
+  const topicContent = {
+    explanations: await explanationsResponse.json(),
+    qna: await qnaResponse.json(),
+    glossary: await glossaryResponse.json(),
   };
+
+  const defaultExplanation = topicContent.explanations[0].slug || '';
+
+  if (!topicData) throw new Error('Failed to load topic information');
   return {
     title: topicData.name,
     chunks: ['topic'],
     component: (
       <Layout>
         <Topic
-          hero={topicData.image}
+          heroImage={topicData.image}
           name={topicData.name}
           summary={topicData.summary}
-          chosen={chosen}
+          explanations={topicContent.explanations}
+          defaultExplanation={defaultExplanation}
+          qna={topicContent.qna}
+          glossary={topicContent.glossary}
         />
       </Layout>
     ),

@@ -12,91 +12,45 @@ const CLOUDINARY = `https://res.cloudinary.com/nyaaya-testing/image/upload/`;
 
 class Topic extends React.Component {
   static propTypes = {
-    hero: PropTypes.string.isRequired,
+    heroImage: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
     summary: PropTypes.string.isRequired,
-    chosen: PropTypes.shape({
-      explanation: PropTypes.number.isRequired,
-    }).isRequired,
-  };
-
-  constructor(props) {
-    super(props);
-    this.state = {
-      explanations: [{ id: '', title: '', content: '' }],
-      qna: [{ id: '', question: '', answer: '' }],
-      glossary: [{ id: '', term: '', definition: '' }],
-      error: false,
-    };
-  }
-
-  componentDidMount() {
-    fetch('/data/topic/5a94b5acdc1d0e95301fb706/glossary')
-      .then(response => {
-        if (!response || !response.ok) {
-          throw new Error(response.statusText || 'No Response');
-        }
-        return response;
-      })
-      .then(response => response.json())
-      .then(data => {
-        this.setState({ glossary: data });
-      })
-      .catch(error => {
-        this.setState({ error: error.message });
-      });
-
-    fetch('/data/topic/5a94b5acdc1d0e95301fb706/explanations')
-      .then(response => {
-        if (!response || !response.ok) {
-          throw new Error(response.statusText || 'No Response');
-        }
-        return response;
-      })
-      .then(response => response.json())
-      .then(data => {
-        this.setState({ explanations: data });
-      })
-      .catch(error => {
-        this.setState({ error: error.message });
-      });
-
-    fetch('/data/topic/5a94b5acdc1d0e95301fb706/qna')
-      .then(response => {
-        if (!response || !response.ok) {
-          throw new Error(response.statusText || 'No Response');
-        }
-        return response;
-      })
-      .then(response => response.json())
-      .then(data => {
-        this.setState({ qna: data });
-      })
-      .catch(error => {
-        this.setState({ error: error.message });
-      });
-  }
-
-  handleClick = event => {
-    event.preventDefault();
-    const sectionId = event.target.attributes.getNamedItem('data-scroll').value;
-    document.getElementById(sectionId).scrollIntoView(true);
+    explanations: PropTypes.arrayOf(
+      PropTypes.shape({
+        title: PropTypes.string.isRequired,
+        content: PropTypes.string.isRequired,
+        slug: PropTypes.string.isRequired,
+      }),
+    ).isRequired,
+    defaultExplanation: PropTypes.string.isRequired,
+    qna: PropTypes.arrayOf(
+      PropTypes.shape({
+        question: PropTypes.string.isRequired,
+        answer: PropTypes.string.isRequired,
+      }),
+    ).isRequired,
+    glossary: PropTypes.arrayOf(
+      PropTypes.shape({
+        id: PropTypes.string.isRequired,
+        term: PropTypes.string.isRequired,
+        definition: PropTypes.string.isRequired,
+      }),
+    ).isRequired,
   };
 
   render() {
-    const summary = {
+    const heroContent = {
       title: this.props.name,
       description: this.props.summary,
     };
     return (
       <div className={s.root}>
         <Hero
-          content={summary}
+          content={heroContent}
           type="bottom"
-          image={`${CLOUDINARY + this.props.hero}.jpg`}
+          image={`${CLOUDINARY + this.props.heroImage}.jpg`}
           theme="dark"
         />
-
         <div className={s.topMenu}>
           <div className={s.container}>
             <button
@@ -120,18 +74,14 @@ class Topic extends React.Component {
             >
               Glossary
             </button>
-            <p>{this.state.error}</p>
           </div>
         </div>
-
         <Explanations
-          collection={this.state.explanations}
-          chosen={this.props.chosen.explanation}
+          collection={this.props.explanations}
+          defaultExplanation={this.props.defaultExplanation}
         />
-
-        <QnA collection={this.state.qna} />
-
-        <Glossary collection={this.state.glossary} />
+        <QnA collection={this.props.qna} />
+        <Glossary collection={this.props.glossary} />
       </div>
     );
   }

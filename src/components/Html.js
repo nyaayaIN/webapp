@@ -35,6 +35,10 @@ class Html extends React.Component {
           <title>{title}</title>
           <meta name="description" content={description} />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.0.0/themes/algolia-min.css"
+          />
           {scripts.map(script => (
             <link key={script} rel="preload" href={script} as="script" />
           ))}
@@ -70,6 +74,10 @@ class Html extends React.Component {
               defer
             />
           )}
+          <script
+            type="text/javascript"
+            src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5ac6af4775a1e932"
+          />
         </body>
       </html>
     );

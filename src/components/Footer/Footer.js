@@ -11,32 +11,18 @@ import attributionUrl from './attribution_icon_white_x2.png';
 import ncUrl from './nc_white_x2.png';
 import saUrl from './sa_white_x2.png';
 
-const CATEGORIES_API = '/data/categories';
 const I18N_API = '/data/static_pages/footer';
 
 class Footer extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      categories: [],
       i18n: {},
       error: false,
     };
   }
 
   componentDidMount() {
-    fetch(CATEGORIES_API)
-      .then(response => {
-        if (!response || !response.ok) {
-          throw new Error(response.statusText || 'No Response');
-        }
-        return response;
-      })
-      .then(response => response.json())
-      .then(data => this.setState({ categories: data }))
-      .catch(error => {
-        this.setState({ error: { categories: error.message } });
-      });
     fetch(I18N_API)
       .then(response => {
         if (!response || !response.ok) {
@@ -67,20 +53,6 @@ class Footer extends React.Component {
         <Follow />
         <Subscribe />
         <div className={s.container}>
-          <ul className={s.categories}>
-            {this.state.categories.map(category => (
-              <li className={s.category} key={category.id}>
-                <Link className={s.categoryLink} to={category.url}>
-                  {category.name}
-                </Link>
-                {category.topics.map(topic => (
-                  <Link className={s.topic} to={topic.url} key={topic.id}>
-                    {topic.name}
-                  </Link>
-                ))}
-              </li>
-            ))}
-          </ul>
           <div className={s.bottom}>
             <div className={s.company}>
               <div className={s.brand}>

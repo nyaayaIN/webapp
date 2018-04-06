@@ -246,6 +246,7 @@ app.get('/data/topic/:id/explanations', (req, res) => {
         const formattedExplanations = explanations.map(explanation => ({
           id: explanation._id,
           title: explanation.title.EN,
+          slug: explanation.slug,
           content: explanation.content.EN.html,
         }));
         client.close();
