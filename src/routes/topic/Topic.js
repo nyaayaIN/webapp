@@ -8,19 +8,21 @@ import Explanations from '../../components/Explanations';
 import Glossary from '../../components/Glossary';
 import QnA from '../../components/QnA';
 
-const S3 = 'https://s3.ap-south-1.amazonaws.com/staging-image-test/images/';
+const CLOUDINARY = `https://res.cloudinary.com/nyaaya-testing/image/upload/`;
 
 class Topic extends React.Component {
   static propTypes = {
-    hero: PropTypes.string.isRequired,
+    heroImage: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
     summary: PropTypes.string.isRequired,
     explanations: PropTypes.arrayOf(
       PropTypes.shape({
         title: PropTypes.string.isRequired,
         content: PropTypes.string.isRequired,
+        slug: PropTypes.string.isRequired,
       }),
     ).isRequired,
+    defaultExplanation: PropTypes.string.isRequired,
     qna: PropTypes.arrayOf(
       PropTypes.shape({
         question: PropTypes.string.isRequired,
@@ -29,35 +31,26 @@ class Topic extends React.Component {
     ).isRequired,
     glossary: PropTypes.arrayOf(
       PropTypes.shape({
+        id: PropTypes.string.isRequired,
         term: PropTypes.string.isRequired,
         definition: PropTypes.string.isRequired,
       }),
     ).isRequired,
-    chosen: PropTypes.shape({
-      explanation: PropTypes.number.isRequired,
-    }).isRequired,
-  };
-
-  handleClick = event => {
-    event.preventDefault();
-    const sectionId = event.target.attributes.getNamedItem('data-scroll').value;
-    document.getElementById(sectionId).scrollIntoView(true);
   };
 
   render() {
-    const summary = {
+    const heroContent = {
       title: this.props.name,
       description: this.props.summary,
     };
     return (
       <div className={s.root}>
         <Hero
-          content={summary}
+          content={heroContent}
           type="bottom"
-          image={S3 + this.props.hero}
+          image={`${CLOUDINARY + this.props.heroImage}.jpg`}
           theme="dark"
         />
-
         <div className={s.topMenu}>
           <div className={s.container}>
             <button
@@ -83,14 +76,11 @@ class Topic extends React.Component {
             </button>
           </div>
         </div>
-
         <Explanations
           collection={this.props.explanations}
-          chosen={this.props.chosen.explanation}
+          defaultExplanation={this.props.defaultExplanation}
         />
-
         <QnA collection={this.props.qna} />
-
         <Glossary collection={this.props.glossary} />
       </div>
     );

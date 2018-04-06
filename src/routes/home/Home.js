@@ -19,14 +19,13 @@ class Home extends React.Component {
       short_explanation: PropTypes.string.isRequired,
       short_disclaimer: PropTypes.string.isRequired,
     }).isRequired,
-    featured: PropTypes.shape({
-      topics: PropTypes.arrayOf(
-        PropTypes.shape({
-          name: PropTypes.string.isRequired,
-          url: PropTypes.string.isRequired,
-        }),
-      ).isRequired,
-    }).isRequired,
+    featured: PropTypes.arrayOf(
+      PropTypes.shape({
+        id: PropTypes.string.isRequired,
+        name: PropTypes.string.isRequired,
+        url: PropTypes.string.isRequired,
+      }),
+    ).isRequired,
   };
 
   render() {
@@ -43,7 +42,7 @@ class Home extends React.Component {
             <div className={s.heading}>
               {this.props.headings.featured_topics}
             </div>
-            <Topics collection={this.props.featured.topics} />
+            <Topics collection={this.props.featured} />
           </div>
         </div>
         <div className={s.story}>

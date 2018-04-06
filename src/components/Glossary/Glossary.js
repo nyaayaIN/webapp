@@ -7,6 +7,7 @@ class Glossary extends React.Component {
   static propTypes = {
     collection: PropTypes.arrayOf(
       PropTypes.shape({
+        id: PropTypes.string.isRequired,
         term: PropTypes.string.isRequired,
         definition: PropTypes.string.isRequired,
       }),

@@ -3,18 +3,26 @@ import Category from './Category';
 import Layout from '../../components/Layout';
 
 async function action({ fetch, params }) {
-  const resp = await fetch(`/data/category/${params[0]}`, {});
-  const data = await resp.json();
-  if (!data) throw new Error('Failed to load category information');
+  const categoryResponse = await fetch(`/data/category/${params[0]}`, {});
+  const categoryData = await categoryResponse.json();
+  if (!categoryData) throw new Error('Failed to load category information');
+
+  const topicsResponse = await fetch(
+    `/data/category/${categoryData.id}/topics`,
+    {},
+  );
+  const topicsData = await topicsResponse.json();
+  if (!topicsData) throw new Error('Failed to load topics for category');
+
   return {
-    title: data.name,
+    title: categoryData.name,
     chunks: ['category'],
     component: (
       <Layout>
         <Category
-          name={data.name}
-          description={data.description}
-          topics={data.topics}
+          name={categoryData.name}
+          description={categoryData.description}
+          topics={topicsData}
         />
       </Layout>
     ),

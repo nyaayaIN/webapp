@@ -4,6 +4,7 @@ import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import Link from '../Link';
 import history from '../../history';
 import s from './Categories.css';
+import loader from '../../../public/loading.gif';
 
 const API = '/data/categories';
 
@@ -18,6 +19,7 @@ class Categories extends React.Component {
       view: props.view,
       menuClass: s.hidden,
       categories: [],
+      loading: true,
       error: false,
     };
   }
@@ -31,7 +33,27 @@ class Categories extends React.Component {
         return response;
       })
       .then(response => response.json())
-      .then(data => this.setState({ categories: data }))
+      .then(data => {
+        this.setState({ categories: data, loading: false });
+        data.forEach((cat, i) => {
+          fetch(`/data/category/${cat.id}/topics`)
+            .then(response => {
+              if (!response || !response.ok) {
+                throw new Error(response.statusText || 'No Response');
+              }
+              return response;
+            })
+            .then(response => response.json())
+            .then(topics => {
+              const categories = data;
+              categories[i].topics = topics;
+              this.setState({ categories });
+            })
+            .catch(err => {
+              this.setState({ error: err.message });
+            });
+        });
+      })
       .catch(error => {
         this.setState({ error: error.message });
       });
@@ -71,6 +93,10 @@ class Categories extends React.Component {
           {this.state.view}
         </button>
         <div className={`${s.container} ${this.state.menuClass}`}>
+          <div className={this.state.loading ? s.loading : s.doneLoading}>
+            <img src={loader} className={s.loader} alt="loading" />
+          </div>
+
           <ul className={s.categories}>
             {this.state.categories.map(category => (
               <li className={s.category} key={category.id}>

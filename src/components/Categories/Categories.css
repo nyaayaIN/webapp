@@ -5,6 +5,23 @@
   border-bottom: solid 1px var(--neutral-medium-colour);
 }
 
+.loading {
+  width: 100%;
+  text-align: center;
+}
+
+.doneLoading {
+  display: none;
+}
+
+.loader {
+  height: 1em;
+  width: auto;
+  filter: invert(100%);
+  opacity: 0.5;
+  margin: 1em 0 0;
+}
+
 .mobileMenu {
   border: none;
   display: none;

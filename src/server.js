@@ -1,6 +1,7 @@
 import path from 'path';
 import express from 'express';
 import cookieParser from 'cookie-parser';
+import mongodb from 'mongodb';
 import bodyParser from 'body-parser';
 import expressJwt, { UnauthorizedError as Jwt401Error } from 'express-jwt';
 import fetch from 'node-fetch';
@@ -18,9 +19,7 @@ import config from './config';
 
 import mockCategories from './data/categories_mock.json';
 import mockCategory from './data/category_mock.json';
-import mockFeatured from './data/featured_mock.json';
 import mockStatic from './data/static_mock.json';
-import mockTopic from './data/topic_mock.json';
 
 const app = express();
 
@@ -68,24 +67,250 @@ if (__DEV__) {
 // Register API middleware
 // -----------------------------------------------------------------------------
 
-app.get('/data/category/:slug', (req, res) => {
-  res.send(mockCategory[req.params.slug] || {});
-});
-
-app.get('/data/topic/:slug', (req, res) => {
-  res.send(mockTopic[req.params.slug] || {});
-});
-
 app.get('/data/static_pages/:page', (req, res) => {
-  res.send(mockStatic[req.params.page] || {});
+  mongodb.MongoClient.connect(config.databaseUrl, (err, client) => {
+    if (err) {
+      res.send(mockStatic[req.params.page]);
+    }
+    client
+      .db('nyaaya')
+      .collection('staticpages')
+      .findOne({ slug: req.params.page })
+      .then(page => {
+        const data = {};
+        page.keys.forEach((key, i) => {
+          data[key] = page.content.EN[i];
+        });
+        client.close();
+        res.send(data);
+      })
+      .catch(error => {
+        console.error(error);
+        res.send(mockStatic[req.params.page] || {});
+      });
+    client.close();
+  });
 });
 
-app.get('/data/featured', (req, res) => {
-  res.send(mockFeatured || {});
+app.get('/data/topics/featured', (req, res) => {
+  mongodb.MongoClient.connect(config.databaseUrl, (err, client) => {
+    if (err) {
+      res.send([]);
+    }
+    client
+      .db('nyaaya')
+      .collection('topics')
+      .find({ $and: [{ featured: true }, { state: 'published' }] })
+      .toArray()
+      .then(topics => {
+        const formattedTopics = topics.map(topic => ({
+          id: topic._id,
+          name: topic.name.EN,
+          url: `/topic/${topic.slug}`,
+          image: topic.topicImage.public_id,
+        }));
+        client.close();
+        res.send(formattedTopics);
+      })
+      .catch(error => {
+        console.error(error);
+      });
+    client.close();
+  });
 });
 
 app.get('/data/categories', (req, res) => {
-  res.send(mockCategories.data || {});
+  mongodb.MongoClient.connect(config.databaseUrl, (err, client) => {
+    if (err) {
+      res.send(mockCategories.data || {});
+    }
+
+    client
+      .db('nyaaya')
+      .collection('categories')
+      .find({})
+      .toArray()
+      .then(categories => {
+        const formattedCategories = categories.map(cat => ({
+          id: cat._id,
+          name: cat.name.EN,
+          url: `/category/${cat.slug}`,
+          topics: [],
+        }));
+        client.close();
+        res.send(formattedCategories);
+      })
+      .catch(error => {
+        console.error(error);
+        res.send(mockCategories.data || {});
+      });
+    client.close();
+  });
+});
+
+app.get('/data/category/:slug', (req, res) => {
+  mongodb.MongoClient.connect(config.databaseUrl, (err, client) => {
+    if (err) {
+      res.send(mockCategory[req.params.slug] || {});
+    }
+    client
+      .db('nyaaya')
+      .collection('categories')
+      .findOne({ slug: req.params.slug })
+      .then(cat => {
+        const formattedCategory = {
+          id: cat._id,
+          name: cat.name.EN,
+          description: cat.description.EN.html,
+          topics: [],
+        };
+        client.close();
+        res.send(formattedCategory);
+      })
+      .catch(error => {
+        console.error(error);
+        res.send(mockCategory[req.params.slug] || {});
+      });
+    client.close();
+  });
+});
+
+app.get('/data/category/:id/topics', (req, res) => {
+  mongodb.MongoClient.connect(config.databaseUrl, (err, client) => {
+    if (err) {
+      res.send([]);
+    }
+    const categoryId = new mongodb.ObjectID(req.params.id);
+    client
+      .db('nyaaya')
+      .collection('topics')
+      .find({ $and: [{ category: categoryId }, { state: 'published' }] })
+      .toArray()
+      .then(topics => {
+        const formattedTopics = topics.map(topic => ({
+          id: topic._id,
+          name: topic.name.EN,
+          url: `/topic/${topic.slug}`,
+          image: topic.topicImage.public_id,
+        }));
+        client.close();
+        res.send(formattedTopics);
+      })
+      .catch(error => {
+        console.error(error);
+      });
+    client.close();
+  });
+});
+
+app.get('/data/topic/:slug', (req, res) => {
+  mongodb.MongoClient.connect(config.databaseUrl, (err, client) => {
+    if (err) {
+      res.send(mockCategory[req.params.slug] || {});
+    }
+    client
+      .db('nyaaya')
+      .collection('topics')
+      .findOne({ slug: req.params.slug })
+      .then(topic => {
+        const formattedTopic = {
+          id: topic._id,
+          name: topic.name.EN,
+          summary: topic.summary.EN.html,
+          image: topic.topicImage.public_id,
+        };
+        client.close();
+        res.send(formattedTopic);
+      })
+      .catch(error => {
+        console.error(error);
+        res.send(mockCategory[req.params.slug] || {});
+      });
+    client.close();
+  });
+});
+
+app.get('/data/topic/:id/explanations', (req, res) => {
+  mongodb.MongoClient.connect(config.databaseUrl, (err, client) => {
+    if (err) {
+      console.error(err);
+      res.send([]);
+    }
+    const id = new mongodb.ObjectID(req.params.id);
+    client
+      .db('nyaaya')
+      .collection('explanations')
+      .find({ topics: { $in: [id] } })
+      .toArray()
+      .then(explanations => {
+        const formattedExplanations = explanations.map(explanation => ({
+          id: explanation._id,
+          title: explanation.title.EN,
+          slug: explanation.slug,
+          content: explanation.content.EN.html,
+        }));
+        client.close();
+        res.send(formattedExplanations);
+      })
+      .catch(error => {
+        console.error(error);
+      });
+    client.close();
+  });
+});
+
+app.get('/data/topic/:id/qna', (req, res) => {
+  mongodb.MongoClient.connect(config.databaseUrl, (err, client) => {
+    if (err) {
+      res.send([]);
+    }
+    const id = new mongodb.ObjectID(req.params.id);
+    client
+      .db('nyaaya')
+      .collection('questions')
+      .find({ topic: id })
+      .toArray()
+      .then(qnas => {
+        const formattedQuestions = qnas.map(qna => ({
+          id: qna._id,
+          question: qna.question.EN,
+          answer: qna.answer.EN.html,
+        }));
+        client.close();
+        res.send(formattedQuestions);
+      })
+      .catch(error => {
+        console.error(error);
+      });
+    client.close();
+  });
+});
+
+app.get('/data/topic/:id/glossary', (req, res) => {
+  mongodb.MongoClient.connect(config.databaseUrl, (err, client) => {
+    if (err) {
+      res.send([]);
+    }
+    const id = new mongodb.ObjectID(req.params.id);
+    client
+      .db('nyaaya')
+      .collection('terms')
+      .find({ topic: id })
+      .toArray()
+      .then(terms => {
+        const formattedTerms = terms.map(term => ({
+          id: term._id,
+          term: term.term.EN,
+          definition: term.definition.EN,
+        }));
+        client.close();
+        res.send(formattedTerms);
+      })
+      .catch(error => {
+        console.error(error);
+      });
+    client.close();
+  });
 });
 
 //

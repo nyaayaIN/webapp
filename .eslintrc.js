@@ -36,6 +36,12 @@ module.exports = {
         allow: ['warn', 'error', 'info'],
       },
     ],
+    'no-underscore-dangle': [
+      'error',
+      {
+        allow: ['_id'],
+      },
+    ],
 
     // Prefer destructuring from arrays and objects
     // http://eslint.org/docs/rules/prefer-destructuring

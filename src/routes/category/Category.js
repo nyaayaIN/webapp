@@ -22,7 +22,13 @@ class Category extends React.Component {
       <div className={s.root}>
         <div className={s.container}>
           <h1 className={s.categoryName}>{this.props.name}</h1>
-          <p className={s.categoryDescription}>{this.props.description}</p>
+          <div
+            className={s.categoryDescription}
+            // eslint-disable-next-line react/no-danger
+            dangerouslySetInnerHTML={{
+              __html: this.props.description,
+            }}
+          />
         </div>
         <div className={s.categoryTopics}>
           <div className={s.container}>

@@ -2,26 +2,42 @@ import React from 'react';
 import Topic from './Topic';
 import Layout from '../../components/Layout';
 
-async function action({ fetch, params, query }) {
-  const resp = await fetch(`/data/topic/${params[0]}`, {});
-  const data = await resp.json();
-  if (!data) throw new Error('Failed to load topic information');
-  const chosen = {
-    explanation: parseInt(query.explanation, 10) || 0,
+async function action({ fetch, params }) {
+  const topicResponse = await fetch(`/data/topic/${params[0]}`, {});
+  const topicData = await topicResponse.json();
+
+  const explanationsResponse = await fetch(
+    `/data/topic/${topicData.id}/explanations`,
+    {},
+  );
+  const qnaResponse = await fetch(`/data/topic/${topicData.id}/qna`, {});
+  const glossaryResponse = await fetch(
+    `/data/topic/${topicData.id}/glossary`,
+    {},
+  );
+
+  const topicContent = {
+    explanations: await explanationsResponse.json(),
+    qna: await qnaResponse.json(),
+    glossary: await glossaryResponse.json(),
   };
+
+  const defaultExplanation = topicContent.explanations[0].slug || '';
+
+  if (!topicData) throw new Error('Failed to load topic information');
   return {
-    title: data.name,
+    title: topicData.name,
     chunks: ['topic'],
     component: (
       <Layout>
         <Topic
-          hero={`${params[0]}-full.jpg`}
-          name={data.name}
-          summary={data.summary}
-          explanations={data.explanations}
-          qna={data.qna}
-          glossary={data.glossary}
-          chosen={chosen}
+          heroImage={topicData.image}
+          name={topicData.name}
+          summary={topicData.summary}
+          explanations={topicContent.explanations}
+          defaultExplanation={defaultExplanation}
+          qna={topicContent.qna}
+          glossary={topicContent.glossary}
         />
       </Layout>
     ),

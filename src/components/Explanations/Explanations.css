@@ -50,6 +50,11 @@
   display: none;
 }
 
+.explanation img {
+  width: 100%;
+  height: auto;
+}
+
 .title {
   color: var(--primary-text-colour);
   font-weight: 500;

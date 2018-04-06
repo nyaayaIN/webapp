@@ -3,13 +3,13 @@ import Home from './Home';
 import Layout from '../../components/Layout';
 
 async function action({ fetch }) {
-  let api = await fetch(`/data/static_pages/home`, {});
+  const api = await fetch(`/data/static_pages/home`, {});
   const i18n = await api.json();
   if (!i18n) throw new Error('Failed to load homepage static text');
 
-  api = await fetch(`/data/featured`, {});
-  const featuredContent = await api.json();
-  if (!featuredContent)
+  const featuredTopicsCall = await fetch(`/data/topics/featured`, {});
+  const featuredTopics = await featuredTopicsCall.json();
+  if (!featuredTopics)
     throw new Error('Failed to load Featured Content on Homepage');
 
   const hero = {
@@ -29,7 +29,7 @@ async function action({ fetch }) {
     chunks: ['home'],
     component: (
       <Layout>
-        <Home hero={hero} headings={headings} featured={featuredContent} />
+        <Home hero={hero} headings={headings} featured={featuredTopics} />
       </Layout>
     ),
   };

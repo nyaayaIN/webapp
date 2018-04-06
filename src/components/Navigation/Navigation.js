@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Navigation.css';
 import Link from '../Link';
-
 import facebook from './facebook.svg';
 import twitter from './twitter.svg';
 import linkedin from './linkedin.svg';

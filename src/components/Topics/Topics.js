@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import s from './Topics.css';
 import Link from '../Link';
 
-const S3 = 'https://s3.ap-south-1.amazonaws.com/staging-image-test/images/';
+const CLOUDINARY = `https://res.cloudinary.com/nyaaya-testing/image/upload/w_500,h_319,c_fill/`;
 
 class Topics extends React.Component {
   static propTypes = {
@@ -26,7 +26,7 @@ class Topics extends React.Component {
             <div className={s.tile}>
               <img
                 className={s.thumbnail}
-                src={S3 + topic.image}
+                src={`${CLOUDINARY + topic.image}.jpg`}
                 alt={topic.name}
               />
               <div className={s.title}>{topic.name}</div>
