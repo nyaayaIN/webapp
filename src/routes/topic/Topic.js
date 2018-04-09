@@ -14,6 +14,7 @@ class Topic extends React.Component {
   static propTypes = {
     heroImage: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
+    slug: PropTypes.string.isRequired,
     summary: PropTypes.string.isRequired,
     explanations: PropTypes.arrayOf(
       PropTypes.shape({
@@ -77,6 +78,8 @@ class Topic extends React.Component {
           </div>
         </div>
         <Explanations
+          topicSlug={this.props.slug}
+          topicTitle={this.props.name}
           collection={this.props.explanations}
           defaultExplanation={this.props.defaultExplanation}
         />

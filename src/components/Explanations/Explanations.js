@@ -1,11 +1,23 @@
 import React from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import PropTypes from 'prop-types';
+import {
+  FacebookShareButton,
+  GooglePlusShareButton,
+  LinkedinShareButton,
+  TwitterShareButton,
+  WhatsappShareButton,
+  RedditShareButton,
+  EmailShareButton,
+} from 'react-share';
+
 import s from './Explanations.css';
 import history from '../../history';
 
 class Explanations extends React.Component {
   static propTypes = {
+    topicSlug: PropTypes.string.isRequired,
+    topicTitle: PropTypes.string.isRequired,
     collection: PropTypes.arrayOf(
       PropTypes.shape({
         title: PropTypes.string.isRequired,
@@ -80,6 +92,57 @@ class Explanations extends React.Component {
                   __html: explanation.content,
                 }}
               />
+              <div className={s.sharingIcons}>
+                <FacebookShareButton
+                  className={s.facebookIcon}
+                  url={`https://nyaaya.in/topic/${this.props.topicSlug}#${
+                    explanation.slug
+                  }`}
+                  quote={`${this.props.topicTitle}: ${explanation.title}`}
+                />
+                <GooglePlusShareButton
+                  className={s.googleIcon}
+                  url={`https://nyaaya.in/topic/${this.props.topicSlug}#${
+                    explanation.slug
+                  }`}
+                  title={`${this.props.topicTitle}: ${explanation.title}`}
+                />
+                <LinkedinShareButton
+                  className={s.linkedinIcon}
+                  url={`https://nyaaya.in/topic/${this.props.topicSlug}#${
+                    explanation.slug
+                  }`}
+                  title={`${this.props.topicTitle}: ${explanation.title}`}
+                />
+                <TwitterShareButton
+                  className={s.twitterIcon}
+                  url={`https://nyaaya.in/topic/${this.props.topicSlug}#${
+                    explanation.slug
+                  }`}
+                  title={`${this.props.topicTitle}: ${explanation.title}`}
+                />
+                <WhatsappShareButton
+                  className={s.whatsappIcon}
+                  url={`https://nyaaya.in/topic/${this.props.topicSlug}#${
+                    explanation.slug
+                  }`}
+                  title={`${this.props.topicTitle}: ${explanation.title}`}
+                />
+                <RedditShareButton
+                  className={s.redditIcon}
+                  url={`https://nyaaya.in/topic/${this.props.topicSlug}#${
+                    explanation.slug
+                  }`}
+                  title={`${this.props.topicTitle}: ${explanation.title}`}
+                />
+                <EmailShareButton
+                  className={s.emailIcon}
+                  url={`https://nyaaya.in/topic/${this.props.topicSlug}#${
+                    explanation.slug
+                  }`}
+                  subject={`${this.props.topicTitle}: ${explanation.title}`}
+                />
+              </div>
             </div>
           ))}
         </div>
