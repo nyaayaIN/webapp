@@ -3,7 +3,9 @@ import Topic from './Topic';
 import Layout from '../../components/Layout';
 
 async function action({ fetch, params }) {
-  const topicResponse = await fetch(`/data/topic/${params[0]}`, {});
+  const slug = params[0];
+
+  const topicResponse = await fetch(`/data/topic/${slug}`, {});
   const topicData = await topicResponse.json();
 
   const explanationsResponse = await fetch(
@@ -33,6 +35,7 @@ async function action({ fetch, params }) {
         <Topic
           heroImage={topicData.image}
           name={topicData.name}
+          slug={slug}
           summary={topicData.summary}
           explanations={topicContent.explanations}
           defaultExplanation={defaultExplanation}
