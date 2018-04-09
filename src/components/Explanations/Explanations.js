@@ -27,6 +27,13 @@ class Explanations extends React.Component {
     }
   }
 
+  componentDidUpdate() {
+    if (window.location.hash.split('#')[1] === undefined) {
+      document.getElementById(this.props.defaultExplanation).style.display =
+        'block';
+    }
+  }
+
   handleClick = event => {
     event.preventDefault();
     const currentSlug = window.location.hash.split('#')[1];
