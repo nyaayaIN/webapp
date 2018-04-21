@@ -78,47 +78,6 @@
   border-bottom: solid 1px var(--neutral-medium-colour);
 }
 
-.sharingIcons {
-  padding: 1em;
-
-  div {
-    color: #fff;
-    cursor: pointer;
-    display: inline-block;
-    height: 40px;
-    margin: 0 0.25em;
-    width: 40px;
-  }
-}
-
-.facebookIcon {
-  background: #3b5998 url(./social-icons.png) -5px -5px no-repeat;
-}
-
-.whatsappIcon {
-  background: #4dc247 url(./social-icons.png) -54px -5px  no-repeat;
-}
-
-.twitterIcon {
-  background: #1da1f2 url(./social-icons.png) -104px -5px  no-repeat;
-}
-
-.googleIcon {
-  background: #db4437 url(./social-icons.png) -154px -5px  no-repeat;
-}
-
-.linkedinIcon {
-  background: #0077b5 url(./social-icons.png) -204px -5px  no-repeat;
-}
-
-.redditIcon {
-  background: #ff5700 url(./social-icons.png) -254px -5px  no-repeat;
-}
-
-.emailIcon {
-  background: #848484 url(./social-icons.png) -304px -5px  no-repeat;
-}
-
 @media (--medium-viewport) {
   .root {
     flex-direction: column;

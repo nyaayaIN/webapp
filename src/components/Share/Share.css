@@ -1,0 +1,28 @@
+@import '../variables.css';
+
+.root {
+  padding: 0.5em;
+}
+
+.sharingIcons {
+  div {
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.25em;
+    margin: 0 0.25em;
+    position: relative;
+
+    i {
+      color: var(--secondary-colour);
+      display: block;
+      padding: 0.5em;
+    }
+
+    &:hover {
+      i {
+        color: var(--primary-colour);
+      }
+    }
+  }
+}
