@@ -15,6 +15,7 @@ class Topic extends React.Component {
     heroImage: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
     slug: PropTypes.string.isRequired,
+    id: PropTypes.string.isRequired,
     summary: PropTypes.string.isRequired,
     explanations: PropTypes.arrayOf(
       PropTypes.shape({
@@ -28,13 +29,6 @@ class Topic extends React.Component {
       PropTypes.shape({
         question: PropTypes.string.isRequired,
         answer: PropTypes.string.isRequired,
-      }),
-    ).isRequired,
-    glossary: PropTypes.arrayOf(
-      PropTypes.shape({
-        id: PropTypes.string.isRequired,
-        term: PropTypes.string.isRequired,
-        definition: PropTypes.string.isRequired,
       }),
     ).isRequired,
   };
@@ -84,7 +78,7 @@ class Topic extends React.Component {
           defaultExplanation={this.props.defaultExplanation}
         />
         <QnA collection={this.props.qna} />
-        <Glossary collection={this.props.glossary} />
+        <Glossary id={this.props.id} />
       </div>
     );
   }

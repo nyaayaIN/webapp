@@ -13,15 +13,10 @@ async function action({ fetch, params }) {
     {},
   );
   const qnaResponse = await fetch(`/data/topic/${topicData.id}/qna`, {});
-  const glossaryResponse = await fetch(
-    `/data/topic/${topicData.id}/glossary`,
-    {},
-  );
 
   const topicContent = {
     explanations: await explanationsResponse.json(),
     qna: await qnaResponse.json(),
-    glossary: await glossaryResponse.json(),
   };
 
   const defaultExplanation = topicContent.explanations[0].slug || '';
@@ -36,11 +31,11 @@ async function action({ fetch, params }) {
           heroImage={topicData.image}
           name={topicData.name}
           slug={slug}
+          id={topicData.id}
           summary={topicData.summary}
           explanations={topicContent.explanations}
           defaultExplanation={defaultExplanation}
           qna={topicContent.qna}
-          glossary={topicContent.glossary}
         />
       </Layout>
     ),
