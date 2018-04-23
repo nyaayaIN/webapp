@@ -1,43 +1,24 @@
-## Contributing to React Starter Kit
+## Contributing to Nyaaya
 
-React Starter Kit is currently the most widely adopted Node.js/React boilerplate used by many
-tech startups around the globe. We're working hard to keep it up to date, making sure that it
-follows best practices and high coding standards, paying extremely close attention to details.
+Nyaaya is a legal-tech initiative, created by the Vidhi Centre for Legal Policy
+and ideated by Rohini Nilekani, to make India's laws easier to understand. We're
+working hard to keep it up to date, making sure that it follows best practices
+and high coding standards, paying extremely close attention to details.
 
-Your contributions are welcome and are greatly appreciated! Every little bit helps, and credit
-will always be given.
+Your contributions are welcome and are greatly appreciated!
+Every little bit helps, and credit will always be given.
 
-Please take a moment to review this document in order to make the contribution process easy and
-effective for everyone involved.
+Please take a moment to review this document in order to make the contribution
+process easy and effective for everyone involved.
 
 ### Conduct
 
 Please, follow the [golden rule](https://en.wikipedia.org/wiki/Golden_Rule). Be respectful, even to
 those that are disrespectful.
 
-### Feedback
-
-Feedback is the breakfast for champions! We'd love to hear your opinions, discuss potential
-improvements, architecture, theory, internal implementation, etc. Please, join or start a new
-conversation in our [issue tracker](https://github.com/kriasoft/react-starter-kit/issues),
-[Gitter](https://gitter.im/kriasoft/react-starter-kit) chat room, or let's talk face-to-face on
-[Appear.in](https://appear.in/react) or [Skype](http://hatscripts.com/addskype?koistya).
-
-### Documentation
-
-We need your help with improving documentation to the project. This might be the easiest way for
-you to contribute, because you don't even need to clone the repo but can edit or create new `.md`
-files right from GitHub website as described [here](https://help.github.com/articles/editing-files-in-your-repository/).
-
 ### Bugs & Feature Requests
 
-Before opening an issue, please:
-
-* Check the [Getting Started](https://github.com/kriasoft/react-starter-kit/blob/master/docs/getting-started.md) guide.
-* Search the [issue tracker](https://github.com/kriasoft/react-starter-kit/issues) to make sure
-  your issue hasn’t already been reported.
-* If your issue sounds more like a question, please post it on StackOverflow.com instead with the
-  tag [react-starter-kit](http://stackoverflow.com/questions/tagged/react-starter-kit).
+Please submit issues [here](https://github.com/nyaayaIN/webapp/issues)
 
 ### Pull Requests
 
@@ -63,4 +44,4 @@ in the right direction.
 ### License
 
 By contributing to React Starter Kit, you agree that your contributions will be licensed under its
-[MIT license](https://github.com/kriasoft/react-starter-kit/blob/master/LICENSE.txt).
+[MIT license](https://github.com/nyaayaIN/webapp/blob/master/LICENSE.txt).

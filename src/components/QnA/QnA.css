@@ -2,11 +2,13 @@
 
 .root {
   background: var(--neutral-light-colour);
+  border-left: solid 1px var(--neutral-medium-colour);
   margin: 0;
+  flex: 1;
 }
 
 .container {
-  padding: 2em 0;
+  padding: 1.75em 2em 0;
   margin: 0 auto;
   max-width: var(--max-content-width);
 }
@@ -16,18 +18,8 @@
   font-size: 1.3em;
 }
 
-.subtitle {
-  padding: 0.5em 0;
-  margin-bottom: 1em;
-}
-
 .couplet {
-  border-top: none;
-  border-right: none;
-  border-left: none;
-  border-bottom: solid 1px var(--neutral-medium-colour);
-  margin: 0.2em 0;
-  padding: 0.5em 0;
+  padding: 0.5em 0 0;
 }
 
 .question {
@@ -43,12 +35,15 @@
   padding: 0.25em 0;
 }
 
+.question:hover {
+  color: var(--primary-text-colour);
+}
+
 .question:focus {
   outline: 0;
 }
 
 .answer {
-  padding: 0.25em 1em;
   max-width: 800px;
 }
 
@@ -59,5 +54,6 @@
 @media (--medium-viewport) {
   .root {
     padding: 1em;
+    flex: 1 100%;
   }
 }

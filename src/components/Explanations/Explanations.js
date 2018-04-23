@@ -1,64 +1,75 @@
 import React from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import PropTypes from 'prop-types';
-import {
-  FacebookShareButton,
-  GooglePlusShareButton,
-  LinkedinShareButton,
-  TwitterShareButton,
-  WhatsappShareButton,
-  RedditShareButton,
-  EmailShareButton,
-} from 'react-share';
-
+import Share from '../Share';
 import s from './Explanations.css';
 import history from '../../history';
 
+const i18n = {
+  explanations: {
+    title: 'Contents',
+  },
+};
+
 class Explanations extends React.Component {
   static propTypes = {
-    topicSlug: PropTypes.string.isRequired,
-    topicTitle: PropTypes.string.isRequired,
-    collection: PropTypes.arrayOf(
-      PropTypes.shape({
-        title: PropTypes.string.isRequired,
-        content: PropTypes.string.isRequired,
-        slug: PropTypes.string.isRequired,
-      }),
-    ).isRequired,
-    defaultExplanation: PropTypes.string.isRequired,
+    slug: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    id: PropTypes.string.isRequired,
   };
 
+  constructor() {
+    super();
+    this.state = {
+      explanations: [],
+      selectedExplanation: '',
+    };
+  }
+
   componentDidMount() {
-    document.getElementById(this.props.defaultExplanation).style.display =
-      'block';
-    if (window.location.hash) {
-      const selected = window.location.hash.split('#')[1];
-      document.getElementById(this.props.defaultExplanation).style.display =
-        'none';
-      document.getElementById(selected).style.display = 'block';
+    this.getData(this.props.id);
+  }
+
+  componentDidUpdate(prev) {
+    if (prev.id !== this.props.id) {
+      this.getData(this.props.id);
     }
   }
 
-  componentDidUpdate() {
-    if (window.location.hash.split('#')[1] === undefined) {
-      document.getElementById(this.props.defaultExplanation).style.display =
-        'block';
-    }
+  getData(id) {
+    const API = `/data/topic/${id}/explanations`;
+
+    fetch(API)
+      .then(response => {
+        if (!response || !response.ok) {
+          throw new Error(response.statusText || 'No Response');
+        }
+        return response;
+      })
+      .then(response => response.json())
+      .then(data => {
+        const selectedExplanationSlug = window.location.hash
+          ? window.location.hash.split('#')[1]
+          : data[0].slug;
+        this.setState({
+          explanations: data,
+          selectedExplanation: selectedExplanationSlug,
+        });
+      })
+      .catch(error => {
+        console.error(error);
+      });
   }
 
   handleClick = event => {
     event.preventDefault();
-    const currentSlug = window.location.hash.split('#')[1];
-    if (currentSlug) {
-      document.getElementById(currentSlug).style.display = 'none';
-    } else {
-      document.getElementById(this.props.collection[0].slug).style.display =
-        'none';
-    }
-    const slug = event.target.attributes.getNamedItem('data-slug').value;
-    document.getElementById(slug).style.display = 'block';
+    const explanationSlug = event.target.attributes.getNamedItem('data-slug')
+      .value;
+    this.setState({
+      selectedExplanation: explanationSlug,
+    });
     history.push({
-      hash: slug,
+      hash: explanationSlug,
     });
   };
 
@@ -66,9 +77,14 @@ class Explanations extends React.Component {
     return (
       <div className={s.root} id="explanations">
         <div className={s.menu}>
-          {this.props.collection.map(explanation => (
+          <h3 className={s.menuTitle}>{i18n.explanations.title}</h3>
+          {this.state.explanations.map(explanation => (
             <button
-              className={s.item}
+              className={
+                this.state.selectedExplanation === explanation.slug
+                  ? `${s.item} ${s.selected}`
+                  : s.item
+              }
               onClick={this.handleClick}
               key={explanation.id}
               data-slug={explanation.slug}
@@ -78,71 +94,31 @@ class Explanations extends React.Component {
           ))}
         </div>
         <div className={s.explanationContainer} id="explanation">
-          {this.props.collection.map(explanation => (
+          {this.state.explanations.map(explanation => (
             <div
-              className={s.explanation}
+              className={
+                this.state.selectedExplanation === explanation.slug
+                  ? `${s.explanation} ${s.selected}`
+                  : s.explanation
+              }
               id={explanation.slug}
               key={explanation.id}
             >
-              <h2 className={s.title}>{explanation.title}</h2>
-              <div
-                className={s.content}
-                // eslint-disable-next-line react/no-danger
-                dangerouslySetInnerHTML={{
-                  __html: explanation.content,
-                }}
-              />
-              <div className={s.sharingIcons}>
-                <FacebookShareButton
-                  className={s.facebookIcon}
-                  url={`https://nyaaya.in/topic/${this.props.topicSlug}#${
-                    explanation.slug
-                  }`}
-                  quote={`${this.props.topicTitle}: ${explanation.title}`}
-                />
-                <GooglePlusShareButton
-                  className={s.googleIcon}
-                  url={`https://nyaaya.in/topic/${this.props.topicSlug}#${
-                    explanation.slug
-                  }`}
-                  title={`${this.props.topicTitle}: ${explanation.title}`}
-                />
-                <LinkedinShareButton
-                  className={s.linkedinIcon}
-                  url={`https://nyaaya.in/topic/${this.props.topicSlug}#${
-                    explanation.slug
-                  }`}
-                  title={`${this.props.topicTitle}: ${explanation.title}`}
-                />
-                <TwitterShareButton
-                  className={s.twitterIcon}
-                  url={`https://nyaaya.in/topic/${this.props.topicSlug}#${
-                    explanation.slug
-                  }`}
-                  title={`${this.props.topicTitle}: ${explanation.title}`}
-                />
-                <WhatsappShareButton
-                  className={s.whatsappIcon}
-                  url={`https://nyaaya.in/topic/${this.props.topicSlug}#${
-                    explanation.slug
-                  }`}
-                  title={`${this.props.topicTitle}: ${explanation.title}`}
-                />
-                <RedditShareButton
-                  className={s.redditIcon}
-                  url={`https://nyaaya.in/topic/${this.props.topicSlug}#${
-                    explanation.slug
-                  }`}
-                  title={`${this.props.topicTitle}: ${explanation.title}`}
-                />
-                <EmailShareButton
-                  className={s.emailIcon}
-                  url={`https://nyaaya.in/topic/${this.props.topicSlug}#${
-                    explanation.slug
-                  }`}
-                  subject={`${this.props.topicTitle}: ${explanation.title}`}
+              <div className={s.content}>
+                <h2>{explanation.title}</h2>
+                <div
+                  // eslint-disable-next-line react/no-danger
+                  dangerouslySetInnerHTML={{
+                    __html: explanation.content,
+                  }}
                 />
               </div>
+              <Share
+                url={`https://nyaaya.in/topic/${this.props.slug}#${
+                  explanation.slug
+                }`}
+                title={`${this.props.title}: ${explanation.title}`}
+              />
             </div>
           ))}
         </div>
