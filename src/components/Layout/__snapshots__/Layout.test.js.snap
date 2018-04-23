@@ -12,28 +12,93 @@ exports[`Layout renders children correctly 1`] = `
         className="root"
         role="navigation"
       >
-        <a
-          className="link"
-          href="/about"
-          onClick={[Function]}
+        <div
+          className="primary"
         >
-          About Us
-        </a>
-        <a
-          className="link"
-          href="/contact"
-          onClick={[Function]}
+          <a
+            className="link"
+            href="/about"
+            onClick={[Function]}
+          >
+            About Us
+          </a>
+          <a
+            className="link"
+            href="/contact"
+            onClick={[Function]}
+          >
+            Contact Us
+          </a>
+          <a
+            className="link"
+            href="https://medium.com/nyaaya"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Blog
+          </a>
+          <div
+            className="socialLinksContainer"
+          >
+            <a
+              className="socialLink"
+              href="https://facebook.com/nyaayain/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <div
+                className="iconContainer"
+              >
+                <img
+                  alt="Facebook icon"
+                  className="icon"
+                  src="facebook.svg"
+                />
+              </div>
+            </a>
+            <a
+              className="socialLink"
+              href="https://twitter.com/NyaayaIN"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <div
+                className="iconContainer"
+              >
+                <img
+                  alt="Twitter icon"
+                  className="icon"
+                  src="twitter.svg"
+                />
+              </div>
+            </a>
+            <a
+              className="socialLink"
+              href="https://www.linkedin.com/company/nyaaya/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <div
+                className="iconContainer"
+              >
+                <img
+                  alt="LinkedIn Icon"
+                  className="icon"
+                  src="linkedin.svg"
+                />
+              </div>
+            </a>
+          </div>
+        </div>
+        <div
+          className="secondary"
         >
-          Contact Us
-        </a>
-        <a
-          className="link"
-          href="https://medium.com/nyaaya"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Blog
-        </a>
+          <div
+            className="credit"
+          >
+            
+          </div>
+        </div>
       </div>
       <a
         className="brand"
@@ -52,9 +117,24 @@ exports[`Layout renders children correctly 1`] = `
     <div
       className="root"
     >
-      <div
-        className="container"
+      <button
+        className="mobileMenu"
+        onClick={[Function]}
       >
+        View Categories
+      </button>
+      <div
+        className="container hidden"
+      >
+        <div
+          className="loading"
+        >
+          <img
+            alt="loading"
+            className="loader"
+            src="loading.gif"
+          />
+        </div>
         <ul
           className="categories"
         />
@@ -68,13 +148,185 @@ exports[`Layout renders children correctly 1`] = `
     className="root"
   >
     <div
+      className="root"
+    >
+      <div
+        className="container"
+      >
+        <div
+          className="content"
+        >
+          <h1
+            className="title"
+          />
+          <p
+            className="cta"
+          />
+        </div>
+        <div
+          className="socialMedia"
+        >
+          <a
+            href="mailto:contact@nyaaya.in"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <div
+              className="iconContainer"
+            >
+              <img
+                alt={undefined}
+                className="icon"
+                src="mail-icon.svg"
+              />
+            </div>
+          </a>
+          <a
+            href="https://facebook.com/nyaayain/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <div
+              className="iconContainer"
+            >
+              <img
+                alt={undefined}
+                className="facebookIcon"
+                src="facebook-icon.svg"
+              />
+            </div>
+          </a>
+          <a
+            href="https://twitter.com/NyaayaIN"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <div
+              className="iconContainer"
+            >
+              <img
+                alt={undefined}
+                className="icon"
+                src="twitter-icon.svg"
+              />
+            </div>
+          </a>
+          <a
+            href="https://www.linkedin.com/company/nyaaya/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <div
+              className="iconContainer"
+            >
+              <img
+                alt={undefined}
+                className="icon"
+                src="linkedin-icon.svg"
+              />
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      className="root"
+    >
+      <div
+        className="container"
+      >
+        <div
+          className="cta"
+        />
+        <form
+          action="https://nyaaya.createsend.com/t/d/s/fjrjil/"
+          className="form"
+          data-id=""
+          method="post"
+        >
+          <input
+            className="input"
+            name="cm-fjrjil-fjrjil"
+            placeholder={undefined}
+            required={true}
+            type="email"
+          />
+          <button
+            className="button"
+            type="submit"
+          />
+        </form>
+      </div>
+    </div>
+    <div
       className="container"
     >
-      <span
-        className="text"
+      <div
+        className="bottom"
       >
-        Nyaaya - India's Laws Explained
-      </span>
+        <div
+          className="company"
+        >
+          <div
+            className="brand"
+          >
+            <a
+              className="logo"
+              href="/"
+              onClick={[Function]}
+            >
+              <img
+                alt={undefined}
+                src="logo.png"
+                width="100"
+              />
+            </a>
+          </div>
+          <div
+            className="slogan"
+          />
+        </div>
+        <div
+          className="terms"
+        >
+          <div
+            className="licenseIcons"
+          >
+            <img
+              alt="Creative Commons Icon"
+              height="30"
+              src="cc_icon_white_x2.png"
+              width="30"
+            />
+            <img
+              alt="Attribution Icon"
+              height="30"
+              src="attribution_icon_white_x2.png"
+              width="30"
+            />
+            <img
+              alt="Non-Commercial Icon"
+              height="30"
+              src="nc_white_x2.png"
+              width="30"
+            />
+            <img
+              alt="Share Adapt Icon"
+              height="30"
+              src="sa_white_x2.png"
+              width="30"
+            />
+          </div>
+          <div
+            className="termsText"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": undefined,
+              }
+            }
+          />
+        </div>
+      </div>
     </div>
   </div>
 </div>
