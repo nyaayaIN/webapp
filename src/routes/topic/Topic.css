@@ -8,3 +8,9 @@
 .contentWrapper {
   display: flex;
 }
+
+@media (--medium-viewport) {
+  .contentWrapper {
+    display: block;
+  }
+}

@@ -56,4 +56,8 @@
   .content {
     margin: 8em 1em 0;
   }
+
+  .dark {
+    position: relative;
+  }
 }
