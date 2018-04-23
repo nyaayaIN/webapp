@@ -2,6 +2,7 @@ import React from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import PropTypes from 'prop-types';
 import s from './QnA.css';
+import history from '../../history';
 
 const i18n = {
   qna: {
@@ -44,9 +45,13 @@ class QnA extends React.Component {
       })
       .then(response => response.json())
       .then(data => {
+        const hash = window.location.hash || '#';
+        const selectedQuestion = hash.startsWith('#qna-')
+          ? parseInt(hash.split('#qna-')[1], 10)
+          : null;
         this.setState({
           questionsAndAnswers: data,
-          selectedQuestion: null,
+          selectedQuestion,
         });
       })
       .catch(error => {
@@ -56,10 +61,12 @@ class QnA extends React.Component {
 
   handleClick = event => {
     event.preventDefault();
-    const questionIndex = event.target.attributes.getNamedItem('data-question')
-      .value;
+    const questionIndex = event.target.attributes.getNamedItem('data-question');
     this.setState({
-      selectedQuestion: parseInt(questionIndex, 10),
+      selectedQuestion: parseInt(questionIndex.value, 10),
+    });
+    history.push({
+      hash: `qna-${questionIndex.value}`,
     });
   };
 
@@ -69,7 +76,7 @@ class QnA extends React.Component {
         <div className={s.container}>
           <div className={s.title}>{i18n.qna.title}</div>
           {this.state.questionsAndAnswers.map((qna, index) => (
-            <div className={s.couplet} key={qna.id}>
+            <div className={s.couplet} key={qna.id} id={`qna-${index}`}>
               <button
                 className={s.question}
                 data-question={index}
@@ -83,7 +90,6 @@ class QnA extends React.Component {
                     ? s.answer
                     : `${s.answer} ${s.hide}`
                 }
-                id={`qna-${index}`}
                 // eslint-disable-next-line react/no-danger
                 dangerouslySetInnerHTML={{
                   __html: qna.answer,
