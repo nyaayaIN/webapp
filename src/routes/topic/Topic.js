@@ -17,20 +17,6 @@ class Topic extends React.Component {
     slug: PropTypes.string.isRequired,
     id: PropTypes.string.isRequired,
     summary: PropTypes.string.isRequired,
-    explanations: PropTypes.arrayOf(
-      PropTypes.shape({
-        title: PropTypes.string.isRequired,
-        content: PropTypes.string.isRequired,
-        slug: PropTypes.string.isRequired,
-      }),
-    ).isRequired,
-    defaultExplanation: PropTypes.string.isRequired,
-    qna: PropTypes.arrayOf(
-      PropTypes.shape({
-        question: PropTypes.string.isRequired,
-        answer: PropTypes.string.isRequired,
-      }),
-    ).isRequired,
   };
 
   render() {
@@ -46,38 +32,14 @@ class Topic extends React.Component {
           image={`${CLOUDINARY + this.props.heroImage}.jpg`}
           theme="dark"
         />
-        <div className={s.topMenu}>
-          <div className={s.container}>
-            <button
-              className={s.menuItem}
-              data-scroll="explanations"
-              onClick={this.handleClick}
-            >
-              Explanations
-            </button>
-            <button
-              className={s.menuItem}
-              data-scroll="qna"
-              onClick={this.handleClick}
-            >
-              Questions
-            </button>
-            <button
-              className={s.menuItem}
-              data-scroll="glossary"
-              onClick={this.handleClick}
-            >
-              Glossary
-            </button>
-          </div>
+        <div className={s.contentWrapper}>
+          <Explanations
+            slug={this.props.slug}
+            title={this.props.name}
+            id={this.props.id}
+          />
+          <QnA id={this.props.id} />
         </div>
-        <Explanations
-          topicSlug={this.props.slug}
-          topicTitle={this.props.name}
-          collection={this.props.explanations}
-          defaultExplanation={this.props.defaultExplanation}
-        />
-        <QnA collection={this.props.qna} />
         <Glossary id={this.props.id} />
       </div>
     );

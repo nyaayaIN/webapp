@@ -1,12 +1,8 @@
 @import '../variables.css';
 
 .root {
-  padding: 3em 0 0;
-}
-
-.container {
-  margin: 0 auto;
-  max-width: var(--max-content-width);
+  border-top: solid 1px var(--neutral-medium-colour);
+  padding: 3em 2em 0;
 }
 
 .title {
@@ -17,7 +13,7 @@
 
 .glossarySection {
   margin: 0;
-  padding: 2em 0;
+  padding: 0;
 }
 
 .terms,

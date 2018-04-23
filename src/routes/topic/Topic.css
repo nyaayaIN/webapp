@@ -5,35 +5,6 @@
   padding: 0 0 5em;
 }
 
-.container {
-  margin: 0 auto;
-  max-width: var(--max-content-width);
-}
-
-.topMenu {
-  width: 100%;
-  color: var(--lightest-colour);
-  background: var(--primary-text-colour);
-}
-
-.menuItem {
-  border-left: solid 1px var(--lighter-colour);
-  border-right: none;
-  border-top: none;
-  border-bottom: none;
-  background: none;
-  cursor: pointer;
-  color: var(--lightest-colour);
-  font-family: var(--font-family-base);
-  font-size: 0.9em;
-  font-weight: 100;
-  padding: 1em;
-}
-
-.menuItem:last-child {
-  border-right: solid 1px var(--lighter-colour);
-}
-
-.menuItem:hover {
-  background: var(--tertiary-text-colour);
+.contentWrapper {
+  display: flex;
 }

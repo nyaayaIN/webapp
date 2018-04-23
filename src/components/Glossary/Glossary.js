@@ -17,14 +17,8 @@ class Glossary extends React.Component {
   constructor() {
     super();
     this.state = {
-      glossary: [
-        {
-          id: '',
-          term: '',
-          definition: '',
-        },
-      ],
-      chosenTerm: 0,
+      glossary: [],
+      selectedTerm: 0,
     };
   }
 
@@ -52,7 +46,7 @@ class Glossary extends React.Component {
       .then(data => {
         this.setState({
           glossary: data,
-          chosenTerm: 0,
+          selectedTerm: 0,
         });
       })
       .catch(error => {
@@ -63,49 +57,47 @@ class Glossary extends React.Component {
   handleClick = event => {
     event.preventDefault();
 
-    const oldTerm = document.getElementById(`term${this.state.chosenTerm}`);
+    const oldTerm = document.getElementById(`term${this.state.selectedTerm}`);
     const newIndex = event.target.attributes.getNamedItem('data-id').value;
     const newTerm = document.getElementById(`term${newIndex}`);
 
     oldTerm.style.display = 'none';
-    this.state.chosenTerm = newIndex;
+    this.state.selectedTerm = newIndex;
     newTerm.style.display = 'block';
   };
 
   render() {
     return (
       <div className={s.root} id="glossary">
-        <div className={s.container}>
-          <div className={s.title}>{i18n.glossary.title}</div>
-          <div className={s.glossarySection}>
-            {this.state.glossary.map((word, index) => (
-              <div
-                className={s.definedTerm}
-                id={`term${index}`}
-                key={word.id}
-                style={
-                  index === this.state.chosenTerm ? { display: 'block' } : {}
-                }
-              >
-                <div className={s.glossaryItem}>
-                  <div className={s.term}>{word.term}</div>
-                  <div className={s.definition}>{word.definition}</div>
-                </div>
+        <div className={s.title}>{i18n.glossary.title}</div>
+        <div className={s.terms}>
+          {this.state.glossary.map((word, index) => (
+            <button
+              key={word.id}
+              data-id={index}
+              className={s.termOption}
+              onClick={this.handleClick}
+            >
+              {word.term}
+            </button>
+          ))}
+        </div>
+        <div className={s.glossarySection}>
+          {this.state.glossary.map((word, index) => (
+            <div
+              className={s.definedTerm}
+              id={`term${index}`}
+              key={word.id}
+              style={
+                index === this.state.selectedTerm ? { display: 'block' } : {}
+              }
+            >
+              <div className={s.glossaryItem}>
+                <div className={s.term}>{word.term}</div>
+                <div className={s.definition}>{word.definition}</div>
               </div>
-            ))}
-            <div className={s.terms}>
-              {this.state.glossary.map((word, index) => (
-                <button
-                  key={word.id}
-                  data-id={index}
-                  className={s.termOption}
-                  onClick={this.handleClick}
-                >
-                  {word.term}
-                </button>
-              ))}
             </div>
-          </div>
+          ))}
         </div>
       </div>
     );

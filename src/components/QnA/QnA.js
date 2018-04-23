@@ -3,41 +3,86 @@ import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import PropTypes from 'prop-types';
 import s from './QnA.css';
 
+const i18n = {
+  qna: {
+    title: 'Common Questions',
+  },
+};
+
 class QnA extends React.Component {
   static propTypes = {
-    collection: PropTypes.arrayOf(
-      PropTypes.shape({
-        question: PropTypes.string.isRequired,
-        answer: PropTypes.string.isRequired,
-      }),
-    ).isRequired,
+    id: PropTypes.string.isRequired,
   };
+
+  constructor() {
+    super();
+    this.state = {
+      questionsAndAnswers: [],
+      selectedQuestion: null,
+    };
+  }
+
+  componentDidMount() {
+    this.getData(this.props.id);
+  }
+
+  componentDidUpdate(prev) {
+    if (prev.id !== this.props.id) {
+      this.getData(this.props.id);
+    }
+  }
+
+  getData(id) {
+    const API = `/data/topic/${id}/qna`;
+
+    fetch(API)
+      .then(response => {
+        if (!response || !response.ok) {
+          throw new Error(response.statusText || 'No Response');
+        }
+        return response;
+      })
+      .then(response => response.json())
+      .then(data => {
+        this.setState({
+          questionsAndAnswers: data,
+          selectedQuestion: null,
+        });
+      })
+      .catch(error => {
+        console.error(error);
+      });
+  }
 
   handleClick = event => {
     event.preventDefault();
-    const id = event.target.attributes.getNamedItem('data-question').value;
-    document.getElementById(`qna-${id}`).classList.toggle(s.hide);
+    const questionIndex = event.target.attributes.getNamedItem('data-question')
+      .value;
+    this.setState({
+      selectedQuestion: parseInt(questionIndex, 10),
+    });
   };
 
   render() {
     return (
       <div className={s.root} id="qna">
         <div className={s.container}>
-          <div className={s.title}>Questions and Answers</div>
-          <div className={s.subtitle}>
-            Click on a question to view the answer
-          </div>
-          {this.props.collection.map((qna, index) => (
+          <div className={s.title}>{i18n.qna.title}</div>
+          {this.state.questionsAndAnswers.map((qna, index) => (
             <div className={s.couplet} key={qna.id}>
               <button
                 className={s.question}
                 data-question={index}
                 onClick={this.handleClick}
               >
-                {index + 1}. {qna.question}
+                {qna.question}
               </button>
               <div
-                className={`${s.answer} ${s.hide}`}
+                className={
+                  index === this.state.selectedQuestion
+                    ? s.answer
+                    : `${s.answer} ${s.hide}`
+                }
                 id={`qna-${index}`}
                 // eslint-disable-next-line react/no-danger
                 dangerouslySetInnerHTML={{

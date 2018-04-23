@@ -34,6 +34,9 @@
 .dark {
   background-image: linear-gradient(to right, rgba(41, 209, 107, 0.75), rgba(0, 154, 236, 0.75));
   color: var(--lightest-colour);
+  position: absolute;
+  bottom: 1;
+  left: 0;
 }
 
 .dark .title {

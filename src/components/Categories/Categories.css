@@ -72,6 +72,7 @@
   position: absolute;
   margin: 1.5em 0 0 -1.6em;
   padding: 10px;
+  z-index: 99;
 }
 
 .category:last-child .topics {
@@ -86,7 +87,7 @@
   cursor: pointer;
   list-style-type: none;
   margin: 0;
-  width: 125px;
+  width: 200px;
   padding: 7px 0;
   text-align: left;
 }

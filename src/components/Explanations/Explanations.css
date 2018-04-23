@@ -1,36 +1,38 @@
 @import '../variables.css';
 
 .root {
-  margin: 0 auto;
-  max-width: var(--max-content-width);
-  height: 100%;
   display: flex;
-  flex-direction: row;
+  flex: 2;
 }
 
 .menu {
-  box-shadow: 2px 0 2px -1px var(--shadow-colour), -2px 0 2px -1px var(--shadow-colour);
-  width: 27.75%;
+  border-right: solid 1px var(--neutral-medium-colour);
   list-style-type: none;
   margin: 0;
-  padding: 1.5em 0;
+  padding: 0.5em 0;
+  flex: 1;
+}
+
+.menuTitle {
+  font-weight: 500;
+  padding: 0 1.75em;
 }
 
 .item {
-  text-align: left;
-  cursor: pointer;
-  color: var(--primary-text-colour);
-  display: block;
   background: none;
   border: none;
-  margin: 0;
-  padding: 0.5em 1em;
-  width: 100%;
-  line-height: 150%;
-  font-weight: normal;
-  font-size: 1em;
+  color: var(--primary-text-colour);
+  cursor: pointer;
+  display: block;
   font-family: var(--font-family-base);
+  font-size: 0.9em;
+  font-weight: normal;
+  line-height: 150%;
+  margin: 0;
+  padding: 0.5em 2em;
+  text-align: left;
   text-transform: capitalize;
+  width: 100%;
 }
 
 .item:hover {
@@ -42,12 +44,21 @@
   font-weight: 500;
 }
 
+.item.selected {
+  background: var(--primary-text-colour);
+  color: var(--lightest-colour);
+}
+
 .explanationContainer {
-  width: 72.25%;
+  flex: 2;
 }
 
 .explanation {
   display: none;
+}
+
+.explanation.selected {
+  display: block;
 }
 
 .explanation img {
@@ -55,18 +66,10 @@
   height: auto;
 }
 
-.title {
-  color: var(--primary-text-colour);
-  font-weight: 500;
-  font-size: 1.5em;
-  margin: 0;
-  padding: 1em 0.75em 0;
-}
-
 .content {
   line-height: 175%;
   font-family: var(--font-family-secondary);
-  padding: 0 1em 1em;
+  padding: 0.5em 1em;
 }
 
 .content table {
@@ -81,6 +84,7 @@
 @media (--medium-viewport) {
   .root {
     flex-direction: column;
+    flex: 1 100%;
   }
 
   .menu,
@@ -92,7 +96,6 @@
     text-align: left;
   }
 
-  .title,
   .content {
     padding: 0 1em;
   }

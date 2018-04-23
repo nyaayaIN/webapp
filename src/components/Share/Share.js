@@ -13,6 +13,12 @@ import {
 
 import s from './Share.css';
 
+const i18n = {
+  share: {
+    title: 'Share',
+  },
+};
+
 class Share extends React.Component {
   static propTypes = {
     url: PropTypes.string.isRequired,
@@ -23,6 +29,7 @@ class Share extends React.Component {
     return (
       <div className={s.root} id="share">
         <div className={s.sharingIcons}>
+          <div className={s.title}>{i18n.share.title}</div>
           <FacebookShareButton url={this.props.url} quote={this.props.title}>
             <i className="fab fa-facebook-f" />
           </FacebookShareButton>
