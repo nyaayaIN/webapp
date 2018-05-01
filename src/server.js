@@ -92,30 +92,48 @@ app.get('/data/static_pages/:page', (req, res) => {
   });
 });
 
-app.get('/data/topics/featured', (req, res) => {
+app.get('/data/topics/featured/:cat', (req, res) => {
   mongodb.MongoClient.connect(config.databaseUrl, (err, client) => {
     if (err) {
       res.send([]);
     }
-    client
+    const getMatchingCategory = client
       .db('nyaaya')
-      .collection('topics')
-      .find({ $and: [{ featured: true }, { state: 'published' }] })
-      .toArray()
-      .then(topics => {
-        const formattedTopics = topics.map(topic => ({
-          id: topic._id,
-          name: topic.name.EN,
-          url: `/topic/${topic.slug}`,
-          image: topic.topicImage.public_id,
-        }));
-        client.close();
-        res.send(formattedTopics);
-      })
+      .collection('categories')
+      .findOne({ slug: req.params.cat })
+      .then(cat => cat._id)
       .catch(error => {
         console.error(error);
+        res.send([]);
+        client.close();
       });
-    client.close();
+    getMatchingCategory.then(id => {
+      client
+        .db('nyaaya')
+        .collection('topics')
+        .find({
+          $and: [
+            { featured: true },
+            { state: 'published' },
+            { category: new mongodb.ObjectID(id) },
+          ],
+        })
+        .toArray()
+        .then(topics => {
+          const formattedTopics = topics.map(topic => ({
+            id: topic._id,
+            name: topic.name.EN,
+            url: `/topic/${topic.slug}`,
+            image: topic.topicImage.public_id,
+          }));
+          client.close();
+          res.send(formattedTopics);
+        })
+        .catch(error => {
+          console.error(error);
+          client.close();
+        });
+    });
   });
 });
 
@@ -129,6 +147,7 @@ app.get('/data/categories', (req, res) => {
       .db('nyaaya')
       .collection('categories')
       .find({})
+      .sort({ 'name.EN': 1 })
       .toArray()
       .then(categories => {
         const formattedCategories = categories.map(cat => ({
@@ -185,6 +204,7 @@ app.get('/data/category/:id/topics', (req, res) => {
       .db('nyaaya')
       .collection('topics')
       .find({ $and: [{ category: categoryId }, { state: 'published' }] })
+      .sort({ 'name.EN': 1 })
       .toArray()
       .then(topics => {
         const formattedTopics = topics.map(topic => ({
