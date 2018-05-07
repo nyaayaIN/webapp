@@ -1,0 +1,117 @@
+{
+  "rules": [
+    {
+      "from": "/children-accused-of-crimes/",
+      "to": "/topic/children-accused-of-crime"
+    },
+    {
+      "from": "/law-explainers/law-on-child-labour/",
+      "to": "/topic/child-labour"
+    },
+    {
+      "from": "/law-explainers/right-to-education/",
+      "to": "/topic/free-and-compulsory-education"
+    },
+    {
+      "from": "/law-explainers/anti-corruption/",
+      "to": "/topic/anti-corruption"
+    },
+    {
+      "from": "/law-explainers/right-to-information/",
+      "to": "/topic/right-to-information"
+    },
+    {
+      "from": "/law-explainers/dowry-act/",
+      "to": "/topic/dowry"
+    },
+    {
+      "from":
+        "/guide-to-marriage-divorce-and-maintenance/separation-and-divorce/hindu-law/nullity/",
+      "to": "/topic/annulment"
+    },
+    {
+      "from":
+        "/guide-to-marriage-divorce-and-maintenance/separation-and-divorce/christian-law/nullity/",
+      "to": "/topic/annulment"
+    },
+    {
+      "from":
+        "/guide-to-marriage-divorce-and-maintenance/separation-and-divorce/muslim-law/nullity/",
+      "to": "/topic/annulment"
+    },
+    {
+      "from":
+        "/guide-to-marriage-divorce-and-maintenance/separation-and-divorce/parsi-law/nullity/",
+      "to": "/topic/annulment"
+    },
+    {
+      "from":
+        "/guide-to-marriage-divorce-and-maintenance/separation-and-divorce/law-on-civil-marriages/nullity/",
+      "to": "/topic/annulment"
+    },
+    {
+      "from": "/law-explainers/domestic-violence/",
+      "to": "/topic/domestic-violence"
+    },
+    {
+      "from": "/law-explainers/special-law-on-maintenance-for-senior-citizens/",
+      "to": "/topic/care-for-parents-and-elderly"
+    },
+    {
+      "from": "/law-explainers/smoking-tobacco/",
+      "to": "/topic/smoking"
+    },
+    {
+      "from": "/law-explainers/manual-scavenging/",
+      "to": "/topic/manual-scavenging"
+    },
+    {
+      "from": "/law-explainers/28/atrocities-against-scheduled-castes-tribes/",
+      "to": "/topic/scheduled-caste-and-scheduled-tribes"
+    },
+    {
+      "from": "/crpc/accused/explainer/arrest",
+      "to": "/topic/arrest"
+    },
+    {
+      "from": "/crpc/accused/explainer/bail",
+      "to": "/topic/bail"
+    },
+    {
+      "from": "/crpc/victim/explainer/about-firs",
+      "to": "/topic/first-information-report"
+    },
+    {
+      "from": "/law-explainers/film-tv-and-internet-censorship/",
+      "to": "/topic/censorship"
+    },
+    {
+      "from": "/law-explainers/online-abuse/",
+      "to": "/topic/online-abuse"
+    },
+    {
+      "from": "/law-explainers/defamation/",
+      "to": "/topic/defamation"
+    },
+    {
+      "from": "/law-explainers/online-bank-fraud/",
+      "to": "/topic/online-bank-fraud"
+    },
+    {
+      "from": "/law-explainers/making-a-will/",
+      "to": "/topic/will"
+    },
+    {
+      "from": "/law-explainers/rape/",
+      "to": "/topic/rape"
+    },
+    {
+      "from": "/law-explainers/law-on-sex-work/",
+      "to": "/topic/prostitution"
+    },
+    {
+      "from": "/law-explainers/sexual-harassment/",
+      "to": "/topic/sexual-harassment-at-the-workplace"
+    }
+  ]
+}

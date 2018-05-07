@@ -48,7 +48,9 @@ class Explanations extends React.Component {
       })
       .then(response => response.json())
       .then(data => {
-        const selectedExplanationSlug = window.location.hash
+        const selectedExplanationSlug = !window.location.hash.startsWith(
+          '#qna-',
+        )
           ? window.location.hash.split('#')[1]
           : data[0].slug;
         this.setState({

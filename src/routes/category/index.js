@@ -7,13 +7,6 @@ async function action({ fetch, params }) {
   const categoryData = await categoryResponse.json();
   if (!categoryData) throw new Error('Failed to load category information');
 
-  const topicsResponse = await fetch(
-    `/data/category/${categoryData.id}/topics`,
-    {},
-  );
-  const topicsData = await topicsResponse.json();
-  if (!topicsData) throw new Error('Failed to load topics for category');
-
   return {
     title: categoryData.name,
     chunks: ['category'],
@@ -22,7 +15,7 @@ async function action({ fetch, params }) {
         <Category
           name={categoryData.name}
           description={categoryData.description}
-          topics={topicsData}
+          topics={categoryData.topics}
         />
       </Layout>
     ),

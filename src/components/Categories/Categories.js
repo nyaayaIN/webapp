@@ -34,9 +34,10 @@ class Categories extends React.Component {
       })
       .then(response => response.json())
       .then(data => {
-        this.setState({ categories: data, loading: false });
+        const categories = data;
+        this.setState({ categories, loading: false });
         data.forEach((cat, i) => {
-          fetch(`/data/category/${cat.id}/topics`)
+          fetch(`/data/category/${cat.slug}`)
             .then(response => {
               if (!response || !response.ok) {
                 throw new Error(response.statusText || 'No Response');
@@ -44,9 +45,8 @@ class Categories extends React.Component {
               return response;
             })
             .then(response => response.json())
-            .then(topics => {
-              const categories = data;
-              categories[i].topics = topics;
+            .then(category => {
+              categories[i].topics = category.topics;
               this.setState({ categories });
             })
             .catch(err => {
