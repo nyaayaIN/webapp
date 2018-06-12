@@ -6,6 +6,7 @@ import s from './Topic.css';
 import Hero from '../../components/Hero';
 import Explanations from '../../components/Explanations';
 import Glossary from '../../components/Glossary';
+import Sources from '../../components/Sources';
 import QnA from '../../components/QnA';
 
 const CLOUDINARY = `https://res.cloudinary.com/nyaaya-testing/image/upload/`;
@@ -17,6 +18,7 @@ class Topic extends React.Component {
     slug: PropTypes.string.isRequired,
     id: PropTypes.string.isRequired,
     summary: PropTypes.string.isRequired,
+    sources: PropTypes.arrayOf(PropTypes.string).isRequired,
   };
 
   render() {
@@ -41,6 +43,7 @@ class Topic extends React.Component {
           <QnA id={this.props.id} />
         </div>
         <Glossary id={this.props.id} />
+        <Sources content={this.props.sources} />
       </div>
     );
   }

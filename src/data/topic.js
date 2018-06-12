@@ -19,6 +19,7 @@ export default async (req, res, next) => {
           name: topic.name.EN,
           summary: topic.summary.EN.html,
           image: topic.topicImage.public_id,
+          sources: topic.sources,
         };
         client.close();
         next();

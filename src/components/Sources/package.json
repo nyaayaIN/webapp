@@ -1,0 +1,6 @@
+{
+  "name": "Sources",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Sources.js"
+}

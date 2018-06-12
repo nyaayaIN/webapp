@@ -20,6 +20,7 @@ async function action({ fetch, params }) {
           name={topicData.name}
           id={topicData.id}
           summary={topicData.summary}
+          sources={topicData.sources}
         />
       </Layout>
     ),
