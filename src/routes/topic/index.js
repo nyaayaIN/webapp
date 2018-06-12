@@ -9,6 +9,8 @@ async function action({ fetch, params }) {
   if (!topicData) throw new Error('Failed to load topic information');
   return {
     title: topicData.name,
+    description: topicData.summary,
+    imageUrl: topicData.image,
     chunks: ['topic'],
     component: (
       <Layout>

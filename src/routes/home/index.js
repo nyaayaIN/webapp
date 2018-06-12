@@ -3,7 +3,7 @@ import Home from './Home';
 import Layout from '../../components/Layout';
 
 async function action({ fetch }) {
-  const api = await fetch(`/data/static_pages/home`, {});
+  const api = await fetch(`/data/localization/home`, {});
   const i18n = await api.json();
   if (!i18n) throw new Error('Failed to load homepage static text');
 

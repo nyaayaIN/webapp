@@ -9,6 +9,7 @@ async function action({ fetch, params }) {
 
   return {
     title: categoryData.name,
+    description: categoryData.summary,
     chunks: ['category'],
     component: (
       <Layout>

@@ -39,8 +39,9 @@ const routes = {
 
     // Provide default values for title, description etc.
     route.title = `${route.title || "Nyaaya - India's Laws Explained"}`;
-    route.description = route.description || '';
-
+    route.description = `${route.description ||
+      'We provide reliable, practical, and easy to understand information on common legal topics so that people are aware of their rights, how to enforce them, their responsiblities, how they can meet them as well as what actions are illegal and how to seek justice'}`;
+    route.imageUrl = `${route.imageUrl || '/logo.png'}`;
     return route;
   },
 };

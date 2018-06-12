@@ -36,6 +36,13 @@ class Explanations extends React.Component {
     }
   }
 
+  getSelectedExplanation = function(explanations) {
+    return !window.location.hash.length ||
+      window.location.hash.startsWith('#qna')
+      ? explanations[0].slug
+      : window.location.hash.split('#')[1];
+  };
+
   getData(id) {
     const API = `/data/topic/${id}/explanations`;
 
@@ -48,14 +55,9 @@ class Explanations extends React.Component {
       })
       .then(response => response.json())
       .then(data => {
-        const selectedExplanationSlug = !window.location.hash.startsWith(
-          '#qna-',
-        )
-          ? window.location.hash.split('#')[1]
-          : data[0].slug;
         this.setState({
           explanations: data,
-          selectedExplanation: selectedExplanationSlug,
+          selectedExplanation: this.getSelectedExplanation(data),
         });
       })
       .catch(error => {
