@@ -7,7 +7,7 @@ import facebook from './facebook-icon.svg';
 import twitter from './twitter-icon.svg';
 import linkedin from './linkedin-icon.svg';
 
-const I18N_API = '/data/static_pages/follow';
+const I18N_API = '/data/localization/follow';
 
 class Follow extends React.Component {
   constructor() {

@@ -2,7 +2,7 @@
 
 .root {
   border-top: solid 1px var(--neutral-medium-colour);
-  padding: 3em 2em 0;
+  padding: 3em 2em;
 }
 
 .title {

@@ -8,19 +8,16 @@ export default async (req, res, next) => {
       req.data.error = err;
       next();
     }
-    console.info(`Fetching Topics Information for - ${req.params.slug}`);
+    console.info(`Fetching Localization Strings for ${req.params.page}`);
     client
       .db('nyaaya')
-      .collection('topics')
-      .findOne({ slug: req.params.slug })
-      .then(topic => {
-        req.data = {
-          id: topic._id,
-          name: topic.name.EN,
-          summary: topic.summary.EN.html,
-          image: topic.topicImage.public_id,
-          sources: topic.sources,
-        };
+      .collection('staticpages')
+      .findOne({ slug: req.params.page })
+      .then(page => {
+        req.data = page.keys.reduce(
+          (obj, k, i) => ({ ...obj, [k]: page.content.EN[i] }),
+          {},
+        );
         client.close();
         next();
       })

@@ -7,7 +7,7 @@ import Categories from '../Categories';
 import logoUrl from './logo.png';
 import logoUrl2x from './logo@2x.png';
 
-const API = '/data/static_pages/header';
+const API = '/data/localization/header';
 
 class Header extends React.Component {
   constructor(props) {

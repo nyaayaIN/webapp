@@ -2,7 +2,7 @@ import React from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Subscribe.css';
 
-const I18N_API = '/data/static_pages/subscribe';
+const I18N_API = '/data/localization/subscribe';
 
 class Subscribe extends React.Component {
   constructor() {

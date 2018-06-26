@@ -1,0 +1,5 @@
+global:
+  application_name: Site
+  default_ec2_keyname: ebProdCMS
+  default_region: ap-south-1
+  sc: git

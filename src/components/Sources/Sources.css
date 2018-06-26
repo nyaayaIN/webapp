@@ -1,0 +1,21 @@
+@import '../variables.css';
+
+.root {
+  border-top: solid 1px var(--neutral-medium-colour);
+  margin: 0;
+  flex: 1;
+}
+
+.container {
+  padding: 0 2em;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 1.5em;
+  margin: 1.75em 0;
+}
+
+.source {
+  font-weight: 400;
+}

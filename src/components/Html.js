@@ -9,6 +9,7 @@ class Html extends React.Component {
   static propTypes = {
     title: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
+    imageUrl: PropTypes.string.isRequired,
     styles: PropTypes.arrayOf(
       PropTypes.shape({
         id: PropTypes.string.isRequired,
@@ -26,7 +27,15 @@ class Html extends React.Component {
   };
 
   render() {
-    const { title, description, styles, scripts, app, children } = this.props;
+    const {
+      title,
+      description,
+      imageUrl,
+      styles,
+      scripts,
+      app,
+      children,
+    } = this.props;
     return (
       <html className="no-js" lang="en">
         <head>
@@ -35,6 +44,11 @@ class Html extends React.Component {
           <title>{title}</title>
           <meta name="description" content={description} />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta property="og:site_name" content="Nyaaya" />
+          <meta property="og:title" content={title} />
+          <meta property="og:description" content={description} />
+          <meta property="og:image" content={imageUrl} />
+          <meta property="og:type" content="website" />
           <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.0.0/themes/algolia-min.css"

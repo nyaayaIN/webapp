@@ -11,7 +11,7 @@ import attributionUrl from './attribution_icon_white_x2.png';
 import ncUrl from './nc_white_x2.png';
 import saUrl from './sa_white_x2.png';
 
-const I18N_API = '/data/static_pages/footer';
+const I18N_API = '/data/localization/footer';
 
 class Footer extends React.Component {
   constructor(props) {

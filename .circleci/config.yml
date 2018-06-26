@@ -1,0 +1,66 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:6.11.5
+    working_directory: ~/webapp
+    steps:
+      - checkout
+      # Download and cache dependencies
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "package.json" }}
+          # fallback to using the latest cache if no exact match is found
+          - v1-dependencies-
+
+      - run: yarn install
+
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}
+  test:
+    docker:
+      - image: circleci/node:6.11.5
+    working_directory: ~/webapp
+    steps:
+      - checkout
+
+      # check code quality
+      - run: yarn run lint
+
+      # run tests!
+      - run: yarn test
+
+      # check app starts
+      - run:
+          name: verify app starts
+          command: yarn start
+  deploy:
+    docker:
+      - image: coxauto/aws-ebcli:latest
+    steps:
+      - checkout
+      - run:
+          name: upgrade AWS CLI
+          command: pip install --upgrade awsebcli
+      - run:
+          name: status of webapp
+          command: eb status nyaaya-webapp
+      - run:
+          name: deploy to webapp
+          command: eb deploy nyaaya-webapp -l $CIRCLE_SHA1
+workflows:
+  version: 2
+  build-test-deploy:
+    jobs:
+      - build
+      - test:
+          requires:
+            - build
+      - deploy:
+          requires:
+            - test
+          filters:
+            branches:
+              only: master

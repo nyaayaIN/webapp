@@ -89,7 +89,7 @@ async function onLocationChange(location, action) {
         updateMeta('description', route.description);
         // Update necessary tags in <head> at runtime here, ie:
         // updateMeta('keywords', route.keywords);
-        // updateCustomMeta('og:url', route.canonicalUrl);
+        // updateCustomMeta('og:description', route.description);
         // updateCustomMeta('og:image', route.imageUrl);
         // updateLink('canonical', route.canonicalUrl);
         // etc.

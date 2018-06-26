@@ -19,7 +19,7 @@ module.exports = {
   databaseUrl: process.env.DATABASE_URL || '',
 
   analytics: {
-    googleTrackingId: process.env.GOOGLE_TRACKING_ID, // UA-XXXXX-X
+    googleTrackingId: process.env.GOOGLE_TRACKING_ID || 'UA-86500535-1', // UA-XXXXX-X
   },
   // Authentication
   auth: {

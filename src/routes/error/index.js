@@ -3,7 +3,9 @@ import ErrorPage from './ErrorPage';
 
 function action() {
   return {
-    title: 'Demo Error',
+    title: 'Error!',
+    description:
+      'Whoops, looks like something went wrong when trying to display this page.',
     component: <ErrorPage />,
   };
 }
