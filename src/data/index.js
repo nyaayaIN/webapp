@@ -1,30 +1,27 @@
-import React from 'react';
-import Topic from './Topic';
-import Layout from '../../components/Layout';
+import express from 'express';
 
-async function action({ fetch, params }) {
-  const topicSlug = params[0];
-  const topicResponse = await fetch(`/data/topic/${topicSlug}`, {});
-  const topicData = await topicResponse.json();
-  if (!topicData) throw new Error('Failed to load topic information');
-  return {
-    title: topicData.name,
-    description: topicData.summary,
-    imageUrl: topicData.image,
-    chunks: ['topic'],
-    component: (
-      <Layout>
-        <Topic
-          slug={topicSlug}
-          heroImage={topicData.image}
-          name={topicData.name}
-          id={topicData.id}
-          summary={topicData.summary}
-          sources={topicData.sources}
-        />
-      </Layout>
-    ),
-  };
+import getCategories from './categories';
+import getCategory from './category';
+import getFeatured from './featured';
+import getLocalization from './localization';
+import getTopic from './topic';
+import getTopicExplanations from './topicExplanations';
+import getTopicGlossary from './topicGlossary';
+import getTopicQna from './topicQna';
+
+const router = express.Router();
+
+function sendResponse(req, res) {
+  res.send(req.data ? req.data : {});
 }
 
-export default action;
+router.get('/categories', getCategories, sendResponse);
+router.get('/category/:slug', getCategory, sendResponse);
+router.get('/topics/featured/:cat', getFeatured, sendResponse);
+router.get('/localization/:page', getLocalization, sendResponse);
+router.get('/topic/:slug', getTopic, sendResponse);
+router.get('/topic/:id/explanations', getTopicExplanations, sendResponse);
+router.get('/topic/:id/glossary', getTopicGlossary, sendResponse);
+router.get('/topic/:id/qna', getTopicQna, sendResponse);
+
+export default router;
