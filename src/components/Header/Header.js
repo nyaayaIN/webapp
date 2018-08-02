@@ -15,6 +15,7 @@ class Header extends React.Component {
     this.state = {
       about: 'About Us',
       contact: 'Contact Us',
+      feedback: 'Feedback',
       blog: 'Blog',
       logo: 'Nyaaya',
       view: 'View Categories',
@@ -44,6 +45,7 @@ class Header extends React.Component {
           <Navigation
             about={this.state.about}
             contact={this.state.contact}
+            feedback={this.state.feedback}
             blog={this.state.blog}
             credit={this.state.credit}
           />
