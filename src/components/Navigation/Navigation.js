@@ -11,12 +11,13 @@ class Navigation extends React.Component {
   static propTypes = {
     about: PropTypes.string.isRequired,
     contact: PropTypes.string.isRequired,
+    feedback: PropTypes.string.isRequired,
     blog: PropTypes.string.isRequired,
     credit: PropTypes.string.isRequired,
   };
 
   render() {
-    const { about, contact, blog, credit } = this.props;
+    const { about, contact, feedback, blog, credit } = this.props;
     return (
       <div className={s.root} role="navigation">
         <div className={s.primary}>
@@ -25,6 +26,9 @@ class Navigation extends React.Component {
           </Link>
           <Link className={s.link} to="/contact">
             {contact}
+          </Link>
+          <Link className={s.link} to="/feedback">
+            {feedback}
           </Link>
           <a
             className={s.link}

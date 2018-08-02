@@ -1,0 +1,11 @@
+.root,
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+.typeform {
+  width: 100%;
+  height: 80vh;
+  min-height: 600px;
+}
