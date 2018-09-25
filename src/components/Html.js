@@ -9,7 +9,6 @@ class Html extends React.Component {
   static propTypes = {
     title: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
-    imageUrl: PropTypes.string.isRequired,
     styles: PropTypes.arrayOf(
       PropTypes.shape({
         id: PropTypes.string.isRequired,
@@ -27,15 +26,7 @@ class Html extends React.Component {
   };
 
   render() {
-    const {
-      title,
-      description,
-      imageUrl,
-      styles,
-      scripts,
-      app,
-      children,
-    } = this.props;
+    const { title, description, styles, scripts, app, children } = this.props;
     return (
       <html className="no-js" lang="en">
         <head>
@@ -47,7 +38,17 @@ class Html extends React.Component {
           <meta property="og:site_name" content="Nyaaya" />
           <meta property="og:title" content={title} />
           <meta property="og:description" content={description} />
-          <meta property="og:image" content={imageUrl} />
+          <meta
+            property="og:image"
+            itemProp="image"
+            content="https://nyaaya.in/logo.png"
+          />
+          <meta
+            property="og:image:url"
+            itemProp="image"
+            content="https://nyaaya.in/logo.png"
+          />
+          <meta property="og:image:type" content="image/png" />
           <meta property="og:type" content="website" />
           <link
             rel="stylesheet"
