@@ -41,14 +41,14 @@ class Html extends React.Component {
           <meta
             property="og:image"
             itemProp="image"
-            content="https://nyaaya.in/logo.png"
+            content="https://nyaaya.in/logo-solid.jpg"
           />
           <meta
             property="og:image:url"
             itemProp="image"
-            content="https://nyaaya.in/logo.png"
+            content="https://nyaaya.in/logo-solid.jpg"
           />
-          <meta property="og:image:type" content="image/png" />
+          <meta property="og:image:type" content="image/jpg" />
           <meta property="og:type" content="website" />
           <link
             rel="stylesheet"
