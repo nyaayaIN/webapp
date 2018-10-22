@@ -32,6 +32,7 @@ export default async (req, res, next) => {
               { category: new mongodb.ObjectID(cat.id) },
             ],
           })
+          .sort({ 'name.EN': 1 })
           .toArray()
           .then(topics => {
             req.data = {
