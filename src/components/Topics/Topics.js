@@ -11,6 +11,7 @@ class Topics extends React.Component {
     collection: PropTypes.arrayOf(
       PropTypes.shape({
         name: PropTypes.string.isRequired,
+        summary: PropTypes.string.isRequired,
         id: PropTypes.string.isRequired,
         image: PropTypes.string.isRequired,
         url: PropTypes.string.isRequired,
@@ -21,18 +22,29 @@ class Topics extends React.Component {
   render() {
     return (
       <div className={s.topics}>
-        {this.props.collection.map(topic => (
-          <Link className={s.topic} to={topic.url} key={topic.id}>
-            <div className={s.tile}>
-              <img
-                className={s.thumbnail}
-                src={`${CLOUDINARY + topic.image}.jpg`}
-                alt={topic.name}
-              />
-              <div className={s.title}>{topic.name}</div>
-            </div>
-          </Link>
-        ))}
+        {this.props.collection
+          .filter(topic => topic.name.length > 0 && topic.summary.length > 0)
+          .map(topic => (
+            <Link className={s.topic} to={topic.url} key={topic.id}>
+              <div className={s.tile}>
+                <div className={s.thumbnail}>
+                  <img
+                    src={`${CLOUDINARY + topic.image}.jpg`}
+                    alt={topic.name}
+                  />
+                </div>
+                <div>
+                  <div className={s.title}>{topic.name}</div>
+                  <div
+                    // eslint-disable-next-line react/no-danger
+                    dangerouslySetInnerHTML={{
+                      __html: topic.summary,
+                    }}
+                  />
+                </div>
+              </div>
+            </Link>
+          ))}
       </div>
     );
   }

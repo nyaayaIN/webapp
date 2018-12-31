@@ -1,8 +1,11 @@
 @import '../variables.css';
 
 .root {
-  background: var(--lightest-colour);
+  background: var(--neutral-light-colour);
+  border-top: solid 1px var(--neutral-medium-colour);
   border-bottom: solid 1px var(--neutral-medium-colour);
+  margin-top: 1.5em;
+  padding: 0 0 0.75em;
 }
 
 .loading {
@@ -41,8 +44,8 @@
   padding: 0;
   margin: 0;
   list-style: none;
+  display: flex;
   justify-content: space-between;
-  display: inline-flex;
   width: 100%;
 }
 
@@ -52,31 +55,30 @@
   text-align: left;
   font-size: 0.75em;
   font-weight: bold;
-  padding: 1.5em 0 2em;
+  padding: 1.5em 0 1em;
 }
 
 .categoryLink {
-  color: var(--primary-text-colour);
+  color: var(--darkest-colour);
   display: block;
   font-size: 1.15em;
-  font-weight: 500;
+  font-weight: 400;
   text-decoration: none;
   text-transform: capitalize;
   width: 100%;
 }
 
 .topics {
-  background: var(--lightest-colour);
-  box-shadow: 0 2px 2px 0 var(--shadow-colour);
+  background: var(--neutral-light-colour);
   display: none;
   position: absolute;
-  margin: 1.5em 0 0 -1.6em;
+  margin: 0 0 0 -1.6em;
   padding: 10px;
   z-index: 99;
 }
 
 .category:last-child .topics {
-  margin: 1.5em 0 0 -95px;
+  margin: 0 0 0 -95px;
 }
 
 .category:hover .topics {
@@ -109,6 +111,10 @@
 }
 
 @media (--medium-viewport) {
+  .root {
+    margin-top: 0;
+  }
+
   .mobileMenu {
     display: block;
   }

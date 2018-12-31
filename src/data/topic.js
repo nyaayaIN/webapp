@@ -16,9 +16,10 @@ export default async (req, res, next) => {
       .then(topic => {
         req.data = {
           id: topic._id,
-          name: topic.name.EN,
-          summary: topic.summary.EN.html,
-          image: topic.topicImage.public_id,
+          name: req.cookies.hindi_nyaaya ? topic.name.HI : topic.name.EN,
+          summary: req.cookies.hindi_nyaaya
+            ? topic.summary.HI.html
+            : topic.summary.EN.html,
           sources: topic.sources,
         };
         client.close();

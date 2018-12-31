@@ -4,12 +4,6 @@ import PropTypes from 'prop-types';
 import s from './QnA.css';
 import history from '../../history';
 
-const i18n = {
-  qna: {
-    title: 'Common Questions',
-  },
-};
-
 class QnA extends React.Component {
   static propTypes = {
     id: PropTypes.string.isRequired,
@@ -74,29 +68,31 @@ class QnA extends React.Component {
     return (
       <div className={s.root} id="qna">
         <div className={s.container}>
-          <div className={s.title}>{i18n.qna.title}</div>
-          {this.state.questionsAndAnswers.map((qna, index) => (
-            <div className={s.couplet} key={qna.id} id={`qna-${index}`}>
-              <button
-                className={s.question}
-                data-question={index}
-                onClick={this.handleClick}
-              >
-                {qna.question}
-              </button>
-              <div
-                className={
-                  index === this.state.selectedQuestion
-                    ? s.answer
-                    : `${s.answer} ${s.hide}`
-                }
-                // eslint-disable-next-line react/no-danger
-                dangerouslySetInnerHTML={{
-                  __html: qna.answer,
-                }}
-              />
-            </div>
-          ))}
+          {this.state.questionsAndAnswers
+            .filter(qna => qna.question.length > 0)
+            .map((qna, index) => (
+              <div className={s.couplet} key={qna.id} id={`qna-${index}`}>
+                <button
+                  className={s.question}
+                  data-question={index}
+                  key={qna.id}
+                  onClick={this.handleClick}
+                >
+                  {qna.question}
+                </button>
+                <div
+                  className={
+                    index === this.state.selectedQuestion
+                      ? s.answer
+                      : `${s.answer} ${s.hide}`
+                  }
+                  // eslint-disable-next-line react/no-danger
+                  dangerouslySetInnerHTML={{
+                    __html: qna.answer,
+                  }}
+                />
+              </div>
+            ))}
         </div>
       </div>
     );

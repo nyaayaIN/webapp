@@ -1,29 +1,95 @@
 @import '../variables.css';
 
 .root {
-  background-image: linear-gradient(to right, var(--primary-colour) 0%, var(--secondary-colour) 100%);
-  color: #fff;
+  padding-top: 1em;
 }
 
 .container {
   margin: 0 auto;
-  padding: 10px 0;
+  padding: 0 1em;
   max-width: var(--max-content-width);
 }
 
+.topMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .brand {
+  width: 95px;
+}
+
+.brand img,
+.contactIcon img {
+  width: 100%;
+  height: auto;
+}
+
+.contactUs {
+  text-align: right;
+}
+
+.contactIcon {
+  display: inline-block;
+  width: 1.75em;
+  height: 1.75em;
+  margin: 0 0.25em;
+}
+
+.secondaryLinks {
+  padding: 0.5em 0;
+  color: var(--neutral-dark-colour);
+  font-size: 0.85em;
+}
+
+.languageSelector {
+  font-size: 1em;
+  font-weight: 500;
+  padding: 0.5em;
+  cursor: pointer;
+}
+
+.language {
+  background: var(--lightest-colour);
+  border: none;
+  display: inline-block;
+  padding: 0 0.35em;
+}
+
+.secondaryLink {
+  color: var(--neutral-dark-colour);
   text-decoration: none;
-  font-size: 1.75em; /* ~28px */
+  text-transform: uppercase;
+  padding: 0 0.5em;
+}
+
+.secondaryLink:hover,
+.secondaryLink:active,
+.languageSelector .language:hover,
+.languageSelector .language:active {
+  color: var(--secondary-colour);
 }
 
 @media (--medium-viewport) {
-  .brand {
-    padding: 0.5em;
+  .root {
+    padding-top: 0;
   }
-}
 
-@media (--small-viewport) {
+  .topMenu {
+    display: block;
+    text-align: center;
+  }
+
   .brand {
-    padding: 0.25em;
+    width: 75px;
+    height: 75px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .contactUs,
+  .secondaryLink {
+    display: none;
   }
 }

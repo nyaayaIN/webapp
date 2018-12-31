@@ -7,6 +7,24 @@
 
 .contentWrapper {
   display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  background-image: linear-gradient(to right, rgba(41, 209, 107, 1), rgba(0, 154, 236, 1));
+  text-align: center;
+  color: var(--lightest-colour);
+  padding: 2em 0;
+}
+
+.topicTitle {
+  font-size: 2em;
+}
+
+.title p {
+  margin: 0;
+  padding: 0;
 }
 
 @media (--medium-viewport) {

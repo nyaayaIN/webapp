@@ -18,8 +18,10 @@ export default async (req, res, next) => {
       .then(terms => {
         req.data = terms.map(term => ({
           id: term._id,
-          term: term.term.EN,
-          definition: term.definition.EN,
+          term: req.cookies.hindi_nyaaya ? term.term.HI : term.term.EN,
+          definition: req.cookies.hindi_nyaaya
+            ? term.definition.HI
+            : term.definition.EN,
         }));
         client.close();
         next();

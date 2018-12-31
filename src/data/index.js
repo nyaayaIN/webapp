@@ -1,5 +1,4 @@
 import express from 'express';
-
 import getCategories from './categories';
 import getCategory from './category';
 import getFeatured from './featured';

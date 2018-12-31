@@ -36,7 +36,10 @@ export default async (req, res, next) => {
         .then(topics => {
           req.data = topics.map(topic => ({
             id: topic._id,
-            name: topic.name.EN,
+            name: req.cookies.hindi_nyaaya ? topic.name.HI : topic.name.EN,
+            summary: req.cookies.hindi_nyaaya
+              ? topic.summary.HI.html
+              : topic.summary.EN.html,
             url: `/topic/${topic.slug}`,
             image: topic.topicImage.public_id,
           }));

@@ -11,10 +11,11 @@
 .container {
   margin: 0 auto;
   padding-bottom: 2em;
-  height: 25em;
+  height: 30em;
   max-width: var(--max-content-width);
   width: 100%;
   display: flex;
+  flex-grow: 1;
 }
 
 .content {
@@ -28,15 +29,10 @@
   color: var(--primary-text-colour);
   font-weight: 500;
   margin: 0;
-  padding-bottom: 0.25em;
 }
 
 .dark {
-  background-image: linear-gradient(to right, rgba(41, 209, 107, 0.75), rgba(0, 154, 236, 0.75));
   color: var(--lightest-colour);
-  position: absolute;
-  bottom: 1;
-  left: 0;
 }
 
 .dark .title {
@@ -54,7 +50,7 @@
   }
 
   .content {
-    margin: 8em 1em 0;
+    margin: 8em 1em 1em;
   }
 
   .dark {

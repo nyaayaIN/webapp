@@ -3,12 +3,6 @@ import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import PropTypes from 'prop-types';
 import s from './Glossary.css';
 
-const i18n = {
-  glossary: {
-    title: 'Glossary of Terms',
-  },
-};
-
 class Glossary extends React.Component {
   static propTypes = {
     id: PropTypes.string.isRequired,
@@ -69,35 +63,38 @@ class Glossary extends React.Component {
   render() {
     return (
       <div className={s.root} id="glossary">
-        <div className={s.title}>{i18n.glossary.title}</div>
-        <div className={s.terms}>
-          {this.state.glossary.map((word, index) => (
-            <button
-              key={word.id}
-              data-id={index}
-              className={s.termOption}
-              onClick={this.handleClick}
-            >
-              {word.term}
-            </button>
-          ))}
-        </div>
         <div className={s.glossarySection}>
-          {this.state.glossary.map((word, index) => (
-            <div
-              className={s.definedTerm}
-              id={`term${index}`}
-              key={word.id}
-              style={
-                index === this.state.selectedTerm ? { display: 'block' } : {}
-              }
-            >
-              <div className={s.glossaryItem}>
-                <div className={s.term}>{word.term}</div>
-                <div className={s.definition}>{word.definition}</div>
+          {this.state.glossary
+            .filter(word => word.term.length > 0)
+            .map((word, index) => (
+              <div
+                className={s.definedTerm}
+                id={`term${index}`}
+                key={word.id}
+                style={
+                  index === this.state.selectedTerm ? { display: 'block' } : {}
+                }
+              >
+                <div className={s.glossaryItem}>
+                  <div className={s.term}>{word.term}</div>
+                  <div className={s.definition}>{word.definition}</div>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+        </div>
+        <div className={s.terms}>
+          {this.state.glossary
+            .filter(word => word.term.length > 0)
+            .map((word, index) => (
+              <button
+                key={word.id}
+                data-id={index}
+                className={s.termOption}
+                onClick={this.handleClick}
+              >
+                {word.term}
+              </button>
+            ))}
         </div>
       </div>
     );

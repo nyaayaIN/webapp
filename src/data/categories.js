@@ -19,7 +19,7 @@ export default async (req, res, next) => {
         req.data = categories.map(cat => ({
           id: cat._id,
           slug: cat.slug,
-          name: cat.name.EN,
+          name: req.cookies.hindi_nyaaya ? cat.name.HI : cat.name.EN,
           url: `/category/${cat.slug}`,
           topics: [], // left blank intentionally so we can lazy load topics later
         }));

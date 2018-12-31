@@ -98,26 +98,30 @@ class Categories extends React.Component {
           </div>
 
           <ul className={s.categories}>
-            {this.state.categories.map(category => (
-              <li className={s.category} key={category.id}>
-                <Link className={s.categoryLink} to={category.url}>
-                  {category.name} &#9662;
-                </Link>
-                <ul className={s.topics}>
-                  {category.topics.map(topic => (
-                    <li className={s.topic} key={topic.id}>
-                      <button
-                        className={s.topicLink}
-                        data-url={topic.url}
-                        onClick={this.handleClick}
-                      >
-                        {topic.name}
-                      </button>
-                    </li>
-                  ))}
-                </ul>
-              </li>
-            ))}
+            {this.state.categories
+              .filter(category => category.name.length > 0)
+              .map(category => (
+                <li className={s.category} key={category.id}>
+                  <Link className={s.categoryLink} to={category.url}>
+                    {category.name} &#9662;
+                  </Link>
+                  <ul className={s.topics}>
+                    {category.topics
+                      .filter(topic => topic.name.length > 0)
+                      .map(topic => (
+                        <li className={s.topic} key={topic.id}>
+                          <button
+                            className={s.topicLink}
+                            data-url={topic.url}
+                            onClick={this.handleClick}
+                          >
+                            {topic.name}
+                          </button>
+                        </li>
+                      ))}
+                  </ul>
+                </li>
+              ))}
           </ul>
         </div>
       </div>

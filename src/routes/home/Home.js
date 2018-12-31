@@ -5,7 +5,7 @@ import s from './Home.css';
 import Topics from '../../components/Topics';
 import Hero from '../../components/Hero';
 
-import heroUrl from './hero.png';
+import heroUrl from './nyaaya-bridges-gaps.jpg';
 
 class Home extends React.Component {
   static propTypes = {
@@ -13,12 +13,6 @@ class Home extends React.Component {
       hero_title: PropTypes.string.isRequired,
       hero_description: PropTypes.string.isRequired,
       popular_topics_in: PropTypes.string.isRequired,
-      governance_title: PropTypes.string.isRequired,
-      governance_explanation: PropTypes.string.isRequired,
-      social_justice_title: PropTypes.string.isRequired,
-      social_justice_explanation: PropTypes.string.isRequired,
-      legal_title: PropTypes.string.isRequired,
-      legal_explanation: PropTypes.string.isRequired,
     }).isRequired,
   };
 
@@ -65,64 +59,18 @@ class Home extends React.Component {
       <div className={s.root}>
         <Hero
           content={heroContent}
-          type="center"
+          type="bottom"
           image={heroUrl}
-          theme="light"
+          theme="dark"
         />
-        <div className={s.story}>
-          <div className={s.container}>
-            <div className={s.storyTitle}>
-              {this.props.content.governance_title}
-            </div>
-            <div
-              className={s.shortExplanation}
-              // eslint-disable-next-line react/no-danger
-              dangerouslySetInnerHTML={{
-                __html: this.props.content.governance_explanation,
-              }}
-            />
-          </div>
-        </div>
-        <div className={s.featuredTopics}>
+
+        <div>
           <div className={s.container}>
             <div className={s.heading}>
               {this.props.content.popular_topics_in}
             </div>
             <Topics collection={this.state.governanceTopics} />
-          </div>
-        </div>
-        <div className={s.story}>
-          <div className={s.container}>
-            <div className={s.storyTitle}>
-              {this.props.content.social_justice_title}
-            </div>
-            <div
-              className={s.shortExplanation}
-              // eslint-disable-next-line react/no-danger
-              dangerouslySetInnerHTML={{
-                __html: this.props.content.social_justice_explanation,
-              }}
-            />
-          </div>
-        </div>
-        <div className={s.featuredTopics}>
-          <div className={s.container}>
-            <div className={s.heading}>
-              {this.props.content.popular_topics_in}
-            </div>
             <Topics collection={this.state.socialTopics} />
-          </div>
-        </div>
-        <div className={s.story}>
-          <div className={s.container}>
-            <div className={s.storyTitle}>{this.props.content.legal_title}</div>
-            <div
-              className={s.shortExplanation}
-              // eslint-disable-next-line react/no-danger
-              dangerouslySetInnerHTML={{
-                __html: this.props.content.legal_explanation,
-              }}
-            />
           </div>
         </div>
       </div>

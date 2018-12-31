@@ -1,14 +1,8 @@
 @import '../variables.css';
 
 .root {
-  border-top: solid 1px var(--neutral-medium-colour);
-  padding: 3em 2em;
-}
-
-.title {
-  font-weight: 500;
-  font-size: 1.5em;
-  color: var(--primary-text-colour);
+  padding: 0.5em 2em;
+  max-width: 400px;
 }
 
 .glossarySection {
@@ -29,12 +23,18 @@
 .termOption {
   font-family: var(--font-family-base);
   color: var(--neutral-dark-colour);
+  cursor: pointer;
   border: solid 1px var(--neutral-medium-colour);
   background: none;
   text-align: left;
   display: inline-block;
   margin: 0.25em;
-  padding: 0.5em 1em;
+  padding: 0.25em 0.5em;
+}
+
+.termOption:hover {
+  color: var(--lightest-colour);
+  background: var(--neutral-dark-colour);
 }
 
 .glossaryItem {
@@ -48,14 +48,14 @@
 
 .term {
   display: inline;
-  border-bottom: solid 1px var(--neutral-medium-colour);
   color: var(--secondary-colour);
-  font-size: 2em;
+  font-size: 1.5em;
   line-height: 125%;
   font-weight: 500;
 }
 
 .definition {
+  font-weight: normal;
   padding: 1em 0;
 }
 

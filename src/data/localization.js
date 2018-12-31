@@ -14,10 +14,17 @@ export default async (req, res, next) => {
       .collection('staticpages')
       .findOne({ slug: req.params.page })
       .then(page => {
-        req.data = page.keys.reduce(
-          (obj, k, i) => ({ ...obj, [k]: page.content.EN[i] }),
-          {},
-        );
+        if (req.cookies.hindi_nyaaya) {
+          req.data = page.keys.reduce(
+            (obj, k, i) => ({ ...obj, [k]: page.content.HI[i] }),
+            {},
+          );
+        } else {
+          req.data = page.keys.reduce(
+            (obj, k, i) => ({ ...obj, [k]: page.content.EN[i] }),
+            {},
+          );
+        }
         client.close();
         next();
       })

@@ -1,33 +1,28 @@
 import React from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import PropTypes from 'prop-types';
+import Link from '../Link';
 import Share from '../Share';
 import s from './Explanations.css';
-import history from '../../history';
-
-const i18n = {
-  explanations: {
-    title: 'Contents',
-  },
-};
 
 class Explanations extends React.Component {
   static propTypes = {
     slug: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     id: PropTypes.string.isRequired,
+    chosen: PropTypes.string.isRequired,
   };
 
   constructor() {
     super();
     this.state = {
       explanations: [],
-      selectedExplanation: '',
+      defaultChoice: '',
     };
   }
 
   componentDidMount() {
-    this.getData(this.props.id);
+    this.getData(this.props.id, this.props.chosen);
   }
 
   componentDidUpdate(prev) {
@@ -35,13 +30,6 @@ class Explanations extends React.Component {
       this.getData(this.props.id);
     }
   }
-
-  getSelectedExplanation = function(explanations) {
-    return !window.location.hash.length ||
-      window.location.hash.startsWith('#qna')
-      ? explanations[0].slug
-      : window.location.hash.split('#')[1];
-  };
 
   getData(id) {
     const API = `/data/topic/${id}/explanations`;
@@ -57,7 +45,7 @@ class Explanations extends React.Component {
       .then(data => {
         this.setState({
           explanations: data,
-          selectedExplanation: this.getSelectedExplanation(data),
+          defaultChoice: data[0].slug,
         });
       })
       .catch(error => {
@@ -65,66 +53,59 @@ class Explanations extends React.Component {
       });
   }
 
-  handleClick = event => {
-    event.preventDefault();
-    const explanationSlug = event.target.attributes.getNamedItem('data-slug')
-      .value;
-    this.setState({
-      selectedExplanation: explanationSlug,
-    });
-    history.push({
-      hash: explanationSlug,
-    });
-  };
-
   render() {
+    const chosenExplanation = this.props.chosen.length
+      ? this.props.chosen
+      : this.state.defaultChoice;
     return (
       <div className={s.root} id="explanations">
         <div className={s.menu}>
-          <h3 className={s.menuTitle}>{i18n.explanations.title}</h3>
-          {this.state.explanations.map(explanation => (
-            <button
-              className={
-                this.state.selectedExplanation === explanation.slug
-                  ? `${s.item} ${s.selected}`
-                  : s.item
-              }
-              onClick={this.handleClick}
-              key={explanation.id}
-              data-slug={explanation.slug}
-            >
-              {explanation.title}
-            </button>
-          ))}
+          {this.state.explanations
+            .filter(explanation => explanation.title.length > 0)
+            .map(explanation => (
+              <Link
+                className={
+                  explanation.slug === chosenExplanation
+                    ? `${s.item} ${s.selected}`
+                    : s.item
+                }
+                key={explanation.slug}
+                to={`/topic/${this.props.slug}/${explanation.slug}`}
+              >
+                {explanation.title}
+              </Link>
+            ))}
         </div>
         <div className={s.explanationContainer} id="explanation">
-          {this.state.explanations.map(explanation => (
-            <div
-              className={
-                this.state.selectedExplanation === explanation.slug
-                  ? `${s.explanation} ${s.selected}`
-                  : s.explanation
-              }
-              id={explanation.slug}
-              key={explanation.id}
-            >
-              <div className={s.content}>
-                <h2>{explanation.title}</h2>
-                <div
-                  // eslint-disable-next-line react/no-danger
-                  dangerouslySetInnerHTML={{
-                    __html: explanation.content,
-                  }}
+          {this.state.explanations
+            .filter(explanation => explanation.title.length > 0)
+            .map(explanation => (
+              <div
+                className={
+                  explanation.slug === chosenExplanation
+                    ? `${s.explanation} ${s.selected}`
+                    : s.explanation
+                }
+                id={explanation.slug}
+                key={explanation.id}
+              >
+                <div className={s.content}>
+                  <h2>{explanation.title}</h2>
+                  <div
+                    // eslint-disable-next-line react/no-danger
+                    dangerouslySetInnerHTML={{
+                      __html: explanation.content,
+                    }}
+                  />
+                </div>
+                <Share
+                  url={`https://nyaaya.in/topic/${this.props.slug}/${
+                    explanation.slug
+                  }`}
+                  title={`${this.props.title}: ${explanation.title}`}
                 />
               </div>
-              <Share
-                url={`https://nyaaya.in/topic/${this.props.slug}#${
-                  explanation.slug
-                }`}
-                title={`${this.props.title}: ${explanation.title}`}
-              />
-            </div>
-          ))}
+            ))}
         </div>
       </div>
     );

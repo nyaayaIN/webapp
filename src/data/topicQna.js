@@ -18,8 +18,12 @@ export default async (req, res, next) => {
       .then(qnas => {
         req.data = qnas.map(qna => ({
           id: qna._id,
-          question: qna.question.EN,
-          answer: qna.answer.EN.html,
+          question: req.cookies.hindi_nyaaya
+            ? qna.question.HI
+            : qna.question.EN,
+          answer: req.cookies.hindi_nyaaya
+            ? qna.answer.HI.html
+            : qna.answer.EN.html,
         }));
         client.close();
         next();

@@ -14,13 +14,18 @@ export default async (req, res, next) => {
       .db('nyaaya')
       .collection('explanations')
       .find({ topics: { $in: [id] } })
+      .sort({ order: 1 })
       .toArray()
       .then(explanations => {
         req.data = explanations.map(explanation => ({
           id: explanation._id,
-          title: explanation.title.EN,
+          title: req.cookies.hindi_nyaaya
+            ? explanation.title.HI
+            : explanation.title.EN,
           slug: explanation.slug,
-          content: explanation.content.EN.html,
+          content: req.cookies.hindi_nyaaya
+            ? explanation.content.HI.html
+            : explanation.content.EN.html,
         }));
         client.close();
         next();

@@ -9,39 +9,25 @@
   border-right: solid 1px var(--neutral-medium-colour);
   list-style-type: none;
   margin: 0;
-  padding: 0.5em 0;
+  padding: 0;
   flex: 1;
 }
 
-.menuTitle {
-  font-weight: 500;
-  padding: 0 1.75em;
-}
-
 .item {
-  background: none;
-  border: none;
-  color: var(--primary-text-colour);
-  cursor: pointer;
   display: block;
-  font-family: var(--font-family-base);
-  font-size: 0.9em;
+  margin: 0 0 0.25em;
+  padding: 0.35em 1em;
   font-weight: normal;
-  line-height: 150%;
-  margin: 0;
-  padding: 0.5em 2em;
-  text-align: left;
-  text-transform: capitalize;
-  width: 100%;
+  color: var(--primary-text-colour);
+  text-decoration: none;
 }
 
 .item:hover {
-  color: var(--primary-colour);
+  color: var(--secondary-colour);
 }
 
 .item:focus {
   outline: none;
-  font-weight: 500;
 }
 
 .item.selected {

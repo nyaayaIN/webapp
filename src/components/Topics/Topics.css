@@ -4,46 +4,52 @@
   padding: 0;
   margin: 0;
   list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: stretch;
-  justify-content: safe center;
 }
 
 .topic {
-  border: solid 1px var(--neutral-medium-colour);
-  color: var(--lightest-colour);
-  width: 22.5%;
-  margin: 1.5% 0.5%;
+  display: flex;
   text-decoration: none;
 }
 
 .tile {
   height: 100%;
+  display: flex;
+  color: var(--darkest-colour);
+  justify-content: space-between;
+  padding: 2em 0;
+}
+
+.topic:nth-child(odd) .tile {
+  flex-direction: row;
+}
+
+.topic:nth-child(even) .tile {
+  flex-direction: row-reverse;
 }
 
 .thumbnail {
-  width: 100%;
+  padding: 0 2em;
+}
+
+.topic:nth-child(even) .tile .thumbnail {
+  text-align: right;
+}
+
+.thumbnail img {
+  width: 450px;
   height: auto;
   filter: grayscale(100%);
 }
 
 .title {
   background: var(--lightest-colour);
-  color: var(--darkest-colour);
-  font-size: 1em;
+  font-size: 2em;
   font-weight: normal;
-  padding: 0.5em 1em;
   height: 2.5em;
 }
 
-.topic:hover .thumbnail {
+.topic:hover .thumbnail img {
   filter: none;
-}
-
-.topic:hover .title {
-  background: var(--primary-text-colour);
-  color: var(--neutral-light-colour);
 }
 
 @media (--medium-viewport) {

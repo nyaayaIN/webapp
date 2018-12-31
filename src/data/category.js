@@ -17,8 +17,10 @@ export default async (req, res, next) => {
         console.info(`Found category ${cat._id}`);
         return {
           id: cat._id,
-          name: cat.name.EN,
-          description: cat.description.EN.html,
+          name: req.cookies.hindi_nyaaya ? cat.name.HI : cat.name.EN,
+          description: req.cookies.hindi_nyaaya
+            ? cat.description.HI.html
+            : cat.description.EN.html,
         };
       })
       .then(cat => {
@@ -41,7 +43,10 @@ export default async (req, res, next) => {
               description: cat.description,
               topics: topics.map(topic => ({
                 id: topic._id,
-                name: topic.name.EN,
+                name: req.cookies.hindi_nyaaya ? topic.name.HI : topic.name.EN,
+                summary: req.cookies.hindi_nyaaya
+                  ? topic.summary.HI.html
+                  : topic.summary.EN.html,
                 image: topic.topicImage.public_id,
                 url: `/topic/${topic.slug}`,
               })),
