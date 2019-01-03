@@ -87,27 +87,46 @@ class Header extends React.Component {
             </Link>
 
             <div className={s.contactUs}>
-              <Link className={s.contactIcon} to="mailto:contact@nyaaya.in">
-                <img src={emailLogoUrl} alt="Email Us" />
-              </Link>
-              <Link className={s.contactIcon} to="https://wa.me/919650108107">
-                <img src={whatsappLogoUrl} alt="WhatsApp" />
-              </Link>
-              <Link className={s.contactIcon} to="https://twitter.com/NyaayaIN">
-                <img src={twitterLogoUrl} alt="Twitter" />
-              </Link>
-              <Link
+              <a
                 className={s.contactIcon}
-                to="https://facebook.com/nyaayain/"
+                href="mailto:contact@nyaaya.in"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={emailLogoUrl} alt="Email Us" />
+              </a>
+              <a
+                className={s.contactIcon}
+                href="https://wa.me/919650108107"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={whatsappLogoUrl} alt="WhatsApp" />
+              </a>
+              <a
+                className={s.contactIcon}
+                href="https://twitter.com/NyaayaIN"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={twitterLogoUrl} alt="Twitter" />
+              </a>
+              <a
+                className={s.contactIcon}
+                href="https://facebook.com/nyaayain/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <img src={facebookLogoUrl} alt="Facebook" />
-              </Link>
-              <Link
+              </a>
+              <a
                 className={s.contactIcon}
-                to="https://www.instagram.com/nyaaya/"
+                href="https://www.instagram.com/nyaaya/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <img src={instagramLogoUrl} alt="Instagram" />
-              </Link>
+              </a>
             </div>
           </div>
         </div>

@@ -27,7 +27,8 @@
   flex-direction: row-reverse;
 }
 
-.thumbnail {
+.thumbnail,
+.content {
   padding: 0 2em;
 }
 
@@ -36,7 +37,8 @@
 }
 
 .thumbnail img {
-  width: 450px;
+  max-width: 450px;
+  width: 100%;
   height: auto;
   filter: grayscale(100%);
 }
@@ -45,7 +47,7 @@
   background: var(--lightest-colour);
   font-size: 2em;
   font-weight: normal;
-  height: 2.5em;
+  padding-top: 1em;
 }
 
 .topic:hover .thumbnail img {
@@ -54,12 +56,11 @@
 
 @media (--medium-viewport) {
   .topic {
-    width: 47.5%;
+    display: block;
   }
-}
 
-@media (--small-viewport) {
-  .topic {
-    width: 98.5%;
+  .title,
+  .tile {
+    display: block;
   }
 }

@@ -33,7 +33,7 @@ class Topics extends React.Component {
                     alt={topic.name}
                   />
                 </div>
-                <div>
+                <div className={s.content}>
                   <div className={s.title}>{topic.name}</div>
                   <div
                     // eslint-disable-next-line react/no-danger
