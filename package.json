@@ -30,6 +30,7 @@
     "query-string": "^5.0.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-https-redirect": "^1.0.11",
     "react-instantsearch": "^5.0.1",
     "react-share": "^2.1.0",
     "sequelize": "^4.28.6",

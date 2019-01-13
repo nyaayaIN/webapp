@@ -6,6 +6,7 @@ import expressJwt, { UnauthorizedError as Jwt401Error } from 'express-jwt';
 import fetch from 'node-fetch';
 import React from 'react';
 import ReactDOM from 'react-dom/server';
+import HttpsRedirect from 'react-https-redirect';
 import PrettyError from 'pretty-error';
 import App from './components/App';
 import Html from './components/Html';
@@ -105,7 +106,9 @@ app.get('*', async (req, res, next) => {
 
     const data = { ...route };
     data.children = ReactDOM.renderToString(
-      <App context={context}>{route.component}</App>,
+      <HttpsRedirect>
+        <App context={context}>{route.component}</App>
+      </HttpsRedirect>,
     );
     data.styles = [{ id: 'css', cssText: [...css].join('') }];
     data.scripts = [assets.vendor.js];

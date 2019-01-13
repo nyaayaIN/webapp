@@ -41,7 +41,7 @@ export default async (req, res, next) => {
               ? topic.summary.HI.html
               : topic.summary.EN.html,
             url: `/topic/${topic.slug}`,
-            image: topic.topicImage.public_id,
+            image: topic.topicImage ? topic.topicImage.public_id : '',
           }));
           client.close();
           next();

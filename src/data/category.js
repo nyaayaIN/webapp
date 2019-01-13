@@ -47,7 +47,7 @@ export default async (req, res, next) => {
                 summary: req.cookies.hindi_nyaaya
                   ? topic.summary.HI.html
                   : topic.summary.EN.html,
-                image: topic.topicImage.public_id,
+                image: topic.topicImage ? topic.topicImage.public_id : '',
                 url: `/topic/${topic.slug}`,
               })),
             };
