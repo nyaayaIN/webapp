@@ -85,7 +85,7 @@ class Header extends React.Component {
             </div>
 
             <Link className={s.brand} to="/">
-              <img src={hindi ? hindiLogoUrl : logoUrl} alt={logo} />;
+              <img src={hindi ? hindiLogoUrl : logoUrl} alt={logo} />
             </Link>
 
             <div className={s.contactUs}>
