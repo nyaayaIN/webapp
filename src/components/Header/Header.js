@@ -5,6 +5,7 @@ import Link from '../Link';
 import Categories from '../Categories';
 
 import logoUrl from './logo.svg';
+import hindiLogoUrl from './logo_hi.png';
 import emailLogoUrl from './email.svg';
 import facebookLogoUrl from './facebook-logo-button.svg';
 import instagramLogoUrl from './instagram-logo.svg';
@@ -15,7 +16,7 @@ const API = '/data/localization/header';
 
 function updateLanguage(e) {
   if (e.target.innerHTML === 'English') {
-    document.cookie = 'hindi_nyaaya=; Max-Age=0';
+    document.cookie = 'hindi_nyaaya=false; Max-Age=0';
     window.location.reload();
   } else {
     document.cookie =
@@ -46,12 +47,13 @@ class Header extends React.Component {
           blog: data.blog_title,
           logo: data.logo_text,
           view: data.view_categories,
+          hindi: document.cookie.split('hindi_nyaaya')[1] !== undefined,
         });
       });
   }
 
   render() {
-    const { about, blog, contact, logo, view } = this.state;
+    const { about, blog, contact, logo, view, hindi } = this.state;
     return (
       <div className={s.root}>
         <div className={s.container}>
@@ -83,7 +85,7 @@ class Header extends React.Component {
             </div>
 
             <Link className={s.brand} to="/">
-              <img src={logoUrl} alt={logo} />
+              <img src={hindi ? hindiLogoUrl : logoUrl} alt={logo} />;
             </Link>
 
             <div className={s.contactUs}>
