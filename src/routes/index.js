@@ -27,6 +27,10 @@ const routes = {
       load: () => import(/* webpackChunkName: 'topic' */ './topic'),
     },
     {
+      path: '/question/(.*)',
+      load: () => import(/* webpackChunkName: 'question' */ './question'),
+    },
+    {
       path: '/category/(.*)',
       load: () => import(/* webpackChunkName: 'category' */ './category'),
     },

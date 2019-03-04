@@ -26,22 +26,15 @@ class Topics extends React.Component {
           .filter(topic => topic.name.length > 0 && topic.summary.length > 0)
           .map(topic => (
             <Link className={s.topic} to={topic.url} key={topic.id}>
-              <div className={s.tile}>
-                <div className={s.thumbnail}>
-                  <img
-                    src={`${CLOUDINARY + topic.image}.jpg`}
-                    alt={topic.name}
-                  />
-                </div>
-                <div className={s.content}>
-                  <div className={s.title}>{topic.name}</div>
-                  <div
-                    // eslint-disable-next-line react/no-danger
-                    dangerouslySetInnerHTML={{
-                      __html: topic.summary,
-                    }}
-                  />
-                </div>
+              <img src={`${CLOUDINARY + topic.image}.jpg`} alt={topic.name} />
+              <div className={s.content}>
+                <div className={s.title}>{topic.name}</div>
+                <div
+                  // eslint-disable-next-line react/no-danger
+                  dangerouslySetInnerHTML={{
+                    __html: topic.summary,
+                  }}
+                />
               </div>
             </Link>
           ))}

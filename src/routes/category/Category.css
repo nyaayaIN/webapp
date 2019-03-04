@@ -1,30 +1,17 @@
 @import '../../components/variables.css';
 
 .root {
-  margin: 0;
+  margin: 0 10px;
   padding: 0;
 }
 
-.container {
-  margin: 2em auto;
-  max-width: var(--max-content-width);
-}
-
-.categoryName {
-  font-weight: normal;
+.container h1 {
+  padding: 20px 0 0;
   text-align: center;
-  font-size: 2em;
 }
 
-.categoryDescription {
-  text-align: center;
-  max-width: 750px;
-  width: 100%;
-  margin: 0 auto;
-  display: block;
-}
-
-.categoryTopics {
-  margin: 0;
-  padding: 0;
+@media screen and (min-width: 1181px) {
+  .root {
+    margin: 90px 50px 0;
+  }
 }

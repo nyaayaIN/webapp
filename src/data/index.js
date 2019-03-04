@@ -6,7 +6,8 @@ import getLocalization from './localization';
 import getTopic from './topic';
 import getTopicExplanations from './topicExplanations';
 import getTopicGlossary from './topicGlossary';
-import getTopicQna from './topicQna';
+import getTopicQuestions from './topicQuestions';
+import getQna from './qna';
 
 const router = express.Router();
 
@@ -21,6 +22,7 @@ router.get('/localization/:page', getLocalization, sendResponse);
 router.get('/topic/:slug', getTopic, sendResponse);
 router.get('/topic/:id/explanations', getTopicExplanations, sendResponse);
 router.get('/topic/:id/glossary', getTopicGlossary, sendResponse);
-router.get('/topic/:id/qna', getTopicQna, sendResponse);
+router.get('/topic/:id/questions', getTopicQuestions, sendResponse);
+router.get('/question/:slug', getQna, sendResponse);
 
 export default router;

@@ -6,19 +6,29 @@
 }
 
 .menu {
+  background: var(--neutral-light-colour);
   border-right: solid 1px var(--neutral-medium-colour);
   list-style-type: none;
   margin: 0;
   padding: 0;
-  flex: 1;
+  flex: 0.75 1;
+}
+
+.heading {
+  font-weight: 500;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 0.5em 0;
+  border-bottom: solid 1px var(--neutral-medium-colour);
+  margin-bottom: 1em;
 }
 
 .item {
   display: block;
-  margin: 0 0 0.25em;
-  padding: 0.35em 1em;
+  margin: 0;
+  padding: 0.5em 2em;
   font-weight: normal;
-  color: var(--primary-text-colour);
+  color: var(--secondary-colour);
   text-decoration: none;
 }
 
@@ -31,12 +41,13 @@
 }
 
 .item.selected {
-  background: var(--primary-text-colour);
+  background: var(--secondary-colour);
   color: var(--lightest-colour);
 }
 
 .explanationContainer {
   flex: 2;
+  background: white;
 }
 
 .explanation {
@@ -55,7 +66,12 @@
 .content {
   line-height: 175%;
   font-family: var(--font-family-secondary);
-  padding: 0.5em 1em;
+  padding: 0 2em;
+}
+
+.content h2 {
+  font-size: 2em;
+  margin-top: 2em;
 }
 
 .content table {

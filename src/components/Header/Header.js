@@ -1,37 +1,27 @@
 import React from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Header.css';
-import Link from '../Link';
 import Categories from '../Categories';
 
 import logoUrl from './logo.svg';
-import hindiLogoUrl from './logo_hi.png';
-import emailLogoUrl from './email.svg';
-import facebookLogoUrl from './facebook-logo-button.svg';
-import instagramLogoUrl from './instagram-logo.svg';
-import whatsappLogoUrl from './whatsapp.svg';
-import twitterLogoUrl from './twitter-logo-button.svg';
 
 const API = '/data/localization/header';
 
-function updateLanguage(e) {
-  if (e.target.innerHTML === 'English') {
-    document.cookie = 'hindi_nyaaya=false; Max-Age=0';
-    window.location.reload();
-  } else {
-    document.cookie =
-      'hindi_nyaaya=true; expires=Fri, 31 Dec 9999 23:59:59 GMT';
-    window.location.reload();
-  }
+function changeToHindi() {
+  document.cookie =
+    'hindi_nyaaya=true;Path=/;expires=Fri, 31 Dec 9999 23:59:59 GMT';
+  window.location.reload();
+}
+function changeToEnglish() {
+  document.cookie = 'hindi_nyaaya=false;Path=/;Max-Age=0';
+  document.cookie = 'hindi_nyaaya=false;Path=/topic;Max-Age=0';
+  window.location.reload();
 }
 
 class Header extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      about: 'About Us',
-      contact: 'Contact Us',
-      blog: 'Blog',
       logo: 'Nyaaya',
       view: 'View Categories',
     };
@@ -42,9 +32,6 @@ class Header extends React.Component {
       .then(response => response.json())
       .then(data => {
         this.setState({
-          about: data.about_title,
-          contact: data.contact_title,
-          blog: data.blog_title,
           logo: data.logo_text,
           view: data.view_categories,
           hindi: document.cookie.split('hindi_nyaaya')[1] !== undefined,
@@ -53,86 +40,82 @@ class Header extends React.Component {
   }
 
   render() {
-    const { about, blog, contact, logo, view, hindi } = this.state;
+    const { logo, view, hindi } = this.state;
     return (
       <div className={s.root}>
         <div className={s.container}>
-          <div className={s.topMenu}>
-            <div className={s.secondaryLinks}>
-              <div className={s.languageSelector}>
-                <button className={s.language} onClick={updateLanguage}>
+          <div className={s.mainMenu}>
+            <div className={s.logo}>
+              <a href="/">
+                <img src={logoUrl} className={s.dots} alt={logo} />
+                <span className={s.title}>{logo}</span>
+              </a>
+            </div>
+            <div className={s.subMenu}>
+              <div className={s.language}>
+                <button className={s.changeLanguage} onClick={changeToEnglish}>
                   English
                 </button>
-                &nbsp;|&nbsp;
-                <button className={s.language} onClick={updateLanguage}>
-                  हिन्दी
+                <button className={s.changeLanguage} onClick={changeToHindi}>
+                  हिंदी
                 </button>
               </div>
-              <Link className={s.secondaryLink} to="/about">
-                {about}
-              </Link>
-              <a
-                className={s.secondaryLink}
-                href="https://medium.com/nyaaya"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {blog}
-              </a>
-              <Link className={s.secondaryLink} to="/contact">
-                {contact}
-              </Link>
+              <Categories view={view} />
             </div>
+            <div className={s.search}>Search</div>
 
-            <Link className={s.brand} to="/">
-              <img src={hindi ? hindiLogoUrl : logoUrl} alt={logo} />
-            </Link>
-
-            <div className={s.contactUs}>
-              <a
-                className={s.contactIcon}
-                href="mailto:contact@nyaaya.in"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={emailLogoUrl} alt="Email Us" />
-              </a>
-              <a
-                className={s.contactIcon}
-                href="https://wa.me/919650108107"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={whatsappLogoUrl} alt="WhatsApp" />
-              </a>
-              <a
-                className={s.contactIcon}
-                href="https://twitter.com/NyaayaIN"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={twitterLogoUrl} alt="Twitter" />
-              </a>
-              <a
-                className={s.contactIcon}
-                href="https://facebook.com/nyaayain/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={facebookLogoUrl} alt="Facebook" />
-              </a>
-              <a
-                className={s.contactIcon}
-                href="https://www.instagram.com/nyaaya/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={instagramLogoUrl} alt="Instagram" />
-              </a>
+            <div className={s.social}>
+              <ul>
+                <li>
+                  <a
+                    href={`https://twitter.com/${
+                      hindi ? 'NyaayaHindi' : 'NyaayaIN'
+                    }`}
+                    className={s.twitter}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Twitter
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href={`https://facebook.com/${
+                      hindi ? 'NyaayaHindi' : 'nyaayain'
+                    }`}
+                    className={s.facebook}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Facebook
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href={`https://www.instagram.com/${
+                      hindi ? 'NyaayaHindi' : 'nyaayain'
+                    }`}
+                    className={s.instagram}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Instagram
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://wa.me/919650108107"
+                    className={s.whatsapp}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    WhatsApp
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
-        <Categories view={view} />
       </div>
     );
   }

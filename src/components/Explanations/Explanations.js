@@ -60,6 +60,7 @@ class Explanations extends React.Component {
     return (
       <div className={s.root} id="explanations">
         <div className={s.menu}>
+          <div className={s.heading}>Explanations</div>
           {this.state.explanations
             .filter(explanation => explanation.title.length > 0)
             .map(explanation => (

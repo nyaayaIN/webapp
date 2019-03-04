@@ -10,7 +10,13 @@
  * Base styles
  * ========================================================================== */
 
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 html {
+  background: #f9f7f6;
   color: var(--tertiary-text-colour);
   font-weight: 100;
   font-size: 1em; /* ~16px; */

@@ -1,95 +1,142 @@
 @import '../variables.css';
 
 .root {
-  padding-top: 1em;
+  background-image: linear-gradient(to right, var(--primary-colour), var(--secondary-colour));
+  height: 84px;
+  position: relative;
+  width: 100%;
+  z-index: 101;
 }
 
 .container {
-  margin: 0 auto;
-  padding: 0 1em;
-  max-width: var(--max-content-width);
+  background-image: linear-gradient(to right, var(--primary-colour), var(--secondary-colour));
 }
 
-.topMenu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.brand {
-  width: 95px;
-}
-
-.brand img,
-.contactIcon img {
-  width: 100%;
-  height: auto;
-}
-
-.contactUs {
-  text-align: right;
-}
-
-.contactIcon {
-  display: inline-block;
-  width: 1.75em;
-  height: 1.75em;
-  margin: 0 0.25em;
-}
-
-.secondaryLinks {
-  padding: 0.5em 0;
-  color: var(--neutral-dark-colour);
-  font-size: 0.85em;
-}
-
-.languageSelector {
-  font-size: 1em;
-  font-weight: 500;
-  padding: 0.5em;
-  cursor: pointer;
+.subMenu {
+  margin: 0;
+  padding: 0;
 }
 
 .language {
-  background: var(--lightest-colour);
+  display: block;
+  text-align: center;
+  width: 100%;
+  padding: 5px 0 0;
+}
+
+.changeLanguage {
+  background: none;
   border: none;
-  display: inline-block;
-  padding: 0 0.35em;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
 }
 
-.secondaryLink {
-  color: var(--neutral-dark-colour);
+.changeLanguage:hover {
+  text-decoration: underline;
+}
+
+.mainMenu {
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 90px;
+  position: relative;
+  width: 150px;
+}
+
+.logo a {
+  color: white;
   text-decoration: none;
-  text-transform: uppercase;
-  padding: 0 0.5em;
+  width: 214px;
 }
 
-.secondaryLink:hover,
-.secondaryLink:active,
-.languageSelector .language:hover,
-.languageSelector .language:active {
-  color: var(--secondary-colour);
+.dots {
+  display: block;
+  height: 40px;
+  margin: 10px auto 0;
 }
 
-@media (--medium-viewport) {
+.title {
+  font-size: 1.5em;
+  line-height: 1em;
+  font-weight: 500;
+  display: block;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+.search {
+  width: 25px;
+  font-size: 1px;
+  height: 90px;
+  color: transparent;
+  background: url(./search.svg) center center no-repeat;
+  background-size: 20px;
+}
+
+.social {
+  height: 90px;
+  padding-right: 10px;
+  width: 125px;
+}
+
+.social ul {
+  margin: 0;
+  padding: 0;
+}
+
+.social ul li {
+  float: left;
+  list-style-type: none;
+  margin: 37px 2px 0;
+}
+
+.social ul li a {
+  color: transparent;
+  display: block;
+  width: 25px;
+  height: 25px;
+  font-size: 1px;
+}
+
+.social ul li a:hover {
+  opacity: 0.8;
+}
+
+.social ul li a.facebook {
+  background: url(./fb.svg) no-repeat;
+  background-size: 20px;
+}
+
+.social ul li a.twitter {
+  background: url(./twitter.svg) no-repeat;
+  background-size: 20px;
+}
+
+.social ul li a.instagram {
+  background: url(./instagram.svg) no-repeat;
+  background-size: 20px;
+}
+
+.social ul li a.whatsapp {
+  background: url(./whatsapp.svg) no-repeat;
+  background-size: 20px;
+}
+
+@media screen and (min-width: 1181px) {
   .root {
-    padding-top: 0;
+    height: 6px;
   }
 
-  .topMenu {
-    display: block;
-    text-align: center;
+  .container {
+    margin: 0 50px;
   }
 
-  .brand {
-    width: 75px;
-    height: 75px;
-    display: block;
-    margin: 0 auto;
-  }
-
-  .contactUs,
-  .secondaryLink {
-    display: none;
+  .social ul li {
+    margin-top: 37px;
   }
 }

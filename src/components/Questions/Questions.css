@@ -1,0 +1,44 @@
+@import '../variables.css';
+
+.root {
+  border-top: solid 1px var(--neutral-medium-colour);
+}
+
+.heading {
+  text-align: center;
+  font-weight: 300;
+  font-size: 2em;
+  padding: 1em 0 0;
+}
+
+.container {
+  padding: 0.5em 1em 2em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.question {
+  width: 300px;
+  padding: 15px;
+  background: white;
+  margin: 10px;
+  text-decoration: none;
+  color: var(--tertiary-text-colour);
+}
+
+.text {
+  font-weight: 500;
+}
+
+.action {
+  display: inline-block;
+  background: var(--secondary-colour);
+  margin: 15px 0 0;
+  color: white;
+  padding: 5px 8px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+}

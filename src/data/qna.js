@@ -8,20 +8,19 @@ export default async (req, res, next) => {
       req.data.error = err;
       next();
     }
-    console.info(`Fetching Topics Information for - ${req.params.slug}`);
+    console.info(`Fetching QnA Information for - ${req.params.slug}`);
     client
       .db('nyaaya')
-      .collection('topics')
+      .collection('questions')
       .findOne({ slug: req.params.slug })
-      .then(topic => {
+      .then(qna => {
         req.data = {
-          id: topic._id,
-          name: req.cookies.hindi_nyaaya ? topic.name.HI : topic.name.EN,
-          image: topic.topicImage ? topic.topicImage.public_id : '',
-          summary: req.cookies.hindi_nyaaya
-            ? topic.summary.HI.html
-            : topic.summary.EN.html,
-          sources: topic.sources,
+          id: qna._id,
+          slug: qna.slug,
+          question: req.cookies.hindi_nyaaya
+            ? qna.question.HI
+            : qna.question.EN,
+          answer: req.cookies.hindi_nyaaya ? qna.answer.HI : qna.answer.EN,
         };
         client.close();
         next();

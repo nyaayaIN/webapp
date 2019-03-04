@@ -1,165 +1,37 @@
 @import '../variables.css';
 
-.root {
-  background: var(--neutral-light-colour);
-  border-top: solid 1px var(--neutral-medium-colour);
-  border-bottom: solid 1px var(--neutral-medium-colour);
-  margin-top: 1.5em;
-  padding: 0 0 0.75em;
-}
-
-.loading {
-  width: 100%;
-  text-align: center;
-}
-
-.doneLoading {
-  display: none;
-}
-
-.loader {
-  height: 1em;
-  width: auto;
-  filter: invert(100%);
-  opacity: 0.5;
-  margin: 1em 0 0;
-}
-
-.mobileMenu {
-  border: none;
-  display: none;
-  color: var(--primary-text-colour);
-  text-align: center;
-  padding: 1em 0;
-  font-weight: normal;
-  width: 100%;
-}
-
-.container {
-  margin: 0 auto;
-  max-width: var(--max-content-width);
-}
-
-.categories {
-  padding: 0;
-  margin: 0;
-  list-style: none;
+.menu {
   display: flex;
-  justify-content: space-between;
-  width: 100%;
 }
 
-.category {
-  height: 1em;
-  list-style-type: none;
-  text-align: left;
-  font-size: 0.75em;
-  font-weight: bold;
-  padding: 1.5em 0 1em;
-}
-
-.categoryLink {
-  color: var(--darkest-colour);
-  display: block;
-  font-size: 1.15em;
-  font-weight: 400;
-  text-decoration: none;
-  text-transform: capitalize;
-  width: 100%;
-}
-
-.topics {
-  background: var(--neutral-light-colour);
-  display: none;
-  position: absolute;
-  margin: 0 0 0 -1.6em;
-  padding: 10px;
-  z-index: 99;
-}
-
-.category:last-child .topics {
-  margin: 0 0 0 -95px;
-}
-
-.category:hover .topics {
-  display: block;
-}
-
-.topic {
-  cursor: pointer;
+.menu ul {
   list-style-type: none;
   margin: 0;
-  width: 200px;
-  padding: 7px 0;
-  text-align: left;
+  display: flex;
+  align-items: center;
 }
 
-.topicLink {
-  background: none;
-  border: none;
-  cursor: pointer;
-  color: #404040;
-  font-size: 1.1em;
-  font-weight: normal;
+.menu ul li {
+  margin: 0;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  display: flex;
+  align-items: center;
+}
+
+.menu ul li a {
+  color: #fff;
+  font-family: var(--font-family-secondary);
+  font-weight: bold;
+  padding: 0 1em;
   text-decoration: none;
-  text-align: left;
+  display: flex;
+  height: 64px;
+  align-items: center;
 }
 
-.errorText {
-  color: red;
-  text-align: center;
-}
-
-@media (--medium-viewport) {
-  .root {
-    margin-top: 0;
-  }
-
-  .mobileMenu {
-    display: block;
-  }
-
-  .container.hidden {
-    display: none;
-  }
-
-  .container.show {
-    display: block;
-  }
-
-  .categories {
-    display: block;
-  }
-
-  .category {
-    font-size: 1em;
-    padding: 0.5em 1em;
-    width: 80%;
-    height: auto;
-  }
-
-  .topics {
-    box-shadow: none;
-    display: none;
-    position: relative;
-    margin: 0;
-    padding: 0;
-    border: none;
-  }
-
-  .topic {
-    cursor: pointer;
-    width: 75%;
-    max-width: 75%;
-    padding: 0.25em 1em;
-  }
-
-  .topicLink {
-    cursor: pointer;
-    max-width: 100%;
-  }
-
-  .category:last-child .topics {
-    margin: 0;
-  }
+.menu ul li a:hover {
+  border-bottom: solid 4px rgba(0, 0, 0, 0.25);
+  height: 60px;
 }

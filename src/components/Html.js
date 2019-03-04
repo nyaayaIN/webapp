@@ -34,6 +34,10 @@ class Html extends React.Component {
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
           <title>{title}</title>
           <meta name="description" content={description} />
+          <meta
+            name="google-site-verification"
+            content="XU613FlNTIQ6UTer2jD1wNy0noXVWJ9DccEuuPzadPE"
+          />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta property="og:site_name" content="Nyaaya" />
           <meta property="og:title" content={title} />
